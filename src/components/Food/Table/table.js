@@ -21,13 +21,13 @@ function FoodTable({userBecky, food, foodITried, handleOpinion, deleteFood }) {
       striped 
       bordered 
       hover 
-      className="foodTable border border-dark border-4 table-fixed"
+      className="border border-dark border-4 table-fixed bg-warning"
       style={{
-
+       
       }}
       >
       <thead 
-      className="tableHead bg-dark-subtle "
+      className="tableHead bg-dark-subtle"
       style={{
         verticalAlign:"middle", 
         fontSize:"2vw", 

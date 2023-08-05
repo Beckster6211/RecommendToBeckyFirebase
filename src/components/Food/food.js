@@ -207,6 +207,7 @@ function Food({Becky}) {
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
+      <br/>
       </Container>
     // </div>
   );
