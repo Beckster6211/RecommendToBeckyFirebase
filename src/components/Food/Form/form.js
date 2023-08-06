@@ -35,7 +35,7 @@ function FoodForm({ food, handleChange, submitForm }) {
 
           <Form 
           id="foodForm"
-            className = "bg-warning-subtle p-1" 
+          className = "bg-warning-subtle p-1" 
           autoComplete="off"
           onSubmit={(event) => {
             submitForm(event);

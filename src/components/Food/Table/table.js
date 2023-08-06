@@ -21,7 +21,7 @@ function FoodTable({userBecky, food, foodITried, handleOpinion, deleteFood }) {
       striped 
       bordered 
       hover 
-      className="border border-dark border-4 table-fixed bg-warning"
+      className="border border-dark border-4 table-fixed"
       style={{
        
       }}

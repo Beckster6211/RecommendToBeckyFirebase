@@ -13,7 +13,7 @@ function Navigation(){
         className=""
         >
             <Nav 
-            className="border border-dark border-3 rounded bg-light m-1 "
+            className="border border-dark border-3 rounded bg-light m-1"
             style={{
                 // fontSize:"1.4vw"
             }}
