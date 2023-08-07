@@ -49,10 +49,16 @@ function Item({
 
 
   return (
-    <tr>
+    <tr 
+    className="border border-dark border-4"
+    style={{
+      // backgroundColor:"blue"
+    }}
+    >
       <td 
-      className="p-2 align-middle"
+      className="p-2 align-middle border border-dark border-4 bg-warning"
       style={{
+        
       }}
       >
             <p 
@@ -60,6 +66,7 @@ function Item({
             style={{
               fontSize:"1.6vw",
               // border:"solid black 2px"
+
             }}
             >
               {foodItem}
@@ -109,14 +116,17 @@ function Item({
         becky === false ?
         
         <td
-        className="p-2 align-middle"
+        className="p-2 align-middle border border-dark border-4 bg-warning-subtle"
       style={{
       }}
         >          
         <Stack 
         direction="horizontal"
-        className="justify-content-evenly"
+        className="justify-content-evenly "
         >
+          <p
+          className="p-1 pb-0 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+          >
           <input
           name="foodTableTriedCheckbox"
             className="foodCheckbox"
@@ -132,6 +142,7 @@ function Item({
             checked={foodTried}
             readOnly
         /> 
+        </p>
           <p
         className="p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
@@ -222,7 +233,7 @@ function Item({
       
         :
         <td
-        className="p-2 align-middle"
+        className="p-2 align-middle border border-dark border-4 bg-warning-subtle"
       style={{
       }}
         >
@@ -230,6 +241,9 @@ function Item({
         direction="horizontal"
         className="justify-content-evenly"
         >
+          <p
+          className="p-1 pb-0 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+          >
           <input
           name="foodTableBeckyTriedCheckbox"
         className="foodCheckbox"
@@ -245,6 +259,7 @@ function Item({
           checked={foodTried}
           // readOnly
         />
+        </p>
         <p
         className="p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
@@ -327,7 +342,7 @@ function Item({
         <p>{foodTried}</p>
       </td> */}
       <td
-      className="p-2 align-middle"
+      className="p-2 align-middle border border-dark border-4 bg-warning"
       style={{
       }}
       >
@@ -343,7 +358,7 @@ function Item({
 
 
       <td
-      className="p-2 align-middle"
+      className="p-2 align-middle border border-dark border-4 bg-warning-subtle"
       style={{
       }}
       >

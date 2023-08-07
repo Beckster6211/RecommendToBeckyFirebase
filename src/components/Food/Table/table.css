@@ -26,6 +26,7 @@
     .tableHead{
       position: sticky;
       top: 0;
+      
       /* font-size: 1.6vw; */
       /* max-width: 100%; */
       /* background-color: grey; */
@@ -48,12 +49,20 @@
       background-color: darkgreen;
     } */
   
-    tr:nth-child(even) {
-      background-color:#ffff99; /*warning subtle*/
+    
+    tr:nth-child(odd) {
+      background-color:#ffff99; 
+      /*warning subtle*/
+     }
+
+     tr:nth-child(even) {
+      background-color:#FFC107; 
+      /*warning subtle*/
+     }
+
+    tr:hover {
+      background-color: aqua;
     }
-    /* tr:hover {
-      background-color: white;
-    } */
   
     /* .tableFoot{
       background-color: blue;
