@@ -1,5 +1,7 @@
 import React, {useState} from "react"
 
+import "./foodHelperPages.css"
+
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
@@ -9,10 +11,11 @@ function FoodLike(){
 
     return(
         <div>
-          <Button 
+          <Button
+            id="foodLikeButton" 
             className=""
             style={{
-              fontSize:"1.5vw"
+              // fontSize:"1.5vw"
             }}
             variant="success" 
             onClick={()=>setLeftShow(true)}

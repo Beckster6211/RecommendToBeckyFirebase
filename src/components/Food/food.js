@@ -112,23 +112,24 @@ function Food({Becky}) {
     // <div className="foodPage">
       <Container 
       fluid
-      className="foodPage"
+      className="foodPage pt-3"
       style={{}}
       >
-      <br/>
+      {/* <br/> */}
       <Container 
-        className=" bg-warning-subtle rounded  w-50 text-center p-0" 
+      id = "foodPage1"
+        className=" bg-warning-subtle rounded text-center p-0" 
         style={{
-          fontSize:"3vw", 
-          fontWeight:"900"
+          // fontSize:"3vw", 
+          // fontWeight:"900"
         }}
         >
             🥄🥣☕ &nbsp;&nbsp;FOOD PAGE&nbsp;&nbsp;🧂🥤🍽️
       </Container>
-      <br/>
+      {/* <br/> */}
       <Container 
       // fluid
-      className="d-flex justify-content-evenly"
+      className="d-flex justify-content-evenly py-2"
       >
         
           <FoodLike/>
@@ -137,11 +138,12 @@ function Food({Becky}) {
         
       </Container>
       
-      <br/>
+      {/* <br/> */}
       <Accordion 
+      id="foodAccordion"
       defaultActiveKey={["0"]} 
       alwaysOpen
-      className="foodAcord p-2 border border-dark border-3 rounded bg-light"
+      className="p-2 border border-dark border-3 rounded bg-light"
       style={{
       }}
       >

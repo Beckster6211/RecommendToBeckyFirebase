@@ -1,5 +1,7 @@
 import React, {useState} from "react"
 
+import "./foodHelperPages.css"
+
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
@@ -10,9 +12,10 @@ function FoodHelper(){
     return(
         <div>
             <Button 
+            id="foodHelperButton"
             className=""
             style={{
-              fontSize:"1.5vw"
+              // fontSize:"1.5vw"
             }}
             variant="secondary" 
             onClick={()=>setTopShow(true)}
@@ -21,6 +24,7 @@ function FoodHelper(){
           </Button>
 
           <Offcanvas 
+            id="foodHelperOffcanvas"
             className="bg-secondary-subtle h-50"
             style={{
               
