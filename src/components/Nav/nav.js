@@ -1,5 +1,7 @@
 import React from "react"
 
+import "./nav.css"
+
 //
 import {Link} from "react-router-dom"
 /* COULD DELETE LINK IMPORTED */
@@ -13,9 +15,10 @@ function Navigation(){
         className=""
         >
             <Nav 
+            id="navLinks"
             className="border border-dark border-3 rounded bg-light m-1"
             style={{
-                // fontSize:"1.4vw"
+                // fontSize:"3.5vw"
             }}
             justify 
             variant="tabs" 
@@ -24,13 +27,16 @@ function Navigation(){
                 <Nav.Item
                 className="border-end border-dark border-2 bg-warning"
                 >
-                    <Nav.Link href="/food"
+                    <Nav.Link 
+                    
+                    href="/food"
                     className="text-dark p-0"
                     style={{
-                        fontSize:"2.5vw"
+                        // fontSize:"2.5vw"
                     }}
                     >
-                        😋 Enjoy 😋
+                        😋 Enjoy 
+                        {/* 😋 */}
                         </Nav.Link>
                 </Nav.Item>
                 <Nav.Item
@@ -39,10 +45,11 @@ function Navigation(){
                     <Nav.Link
                     className="text-dark p-0"
                     style={{
-                        fontSize:"2.5vw"
+                        // fontSize:"2.5vw"
                     }}
                     >
-                        🎬 Watch 🎬
+                        🎬 Watch 
+                        {/* 🎬 */}
                         </Nav.Link>
                 </Nav.Item>
                 <Nav.Item
@@ -51,10 +58,11 @@ function Navigation(){
                     <Nav.Link
                     className="text-dark p-0"
                     style={{
-                        fontSize:"2.5vw"
+                        // fontSize:"2.5vw"
                     }}
                     >
-                        📺 Binge 📺
+                        📺 Binge 
+                        {/* 📺 */}
                         </Nav.Link>
                 </Nav.Item>
                 <Nav.Item
@@ -63,10 +71,11 @@ function Navigation(){
                     <Nav.Link
                     className="text-dark p-0"
                     style={{
-                        fontSize:"2.5vw"
+                        // fontSize:"2.5vw"
                     }}
                     >
-                        📚 Read 📚
+                        📚 Read 
+                        {/* 📚 */}
                         </Nav.Link>
                 </Nav.Item>
                 <Nav.Item
@@ -75,10 +84,11 @@ function Navigation(){
                     <Nav.Link
                     className="text-dark p-0"
                     style={{
-                        fontSize:"2.5vw"
+                        // fontSize:"2.5vw"
                     }}
                     >
-                       🗺️ Visit 🗺️
+                       🗺️ Visit 
+                       {/* 🗺️ */}
                        </Nav.Link>
                 </Nav.Item>
                 <Nav.Item
@@ -87,10 +97,11 @@ function Navigation(){
                     <Nav.Link
                     className="text-dark p-0"
                     style={{
-                        fontSize:"2.5vw"
+                        // fontSize:"2.5vw"
                     }}
                     >
-                        💡 Try 💡
+                        💡 Try 
+                        {/* 💡 */}
                         </Nav.Link>
                 </Nav.Item>
             </Nav>
