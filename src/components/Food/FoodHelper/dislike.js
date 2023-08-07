@@ -21,7 +21,7 @@ function FoodDislike(){
           </Button>
 
           <Offcanvas 
-          className="bg-danger-subtle"
+          className="bg-danger-subtle w-75"
           style={{
 
           }}

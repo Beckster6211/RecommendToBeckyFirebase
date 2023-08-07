@@ -21,7 +21,7 @@ function FoodHelper(){
           </Button>
 
           <Offcanvas 
-            className="bg-secondary-subtle"
+            className="bg-secondary-subtle h-50"
             style={{
               
             }}

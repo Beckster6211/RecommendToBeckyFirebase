@@ -21,9 +21,9 @@ function FoodLike(){
           </Button>
 
           <Offcanvas 
-            className="bg-success-subtle"
+            className="bg-success-subtle w-75"
             style={{
-              
+              // width:"50%"
             }}
             show={leftShow} 
             onHide={()=>setLeftShow(false)} 
