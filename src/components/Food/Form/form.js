@@ -1,5 +1,5 @@
 import React from "react";
-// import styles from "./form.module.css";
+import "./form.css";
 
 /*
 css like the guy in video does about firebase todo list
@@ -41,7 +41,7 @@ function FoodForm({ food, handleChange, submitForm }) {
             submitForm(event);
           }}
             style={{
-              fontSize:"1.6vw"
+              // fontSize:"1.6vw"
             }}
           >
 
@@ -50,9 +50,10 @@ function FoodForm({ food, handleChange, submitForm }) {
               controlId="formFood"
             >
               <FloatingLabel 
+              id="foodFloatingLabel1"
               className=""
               style={{
-                fontSize:"1.2vw"
+                // fontSize:"1.2vw"
               }}
               controlId = "formFoodItem" 
               label= "Food...">
@@ -78,8 +79,9 @@ function FoodForm({ food, handleChange, submitForm }) {
             className="pt-2">
 
               <FloatingLabel 
+              id="foodFloatingLabel2"
               style={{
-                fontSize:"1.2vw"
+                // fontSize:"1.2vw"
               }}
               controlId = "formFoodRecipe" 
               label= "Recipe/Where...">
@@ -107,8 +109,9 @@ function FoodForm({ food, handleChange, submitForm }) {
             controlId="formFoodRecommend">
 
               <FloatingLabel 
+              id="foodFloatingLabel3"
               style={{
-                fontSize:"1.2vw"
+                // fontSize:"1.2vw"
               }}
               controlId = "formFoodRecommend" label="Recommended By..." >
                 <Form.Control 
@@ -129,11 +132,12 @@ function FoodForm({ food, handleChange, submitForm }) {
             </Form.Group>
 
             <Button 
+            id="foodFormButton"
             variant = "info"
             className="border border-dark border-3 text-dark"  
             type = "submit"
             style={{
-              fontSize:"1.6vw", 
+              // fontSize:"1.6vw", 
               width:"auto"
             }}
             >

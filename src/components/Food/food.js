@@ -153,11 +153,12 @@ function Food({Becky}) {
           <Accordion.Header 
           className="">
             <Container 
+            id="foodPage2"
             fluid 
             className="text-center"
             style={{
-              fontSize:"2.5vw", 
-              fontWeight:"700"
+              // fontSize:"2.5vw", 
+              // fontWeight:"700"
             }}
             >
               Food Form
@@ -183,11 +184,12 @@ function Food({Becky}) {
         >
           <Accordion.Header>
             <Container 
+            id="foodPage3"
             fluid 
             className="text-center"
             style={{
-              fontSize:"2.5vw", 
-              fontWeight:"700"
+              // fontSize:"2.5vw", 
+              // fontWeight:"700"
             }}
             >
               Food Table
