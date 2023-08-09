@@ -1,0 +1,26 @@
+
+
+
+@media only screen and (max-width: 600px) {
+    #loginForm1{
+        width: 90vw;
+    }
+
+    #loginForm2{
+        font-size: 4vw;     
+    }
+
+    #loginFormButton1{
+        font-size: 4vw;
+    }
+
+    #loginFormButton2{
+        font-size: 4vw;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+    
+} */

@@ -1,5 +1,7 @@
 import React, {useState} from "react"
 
+import "./loginForm.css"
+
 //
 import {authentication} from "../../firebase"
 import {createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut} from "firebase/auth"
@@ -88,6 +90,7 @@ return (
         <br/>
         <Container 
         // fluid
+        id="loginForm1"
         className="bg-secondary-subtle border border-secondary border-3 rounded  pt-5"
         style={{
             // width:"75vh",
@@ -95,6 +98,7 @@ return (
         }}
         >
             <Button 
+            id="loginFormButton1"
             variant="success"
             className="bg-success-subtle"
             style={{
@@ -112,9 +116,10 @@ return (
         <br/>
         <br/>
             <Form 
+            id="loginForm2"
             className=""
             style={{
-                fontsize:"1.6vw"
+                // fontsize:"1.6vw"
             }}
             >           
                 <Form.Group
