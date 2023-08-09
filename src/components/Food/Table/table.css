@@ -1,47 +1,21 @@
 .foodTableComponent{
     overflow: auto;
     /* width: auto; */
-              height: 80vmin;
-      /* width: 95%; */
-      /* border-style: solid;
-      border-color: black;
-      border-width: 5px; */
-      /* padding: 2%; */
-      /* margin: 1%;
-      background-color: bisque; */
-      
+    height: 80vmin;      
     }
   
     .foodTable{
       background-color: #FFC107; /*bootstrap warning*/
       table-layout: fixed;
       word-wrap: break-word;
-      /* table-layout: auto; */
-      /* width:100%; */
-      /* border-collapse: collapse; */
-    /* overflow-wrap: break-word; */
-    /* hyphens: auto; */
     }
   
     .tableHead{
       position: sticky;
       top: 0;
-      
-      /* font-size: 1.6vw; */
-      /* max-width: 100%; */
-      /* background-color: grey; */
-      /* width: 95%;
-     padding: 5%; */
     }
   
     .tableHeader{
-      /* 
-      to try and make the table head sticky
-      position: sticky;
-      top:0; */
-      /* background-color: gold;
-      border-style: solid; */
-      /* border-color: magenta; */
       
     }
   
@@ -66,4 +40,27 @@
   
     /* .tableFoot{
       background-color: blue;
+    } */
+
+    #foodTable1{
+      font-size: 1.5vw;
+      font-weight: 500;
+    }
+    
+    
+    @media only screen and (max-width: 600px) {
+      #foodTable1{
+        font-size: 2.5vw;
+        font-weight: 500;
+      }
+    
+    }
+    
+    
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    /* @media only screen and (min-width: 600px) {
+      #foodTable1{
+        font-size: 1.5vw;
+        font-weight: 500;
+      }
     } */

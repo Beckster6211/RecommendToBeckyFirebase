@@ -24,6 +24,7 @@ function FoodLike(){
           </Button>
 
           <Offcanvas 
+            id="foodLikeOffcanvas"
             className="bg-success-subtle w-75"
             style={{
               // width:"50%"

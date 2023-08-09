@@ -1,4 +1,51 @@
-/* .foodCheckbox{
-    border: 20px solid red;
-    background-color: blueviolet;
-} */
+@media only screen and (max-width: 600px) {
+    #foodTableItem1{
+        font-size: 2.3vw;
+    }
+
+    #foodTableItem2{
+        font-size: 2.3vw;
+    }
+
+    #foodTableItem3{
+        font-size: 3vw
+    } 
+    
+    #foodTableItemBecky1{
+        font-size: 3vw;
+    }
+
+    #foodTableItem4{
+        font-size: 3vw;
+    }
+
+    #foodTableItemBecky2{
+        font-size: 3vw;
+    }
+
+    #foodTableItem5{
+        font-size: 3vw;
+    }
+
+    #foodTableItemBecky3{
+        font-size: 3vw;
+    }
+
+    #foodTableItem6{
+        font-size: 3vw;
+    }
+
+    #foodTableItemBecky4{
+        font-size: 3vw;
+    }
+
+    #foodTableItem7{
+        font-size: 2.3vw;
+    }
+  
+    #foodTableItem8{
+        font-size: 3vw;
+    }
+
+   
+  }

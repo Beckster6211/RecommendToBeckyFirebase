@@ -62,23 +62,24 @@ function Item({
       }}
       >
             <p 
+            id="foodTableItem1"
             className="bg-light border border-dark border-2 rounded p-1"
             style={{
-              fontSize:"1.6vw",
-              // border:"solid black 2px"
+              // fontSize:"1.6vw",
 
             }}
             >
               {foodItem}
             </p>
             <Form.Control 
+            id="foodTableItem2"
             name="foodTableFoodTextarea"
             className="border border-dark border-2 p-1"
             as="textarea"
             defaultValue={foodRecipe} 
             readOnly 
             style={{
-              fontSize:"1.5vw",
+              // fontSize:"1.5vw",
               height:"10vw"          
             }}
             />
@@ -131,8 +132,8 @@ function Item({
           name="foodTableTriedCheckbox"
             className="foodCheckbox"
             style={{
-              width:"3vw",
-              height:"3vw",
+              width:"4vw",
+              height:"4vw",
               
             }}
             type="checkbox"
@@ -144,12 +145,12 @@ function Item({
         /> 
         </p>
           <p
+          id="foodTableItem3"
         className="p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
-          fontSize:"2.2vw",
+          // fontSize:"3vw",
           
-          // border:"solid black 2px",
-          // borderRadius:"4px"
+          
         }}
         >{foodOpinion}</p>
         </Stack>
@@ -161,10 +162,11 @@ function Item({
             }}
             >
               <Button 
+              id="foodTableItem4"
               variant="success"
               className="border border-2 border-dark rounded"
               style={{
-                fontSize:"2vw"
+                // fontSize:"3vw"
               }}
           name="😋"
           // onClick={(event) => {
@@ -178,10 +180,11 @@ function Item({
           😋          
         </Button>
         <Button 
+        id="foodTableItem5"
         variant="secondary"
         className="border border-dark border-2 rounded"
         style={{
-          fontSize:"2vw"
+          // fontSize:"3vw"
         }}
           name="🤫"
           // onClick={(event) => {
@@ -195,10 +198,11 @@ function Item({
           🤫
         </Button>
         <Button 
+        id="foodTableItem6"
         variant = "danger"
         className="border border-dark border-2 rounded"
         style={{
-          fontSize:"2vw"
+          // fontSize:"3vw"
         }}
           name="🤮"
           // onClick={(event) => {
@@ -261,11 +265,10 @@ function Item({
         />
         </p>
         <p
+        id="foodTableItemBecky1"
         className="p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
-          fontSize:"2.2vw",
-          // border:"solid black 2px",
-          // borderRadius:"4px"
+          // fontSize:"2.2vw",
         }}
         >{foodOpinion}</p>
         </Stack>
@@ -278,10 +281,11 @@ function Item({
             }}
             >
              <Button 
+             id="foodTableItemBecky2"
              variant="success"
               className="border border-2 border-dark rounded"
               style={{
-                fontSize:"2vw"
+                // fontSize:"2vw"
               }}
           name="😋"
           // onClick={(event) => {
@@ -295,10 +299,11 @@ function Item({
           😋          
         </Button> 
         <Button 
+        id="foodTableItemBecky3"
         variant="secondary"
         className="border border-dark border-2 rounded"
         style={{
-          fontSize:"2vw"
+          // fontSize:"2vw"
         }}
           name="🤫"
           // onClick={(event) => {
@@ -311,10 +316,11 @@ function Item({
           🤫
         </Button>
         <Button 
+        id="foodTableItemBecky4"
         variant = "danger"
         className="border border-dark border-2 rounded"
         style={{
-          fontSize:"2vw"
+          // fontSize:"2vw"
         }}
           name="🤮"
           // onClick={(event) => {
@@ -347,9 +353,10 @@ function Item({
       }}
       >
         <p
+        id="foodTableItem7"
         className="p-1 bg-light border border-dark border-2 rounded"
         style={{
-          fontSize:"1.6vw"
+          // fontSize:"1.6vw"
         }}
         >
           {foodRecommend}
@@ -363,10 +370,11 @@ function Item({
       }}
       >
           <Button 
+          id="foodTableItem8"
           variant="light"
           className="border border-dark border-2"
           style={{
-            fontSize:"2.5vw"
+            // fontSize:"2.5vw"
           }}
           onClick={() => {
             // console.log("delete button clicked");

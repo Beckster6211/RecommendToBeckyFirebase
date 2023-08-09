@@ -30,11 +30,10 @@ function FoodTable({userBecky, food, foodITried, handleOpinion, deleteFood }) {
       }}
       >
       <thead 
+      id="foodTable1"
       className="bg-dark-subtle border border-dark border-4 "
       style={{
         verticalAlign:"middle", 
-        fontSize:"2vw", 
-        fontWeight:"500",
         position: "sticky",
         top:"0"
       }}
@@ -44,12 +43,10 @@ function FoodTable({userBecky, food, foodITried, handleOpinion, deleteFood }) {
             className="tableHeader bg-dark-subtle border-dark border-end border-4"
             // style={{fontWeight:"500"}}
             >Food</th>
-            {/* <th className="tableHeader">Where/Recipe?</th> */}
             <th 
             className="tableHeader bg-dark-subtle border-dark border-end border-4"
             // style={{fontWeight:"500"}}
             >Becky Opinion</th>
-            {/* <th>Tried</th> */}
             <th 
             className="tableHeader bg-dark-subtle border-dark border-end border-4"
             // style={{fontWeight:"500"}}
@@ -60,6 +57,11 @@ function FoodTable({userBecky, food, foodITried, handleOpinion, deleteFood }) {
             >Delete</th>
           </tr>
         </thead>
+
+
+        {/* 
+        //////////
+    with sticky table header not sure if footer needed */}
         <tfoot 
         className="tableFoot bg-dark-subtle border border-dark border-4"
         style={{
@@ -71,11 +73,9 @@ function FoodTable({userBecky, food, foodITried, handleOpinion, deleteFood }) {
             <th
             className="bg-dark-subtle border-dark border-end border-4"
             >Food</th>
-            {/* <th>Where/Recipe?</th> */}
             <th
             className="bg-dark-subtle border-dark border-end border-4"
             >Becky Opinion</th>
-            {/* <th>Tried</th> */}
             <th
             className="bg-dark-subtle border-dark border-end border-4"
             >Who recommends</th>
@@ -83,7 +83,8 @@ function FoodTable({userBecky, food, foodITried, handleOpinion, deleteFood }) {
             className="bg-dark-subtle"
             >Delete</th>
           </tr>
-        </tfoot>
+        </tfoot> 
+
 
         <tbody 
         className="foodTableBody"
