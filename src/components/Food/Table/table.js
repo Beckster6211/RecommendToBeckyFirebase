@@ -24,7 +24,7 @@ function FoodTable({userBecky, food, foodITried, handleOpinion, deleteFood }) {
       striped
       bordered 
       hover 
-      className="border border-dark border-4 table-fixed"
+      className="foodTable border border-dark border-4 table-fixed"
       style={{
         
       }}
@@ -63,11 +63,12 @@ function FoodTable({userBecky, food, foodITried, handleOpinion, deleteFood }) {
         //////////
     with sticky table header not sure if footer needed */}
         <tfoot 
+        id="foodTable2"
         className="tableFoot bg-dark-subtle border border-dark border-4"
         style={{
           verticalAlign:"middle", 
-          fontSize:"2vw", 
-          fontWeight:"500"
+          // fontSize:"2vw", 
+          // fontWeight:"500"
           }}>
           <tr>
             <th
