@@ -20,7 +20,7 @@ function FoodDislike(){
             variant="danger" 
             onClick={()=> setRightShow(true)}
             >
-              Dislike ☞
+              Dislike 👉
           </Button>
 
           <Offcanvas 
@@ -42,6 +42,8 @@ function FoodDislike(){
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
+              ToDo.....
+              <br/>
             bullet point list of what I dislike
               <br/>
               .

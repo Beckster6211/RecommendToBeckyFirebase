@@ -42,7 +42,9 @@ function FoodHelper(){
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              Some helper text for the whole page
+            ToDo.....
+              <br/>
+              Some helper text for the whole page. Maybe video(s)???
               {/* video of explaining how to do the page */}
             </Offcanvas.Body>
           </Offcanvas>
