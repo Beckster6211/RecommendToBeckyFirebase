@@ -116,19 +116,21 @@ return (
         <br/>
         <br/>
             <Form 
-            id="loginForm2"
+            
             className=""
             style={{
                 // fontsize:"1.6vw"
             }}
             >           
                 <Form.Group
+                id="loginForm2"
                 className=""
                 style={{
                     // width:"62vh"
                 }}
                 >
                     <FloatingLabel
+                    id="loginForm3"
                     controlId="loginEmail"
                     label="Email address"
                     >
@@ -139,6 +141,7 @@ return (
                             onChange = {(event)=>{getEmail(event)}}
                             className="border border-secondary border-3"
                             style={{
+                                fontSize:"2vw"
                             }}
                         > 
                         </Form.Control>
@@ -147,6 +150,7 @@ return (
         <br/>
                 <Form.Group>
                     <FloatingLabel
+                    id="loginForm4"
                     controlId="LoginPassword"
                     label="Password"
                     >
@@ -156,7 +160,9 @@ return (
                     placeholder="Password..."
                     onChange = {(event) => {getPassword(event)}}
                     className="border border-secondary border-3"
-                    style={{}}
+                    style={{
+                        fontSize:"2vw"
+                    }}
                     >
                     </Form.Control>
                     </FloatingLabel>
