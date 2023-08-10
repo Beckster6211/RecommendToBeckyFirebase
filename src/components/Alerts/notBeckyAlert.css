@@ -1,0 +1,30 @@
+
+
+#modalNotBecky1{
+    font-size: 2.5vw;
+
+}
+
+#modalNotBecky2{
+    font-size: 3vw;
+}
+
+#modalNotBecky3{
+    font-size: 2vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #modalNotBecky1{
+        font-size: 4.5vw;
+    }
+
+    #modalNotBecky2{
+        font-size: 5vw;
+    }
+
+    #modalNotBecky3{
+        font-size: 4vw;
+    }
+}
+

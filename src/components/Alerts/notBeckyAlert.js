@@ -1,5 +1,7 @@
 import React, {useState} from "react"
 
+import "./notBeckyAlert.css"
+
 import Modal from "react-bootstrap/Modal"
 
 function NotBeckyAlert(){
@@ -9,9 +11,10 @@ function NotBeckyAlert(){
     return(
         <div>
             <Modal
-                 className="bg-light bg-opacity-50"
+                id="modalNotBecky1"
+                 className="bg-light bg-opacity-50 px-5"
                  style={{
-                  fontSize:"2.5vw"
+                  // fontSize:"4.5vw",
                  }} 
                  show={open} 
                  onHide = {()=> setOpen(false)}
@@ -19,16 +22,22 @@ function NotBeckyAlert(){
                  animation
                  >
                  <Modal.Body 
-                 className="text-center rounded bg-success"
+                 className="text-center rounded bg-success border border-dark border-3"
                  style={{
- 
                  }}
                  >
-                   Welcome to...
-                   <br/>
-                   Recommend To Becky
-                   <br/>
-                   <i><small>(sorry if already seen this once, working on that)</small></i>
+                  <p 
+                  id="modalNotBecky2"
+                  className="">
+                    Welcome To 
+                    <br/>
+                    Recommend To Becky
+                  </p>
+                   <p
+                   id="modalNotBecky3"
+                   >
+                    <i>(sorry if already seen this once, working on that...)</i>
+                    </p>
                  </Modal.Body>
                </Modal> 
         </div>

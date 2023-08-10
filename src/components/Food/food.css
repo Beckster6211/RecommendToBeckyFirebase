@@ -6,9 +6,18 @@
 #foodPage1{
   font-size: 2vw;
   font-weight: 900;
-  width:65%
+  width:40%
 }
 
+#foodPage2{
+  font-size: 1.8vw;
+  font-size: 700;
+}
+
+#foodPage3{
+  font-size: 1.8vw;
+  font-size: 700;
+}
 
 @media only screen and (max-width: 600px) {
   #foodPage1{

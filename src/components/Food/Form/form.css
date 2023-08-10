@@ -1,4 +1,20 @@
 
+#foodFloatingLabel1{
+  font-size: 1.4vw;
+}
+
+#foodFloatingLabel2{
+  font-size: 1.4vw;
+}
+
+#foodFloatingLabel3{
+  font-size: 1.4vw;
+}
+
+#foodFormButton{
+  font-size: 1.3vw;
+}
+
 
 @media only screen and (max-width: 600px) {
   /* #foodForm{
@@ -23,20 +39,6 @@
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  #foodFloatingLabel1{
-    font-size: 2vw;
-  }
-
-  #foodFloatingLabel2{
-    font-size: 2vw;
-  }
-
-  #foodFloatingLabel3{
-    font-size: 2vw;
-  }
-
-  #foodFormButton{
-    font-size: 2vw;
-  }
-}
+/* @media only screen and (min-width: 600px) {
+ 
+} */

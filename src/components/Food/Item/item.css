@@ -1,3 +1,59 @@
+
+#foodTableItem1{
+    font-size: 1.2vw;
+}
+
+#foodTableItem2{
+    font-size: 1.2vw;
+    height: 7vw;
+}
+
+#foodTableItem9{
+    height: 1.5vw;
+    width: 1.5vw;
+}
+
+#foodTableItem3{
+    font-size: 1.5vw;
+}
+
+#foodTableItemBecky1{
+    font-size: 1.5vw;
+}
+
+#foodTableItem4{
+    font-size: 1.5vw;
+}
+
+#foodTableItemBecky2{
+    font-size: 1.5vw;
+}
+
+#foodTableItem5{
+    font-size: 1.5vw;
+}
+
+#foodTableItemBecky3{
+    font-size: 1.5vw;
+}
+
+#foodTableItem6{
+    font-size: 1.5vw;
+}
+
+#foodTableItemBecky4{
+    font-size: 1.5vw;
+}
+
+#foodTableItem7{
+    font-size: 1.2vw;
+}
+
+#foodTableItem8{
+    font-size: 2vw;
+}
+
+
 @media only screen and (max-width: 600px) {
     #foodTableItem1{
         font-size: 2.3vw;
@@ -5,6 +61,7 @@
 
     #foodTableItem2{
         font-size: 2.3vw;
+        height: 14vw;
     }
 
     #foodTableItem3{
@@ -47,5 +104,9 @@
         font-size: 3vw;
     }
 
+    #foodTableItem9{
+        height: 4vw;
+        width: 4vw;
+    }
    
   }

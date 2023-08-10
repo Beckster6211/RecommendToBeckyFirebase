@@ -47,6 +47,10 @@
       font-weight: 500;
     }
     
+    #foodTable2{
+      font-size: 1.5vw;
+      font-weight: 500;
+    }
     
     @media only screen and (max-width: 600px) {
       #foodTable1{

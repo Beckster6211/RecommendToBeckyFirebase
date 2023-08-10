@@ -168,6 +168,7 @@ return (
             </Form>
         <br/>
             <Button 
+            id="loginFormButton2"
             variant="primary"
             className="bg-primary-subtle"
             style={{

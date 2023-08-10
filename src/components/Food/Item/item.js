@@ -80,7 +80,7 @@ function Item({
             readOnly 
             style={{
               // fontSize:"1.5vw",
-              height:"14vw"          
+              // height:"14vw"          
             }}
             />
       </td>
@@ -126,14 +126,17 @@ function Item({
         className="justify-content-evenly"
         >
           <p
-          className="p-1 pb-0 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+          className="
+          p-1 pb-0 mx-1 mb-0 
+          border border-dark border-2 rounded bg-light"
           >
           <input
+          id="foodTableItem9"
           name="foodTableTriedCheckbox"
             className="foodCheckbox"
             style={{
-              width:"4vw",
-              height:"4vw",
+              // width:"4vw",
+              // height:"4vw",
               
             }}
             type="checkbox"
