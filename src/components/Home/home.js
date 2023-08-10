@@ -44,7 +44,15 @@ function Home({Becky}){
             }}
             
             >
-            <p>Home Page</p>
+            <h2>Home Page</h2>
+            <h4>ToDo...</h4>
+            <p>Explain idea behind site </p>
+            <p>How to use site (maybe pictures???)</p>
+            <p>Perhaps a video (tour of site)???</p>
+            <p>Change login picture/icon</p>
+            <p>Change portfolio picture/icon. Do link to portfolio (todo todo change portfolio)</p>
+            <p>Remove console.logs</p>
+            <p>Tidy code (alter id and classname names for easier styling with media queries)</p>
             </Container>
         </div>
     )
