@@ -53,6 +53,7 @@ function Home({Becky}){
             <p>Change portfolio picture/icon. Do link to portfolio (todo todo change portfolio)</p>
             <p>Remove console.logs</p>
             <p>Tidy code (alter id and classname names for easier styling with media queries)</p>
+            <p>Rest of pages</p>
             </Container>
         </div>
     )

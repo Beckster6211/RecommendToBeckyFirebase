@@ -1,10 +1,12 @@
+// 😋🤫🤮🤷
+
 let food = [
     // {
     //   fooditem: "McDonalds McPlant burger",
     //   recipe: "McDonalds",
     //   recommendedby: "Me",
     //   tried: false,
-    //   beckyOpinion: "🤷‍♀️",
+    //   beckyopinion: "🤷‍♀️",
     // },
     // {
     //   fooditem: "McDonalds McVeggie burger",
