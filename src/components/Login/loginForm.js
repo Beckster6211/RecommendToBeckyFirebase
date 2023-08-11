@@ -142,10 +142,10 @@ return (
                             placeholder="Email..."
                             autoComplete="off"
                             onChange = {(event)=>{getEmail(event)}}
-                            className="
+                            className=" loginFormInput
                             border border-secondary border-3"
                             style={{
-                                fontSize:"3vw",
+                                // fontSize:"3vw",
                             }}
                         > 
                         </Form.Control>
@@ -167,9 +167,9 @@ return (
                     autoComplete="off" 
                     placeholder="Password..."
                     onChange = {(event) => {getPassword(event)}}
-                    className=" border border-secondary border-3"
+                    className="loginFormInput border border-secondary border-3"
                     style={{
-                        fontSize:"3vw",
+                        // fontSize:"3vw",
 
                     }}
                     >
