@@ -62,7 +62,7 @@ function Item({
       }}
       >
             <p 
-            id="foodTableItem1"
+            // id="foodTableItem1"
             className="foodTableItemFood bg-light border border-dark border-2 rounded p-1"
             style={{
               // fontSize:"1.6vw",
@@ -72,7 +72,7 @@ function Item({
               {foodItem}
             </p>
             <Form.Control 
-            id="foodTableItem2"
+            id="foodTableFoodTextarea"
             name="foodTableFoodTextarea"
             className="border border-dark border-2 p-1"
             as="textarea"
@@ -131,9 +131,9 @@ function Item({
           border border-dark border-2 rounded bg-light"
           >
           <input
-          id="foodTableItem9"
+          // id="foodTableItem9"
           name="foodTableTriedCheckbox"
-            className="foodCheckbox"
+            className="foodTableCheckboxTried"
             style={{
               // width:"4vw",
               // height:"4vw",
@@ -148,8 +148,8 @@ function Item({
         /> 
         </p>
           <p
-          id="foodTableItem3"
-        className="p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+          // id="foodTableItem3"
+        className="foodTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"3vw",
           
@@ -165,7 +165,7 @@ function Item({
             }}
             >
               <Button 
-              id="foodTableItem4"
+              id="foodTableButton"
               variant="success"
               className="border border-2 border-dark rounded"
               style={{
@@ -183,7 +183,7 @@ function Item({
           😋          
         </Button>
         <Button 
-        id="foodTableItem5"
+        id="foodTableButton"
         variant="secondary"
         className="border border-dark border-2 rounded"
         style={{
@@ -201,7 +201,7 @@ function Item({
           🤫
         </Button>
         <Button 
-        id="foodTableItem6"
+        id="foodTableButton"
         variant = "danger"
         className="border border-dark border-2 rounded"
         style={{
@@ -253,10 +253,10 @@ function Item({
           >
           <input
           name="foodTableBeckyTriedCheckbox"
-        className="foodCheckbox"
+        className="foodTableCheckboxTried"
         style={{
-          width:"3vw",
-          height:"3vw",
+          // width:"3vw",
+          // height:"3vw",
           
         }}
           type="checkbox"
@@ -268,8 +268,8 @@ function Item({
         />
         </p>
         <p
-        id="foodTableItemBecky1"
-        className="p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+        // id="foodTableItemBecky1"
+        className="foodTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"2.2vw",
         }}
@@ -284,7 +284,7 @@ function Item({
             }}
             >
              <Button 
-             id="foodTableItemBecky2"
+             id="foodTableButton"
              variant="success"
               className="border border-2 border-dark rounded"
               style={{
@@ -302,7 +302,7 @@ function Item({
           😋          
         </Button> 
         <Button 
-        id="foodTableItemBecky3"
+        id="foodTableButton"
         variant="secondary"
         className="border border-dark border-2 rounded"
         style={{
@@ -319,7 +319,7 @@ function Item({
           🤫
         </Button>
         <Button 
-        id="foodTableItemBecky4"
+        id="foodTableButton"
         variant = "danger"
         className="border border-dark border-2 rounded"
         style={{
@@ -356,8 +356,8 @@ function Item({
       }}
       >
         <p
-        id="foodTableItem7"
-        className="p-1 bg-light border border-dark border-2 rounded"
+        // id="foodTableItem7"
+        className="foodTableRecommend p-1 bg-light border border-dark border-2 rounded"
         style={{
           // fontSize:"1.6vw"
         }}
@@ -373,7 +373,7 @@ function Item({
       }}
       >
           <Button 
-          id="foodTableItem8"
+          id="foodTableButton"
           variant="light"
           className="border border-dark border-2"
           style={{
