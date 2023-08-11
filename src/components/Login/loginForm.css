@@ -1,20 +1,36 @@
 
 .loginButton{
-    font-size: 2.5vw;
+    font-size: 1.8vw;
 }
 
+/* .loginForm{
+    font-size: 3vw;     
+} */
+
+.loginFormInputLabel{
+    font-size: 1.2vw;   
+}
+
+
+
 @media only screen and (max-width: 600px) {
-    .loginPage{
-        width: 90vw;
+    #loginPage{
+        width: 80vw;
     }
 
     .loginButton{
         font-size: 4vw;
     }
 
-    .loginForm{
-        font-size: 3vw;     
+    .loginFormInputLabel{
+        font-size: 3vw;   
     }
+
+
+    /* #loginForm{
+        font-size: 8vw;
+    } */
+
 
 }
 

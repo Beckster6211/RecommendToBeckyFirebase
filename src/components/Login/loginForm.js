@@ -90,8 +90,8 @@ return (
         <br/>
         <Container 
         // fluid
-        // id="loginForm"
-        className="loginPage bg-secondary-subtle border border-secondary border-3 rounded pt-5"
+        id="loginPage"
+        className=" bg-secondary-subtle border border-secondary border-3 rounded pt-5"
         style={{
             // width:"75vh",
             // height:"40vh"
@@ -123,26 +123,29 @@ return (
             }}
             >           
                 <Form.Group
-                // id="loginForm"
-                className="loginForm"
+                id="loginForm"
+                // className="loginForm"
                 style={{
                     // width:"62vh"
                 }}
                 >
                     <FloatingLabel
                     // id="loginForm3"
-                    className="loginForm"
+                    className="loginFormInputLabel"
                     controlId="loginEmail"
                     label="Email address"
                     >
+                        
                         <Form.Control
+                            // as={"input"}
                             type="email"
                             placeholder="Email..."
                             autoComplete="off"
                             onChange = {(event)=>{getEmail(event)}}
-                            className="border border-secondary border-3"
+                            className="
+                            border border-secondary border-3"
                             style={{
-                                fontSize:"2vw"
+                                fontSize:"3vw",
                             }}
                         > 
                         </Form.Control>
@@ -150,11 +153,12 @@ return (
                 </Form.Group>
         <br/>
                 <Form.Group
-                className="loginForm"
+                // id="loginForm"
+                // className="loginForm"
                 >
                     <FloatingLabel
                     // id="loginForm4"
-                    className="loginForm"
+                    className="loginFormInputLabel"
                     controlId="LoginPassword"
                     label="Password"
                     >
@@ -163,9 +167,10 @@ return (
                     autoComplete="off" 
                     placeholder="Password..."
                     onChange = {(event) => {getPassword(event)}}
-                    className="border border-secondary border-3"
+                    className=" border border-secondary border-3"
                     style={{
-                        fontSize:"2vw"
+                        fontSize:"3vw",
+
                     }}
                     >
                     </Form.Control>
