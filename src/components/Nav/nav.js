@@ -15,8 +15,8 @@ function Navigation(){
         className=""
         >
             <Nav 
-            id="navLinks"
-            className="border border-dark border-3 rounded bg-light m-1"
+            // id="navLinks"
+            className="navLinks border border-dark border-3 rounded bg-light m-1"
             style={{
                 // fontSize:"3.5vw"
             }}

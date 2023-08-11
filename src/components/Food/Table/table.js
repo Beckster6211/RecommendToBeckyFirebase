@@ -30,8 +30,8 @@ function FoodTable({userBecky, food, foodITried, handleOpinion, deleteFood }) {
       }}
       >
       <thead 
-      id="foodTable1"
-      className="bg-dark-subtle border border-dark border-4 "
+      // id="foodTable1"
+      className="foodTableHeadFoot bg-dark-subtle border border-dark border-4 "
       style={{
         verticalAlign:"middle", 
         position: "sticky",
@@ -63,8 +63,8 @@ function FoodTable({userBecky, food, foodITried, handleOpinion, deleteFood }) {
         //////////
     with sticky table header not sure if footer needed */}
         <tfoot 
-        id="foodTable2"
-        className="tableFoot bg-dark-subtle border border-dark border-4"
+        // id="foodTable2"
+        className="foodTableHeadFoot bg-dark-subtle border border-dark border-4"
         style={{
           verticalAlign:"middle", 
           // fontSize:"2vw", 

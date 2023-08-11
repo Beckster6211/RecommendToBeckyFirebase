@@ -63,7 +63,7 @@ function Item({
       >
             <p 
             id="foodTableItem1"
-            className="bg-light border border-dark border-2 rounded p-1"
+            className="foodTableItemFood bg-light border border-dark border-2 rounded p-1"
             style={{
               // fontSize:"1.6vw",
 

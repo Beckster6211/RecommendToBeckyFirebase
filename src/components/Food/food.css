@@ -9,15 +9,11 @@
   width:40%
 }
 
-#foodPage2{
+.foodPageAccordion{
   font-size: 1.8vw;
   font-size: 700;
 }
 
-#foodPage3{
-  font-size: 1.8vw;
-  font-size: 700;
-}
 
 @media only screen and (max-width: 600px) {
   #foodPage1{
@@ -26,23 +22,14 @@
     width:65%
   }
 
-  #foodPage2{
+  .foodPageAccordion{
     font-size: 3.5vw;
     font-weight: 700;
   }
 
-  #foodPage3{
-    font-size: 3.5vw;
-    font-weight: 700;
-  }
 }
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* @media only screen and (min-width: 600px) {
-  #foodPage1{
-    font-size: 2vw;
-    font-weight: 900;
-    width:65%
-  }
 } */

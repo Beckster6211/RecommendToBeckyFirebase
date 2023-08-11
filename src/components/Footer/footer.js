@@ -27,7 +27,7 @@ function Footer(){
                     border border-dark border-3
                     "
                     style={{
-                        fontSize:"3vw"
+                        // fontSize:"3vw"
                     }}
                     >
                         <Navbar.Brand 
@@ -35,8 +35,8 @@ function Footer(){
                         // href="/login" 
                         >
                             <Image
-                            id="footerImage1"
-                            className=""
+                            // id="footerImage1"
+                            className="footerImage1"
                             style={{
                                 // width:"5vw"
                             }}
@@ -68,12 +68,12 @@ function Footer(){
                         {/* Becky Recommends */}
                         <Navbar.Brand 
                         href="/login" 
-                        className="p-0 m-0"
+                        className="p-0 py-1 m-0"
                         >
                             
                             <Image 
                             id="footerImage2"
-                            className=""
+                            className="footerImage2"
                             style={{
                                 // width:"5vw"
                             }}

@@ -1,6 +1,8 @@
 import React, {useState} from "react"
 
-import "./notBeckyAlert.css"
+// import "./notBeckyAlert.css"
+
+import "./alert.css"
 
 import Modal from "react-bootstrap/Modal"
 
@@ -11,7 +13,7 @@ function NotBeckyAlert(){
     return(
         <div>
             <Modal
-                id="modalNotBecky1"
+                // id="modalNotBecky1"
                  className="bg-light bg-opacity-50 px-5"
                  style={{
                   // fontSize:"4.5vw",
@@ -27,14 +29,15 @@ function NotBeckyAlert(){
                  }}
                  >
                   <p 
-                  id="modalNotBecky2"
-                  className="">
+                  // id="modalNotBecky2"
+                  className="modalMain">
                     Welcome To 
                     <br/>
                     Recommend To Becky
                   </p>
                    <p
-                   id="modalNotBecky3"
+                  //  id="modalNotBecky3"
+                  className="modalComment"
                    >
                     <i>(sorry if already seen this once, working on that...)</i>
                     </p>

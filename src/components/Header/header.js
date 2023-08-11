@@ -26,7 +26,7 @@ function Header(){
                     
                     <Container
                     fluid
-                    className="bg-secondary-subtle py- mx-1  
+                    className="bg-secondary-subtle py-2 mx-1  
                     border border-dark border-3
                     "
                     style={{
@@ -38,8 +38,8 @@ function Header(){
                         // href="/login" 
                         >
                             <Image 
-                            id="headerImage1"
-                            className=""
+                            // id="headerImage1"
+                            className="headerImagePortfolio"
                             style={{
                                 // width:"8vw"
                             }}
@@ -74,8 +74,8 @@ function Header(){
                         className="p-0 py-1 m-0"
                         >
                             <Image
-                            id="headerImage2"
-                            className=""
+                            // id="headerImage2"
+                            className="headerImageLogin"
                             style={{
                                 // width:"7vw"
                             }}

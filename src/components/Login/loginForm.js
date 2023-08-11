@@ -90,15 +90,15 @@ return (
         <br/>
         <Container 
         // fluid
-        id="loginForm1"
-        className="bg-secondary-subtle border border-secondary border-3 rounded  pt-5"
+        // id="loginForm"
+        className="loginPage bg-secondary-subtle border border-secondary border-3 rounded pt-5"
         style={{
             // width:"75vh",
             // height:"40vh"
         }}
         >
             <Button 
-            id="loginFormButton1"
+            // id="loginFormButton1"
             variant="success"
             className="bg-success-subtle"
             style={{
@@ -108,7 +108,7 @@ return (
             >
                 <Link 
             to = "/" 
-            className="text-dark text-decoration-none"
+            className="loginButton text-dark text-decoration-none"
             >
             Sign Out
             </Link>
@@ -123,14 +123,15 @@ return (
             }}
             >           
                 <Form.Group
-                id="loginForm2"
-                className=""
+                // id="loginForm"
+                className="loginForm"
                 style={{
                     // width:"62vh"
                 }}
                 >
                     <FloatingLabel
-                    id="loginForm3"
+                    // id="loginForm3"
+                    className="loginForm"
                     controlId="loginEmail"
                     label="Email address"
                     >
@@ -148,9 +149,12 @@ return (
                     </FloatingLabel>
                 </Form.Group>
         <br/>
-                <Form.Group>
+                <Form.Group
+                className="loginForm"
+                >
                     <FloatingLabel
-                    id="loginForm4"
+                    // id="loginForm4"
+                    className="loginForm"
                     controlId="LoginPassword"
                     label="Password"
                     >
@@ -174,9 +178,9 @@ return (
             </Form>
         <br/>
             <Button 
-            id="loginFormButton2"
+            // id="loginFormButton2"
             variant="primary"
-            className="bg-primary-subtle"
+            className="loginButton bg-primary-subtle"
             style={{
 
             }}
@@ -184,7 +188,7 @@ return (
             >
                 <Link 
             to = "/" 
-            className="text-dark text-decoration-none"
+            className="loginButton text-dark text-decoration-none"
             >
             Sign In
             </Link>

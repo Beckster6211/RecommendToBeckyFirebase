@@ -1,20 +1,4 @@
-@media only screen and (max-width: 600px) {
-    #footerImage1{
-        width: 7.5vw;
-    }
-
-    #footerTitle{
-        font-size: 4.5vw;
-    }
-
-    #footerImage2{
-        width: 6.5vw;
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    #footerImage1{
+    .footerImage1{
         width: 4vw;
     }
 
@@ -22,7 +6,25 @@
         font-size: 2vw;
     }
 
-    #footerImage2{
+    .footerImage2{
         width: 3vw;
     }
+    
+@media only screen and (max-width: 600px) {
+    .footerImage1{
+        width: 7.5vw;
+    }
+
+    #footerTitle{
+        font-size: 4.5vw;
+    }
+
+    .footerImage2{
+        width: 6.5vw;
+    }
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+
+} */

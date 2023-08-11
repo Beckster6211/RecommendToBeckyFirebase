@@ -1,6 +1,8 @@
 import React, {useState} from "react"
 
-import "./beckyAlert.css"
+// import "./beckyAlert.css"
+
+import "./alert.css"
 
 import Modal from "react-bootstrap/Modal"
 
@@ -12,7 +14,7 @@ function BeckyAlert(){
     return(
         <div> 
             <Modal
-            id="modalBecky1"
+            // id="modalBecky1"
                 className="bg-light bg-opacity-50 px-5"
                 style={{
                   // fontSize:"3vw"
@@ -24,19 +26,21 @@ function BeckyAlert(){
                 
                 >
                 <Modal.Body 
-                className="text-center rounded bg-success border border-dark border-3"
+                className="text-center rounded bg-primary border border-dark border-3"
                 style={{
 
                 }}
                 
                 >
                   <p
-                  id="modalBecky2"
+                  // id="modalBecky2"
+                  className="modalMain"
                   >
                     Hi Becky
                   </p>
                   <p
-                  id="modalBecky3"
+                  // id="modalBecky3"
+                  className="modalComment"
                   >
                     <i>
                   (you know what to do

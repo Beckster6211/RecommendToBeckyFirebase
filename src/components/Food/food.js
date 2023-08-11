@@ -113,12 +113,14 @@ function Food({Becky}) {
       <Container 
       fluid
       className="foodPage pt-3"
-      style={{}}
+      style={{
+
+      }}
       >
       {/* <br/> */}
       <Container 
       id = "foodPage1"
-        className=" bg-warning-subtle rounded text-center p-0" 
+        className="foodPage1 bg-warning-subtle rounded text-center p-0" 
         style={{
           // fontSize:"3vw", 
           // fontWeight:"900"
@@ -153,9 +155,9 @@ function Food({Becky}) {
           <Accordion.Header 
           className="">
             <Container 
-            id="foodPage2"
+            // id="foodPage2"
             fluid 
-            className="text-center"
+            className="foodPageAccordion text-center"
             style={{
               // fontSize:"2.5vw", 
               // fontWeight:"700"
@@ -184,9 +186,9 @@ function Food({Becky}) {
         >
           <Accordion.Header>
             <Container 
-            id="foodPage3"
+            // id="foodPage3"
             fluid 
-            className="text-center"
+            className="foodPageAccordion text-center"
             style={{
               // fontSize:"2.5vw", 
               // fontWeight:"700"
