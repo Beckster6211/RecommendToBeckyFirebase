@@ -1,4 +1,16 @@
 
+#foodLikeButton{
+    font-size: 1.5vw;
+}
+
+#foodDislikeButton{
+    font-size: 1.5vw;
+}
+
+#foodHelperButton{
+    font-size: 1.5vw;
+}
+
 
 @media only screen and (max-width: 600px) {
     #foodLikeButton{
@@ -20,8 +32,8 @@
   
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-    #foodLikeButton{
+  /* @media only screen and (min-width: 600px) { */
+    /* #foodLikeButton{
         font-size: 1.5vw;
     }
 
@@ -31,9 +43,9 @@
 
     #foodHelperButton{
         font-size: 1.5vw;
-    }
+    } */
 
     /* #foodLikeOffcanvas{} */
     /* #foodHelperOffcanvas{} */
     /* #foodDislikeOffcanvas{} */
-  }
+  /* } */

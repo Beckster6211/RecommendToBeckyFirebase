@@ -1,5 +1,5 @@
 
-#foodFloatingLabel1{
+/* #foodFloatingLabel1{
   font-size: 1.4vw;
 }
 
@@ -9,10 +9,18 @@
 
 #foodFloatingLabel3{
   font-size: 1.4vw;
-}
+} */
 
 #foodFormButton{
   font-size: 1.3vw;
+}
+
+.foodFloatingLabel{
+  font-size: 1.4vw;
+}
+
+.foodFormInput{
+  font-size: 3vw;
 }
 
 
@@ -20,17 +28,26 @@
   /* #foodForm{
     font-size: 2.5vw;
   } */
-  #foodFloatingLabel1{
+
+  .foodFloatingLabel{
     font-size: 2.5vw;
   }
 
-  #foodFloatingLabel2{
-    font-size: 2.5vw;
+  .foodFormInput{
+    font-size: 3vw;
   }
 
-  #foodFloatingLabel3{
+  /* #foodFloatingLabel1{
     font-size: 2.5vw;
-  }
+  } */
+
+  /* #foodFloatingLabel2{
+    font-size: 2.5vw;
+  } */
+
+  /* #foodFloatingLabel3{
+    font-size: 2.5vw;
+  } */
 
   #foodFormButton{
     font-size: 2.5vw;

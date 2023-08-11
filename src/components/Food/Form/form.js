@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./form.css";
 
 /*
@@ -50,18 +51,18 @@ function FoodForm({ food, handleChange, submitForm }) {
               controlId="formFood"
             >
               <FloatingLabel 
-              id="foodFloatingLabel1"
-              className=""
+              // id="foodFloatingLabel1"
+              className="foodFloatingLabel"
               style={{
                 // fontSize:"1.2vw"
               }}
               controlId = "formFoodItem" 
               label= "Food...">
                 <Form.Control 
-                className="text-break border border-dark
+                className="foodFormInput text-break border border-dark
                border-3"
                style={{
-                fontSize:"1.4vw"
+                // fontSize:"3vw"
               }} 
                 type="text"
                 placeholder = "Food..." 
@@ -79,19 +80,20 @@ function FoodForm({ food, handleChange, submitForm }) {
             className="pt-2">
 
               <FloatingLabel 
-              id="foodFloatingLabel2"
+              // id="foodFloatingLabel2"
+              className="foodFloatingLabel"
               style={{
                 // fontSize:"1.2vw"
               }}
               controlId = "formFoodRecipe" 
               label= "Recipe/Where...">
                 <Form.Control 
-                className="border border-dark border-3" 
+                className="foodFormInput border border-dark border-3" 
                 
                 as = "textarea" 
                 style = {{
                   height:"110px",
-                  fontSize:"1.4vw"
+                  // fontSize:"1.4vw"
                 }} 
                 placeholder = "Recipe/Where..."
                 name="formFoodRecipe"
@@ -109,15 +111,16 @@ function FoodForm({ food, handleChange, submitForm }) {
             controlId="formFoodRecommend">
 
               <FloatingLabel 
-              id="foodFloatingLabel3"
+              // id="foodFloatingLabel3"
+              className="foodFloatingLabel"
               style={{
                 // fontSize:"1.2vw"
               }}
               controlId = "formFoodRecommend" label="Recommended By..." >
                 <Form.Control 
-                className="border border-dark border-3"
+                className="foodFormInput border border-dark border-3"
                 style={{
-                  fontSize:"1.4vw"
+                  // fontSize:"1.4vw"
                 }} 
                 type="text" 
                 placeholder="Recommended By..."
