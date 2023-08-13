@@ -51,7 +51,7 @@ function Food({Becky}) {
     event.preventDefault();
     // console.log(form.formFooditem);
     await addDoc(collection(db, "Food"), {
-      beckyopinion: "🤷",
+      beckyopinion: "🤷‍♀️",
       fooditem: form.formFoodItem,
       recipe: form.formFoodRecipe,
       recommendedby: form.formFoodRecommend,
