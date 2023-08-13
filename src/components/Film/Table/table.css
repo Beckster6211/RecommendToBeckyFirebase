@@ -1,0 +1,57 @@
+.filmTableComponent{
+    overflow: auto;
+    /* width: auto; */
+    height: 80vmin;      
+    }
+  
+    .filmTable{
+      background-color: #FFC107; /*bootstrap warning*/
+      table-layout: fixed;
+      word-wrap: break-word;
+    }
+  
+    .tableHead{
+      position: sticky;
+      top: 0;
+    }
+  
+    .tableHeader{
+      
+    }
+  
+    /* .foodTableBody{
+      background-color: darkgreen;
+    } */
+  
+    
+    tr:nth-child(odd) {
+      background-color:#ffff99; 
+      /*warning subtle*/
+     }
+
+     tr:nth-child(even) {
+      background-color:#FFC107; 
+      /*warning subtle*/
+     }
+
+    tr:hover {
+      background-color: aqua;
+    }
+
+    .foodTableHeadFoot{
+      font-size: 1.5vw;
+      font-weight: 500;
+    }
+    
+    @media only screen and (max-width: 600px) {
+      .foodTableHeadFoot{
+        font-size: 2.5vw;
+        font-weight: 500;
+      }
+    
+    }
+    
+    
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    /* @media only screen and (min-width: 600px) {
+    } */
