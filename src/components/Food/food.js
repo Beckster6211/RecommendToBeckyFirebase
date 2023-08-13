@@ -31,7 +31,7 @@ function Food({Becky}) {
   const [food, setNewFood] = useState([]);
   const [form, setForm] = useState({});
   // const [updatePage, setUpdatePage] = useState(false);
-  console.log({ food });
+  // console.log({ food });
 
   function handleChange(event) {
     // let inputName = event.target.name;

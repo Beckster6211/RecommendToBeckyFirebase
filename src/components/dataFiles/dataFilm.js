@@ -2,30 +2,29 @@
 
 let film = [
   ////////
-    {
-      film: "Black Widow",
-      provider: "Disney+",
-      connected:
-        "Marvel films (part of Phase 4 MCU), set after Captain America:Cival War, comic books",
-      genre: "Superhero",
-      description:
-        "BLACK WIDOW BECKYS FAVOURITE HERO. Natasha Romanoff, a former KGB spy, is shocked to find out that her ex handler, General Dreykov, is still alive. While evading capture by Taskmaster, she is forced to confront her dark past.",
-      recommendedby: "Neil & William (Brothers)",
-      watched: true,
-      beckyopinion: "😍",
-    },
-    ////////
-    {
-      film: "Quiet Place Part II",
-      provider: "Paramount Pictures",
-      connected: "First film - Quiet Place Part I",
-      genre: "Science, Horror",
-      description:
-        "Watched part 1. In a post-apocalyptic world, Regan and her family learn that the alien predators can be defeated using high-frequency audio. Armed with this knowledge, they then set out to look for other survivors.",
-      recommendedby: "Me",
-      watched: false,
-      beckyopinion: "🤷‍♀️",
-    },
+    // {
+    //   film: "Black Widow",
+    //   provider: "Disney+",
+    //   connected:
+    //     "Marvel films (part of Phase 4 MCU), set after Captain America:Cival War, comic books",
+    //   genre: "Superhero",
+    //   description:
+    //     "BLACK WIDOW BECKYS FAVOURITE HERO. Natasha Romanoff, a former KGB spy, is shocked to find out that her ex handler, General Dreykov, is still alive. While evading capture by Taskmaster, she is forced to confront her dark past.",
+    //   recommendedby: "Neil & William (Brothers)",
+    //   watched: true,
+    //   beckyopinion: "😍",
+    // },
+    // {
+    //   film: "Quiet Place Part II",
+    //   provider: "Paramount Pictures",
+    //   connected: "First film - Quiet Place Part I",
+    //   genre: "Science, Horror",
+    //   description:
+    //     "Watched part 1. In a post-apocalyptic world, Regan and her family learn that the alien predators can be defeated using high-frequency audio. Armed with this knowledge, they then set out to look for other survivors.",
+    //   recommendedby: "Me",
+    //   watched: false,
+    //   beckyopinion: "🤷‍♀️",
+    // },
     {
       film: "Lord of the Rings",
       provider: "New Line Cinema",

@@ -14,10 +14,14 @@ function FilmItem({
     filmRecommend,
     filmGenre,
     filmConnected,
-    filmProvider
+    filmProvider,
+    filmId,
+    watchedIt,
+    removeFilm,
+    changeOpinion
 }){
 
-    console.log({film})
+    // console.log({film})
     return(
         <tr 
     className="border border-dark border-4"
@@ -138,7 +142,7 @@ function FilmItem({
               style={{
                 // fontSize:"3vw"
               }}
-          name="😋"
+          name="😍"
           // onClick={(event) => {
           //   changeOpinion(food, event);
           // }}
@@ -147,7 +151,7 @@ function FilmItem({
           }}
           readOnly
         >
-          😋          
+          😍        
         </Button>
         <Button 
         id="foodTableButton"
@@ -156,7 +160,7 @@ function FilmItem({
         style={{
           // fontSize:"3vw"
         }}
-          name="🤫"
+          name="😕"
           // onClick={(event) => {
           //   changeOpinion(food, event);
           // }}
@@ -165,7 +169,7 @@ function FilmItem({
           }}
           readOnly
         >
-          🤫
+          😕
         </Button>
         <Button 
         id="foodTableButton"
@@ -174,7 +178,7 @@ function FilmItem({
         style={{
           // fontSize:"3vw"
         }}
-          name="🤮"
+          name="🥱"
           // onClick={(event) => {
           //   changeOpinion(food, event);
           // }}
@@ -183,7 +187,7 @@ function FilmItem({
           }}
           readOnly
         >
-          🤮
+          🥱
         </Button>
         </Stack>
 
@@ -477,10 +481,10 @@ function FilmItem({
           style={{
             // fontSize:"2.5vw"
           }}
-        //   onClick={() => {
-        //     // console.log("delete button clicked");
-        //     removeFood(foodId);
-        //   }}
+          onClick={() => {
+            // console.log("delete button clicked");
+            removeFilm(filmId);
+          }}
         >
           🗑️
           </Button>

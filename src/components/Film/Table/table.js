@@ -8,7 +8,7 @@ import FilmItem from "../Item/item";
 import Table from 'react-bootstrap/Table';
 import Container from "react-bootstrap/Container";
 
-function FilmTable({film}){
+function FilmTable({film, filmWatchedIt, deleteFilm, handleOpinion}){
     // console.log({film})
 
     return(
@@ -121,9 +121,10 @@ function FilmTable({film}){
                 filmProvider = {item.provider}
                 index={index}
                 key={item.id}
-                // removeFood={deleteFood}
-                // triedIt={foodITried}
-                // changeOpinion={handleOpinion}
+                filmId = {item.id}
+                removeFilm={deleteFilm}
+                watchedIt={filmWatchedIt}
+                changeOpinion={handleOpinion}
                 // becky={userBecky}
               />
             );

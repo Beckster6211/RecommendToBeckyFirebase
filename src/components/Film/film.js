@@ -3,7 +3,7 @@ import "./film.css"
 
 //components
 import FilmTable from "./Table/table";
-// import FoodForm from "./Form/form";
+import FilmForm from "./Form/form";
 // import FoodLike from "./FoodHelper/like";
 // import FoodDislike from "./FoodHelper/dislike";
 // import FoodHelper from "./FoodHelper/helper";
@@ -20,15 +20,42 @@ import {
     query,
     collection,
     onSnapshot,
-    doc
+    doc,
+    addDoc,
+    updateDoc,
+    deleteDoc
 } from "firebase/firestore"
 
 
 function Film(){
     const [film, setNewFilm] = useState([])
+    const [form, setForm] = useState({})
     // console.log({film})
 
+////add from form
+function handleChange(event){
+    setForm({...form, [event.target.id]:event.target.value})
+}
+
+
 // create
+async function handleSubmit(event){
+    console.log({form})
+    console.log("submit button pressed");
+event.preventDefault()
+await addDoc(collection(db, "Film"),
+{
+    beckyopinion: "🤷‍♀️",
+    film: form.formFilm,
+    description: form.formFilmDescription,
+    provider: form.formFilmProvider,
+    connected: form.formFilmConnected,
+    genre: form.formFilmGenre,
+    recommendedby: form.formFilmRecommend,
+    watched: false,
+});
+window.location.reload()
+}
 
 // read
 useEffect(()=>{
@@ -46,9 +73,24 @@ useEffect(()=>{
 
 //update
 //tried
+const haveWatched = async (film)=>{
+    await updateDoc(doc(db, "Film", film.id), {
+        watched: !film.watched
+    })
+}
+
 //opinion
+const changeOpinion = async (film, event)=>{
+    let beckyOpinion = event.target.name;
+    await updateDoc(doc(db, "Film", film.id),{
+        beckyopinion:beckyOpinion
+    })
+}
 
 //delete
+const deleteFilm = async(id)=>{
+    await deleteDoc(doc(db,"Film", id))
+}
 
 return(
     <div 
@@ -105,7 +147,7 @@ return(
             <Container 
             // id="foodPage2"
             fluid 
-            className="foodPageAccordion text-center"
+            className="filmPageAccordion text-center"
             style={{
               // fontSize:"2.5vw", 
               // fontWeight:"700"
@@ -116,14 +158,14 @@ return(
            </Accordion.Header>
           <Accordion.Body 
           className="px-2 py-3">
-            <div>
-                film form
-              {/* <FilmForm
-              food={food}
+            {/* <div> */}
+                {/* film form */}
+              <FilmForm
+              film={film}
               handleChange={handleChange}
-              submitForm={handleSubmit}
-            /> */}
-            </div>
+            submitForm={handleSubmit}
+            />
+            {/* </div> */}
           </Accordion.Body>
         </Accordion.Item>
         {/* <br/> */}
@@ -156,9 +198,9 @@ return(
               <FilmTable
             //   userBecky={Becky}
               film={film}
-            //   foodITried={haveTried}
-            //   deleteFood={deleteFood}
-            //   handleOpinion={changeOpinion}
+              filmWatchedIt={haveWatched}
+              deleteFilm={deleteFilm}
+              handleOpinion={changeOpinion}
               
             />
             {/* </div> */}
