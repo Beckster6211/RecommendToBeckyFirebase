@@ -68,6 +68,7 @@
 
     #filmTableButton{
         font-size: 3vw;
+        padding: 0px;
     }
 
     .filmTableRecommend{
@@ -91,6 +92,7 @@
 
     .td3{
         flex-wrap: wrap;
+
     }
 
   }

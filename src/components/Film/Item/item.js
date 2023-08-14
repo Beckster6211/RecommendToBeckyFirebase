@@ -115,7 +115,8 @@ function FilmItem({
         >          
         <Stack 
         direction="horizontal"
-        className="td3 justify-content-evenly p-1"
+        gap={1}
+        className="td3 justify-content-evenly"
         >
           <p
           className="
@@ -152,7 +153,7 @@ function FilmItem({
         </Stack>
             <Stack 
             gap={1} 
-            className="td2 p-1"
+            className="td2 p-1 text-center"
             style={{
               // border:"solid black 3px"
             }}
@@ -160,7 +161,7 @@ function FilmItem({
               <Button 
               id="filmTableButton"
               variant="success"
-              className="border border-2 border-dark rounded"
+              className="border border-2 border-dark rounded "
               style={{
                 // fontSize:"3vw"
               }}
