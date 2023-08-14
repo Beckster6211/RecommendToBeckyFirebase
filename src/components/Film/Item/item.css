@@ -12,6 +12,11 @@
     height: 7vw;
 }
 
+#filmTableFilmGenre{
+    font-size: 1.2vw;
+    height: 4vw;
+}
+
 .filmTableWatchedCheckbox{
     height: 1.5vw;
     width: 1.5vw;
@@ -29,6 +34,14 @@
     font-size: 1.2vw;
 }
 
+.td1{
+        vertical-align: top;
+        
+    }
+
+.td2{
+    padding-top: 4;
+}
 
 @media only screen and (max-width: 600px) {
     /* #foodTableItem1{
@@ -42,6 +55,11 @@
     #filmTableFilmTextarea{
         font-size: 2.3vw;
         height: 14vw;
+    }
+
+    #filmTableFilmGenre{
+        font-size: 2.3vw;
+        height: 9vw;
     }
 
     .filmTableOpinion{
@@ -64,5 +82,11 @@
         height: 4vw;
         width: 4vw;
     }
+
+    .td1{
+        vertical-align: middle;
+        /* padding-top: 1; */
+    }
+    
 
   }

@@ -86,14 +86,14 @@ function FilmItem({
             />
 {/* <br/> */}
         <Form.Control 
-            id="filmTableFilmTextarea"
-            className="border border-dark border-2 p-1"
+            id="filmTableFilmGenre"
+            className="filmTableFilmGenre border border-dark border-2 p-1"
             as="textarea"
             defaultValue={filmGenre} 
             readOnly 
             style={{
               // fontSize:"1.5vw",
-              height:"8vw"          
+            //   height:"8vw"          
             }}
             />
 
@@ -109,7 +109,7 @@ function FilmItem({
     becky === false ? 
 
       <td
-        className="p-2 align-middle border border-dark border-4 bg-info-subtle"
+        className="td1 p-2 border border-dark border-4 bg-info-subtle"
       style={{
       }}
         >          
@@ -152,7 +152,7 @@ function FilmItem({
         </Stack>
             <Stack 
             gap={1} 
-            className="p-1"
+            className="td2 p-1"
             style={{
               // border:"solid black 3px"
             }}
@@ -229,7 +229,7 @@ function FilmItem({
           >
           <input
           name="filmTableBeckyWatchedCheckbox"
-        className="filmTableCheckboxTried"
+        className="filmTableCheckboxWatched"
         style={{
           // width:"3vw",
           // height:"3vw",
