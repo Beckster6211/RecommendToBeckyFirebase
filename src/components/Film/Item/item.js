@@ -339,7 +339,7 @@ function FilmItem({
       }}
       >
           <Button 
-          id="filmTableButton"
+          id="filmTableTrashButton"
           variant="light"
           className="border border-dark border-2"
           style={{
