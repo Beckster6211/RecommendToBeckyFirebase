@@ -1,0 +1,51 @@
+
+#filmLikeButton{
+    font-size: 1.5vw;
+}
+
+#foodDislikeButton{
+    font-size: 1.5vw;
+}
+
+#foodHelperButton{
+    font-size: 1.5vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #filmLikeButton{
+        font-size: 2.5vw;
+    }
+
+    #foodDislikeButton{
+        font-size: 2.5vw;
+    }
+
+    #foodHelperButton{
+        font-size: 2.5vw;
+    }
+
+    /* #foodLikeOffcanvas{} */
+    /* #foodHelperOffcanvas{} */
+    /* #foodDislikeOffcanvas{} */
+  }
+  
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* @media only screen and (min-width: 600px) { */
+    /* #foodLikeButton{
+        font-size: 1.5vw;
+    }
+
+    #foodDislikeButton{
+        font-size: 1.5vw;
+    }
+
+    #foodHelperButton{
+        font-size: 1.5vw;
+    } */
+
+    /* #foodLikeOffcanvas{} */
+    /* #foodHelperOffcanvas{} */
+    /* #foodDislikeOffcanvas{} */
+  /* } */

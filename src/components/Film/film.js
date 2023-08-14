@@ -4,9 +4,9 @@ import "./film.css"
 //components
 import FilmTable from "./Table/table";
 import FilmForm from "./Form/form";
-// import FoodLike from "./FoodHelper/like";
-// import FoodDislike from "./FoodHelper/dislike";
-// import FoodHelper from "./FoodHelper/helper";
+import FilmLike from "./FilmHelper/like";
+import FilmHelper from "./FilmHelper/helper";
+import FilmDislike from "./FilmHelper/dislike";
 
 // bootstrap
 import Accordion from 'react-bootstrap/Accordion';
@@ -117,11 +117,11 @@ return(
       className="d-flex justify-content-evenly py-2"
       >
         
-          {/* 
-          <FoodLike/>
-          <FoodHelper/>
-          <FoodDislike/> 
-          */}
+          
+          <FilmLike/>
+          <FilmHelper/>
+          <FilmDislike/> 
+         
         
       </Container>
       

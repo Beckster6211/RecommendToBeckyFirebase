@@ -93,7 +93,7 @@ function FilmItem({
             readOnly 
             style={{
               // fontSize:"1.5vw",
-            //   height:"8vw"          
+              height:"8vw"          
             }}
             />
 
