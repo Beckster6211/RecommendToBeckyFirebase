@@ -115,7 +115,7 @@ function FilmItem({
         >          
         <Stack 
         direction="horizontal"
-        className="justify-content-evenly"
+        className="td3 justify-content-evenly p-1"
         >
           <p
           className="

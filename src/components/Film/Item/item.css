@@ -89,4 +89,8 @@
     }
     
 
+    .td3{
+        flex-wrap: wrap;
+    }
+
   }
