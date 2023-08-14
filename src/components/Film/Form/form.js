@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useRef} from "react"
 
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card"
@@ -7,6 +7,9 @@ import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Button from "react-bootstrap/button"
 
 function FilmForm({film, handleChange, submitForm}){
+    const myFilm = useRef(null)
+    // console.log(myFilm.current?.value)
+
     return(
         <Container 
     fluid 
@@ -49,6 +52,7 @@ function FilmForm({film, handleChange, submitForm}){
                style={{
                 // fontSize:"2vw"
               }} 
+              ref={myFilm}
                 type="text"
                 placeholder = "Film..." 
                 name="formFilm"
@@ -83,6 +87,7 @@ function FilmForm({film, handleChange, submitForm}){
                   height:"90px",
                   // fontSize:"1.4vw"
                 }} 
+                ref={myFilm}
                 placeholder = "Plot/Description"
                 name="formFilmDescription"
                 // id="formFoodRecipe"
@@ -114,6 +119,7 @@ function FilmForm({film, handleChange, submitForm}){
                 style={{
                   // fontSize:"1.4vw"
                 }} 
+                ref={myFilm}
                 type="text" 
                 placeholder="Provider..."
                 name="formFilmProvider"
@@ -147,6 +153,7 @@ function FilmForm({film, handleChange, submitForm}){
                   height:"90px",
                   // fontSize:"1.4vw"
                 }} 
+                ref={myFilm}
                 placeholder = "Connected With..."
                 name="formFilmConnected"
                 // id="formFoodRecipe"
@@ -177,6 +184,7 @@ function FilmForm({film, handleChange, submitForm}){
                 style={{
                   // fontSize:"1.4vw"
                 }} 
+                ref={myFilm}
                 type="text" 
                 placeholder="Genre..."
                 name="formFilmGenre"
@@ -208,6 +216,7 @@ function FilmForm({film, handleChange, submitForm}){
                 style={{
                   // fontSize:"1.4vw"
                 }} 
+                ref={myFilm}
                 type="text" 
                 placeholder="Recommended By..."
                 name="formFilmRecommend"
@@ -223,6 +232,26 @@ function FilmForm({film, handleChange, submitForm}){
               </FloatingLabel>
             </Form.Group>
 
+                {
+                    myFilm.current?.value === "" ?
+                    <Button 
+            id="filmFormButton"
+            variant = "info"
+            className="border border-dark border-3 text-dark"  
+            // type = "submit"
+            style={{
+              // fontSize:"1.6vw", 
+              width:"auto"
+            }}
+            onClick={()=>{
+                console.log("Put something in the inputs please")
+            }}
+            >
+              😄 Enjoy 😄
+              </Button>
+
+            : 
+
             <Button 
             id="filmFormButton"
             variant = "info"
@@ -235,6 +264,21 @@ function FilmForm({film, handleChange, submitForm}){
             >
               😄 Enjoy 😄
               </Button>
+                }
+
+            {/* <Button 
+            id="filmFormButton"
+            variant = "info"
+            className="border border-dark border-3 text-dark"  
+            type = "submit"
+            style={{
+              // fontSize:"1.6vw", 
+              width:"auto"
+            }}
+            
+            >
+              😄 Enjoy 😄
+              </Button> */}
 
           </Form>
           </Card.Body>

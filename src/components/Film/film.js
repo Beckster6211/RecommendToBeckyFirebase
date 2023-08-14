@@ -109,7 +109,7 @@ return(
           // fontWeight:"900"
         }}
         >
-           🎞️ &nbsp; 🥤 &nbsp; Film PAGE &nbsp; 🍿 &nbsp; 📽️
+           🎞️ &nbsp; 🥤 &nbsp; FILM PAGE &nbsp; 🍿 &nbsp; 📽️
       </Container>
       {/* <br/> */}
       <Container 
