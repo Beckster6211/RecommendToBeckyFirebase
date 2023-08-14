@@ -152,6 +152,7 @@ function FoodForm({ food, handleChange, submitForm }) {
                     // fontSize:"1.6vw", 
                     width:"auto"
                   }}
+                  // maybe do a toast/tooltip/alert for message
                   onClick={()=>{
                     console.log("Put something in the inputs please")
                 }}

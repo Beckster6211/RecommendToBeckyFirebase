@@ -54,7 +54,7 @@ function Navigation(){
                         </Nav.Link>
                 </Nav.Item>
                 <Nav.Item
-                className="border-end border-dark border-2"
+                className="border-end border-dark border-2 bg-danger"
                 >
                     <Nav.Link
                     className="text-dark p-0"
@@ -67,7 +67,7 @@ function Navigation(){
                         </Nav.Link>
                 </Nav.Item>
                 <Nav.Item
-                className="border-end border-dark border-2"
+                className="border-end border-dark border-2 bg-success"
                 >
                     <Nav.Link
                     className="text-dark p-0"
@@ -80,7 +80,7 @@ function Navigation(){
                         </Nav.Link>
                 </Nav.Item>
                 <Nav.Item
-                className="border-end border-dark border-2"
+                className="border-end border-dark border-2 bg-primary"
                 >
                     <Nav.Link
                     className="text-dark p-0"
@@ -93,7 +93,7 @@ function Navigation(){
                        </Nav.Link>
                 </Nav.Item>
                 <Nav.Item
-                className=""
+                className="bg-secondary"
                 >
                     <Nav.Link
                     className="text-dark p-0"
