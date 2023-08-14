@@ -104,7 +104,7 @@ return (
             style={{
 
             }}
-            onClick={signOutUser}
+            // onClick={signOutUser}
             >
                 <Link 
             to = "/" 
@@ -141,7 +141,7 @@ return (
                             type="email"
                             placeholder="Email..."
                             autoComplete="off"
-                            onChange = {(event)=>{getEmail(event)}}
+                            // onChange = {(event)=>{getEmail(event)}}
                             className=" loginFormInput
                             border border-secondary border-3"
                             style={{
@@ -166,7 +166,7 @@ return (
                     type="password"  
                     autoComplete="off" 
                     placeholder="Password..."
-                    onChange = {(event) => {getPassword(event)}}
+                    // onChange = {(event) => {getPassword(event)}}
                     className="loginFormInput border border-secondary border-3"
                     style={{
                         // fontSize:"3vw",
@@ -189,7 +189,7 @@ return (
             style={{
 
             }}
-            onClick={signInUser}
+            // onClick={signInUser}
             >
                 <Link 
             to = "/" 

@@ -54,6 +54,7 @@ function Home({Becky}){
             <p>Remove console.logs</p>
             <p>Tidy code (alter id and classname names for easier styling with media queries)</p>
             <p>Rest of pages</p>
+            <p>fix login</p>
             </Container>
         </div>
     )
