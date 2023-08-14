@@ -51,7 +51,6 @@ function FoodDislike(){
               .
               .
               <br/>
-              yuck
               {/* maybe do a video of explaining what I dislike */}
             </Offcanvas.Body>
           </Offcanvas>
