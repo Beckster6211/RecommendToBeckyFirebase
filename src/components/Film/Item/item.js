@@ -1,4 +1,5 @@
 import React from "react"
+import "./item.css"
 
 import Button from "react-bootstrap/Button"
 import Form from "react-bootstrap/Form"
@@ -18,7 +19,8 @@ function FilmItem({
     filmId,
     watchedIt,
     removeFilm,
-    changeOpinion
+    changeOpinion,
+    becky
 }){
 
     // console.log({film})
@@ -37,7 +39,7 @@ function FilmItem({
       >
             <p 
             // id="foodTableItem1"
-            className=" bg-light border border-dark border-2 rounded p-1"
+            className="filmTableItemFilm bg-light border border-dark border-2 rounded p-1"
             style={{
               // fontSize:"1.6vw",
 
@@ -46,8 +48,8 @@ function FilmItem({
               {filmItem}
             </p>
             <Form.Control 
-            // id="foodTableFoodTextarea"
-            // name="foodTableFoodTextarea"
+            id="filmTableFilmTextarea"
+            name="filmTableFilmTextarea"
             className="border border-dark border-2 p-1"
             as="textarea"
             defaultValue={filmPlot} 
@@ -61,15 +63,18 @@ function FilmItem({
       <td
       className="p-2 align-middle border border-dark border-4 bg-info"
       >
+        <Stack
+        // direction="horizontal"
+        gap={1}
+        className="p-1"
+        >
         <p
-        className=" bg-light border border-dark border-2 rounded p-1"
+        className="filmTableItemFilm bg-light border border-dark border-2 rounded p-1 m-0"
         >
             {filmProvider}
         </p>
-
         <Form.Control 
-            // id="foodTableFoodTextarea"
-            // name="foodTableFoodTextarea"
+            id="filmTableFilmTextarea"
             className="border border-dark border-2 p-1"
             as="textarea"
             defaultValue={filmConnected} 
@@ -79,13 +84,29 @@ function FilmItem({
               // height:"14vw"          
             }}
             />
-<br/>
-        <p
-        className=" bg-light border border-dark border-2 rounded p-1"
+{/* <br/> */}
+        <Form.Control 
+            id="filmTableFilmTextarea"
+            className="border border-dark border-2 p-1"
+            as="textarea"
+            defaultValue={filmGenre} 
+            readOnly 
+            style={{
+              // fontSize:"1.5vw",
+            //   height:"8vw"          
+            }}
+            />
+
+        {/* <p
+        className="filmTableItemFilm bg-light border border-dark border-2 rounded p-1"
         >
             {filmGenre}
-            </p>
+            </p> */}
+        </Stack>
       </td>
+
+{
+    becky === false ? 
 
       <td
         className="p-2 align-middle border border-dark border-4 bg-info-subtle"
@@ -103,8 +124,8 @@ function FilmItem({
           >
           <input
           // id="foodTableItem9"
-          name="foodTableTriedCheckbox"
-            className="foodTableCheckboxTried"
+          name="filmTableWatchedCheckbox"
+            className="filmTableWatchedCheckbox"
             style={{
               // width:"4vw",
               // height:"4vw",
@@ -118,9 +139,10 @@ function FilmItem({
             readOnly
         /> 
         </p>
+
           <p
           // id="foodTableItem3"
-        className="foodTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="filmTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"3vw",
           
@@ -136,7 +158,7 @@ function FilmItem({
             }}
             >
               <Button 
-              id="foodTableButton"
+              id="filmTableButton"
               variant="success"
               className="border border-2 border-dark rounded"
               style={{
@@ -154,7 +176,7 @@ function FilmItem({
           😍        
         </Button>
         <Button 
-        id="foodTableButton"
+        id="filmTableButton"
         variant="secondary"
         className="border border-dark border-2 rounded"
         style={{
@@ -172,7 +194,7 @@ function FilmItem({
           😕
         </Button>
         <Button 
-        id="foodTableButton"
+        id="filmTableButton"
         variant = "danger"
         className="border border-dark border-2 rounded"
         style={{
@@ -190,154 +212,9 @@ function FilmItem({
           🥱
         </Button>
         </Stack>
-
-        {/* 
-        /////////
-        <button
-          name="🤷‍♀️"
-          // onClick={(event) => {
-          //   changeOpinion(food, event);
-          // }}
-          onChange = {()=>{
-            console.log("not for you")
-          }}
-          readOnly
-        >
-          Reset
-        </button>
-        /////////
-         */}
       </td>
 
-
-
-      {/* remove the opinion button and only have those displayed to me*/}
-      {/* {
-        becky === false ?
-        
-        <td
-        className="p-2 align-middle border border-dark border-4 bg-warning-subtle"
-      style={{
-      }}
-        >          
-        <Stack 
-        direction="horizontal"
-        className="justify-content-evenly"
-        >
-          <p
-          className="
-          p-1 pb-0 mx-1 mb-0 
-          border border-dark border-2 rounded bg-light"
-          >
-          <input
-          // id="foodTableItem9"
-          name="foodTableTriedCheckbox"
-            className="foodTableCheckboxTried"
-            style={{
-              // width:"4vw",
-              // height:"4vw",
-              
-            }}
-            type="checkbox"
-            onChange = {()=>{
-              console.log("Not for you, sorry")
-               }}       
-            checked={foodTried}
-            readOnly
-        /> 
-        </p>
-          <p
-          // id="foodTableItem3"
-        className="foodTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
-        style={{
-          // fontSize:"3vw",
-          
-          
-        }}
-        >{foodOpinion}</p>
-        </Stack>
-            <Stack 
-            gap={1} 
-            className="p-1"
-            style={{
-              // border:"solid black 3px"
-            }}
-            >
-              <Button 
-              id="foodTableButton"
-              variant="success"
-              className="border border-2 border-dark rounded"
-              style={{
-                // fontSize:"3vw"
-              }}
-          name="😋"
-          // onClick={(event) => {
-          //   changeOpinion(food, event);
-          // }}
-          onChange = {()=>{
-            console.log("Not for you, Sorry")
-          }}
-          readOnly
-        >
-          😋          
-        </Button>
-        <Button 
-        id="foodTableButton"
-        variant="secondary"
-        className="border border-dark border-2 rounded"
-        style={{
-          // fontSize:"3vw"
-        }}
-          name="🤫"
-          // onClick={(event) => {
-          //   changeOpinion(food, event);
-          // }}
-          onChange = {()=>{
-            console.log("Not for you, Sorry")
-          }}
-          readOnly
-        >
-          🤫
-        </Button>
-        <Button 
-        id="foodTableButton"
-        variant = "danger"
-        className="border border-dark border-2 rounded"
-        style={{
-          // fontSize:"3vw"
-        }}
-          name="🤮"
-          // onClick={(event) => {
-          //   changeOpinion(food, event);
-          // }}
-          onChange = {()=>{
-            console.log("Not for you, Sorry")
-          }}
-          readOnly
-        >
-          🤮
-        </Button>
-        </Stack>
-          */}
-        {/* 
-        /////////
-        <button
-          name="🤷‍♀️"
-          // onClick={(event) => {
-          //   changeOpinion(food, event);
-          // }}
-          onChange = {()=>{
-            console.log("not for you")
-          }}
-          readOnly
-        >
-          Reset
-        </button>
-        /////////
-         */}
-      {/* </td>
-      
-        :
+    :
         <td
         className="p-2 align-middle border border-dark border-4 bg-warning-subtle"
       style={{
@@ -351,8 +228,8 @@ function FilmItem({
           className="p-1 pb-0 mx-1 mb-0 border border-dark border-2 rounded bg-light"
           >
           <input
-          name="foodTableBeckyTriedCheckbox"
-        className="foodTableCheckboxTried"
+          name="filmTableBeckyWatchedCheckbox"
+        className="filmTableCheckboxTried"
         style={{
           // width:"3vw",
           // height:"3vw",
@@ -360,19 +237,19 @@ function FilmItem({
         }}
           type="checkbox"
           onChange={() => {
-            triedIt(food);
+            watchedIt(film);
           }}
-          checked={foodTried}
+          checked={filmWatched}
           // readOnly
         />
         </p>
         <p
         // id="foodTableItemBecky1"
-        className="foodTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="filmTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"2.2vw",
         }}
-        >{foodOpinion}</p>
+        >{filmOpinion}</p>
         </Stack>
         
        <Stack 
@@ -383,75 +260,61 @@ function FilmItem({
             }}
             >
              <Button 
-             id="foodTableButton"
+             id="filmTableButton"
              variant="success"
               className="border border-2 border-dark rounded"
               style={{
                 // fontSize:"2vw"
               }}
-          name="😋"
+          name="😍"
           // onClick={(event) => {
           //   changeOpinion(food, event);
           // }}
           onClick={(event) => {
-            changeOpinion(food, event);
+            changeOpinion(film, event);
           }}
         
         >
-          😋          
+          😍          
         </Button> 
         <Button 
-        id="foodTableButton"
+        id="filmTableButton"
         variant="secondary"
         className="border border-dark border-2 rounded"
         style={{
           // fontSize:"2vw"
         }}
-          name="🤫"
+          name="😕"
           // onClick={(event) => {
           //   changeOpinion(food, event);
           // }}
           onClick={(event) => {
-            changeOpinion(food, event);
+            changeOpinion(film, event);
           }}
         >
-          🤫
+          😕
         </Button>
         <Button 
-        id="foodTableButton"
+        id="filmTableButton"
         variant = "danger"
         className="border border-dark border-2 rounded"
         style={{
           // fontSize:"2vw"
         }}
-          name="🤮"
+          name="🥱"
           // onClick={(event) => {
           //   changeOpinion(food, event);
           // }}
           onClick={(event) => {
-            changeOpinion(food, event);
+            changeOpinion(film, event);
           }}
         >
-          🤮
+          🥱
         </Button>
-            </Stack> */}
-        {/* comment this one out once done */}
-        {/* <button
-          name="🤷‍♀️"
-          onClick={(event) => {
-            changeOpinion(food, event);
-          }}
-        >
-          Reset
-        </button> */}
-      {/* </td> */}
-      {/* } */}
+            </Stack>
+        </td>
+    }
 
-
-
-      {/* <td>
-        <p>{foodTried}</p>
-      </td> */}
       <td
       className="p-2 align-middle border border-dark border-4 bg-info"
       style={{
@@ -459,7 +322,7 @@ function FilmItem({
       >
         <p
         // id="foodTableItem7"
-        className="foodTableRecommend p-1 bg-light border border-dark border-2 rounded"
+        className="filmTableRecommend p-1 bg-light border border-dark border-2 rounded"
         style={{
           // fontSize:"1.6vw"
         }}
@@ -475,7 +338,7 @@ function FilmItem({
       }}
       >
           <Button 
-          id="foodTableButton"
+          id="filmTableButton"
           variant="light"
           className="border border-dark border-2"
           style={{

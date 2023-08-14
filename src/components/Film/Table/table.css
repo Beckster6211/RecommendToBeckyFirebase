@@ -5,7 +5,7 @@
     }
   
     .filmTable{
-      background-color: #FFC107; /*bootstrap warning*/
+      /* background-color: #FFC107; bootstrap warning */
       table-layout: fixed;
       word-wrap: break-word;
     }
@@ -38,13 +38,13 @@
       background-color: aqua;
     }
 
-    .foodTableHeadFoot{
+    .filmTableHeadFoot{
       font-size: 1.5vw;
       font-weight: 500;
     }
     
     @media only screen and (max-width: 600px) {
-      .foodTableHeadFoot{
+      .filmTableHeadFoot{
         font-size: 2.5vw;
         font-weight: 500;
       }

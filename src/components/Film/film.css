@@ -1,6 +1,37 @@
 .filmPage{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDuRarc92vg76TWuLVjPXxIFbl2QGTU_HGghzYIzxsvCGhUlOSMM0AueZoqUcuBwgerv0&usqp=CAU");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("./d6ulawk-bc3663ed-9e3c-4ab5-9efb-7d2f9ffd9928.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: contain;
     min-height: 75vh
   }
+
+  #filmPage1{
+    font-size: 2vw;
+    font-weight: 900;
+    width:40%
+  }
+  
+  .filmPageAccordion{
+    font-size: 1.8vw;
+    font-size: 700;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    #filmPage1{
+      font-size: 4vw;
+      font-weight: 900;
+      width:65%
+    }
+  
+    .filmPageAccordion{
+      font-size: 3.5vw;
+      font-weight: 700;
+    }
+  
+  }
+  
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* @media only screen and (min-width: 600px) {
+  } */

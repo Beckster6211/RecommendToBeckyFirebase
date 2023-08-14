@@ -85,33 +85,6 @@ function Item({
             />
       </td>
 
-      {/* {
-        isBecky === false ?
-        <td>
-          <input
-          type="checkbox"
-          // onChange={() => {
-          //   triedIt(food);
-          // }}
-          onChange = {()=>{
-            console.log("not for you")
-          }}
-          checked={foodTried}
-          // disabled
-          readOnly
-        />
-        </td>
-        :<td>
-          <input
-          type="checkbox"
-          onChange={() => {
-            triedIt(food);
-          }}
-          checked={foodTried}
-          readOnly
-        />
-        </td>
-      } */}
       {/* remove the opinion button and only have those displayed to me*/}
       {
         becky === false ?

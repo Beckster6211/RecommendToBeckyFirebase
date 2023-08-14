@@ -8,7 +8,7 @@ import FilmItem from "../Item/item";
 import Table from 'react-bootstrap/Table';
 import Container from "react-bootstrap/Container";
 
-function FilmTable({film, filmWatchedIt, deleteFilm, handleOpinion}){
+function FilmTable({userBecky, film, filmWatchedIt, deleteFilm, handleOpinion}){
     // console.log({film})
 
     return(
@@ -31,7 +31,7 @@ function FilmTable({film, filmWatchedIt, deleteFilm, handleOpinion}){
       >
       <thead 
       // id="foodTable1"
-      className=" bg-dark-subtle border border-dark border-4 "
+      className="filmTableHeadFoot bg-dark-subtle border border-dark border-4 "
       style={{
         verticalAlign:"middle", 
         position: "sticky",
@@ -69,7 +69,7 @@ function FilmTable({film, filmWatchedIt, deleteFilm, handleOpinion}){
     with sticky table header not sure if footer needed */}
         <tfoot 
         // id="foodTable2"
-        className="foodTableHeadFoot bg-dark-subtle border border-dark border-4"
+        className="filmTableHeadFoot bg-dark-subtle border border-dark border-4"
         style={{
           verticalAlign:"middle", 
           // fontSize:"2vw", 
@@ -98,7 +98,7 @@ function FilmTable({film, filmWatchedIt, deleteFilm, handleOpinion}){
 
 
         <tbody 
-        className=""
+        className="filmTableBody"
         style={{
           fontSize:"1.7vw", 
           // verticalAlign:""
@@ -125,7 +125,7 @@ function FilmTable({film, filmWatchedIt, deleteFilm, handleOpinion}){
                 removeFilm={deleteFilm}
                 watchedIt={filmWatchedIt}
                 changeOpinion={handleOpinion}
-                // becky={userBecky}
+                becky={userBecky}
               />
             );
           })}

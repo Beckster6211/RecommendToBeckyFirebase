@@ -126,7 +126,7 @@ function Food({Becky}) {
           // fontWeight:"900"
         }}
         >
-            🥄🥣☕ &nbsp;&nbsp;FOOD PAGE&nbsp;&nbsp;🧂🥤🍽️
+            🍽️ &nbsp; ☕ &nbsp; FOOD PAGE &nbsp; 🧂 &nbsp; 🌶️
       </Container>
       {/* <br/> */}
       <Container 

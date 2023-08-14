@@ -1,0 +1,50 @@
+
+
+#filmFormButton{
+    font-size: 1.3vw;
+  }
+  
+  .filmFloatingLabel{
+    font-size: 1vw;
+  }
+  
+  .filmFormInput{
+    font-size: 1.5vw;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    /* #foodForm{
+      font-size: 2.5vw;
+    } */
+  
+    .filmFloatingLabel{
+      font-size: 2.5vw;
+    }
+  
+    .filmFormInput{
+      font-size: 3vw;
+    }
+  
+    /* #foodFloatingLabel1{
+      font-size: 2.5vw;
+    } */
+  
+    /* #foodFloatingLabel2{
+      font-size: 2.5vw;
+    } */
+  
+    /* #foodFloatingLabel3{
+      font-size: 2.5vw;
+    } */
+  
+    #foodFormButton{
+      font-size: 2.5vw;
+    }
+  }
+  
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* @media only screen and (min-width: 600px) {
+   
+  } */

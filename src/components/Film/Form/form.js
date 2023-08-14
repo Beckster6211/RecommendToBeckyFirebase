@@ -37,14 +37,14 @@ function FilmForm({film, handleChange, submitForm}){
             >
               <FloatingLabel 
               // id="foodFloatingLabel1"
-            //   className="foodFloatingLabel"
+              className="filmFloatingLabel"
               style={{
                 // fontSize:"1.2vw"
               }}
               controlId = "formFilm" 
               label= "Film...">
                 <Form.Control 
-                className="text-break border border-dark
+                className="filmFormInput text-break border border-dark
                border-3"
                style={{
                 // fontSize:"2vw"

@@ -59,7 +59,7 @@ function FoodForm({ food, handleChange, submitForm }) {
               controlId = "formFoodItem" 
               label= "Food...">
                 <Form.Control 
-                className="text-break border border-dark
+                className="foodFormInput text-break border border-dark
                border-3"
                style={{
                 // fontSize:"2vw"

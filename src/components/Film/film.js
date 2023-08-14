@@ -27,7 +27,7 @@ import {
 } from "firebase/firestore"
 
 
-function Film(){
+function Film({Becky}){
     const [film, setNewFilm] = useState([])
     const [form, setForm] = useState({})
     // console.log({film})
@@ -93,11 +93,6 @@ const deleteFilm = async(id)=>{
 }
 
 return(
-    <div 
-    className="filmPage"
-    >
-        <h3>Film</h3>
-
         <Container 
       fluid
       className="filmPage pt-3"
@@ -107,14 +102,14 @@ return(
       >
       {/* <br/> */}
       <Container 
-    //   id = "foodPage1"
+      id = "filmPage1"
         className=" bg-warning-subtle rounded text-center p-0" 
         style={{
           // fontSize:"3vw", 
           // fontWeight:"900"
         }}
         >
-            &nbsp;&nbsp;Film PAGE&nbsp;&nbsp;
+           🎞️ &nbsp; 🥤 &nbsp; Film PAGE &nbsp; 🍿 &nbsp; 📽️
       </Container>
       {/* <br/> */}
       <Container 
@@ -132,7 +127,7 @@ return(
       
       {/* <br/> */}
       <Accordion 
-    //   id="foodAccordion"
+      id="filmAccordion"
       defaultActiveKey={["0"]} 
       alwaysOpen
       className="p-2 border border-dark border-3 rounded bg-light"
@@ -181,7 +176,7 @@ return(
             <Container 
             // id="foodPage3"
             fluid 
-            className="text-center"
+            className="filmPageAccordion text-center"
             style={{
               // fontSize:"2.5vw", 
               // fontWeight:"700"
@@ -196,7 +191,7 @@ return(
             {/* <div>
                 Film Table */}
               <FilmTable
-            //   userBecky={Becky}
+              userBecky={Becky}
               film={film}
               filmWatchedIt={haveWatched}
               deleteFilm={deleteFilm}
@@ -209,7 +204,6 @@ return(
       </Accordion>
       <br/>
       </Container>
-    </div>
 )
 }
 

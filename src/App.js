@@ -56,7 +56,7 @@ onAuthStateChanged(auth, (user)=>{
       <Route
       path="/film"
       element = {
-        <Film/>
+        <Film Becky={isBecky}/>
       }
       />
 

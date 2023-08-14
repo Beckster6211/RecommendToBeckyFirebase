@@ -1,0 +1,68 @@
+.filmTableItemFilm{
+    font-size: 1.2vw;
+}
+
+/* #foodTableItem2{
+    font-size: 1.2vw;
+    height: 7vw;
+} */
+
+#filmTableFilmTextarea{
+    font-size: 1.2vw;
+    height: 7vw;
+}
+
+.filmTableWatchedCheckbox{
+    height: 1.5vw;
+    width: 1.5vw;
+}
+
+#filmTableButton{
+    font-size: 1.5vw;
+}
+
+.filmTableOpinion{
+    font-size: 1.5vw;
+}
+
+.filmTableRecommend{
+    font-size: 1.2vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* #foodTableItem1{
+        font-size: 2.3vw;
+    } */
+
+    .filmTableItemFilm{
+        font-size: 2.3vw;
+    }
+
+    #filmTableFilmTextarea{
+        font-size: 2.3vw;
+        height: 14vw;
+    }
+
+    .filmTableOpinion{
+        font-size: 3vw;
+    }
+
+    #filmTableButton{
+        font-size: 3vw;
+    }
+
+    .filmTableRecommend{
+        font-size: 2.3vw;
+    }
+  
+    /* #foodTableItem8{
+        font-size: 3vw;
+    } */
+   
+    .filmTableWatchedCheckbox{
+        height: 4vw;
+        width: 4vw;
+    }
+
+  }
