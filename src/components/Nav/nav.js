@@ -35,25 +35,26 @@ function Navigation(){
                         // fontSize:"2.5vw"
                     }}
                     >
-                        😋 Enjoy 
+                        😋Enjoy 
                         {/* 😋 */}
                         </Nav.Link>
                 </Nav.Item>
                 <Nav.Item
-                className="border-end border-dark border-2"
+                className="border-end border-dark border-2 bg-info"
                 >
                     <Nav.Link
+                    href="/film"
                     className="text-dark p-0"
                     style={{
                         // fontSize:"2.5vw"
                     }}
                     >
-                        🎬 Watch 
+                        🎬Watch 
                         {/* 🎬 */}
                         </Nav.Link>
                 </Nav.Item>
                 <Nav.Item
-                className="border-end border-dark border-2"
+                className="border-end border-dark border-2 bg-danger"
                 >
                     <Nav.Link
                     className="text-dark p-0"
@@ -61,12 +62,12 @@ function Navigation(){
                         // fontSize:"2.5vw"
                     }}
                     >
-                        📺 Binge 
+                        📺Binge 
                         {/* 📺 */}
                         </Nav.Link>
                 </Nav.Item>
                 <Nav.Item
-                className="border-end border-dark border-2"
+                className="border-end border-dark border-2 bg-success"
                 >
                     <Nav.Link
                     className="text-dark p-0"
@@ -74,12 +75,12 @@ function Navigation(){
                         // fontSize:"2.5vw"
                     }}
                     >
-                        📚 Read 
+                        📚Read 
                         {/* 📚 */}
                         </Nav.Link>
                 </Nav.Item>
                 <Nav.Item
-                className="border-end border-dark border-2"
+                className="border-end border-dark border-2 bg-primary"
                 >
                     <Nav.Link
                     className="text-dark p-0"
@@ -87,12 +88,12 @@ function Navigation(){
                         // fontSize:"2.5vw"
                     }}
                     >
-                       🗺️ Visit 
+                       🗺️Visit 
                        {/* 🗺️ */}
                        </Nav.Link>
                 </Nav.Item>
                 <Nav.Item
-                className=""
+                className="bg-secondary"
                 >
                     <Nav.Link
                     className="text-dark p-0"
@@ -100,7 +101,7 @@ function Navigation(){
                         // fontSize:"2.5vw"
                     }}
                     >
-                        💡 Try 
+                        💡Try 
                         {/* 💡 */}
                         </Nav.Link>
                 </Nav.Item>

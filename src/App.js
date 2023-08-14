@@ -8,11 +8,14 @@ import {Route, Routes, Link} from "react-router-dom"
 
 //
 import Login from "./components/Login/loginButton";
-import Food from "./components/Food/food";
+//
 import Home from "./components/Home/home";
 import Header from "./components/Header/header";
 import Navigation from "./components/Nav/nav";
 import Footer from "./components/Footer/footer";
+//
+import Food from "./components/Food/food";
+import Film from "./components/Film/film"
 
 // 
 function App() {
@@ -50,6 +53,13 @@ onAuthStateChanged(auth, (user)=>{
       element ={
         <Food Becky = {isBecky}/>
                 } />
+      <Route
+      path="/film"
+      element = {
+        <Film Becky={isBecky}/>
+      }
+      />
+
       <Route 
       path = "/login" 
       element = {

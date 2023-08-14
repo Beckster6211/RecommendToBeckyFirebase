@@ -1,21 +1,21 @@
 import React, { useState, useEffect } from "react";
 import "./food.css";
 
-//
+//components
 import FoodTable from "./Table/table";
 import FoodForm from "./Form/form";
 import FoodLike from "./FoodHelper/like";
 import FoodDislike from "./FoodHelper/dislike";
 import FoodHelper from "./FoodHelper/helper";
 
-//
+// bootstrap
 import Accordion from 'react-bootstrap/Accordion';
 import Container from "react-bootstrap/Container"
 
-//
+//firebase
 import { db } from "../../firebase";
 
-//
+//firebase
 import {
   query,
   collection,
@@ -31,7 +31,7 @@ function Food({Becky}) {
   const [food, setNewFood] = useState([]);
   const [form, setForm] = useState({});
   // const [updatePage, setUpdatePage] = useState(false);
-  console.log({ food });
+  // console.log({ food });
 
   function handleChange(event) {
     // let inputName = event.target.name;
@@ -126,7 +126,7 @@ function Food({Becky}) {
           // fontWeight:"900"
         }}
         >
-            🥄🥣☕ &nbsp;&nbsp;FOOD PAGE&nbsp;&nbsp;🧂🥤🍽️
+            🍽️ &nbsp; ☕ &nbsp; FOOD PAGE &nbsp; 🧂 &nbsp; 🌶️
       </Container>
       {/* <br/> */}
       <Container 

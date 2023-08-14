@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef} from "react";
 
 import "./form.css";
 
@@ -22,6 +22,9 @@ import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Button from "react-bootstrap/button"
 
 function FoodForm({ food, handleChange, submitForm }) {
+
+  const myFood = useRef(null)
+
   return (
     <Container 
     fluid 
@@ -59,11 +62,12 @@ function FoodForm({ food, handleChange, submitForm }) {
               controlId = "formFoodItem" 
               label= "Food...">
                 <Form.Control 
-                className="text-break border border-dark
+                className="foodFormInput text-break border border-dark
                border-3"
                style={{
                 // fontSize:"2vw"
               }} 
+              ref={myFood}
                 type="text"
                 placeholder = "Food..." 
                 name="formFoodItem"
@@ -95,6 +99,7 @@ function FoodForm({ food, handleChange, submitForm }) {
                   height:"110px",
                   // fontSize:"1.4vw"
                 }} 
+                ref={myFood}
                 placeholder = "Recipe/Where..."
                 name="formFoodRecipe"
                 // id="formFoodRecipe"
@@ -122,6 +127,7 @@ function FoodForm({ food, handleChange, submitForm }) {
                 style={{
                   // fontSize:"1.4vw"
                 }} 
+                ref={myFood}
                 type="text" 
                 placeholder="Recommended By..."
                 name="formFoodRecommend"
@@ -134,7 +140,28 @@ function FoodForm({ food, handleChange, submitForm }) {
               </FloatingLabel>
             </Form.Group>
 
-            <Button 
+                {
+                  myFood.current?.value === "" ?
+
+                  <Button 
+                  id="foodFormButton"
+                  variant = "info"
+                  className="border border-dark border-3 text-dark"  
+                  // type = "submit"
+                  style={{
+                    // fontSize:"1.6vw", 
+                    width:"auto"
+                  }}
+                  // maybe do a toast/tooltip/alert for message
+                  onClick={()=>{
+                    console.log("Put something in the inputs please")
+                }}
+                  >
+                    😄 Enjoy 😄
+                    </Button>
+
+  :
+          <Button 
             id="foodFormButton"
             variant = "info"
             className="border border-dark border-3 text-dark"  
@@ -146,6 +173,8 @@ function FoodForm({ food, handleChange, submitForm }) {
             >
               😄 Enjoy 😄
               </Button>
+                }
+
 
           </Form>
           </Card.Body>
