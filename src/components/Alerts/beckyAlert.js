@@ -5,6 +5,7 @@ import React, {useState} from "react"
 import "./alert.css"
 
 import Modal from "react-bootstrap/Modal"
+import CloseButton from 'react-bootstrap/CloseButton';
 
 function BeckyAlert(){
    
@@ -32,6 +33,15 @@ function BeckyAlert(){
                 }}
                 
                 >
+
+<CloseButton
+                  className="modalCloseButton position-absolute top-0 end-0 m-2"
+                  onClick={()=>{
+                    setOpen(false)
+                  }}
+                  
+                  />
+
                   <p
                   // id="modalBecky2"
                   className="modalMain"

@@ -5,6 +5,7 @@ import React, {useState} from "react"
 import "./alert.css"
 
 import Modal from "react-bootstrap/Modal"
+import CloseButton from 'react-bootstrap/CloseButton';
 
 function NotBeckyAlert(){
 
@@ -22,12 +23,23 @@ function NotBeckyAlert(){
                  onHide = {()=> setOpen(false)}
                  centered
                  animation
+                 
                  >
+                  
+
                  <Modal.Body 
+                 
                  className="text-center rounded bg-success border border-dark border-3"
                  style={{
                  }}
                  >
+                  <CloseButton
+                  className="modalCloseButton position-absolute top-0 end-0 m-2"
+                  onClick={()=>{
+                    setOpen(false)
+                  }}
+                  
+                  />
                   <p 
                   // id="modalNotBecky2"
                   className="modalMain">

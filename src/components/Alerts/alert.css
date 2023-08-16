@@ -8,6 +8,10 @@
     font-size: 2vw;
 }
 
+.modalCloseButton{
+    font-size: 1vw
+}
+
 @media only screen and (max-width: 600px) {
     /* #modalNotBecky1{
         font-size: 4.5vw;
@@ -19,5 +23,9 @@
     
     .modalComment{
         font-size: 4vw;
+    }
+
+    .modalCloseButton{
+        font-size: 4vw
     }
 }
