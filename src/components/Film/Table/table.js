@@ -43,11 +43,11 @@ function FilmTable({userBecky, film, filmWatchedIt, deleteFilm, handleOpinion}){
             className="tableHeader bg-dark-subtle border-dark border-end border-4"
             // style={{fontWeight:"500"}}
             >Film</th>
-            <th 
+            {/* <th 
             className="tableHeader bg-dark-subtle border-dark border-end border-4"
             // style={{fontWeight:"500"}}
             >Information
-            </th>
+            </th> */}
             <th 
             className="tableHeader bg-dark-subtle border-dark border-end border-4"
             // style={{fontWeight:"500"}}
@@ -79,11 +79,11 @@ function FilmTable({userBecky, film, filmWatchedIt, deleteFilm, handleOpinion}){
             <th
             className="bg-dark-subtle border-dark border-end border-4"
             >Film</th>
-            <th 
+            {/* <th 
             className="tableHeader bg-dark-subtle border-dark border-end border-4"
             // style={{fontWeight:"500"}}
             >Information
-            </th>
+            </th> */}
             <th
             className="bg-dark-subtle border-dark border-end border-4"
             >Becky Opinion</th>

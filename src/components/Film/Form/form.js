@@ -102,7 +102,7 @@ function FilmForm({film, handleChange, submitForm}){
               </FloatingLabel>
             </Form.Group>
 
-            <Form.Group 
+            {/* <Form.Group 
             className="py-2" 
             controlId="formFilmProvider">
 
@@ -132,7 +132,7 @@ function FilmForm({film, handleChange, submitForm}){
 
                 </Form.Control>
               </FloatingLabel>
-            </Form.Group>
+            </Form.Group> */}
 
             <Form.Group 
             className="pt-2">
@@ -167,7 +167,7 @@ function FilmForm({film, handleChange, submitForm}){
               </FloatingLabel>
             </Form.Group>
 
-            <Form.Group 
+            {/* <Form.Group 
             className="py-2" 
             controlId="formFilmGenre">
 
@@ -197,7 +197,7 @@ function FilmForm({film, handleChange, submitForm}){
 
                 </Form.Control>
               </FloatingLabel>
-            </Form.Group>
+            </Form.Group> */}
 
             <Form.Group 
             className="py-2" 

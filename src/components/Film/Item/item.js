@@ -59,21 +59,7 @@ function FilmItem({
               // height:"14vw"          
             }}
             />
-      </td>
-      <td
-      className="p-2 align-middle border border-dark border-4 bg-info"
-      >
-        <Stack
-        // direction="horizontal"
-        gap={1}
-        className="p-1"
-        >
-        <p
-        className="filmTableItemFilm bg-light border border-dark border-2 rounded p-1 m-0"
-        >
-            {filmProvider}
-        </p>
-        <Form.Control 
+            <Form.Control 
             id="filmTableFilmTextarea"
             className="border border-dark border-2 p-1"
             as="textarea"
@@ -84,8 +70,33 @@ function FilmItem({
               // height:"14vw"          
             }}
             />
-{/* <br/> */}
-        <Form.Control 
+      </td>
+      {/* <td
+      className="p-2 align-middle border border-dark border-4 bg-info"
+      >
+        <Stack
+        // direction="horizontal"
+        gap={1}
+        className="p-1"
+        > */}
+        {/* <p
+        className="filmTableItemFilm bg-light border border-dark border-2 rounded p-1 m-0"
+        >
+            {filmProvider}
+        </p> */}
+        {/* <Form.Control 
+            id="filmTableFilmTextarea"
+            className="border border-dark border-2 p-1"
+            as="textarea"
+            defaultValue={filmConnected} 
+            readOnly 
+            style={{
+              // fontSize:"1.5vw",
+              // height:"14vw"          
+            }}
+            /> */}
+
+        {/* <Form.Control 
             id="filmTableFilmGenre"
             className="filmTableFilmGenre border border-dark border-2 p-1"
             as="textarea"
@@ -95,15 +106,11 @@ function FilmItem({
               // fontSize:"1.5vw",
             //   height:"8vw"          
             }}
-            />
+            /> */}
 
-        {/* <p
-        className="filmTableItemFilm bg-light border border-dark border-2 rounded p-1"
-        >
-            {filmGenre}
-            </p> */}
-        </Stack>
-      </td>
+            
+        {/* </Stack>
+      </td> */}
 
 {
     becky === false ? 
@@ -321,7 +328,21 @@ function FilmItem({
       style={{
       }}
       >
-        <p
+
+<Form.Control 
+            id="filmTableFilmRecommend"
+            className="filmTableFilmRecommend border border-dark border-2 p-1"
+            as="textarea"
+            defaultValue={filmRecommend} 
+            readOnly 
+            style={{
+              // fontSize:"1.5vw",
+            //   height:"8vw"          
+            }}
+            />
+
+
+        {/* <p
         // id="foodTableItem7"
         className="filmTableRecommend p-1 bg-light border border-dark border-2 rounded"
         style={{
@@ -329,7 +350,7 @@ function FilmItem({
         }}
         >
           {filmRecommend}
-        </p>
+        </p> */}
       </td>
 
 

@@ -1,30 +1,73 @@
-    .footerImage1{
-        width: 4vw;
-    }
 
-    #footerTitle{
-        font-size: 2vw;
-    }
-
-    .footerImage2{
-        width: 3vw;
-    }
-    
-@media only screen and (max-width: 600px) {
-    .footerImage1{
-        width: 7.5vw;
+@media only screen and (max-width: 480px) {
+    .footerPortfolio{
+        width: 9vw;
     }
 
     #footerTitle{
         font-size: 4.5vw;
     }
 
-    .footerImage2{
-        width: 6.5vw;
+    .footerLogin{
+        width: 8vw;
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 481px) {
 
-} */
+    .footerPortfolio{
+        width: 8vw;
+    }
+
+    #footerTitle{
+        font-size: 4.5vw;
+    }
+
+    .footerLogin{
+        width: 6.5vw;
+    }
+
+
+}
+
+@media only screen and (min-width: 769px) {
+    .footerPortfolio{
+        width: 4.5vw;
+    }
+
+    #footerTitle{
+        font-size: 3.5vw;
+    }
+
+    .footerLogin{
+        width: 5vw;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .footerPortfolio{
+        width: 4vw;
+    }
+
+    #footerTitle{
+        font-size: 3vw;
+    }
+
+    .footerLogin{
+        width: 3.5vw;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .footerPortfolio{
+        width: 3.5vw;
+    }
+
+    #footerTitle{
+        font-size: 2.3vw;
+    }
+
+    .footerLogin{
+        width: 3vw;
+    }
+}

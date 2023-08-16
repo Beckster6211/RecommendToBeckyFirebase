@@ -36,7 +36,7 @@ function Footer(){
                         >
                             <Image
                             // id="footerImage1"
-                            className="footerImage1"
+                            className="footerLogin"
                             style={{
                                 // width:"5vw"
                             }}
@@ -73,7 +73,7 @@ function Footer(){
                             
                             <Image 
                             id="footerImage2"
-                            className="footerImage2"
+                            className="footerPortfolio"
                             style={{
                                 // width:"5vw"
                             }}

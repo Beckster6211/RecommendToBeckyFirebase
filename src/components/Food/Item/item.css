@@ -66,3 +66,149 @@
     }
 
   }
+
+  @media only screen and (max-width: 480px) {
+
+    .foodTableItemFood{
+        font-size: 2.3vw;
+    }
+
+    #foodTableFoodTextarea{
+        font-size: 2.3vw;
+        height: 14vw;
+    }
+
+    .foodTableOpinion{
+        font-size: 3vw;
+    }
+
+    #foodTableButton{
+        font-size: 3vw;
+    }
+
+    .foodTableRecommend{
+        font-size: 2.3vw;
+    }
+  
+    #foodTableItem8{
+        font-size: 3vw;
+    }
+   
+    .foodTableCheckboxTried{
+        height: 4vw;
+        width: 4vw;
+    }
+  }
+  
+  @media only screen and (min-width: 481px) {
+
+    .foodTableItemFood{
+        font-size: 2vw;
+    }
+
+    #foodTableFoodTextarea{
+        font-size: 2vw;
+        height: 11vw;
+    }
+
+    .foodTableOpinion{
+        font-size: 2.5vw;
+    }
+
+    #foodTableButton{
+        font-size: 2.5vw;
+    }
+
+    .foodTableRecommend{
+        font-size: 2vw;
+    }
+  
+    #foodTableItem8{
+        font-size: 2.5vw;
+    }
+   
+    .foodTableCheckboxTried{
+        height: 3.5vw;
+        width: 3.5vw;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) {
+
+    .foodTableItemFood{
+        font-size: 1.5vw;
+    }
+
+    #foodTableFoodTextarea{
+        font-size: 1.5vw;
+        height: 11vw;
+    }
+
+    .foodTableOpinion{
+        font-size: 1.9vw;
+    }
+
+    #foodTableButton{
+        font-size: 1.7vw;
+    }
+
+    .foodTableRecommend{
+        font-size: 1.5vw;
+    }
+  
+    #foodTableItem8{
+        font-size: 1.5vw;
+    }
+   
+    .foodTableCheckboxTried{
+        height: 3vw;
+        width: 3vw;
+    }
+  }
+  
+  @media only screen and (min-width: 1025px) {
+
+    .foodTableItemFood{
+        font-size: 1.5vw;
+    }
+
+    #foodTableFoodTextarea{
+        font-size: 1.5vw;
+        height: 11vw;
+    }
+
+    .foodTableOpinion{
+        font-size: 1.9vw;
+    }
+
+    #foodTableButton{
+        font-size: 1.7vw;
+    }
+
+    /* .foodTableRecommend{
+        font-size: 1.5vw;
+    } */
+  
+    #foodTableItem8{
+        font-size: 1.5vw;
+    }
+   
+    .foodTableCheckboxTried{
+        height: 3vw;
+        width: 3vw;
+    }
+  }
+  
+  @media only screen and (min-width: 1201px) {
+
+    .foodTableItemFood{
+        font-size: 1.2vw;
+    }
+
+    #foodTableFoodTextarea{
+        font-size: 1.2vw;
+        height: 11vw;
+    }
+
+  }
+  

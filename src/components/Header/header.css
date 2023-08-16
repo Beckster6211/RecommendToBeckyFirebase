@@ -1,18 +1,22 @@
 
-.headerImagePortfolio{
-        width: 4vw;
-    }
-
-#headerTitle{
-        font-size: 2vw;
-    }
-
-.headerImageLogin{
-        width: 3vw;
-    }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
     .headerImagePortfolio{
-        width: 7.5vw;
+        width: 9vw;
+    }
+
+    #headerTitle{
+        font-size: 4.5vw;
+    }
+
+    .headerImageLogin{
+        width: 8vw;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+
+    .headerImagePortfolio{
+        width: 8vw;
     }
 
     #headerTitle{
@@ -22,9 +26,48 @@
     .headerImageLogin{
         width: 6.5vw;
     }
+
+
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 769px) {
+    .headerImagePortfolio{
+        width: 4.5vw;
+    }
 
-} */
+    #headerTitle{
+        font-size: 3.5vw;
+    }
+
+    .headerImageLogin{
+        width: 5vw;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .headerImagePortfolio{
+        width: 4vw;
+    }
+
+    #headerTitle{
+        font-size: 3vw;
+    }
+
+    .headerImageLogin{
+        width: 3.5vw;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .headerImagePortfolio{
+        width: 3.5vw;
+    }
+
+    #headerTitle{
+        font-size: 2.3vw;
+    }
+
+    .headerImageLogin{
+        width: 3vw;
+    }
+}

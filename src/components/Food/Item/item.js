@@ -328,7 +328,7 @@ function Item({
       style={{
       }}
       >
-        <p
+        {/* <p
         // id="foodTableItem7"
         className="foodTableRecommend p-1 bg-light border border-dark border-2 rounded"
         style={{
@@ -336,7 +336,19 @@ function Item({
         }}
         >
           {foodRecommend}
-        </p>
+        </p> */}
+                    <Form.Control 
+            id="foodTableFoodTextarea"
+            name="foodTableFoodTextarea"
+            className="border border-dark border-2 p-1"
+            as="textarea"
+            defaultValue={foodRecommend} 
+            readOnly 
+            style={{
+              // fontSize:"1.5vw",
+              // height:"14vw"          
+            }}
+            />
       </td>
 
 

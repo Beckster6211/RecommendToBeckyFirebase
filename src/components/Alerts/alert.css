@@ -1,21 +1,5 @@
 
-
-.modalMain{
-    font-size: 2.5vw;
-}
-
-.modalComment{
-    font-size: 2vw;
-}
-
-.modalCloseButton{
-    font-size: 1vw
-}
-
-@media only screen and (max-width: 600px) {
-    /* #modalNotBecky1{
-        font-size: 4.5vw;
-    } */
+@media only screen and (max-width: 480px) {
 
     .modalMain{
         font-size: 5vw;
@@ -27,5 +11,51 @@
 
     .modalCloseButton{
         font-size: 4vw
+    }
+}
+
+@media only screen and (min-width: 481px) {
+
+    .modalMain{
+        font-size: 4vw;
+    }
+    
+    .modalComment{
+        font-size: 3vw;
+    }
+
+    .modalCloseButton{
+        font-size: 2.5vw
+    }
+
+
+}
+
+@media only screen and (min-width: 769px) {
+    .modalMain{
+        font-size: 4vw;
+    }
+    
+    .modalComment{
+        font-size: 3vw;
+    }
+
+    .modalCloseButton{
+        font-size: 2.5vw
+    }
+}
+
+
+@media only screen and (min-width: 1025px) {
+    .modalMain{
+        font-size: 2.7vw;
+    }
+    
+    .modalComment{
+        font-size: 2vw;
+    }
+
+    .modalCloseButton{
+        font-size: 1.7vw
     }
 }

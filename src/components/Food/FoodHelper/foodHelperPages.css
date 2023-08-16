@@ -1,18 +1,5 @@
-
-#foodLikeButton{
-    font-size: 1.5vw;
-}
-
-#foodDislikeButton{
-    font-size: 1.5vw;
-}
-
-#foodHelperButton{
-    font-size: 1.5vw;
-}
-
-
-@media only screen and (max-width: 600px) {
+  
+@media only screen and (max-width: 480px) {
     #foodLikeButton{
         font-size: 2.5vw;
     }
@@ -28,21 +15,74 @@
     /* #foodLikeOffcanvas{} */
     /* #foodHelperOffcanvas{} */
     /* #foodDislikeOffcanvas{} */
-  }
-  
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  /* @media only screen and (min-width: 600px) { */
-    /* #foodLikeButton{
-        font-size: 1.5vw;
+}
+
+@media only screen and (min-width: 481px) {
+    #foodLikeButton{
+        font-size: 2.6vw;
     }
 
     #foodDislikeButton{
-        font-size: 1.5vw;
+        font-size: 2.6vw;
     }
 
     #foodHelperButton{
-        font-size: 1.5vw;
+        font-size: 2.6vw;
+    }
+
+    /* #foodLikeOffcanvas{} */
+    /* #foodHelperOffcanvas{} */
+    /* #foodDislikeOffcanvas{} */
+}
+
+@media only screen and (min-width: 769px) {
+    #foodLikeButton{
+        font-size: 1.6vw;
+    }
+
+    #foodDislikeButton{
+        font-size: 1.6vw;
+    }
+
+    #foodHelperButton{
+        font-size: 1.6vw;
+    }
+
+    /* #foodLikeOffcanvas{} */
+    /* #foodHelperOffcanvas{} */
+    /* #foodDislikeOffcanvas{} */
+}
+
+@media only screen and (min-width: 1025px) {
+    #foodLikeButton{
+        font-size: 1.2vw;
+    }
+
+    #foodDislikeButton{
+        font-size: 1.2vw;
+    }
+
+    #foodHelperButton{
+        font-size: 1.2vw;
+    }
+
+    /* #foodLikeOffcanvas{} */
+    /* #foodHelperOffcanvas{} */
+    /* #foodDislikeOffcanvas{} */
+}
+
+/*////////////////////*/
+/* @media only screen and (min-width: 1201px) {
+    #foodLikeButton{
+        font-size: 1vw;
+    }
+
+    #foodDislikeButton{
+        font-size: 1vw;
+    }
+
+    #foodHelperButton{
+        font-size: 1vw;
     } */
 
     /* #foodLikeOffcanvas{} */
