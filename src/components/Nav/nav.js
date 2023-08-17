@@ -57,6 +57,7 @@ function Navigation(){
                 className="border-end border-dark border-2 bg-danger"
                 >
                     <Nav.Link
+                    href="/tele"
                     className="text-dark p-0"
                     style={{
                         // fontSize:"2.5vw"

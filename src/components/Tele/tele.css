@@ -1,0 +1,6 @@
+.telePage{
+    background-image: url("./istockphoto-1215833412-612x612.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    min-height: 75vh
+  }

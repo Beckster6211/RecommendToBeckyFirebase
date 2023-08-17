@@ -16,7 +16,7 @@ import Footer from "./components/Footer/footer";
 //
 import Food from "./components/Food/food";
 import Film from "./components/Film/film"
-
+import Tele from "./components/Tele/tele"
 // 
 function App() {
 const [isBecky, setIsBecky] = useState(false)
@@ -57,6 +57,12 @@ onAuthStateChanged(auth, (user)=>{
       path="/film"
       element = {
         <Film Becky={isBecky}/>
+      }
+      />
+      <Route
+      path="/tele"
+      element = {
+        <Tele Becky={isBecky}/>
       }
       />
 
