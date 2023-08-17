@@ -32,14 +32,14 @@ function FilmItem({
     }}
     >
       <td 
-      className="p-2 align-middle border border-dark border-4 bg-info-subtle"
+      className="p-2 align-middle border border-dark border-4 bg-info"
       style={{
         
       }}
       >
-            <p 
+          <p 
             // id="foodTableItem1"
-            className="filmTableItemFilm bg-light border border-dark border-2 rounded p-1"
+            className="filmTableItemFilm bg-light border border-dark border-2 rounded p-1 mb-2"
             style={{
               // fontSize:"1.6vw",
 
@@ -48,9 +48,9 @@ function FilmItem({
               {filmItem}
             </p>
             <Form.Control 
-            id="filmTableFilmTextarea"
+            id="filmTablefilmTextarea"
             name="filmTableFilmTextarea"
-            className="border border-dark border-2 p-1"
+            className="border border-dark border-2 p-1 mb-2"
             as="textarea"
             defaultValue={filmPlot} 
             readOnly 
@@ -60,7 +60,7 @@ function FilmItem({
             }}
             />
             <Form.Control 
-            id="filmTableFilmTextarea"
+            id="filmTablefilmTextarea"
             className="border border-dark border-2 p-1"
             as="textarea"
             defaultValue={filmConnected} 
@@ -70,6 +70,7 @@ function FilmItem({
               // height:"14vw"          
             }}
             />
+          
       </td>
       {/* <td
       className="p-2 align-middle border border-dark border-4 bg-info"
@@ -116,14 +117,14 @@ function FilmItem({
     becky === false ? 
 
       <td
-        className="td1 p-2 border border-dark border-4 bg-info-subtle"
+        className="p-2 border border-dark border-4 bg-info-subtle"
       style={{
       }}
         >          
         <Stack 
         direction="horizontal"
         gap={1}
-        className="td3 justify-content-evenly"
+        className="justify-content-evenly"
         >
           <p
           className="
@@ -153,14 +154,12 @@ function FilmItem({
         className="filmTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"3vw",
-          
-          
         }}
         >{filmOpinion}</p>
         </Stack>
             <Stack 
             gap={1} 
-            className="td2 p-1 text-center"
+            className="p-1 text-center"
             style={{
               // border:"solid black 3px"
             }}
@@ -360,7 +359,7 @@ function FilmItem({
       }}
       >
           <Button 
-          id="filmTableTrashButton"
+          id="filmTableButton"
           variant="light"
           className="border border-dark border-2"
           style={{

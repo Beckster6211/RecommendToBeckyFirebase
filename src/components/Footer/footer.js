@@ -40,8 +40,7 @@ function Footer(){
                             style={{
                                 // width:"5vw"
                             }}
-                            src="https://cdn-icons-png.flaticon.com/512/6681/6681204.png"
-                            roundedCircle
+                            src="./5087579.png"                        roundedCircle
                             />
                             
                                 
@@ -77,7 +76,7 @@ function Footer(){
                             style={{
                                 // width:"5vw"
                             }}
-                            src="https://images.pexels.com/photos/14936128/pexels-photo-14936128.jpeg?cs=srgb&dl=pexels-ann-h-14936128.jpg&fm=jpg" 
+                            src="./pexels-ann-h-14936128.jpg" 
                             roundedCircle
                             />
                             {/* Login */}

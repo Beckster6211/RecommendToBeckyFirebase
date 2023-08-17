@@ -4,20 +4,8 @@
     background-size: contain;
     min-height: 75vh
   }
-
-  #filmPage1{
-    font-size: 2vw;
-    font-weight: 900;
-    width:40%
-  }
   
-  .filmPageAccordion{
-    font-size: 1.8vw;
-    font-size: 700;
-  }
-  
-  
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 480px) {
     #filmPage1{
       font-size: 4vw;
       font-weight: 900;
@@ -28,10 +16,58 @@
       font-size: 3.5vw;
       font-weight: 700;
     }
-  
   }
+
+  @media only screen and (min-width: 481px) {
+
+    #filmPage1{
+      font-size: 4vw;
+      font-weight: 900;
+      width:65%
+    }
   
+    .filmPageAccordion{
+      font-size: 3vw;
+      font-weight: 700;
+    }
+  }
+
   
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  /* @media only screen and (min-width: 600px) {
-  } */
+@media only screen and (min-width: 769px) {
+  #filmPage1{
+    font-size: 3vw;
+    font-weight: 900;
+    width:65%
+  }
+
+  .filmPageAccordion{
+    font-size: 2vw;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  #filmPage1{
+    font-size: 2.5vw;
+    font-weight: 900;
+    width:50%
+  }
+
+  .filmPageAccordion{
+    font-size: 1.5vw;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  #filmPage1{
+    font-size: 2vw;
+    font-weight: 900;
+    width:40%
+  }
+
+  .filmPageAccordion{
+    font-size: 1.5vw;
+    font-weight: 700;
+  }
+}

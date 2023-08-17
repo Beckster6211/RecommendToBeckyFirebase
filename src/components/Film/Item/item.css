@@ -1,69 +1,12 @@
-.filmTableItemFilm{
-    font-size: 1.2vw;
-}
-
-/* #foodTableItem2{
-    font-size: 1.2vw;
-    height: 7vw;
-} */
-
-#filmTableFilmTextarea{
-    font-size: 1.2vw;
-    height: 7vw;
-}
-
-#filmTableFilmGenre{
-    font-size: 1.2vw;
-    height: 4vw;
-}
-
-.filmTableWatchedCheckbox{
-    height: 1.5vw;
-    width: 1.5vw;
-}
-
-#filmTableButton{
-    font-size: 1.5vw;
-}
-
-.filmTableOpinion{
-    font-size: 1.5vw;
-}
-
-.filmTableRecommend{
-    font-size: 1.2vw;
-}
-
-.td1{
-        vertical-align: top;
-        
-    }
-
-/* .td2{
-    padding-top: 4;
-} */
-
-#filmTableTrashButton{
-    font-size: 1.5vw;
-}
-
-@media only screen and (max-width: 600px) {
-    /* #foodTableItem1{
-        font-size: 2.3vw;
-    } */
+@media only screen and (max-width: 480px) {
 
     .filmTableItemFilm{
         font-size: 2.3vw;
     }
 
-    #filmTableFilmTextarea{
+    #filmTablefilmTextarea{
         font-size: 2.3vw;
         height: 14vw;
-    }
-
-    #filmTableFilmGenre{
-        font-size: 2.3vw;
-        height: 9vw;
     }
 
     .filmTableOpinion{
@@ -71,37 +14,135 @@
     }
 
     #filmTableButton{
-        font-size: 4vw;
-        /* padding: 0px; */
+        font-size: 3vw;
     }
 
     #filmTableFilmRecommend{
-        font-size: 2.3vw;
-        height: 20vw;
-    }
-
-    #filmTableTrashButton{
-        font-size: 3vw;
+        font-size: 2.5vw;
+        height:15vw
     }
   
-    /* #foodTableItem8{
+    /* #filmTableItem8{
         font-size: 3vw;
-    } */
-   
+    }
+    */
     .filmTableWatchedCheckbox{
         height: 4vw;
         width: 4vw;
     }
+  }
 
-    .td1{
-        vertical-align: middle;
-        /* padding-top: 1; */
-    } 
-    
+  @media only screen and (min-width: 481px) {
 
-    .td3{
-        flex-wrap: wrap;
+    .filmTableItemFilm{
+        font-size: 2vw;
+    }
 
+    #filmTablefilmTextarea{
+        font-size: 1.8vw;
+        height: 10vw;
+    }
+
+    .filmTableOpinion{
+        font-size: 2.5vw;
+    }
+
+    #filmTableButton{
+        font-size: 2.5vw;
+    }
+
+    #filmTableFilmRecommend{
+        font-size: 2vw;
+        height:12vw
+    }
+  
+    /* #filmTableItem8{
+        font-size: 2.5vw;
+    } */
+   
+    .filmTableWatchedCheckbox{
+        height: 3.5vw;
+        width: 3.5vw;
+    }
+  }
+
+  @media only screen and (min-width: 769px) {
+
+    .filmTableItemFilm{
+        font-size: 1.5vw;
+    }
+
+    #filmTablefilmTextarea{
+        font-size: 1.5vw;
+        height: 8vw;
+    }
+
+    .filmTableOpinion{
+        font-size: 1.9vw;
+    }
+
+    #filmTableButton{
+        font-size: 1.7vw;
+    }
+
+    #filmTableFilmRecommend{
+        font-size: 1.5vw;
+        height: 10vw
+    }
+  
+    /* #filmTableItem8{
+        font-size: 2.5vw;
+    } */
+   
+    .filmTableWatchedCheckbox{
+        height: 3vw;
+        width: 3vw;
+    }
+  }
+
+  @media only screen and (min-width: 1025px) {
+
+    .filmTableItemFilm{
+        font-size: 1.5vw;
+    }
+
+    #filmTablefilmTextarea{
+        font-size: 1.5vw;
+        height: 8vw;
+    }
+
+    .filmTableOpinion{
+        font-size: 1.9vw;
+    }
+
+    #filmTableButton{
+        font-size: 1.7vw;
+    }
+
+    #filmTableFilmRecommend{
+        font-size: 1.5vw;
+        height:10vw
+    }
+  
+    /* #filmTableItem8{
+        font-size: 2.5vw;
+    } */
+   
+    .filmTableWatchedCheckbox{
+        height: 3vw;
+        width: 3vw;
+    }
+  }
+
+  @media only screen and (min-width: 1201px) {
+
+    .filmTableItemFilm{
+        font-size: 1.2vw;
+    }
+
+    #filmTablefilmTextarea{
+        font-size: 1.2vw;
+        height: 10vw;
     }
 
   }

@@ -43,7 +43,8 @@ function Header(){
                             style={{
                                 // width:"8vw"
                             }}
-                            src="https://images.pexels.com/photos/14936128/pexels-photo-14936128.jpeg?cs=srgb&dl=pexels-ann-h-14936128.jpg&fm=jpg" 
+                            src="./pexels-ann-h-14936128.jpg" 
+                            // height={"auto"}
                             roundedCircle
                             />
                                 
@@ -79,7 +80,8 @@ function Header(){
                             style={{
                                 // width:"7vw"
                             }}
-                            src="https://cdn-icons-png.flaticon.com/512/6681/6681204.png"
+                            src="./5087579.png"
+                            // height={"auto"}
                             roundedCircle
                             />
 

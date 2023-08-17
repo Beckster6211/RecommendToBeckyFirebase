@@ -1,71 +1,3 @@
-.foodTableItemFood{
-    font-size: 1.2vw;
-}
-
-#foodTableItem2{
-    font-size: 1.2vw;
-    height: 7vw;
-}
-
-#foodTableFoodTextarea{
-    font-size: 1.2vw;
-    height: 7vw;
-}
-
-.foodTableCheckboxTried{
-    height: 1.5vw;
-    width: 1.5vw;
-}
-
-#foodTableButton{
-    font-size: 1.5vw;
-}
-
-.foodTableOpinion{
-    font-size: 1.5vw;
-}
-
-.foodTableRecommend{
-    font-size: 1.2vw;
-}
-
-
-@media only screen and (max-width: 600px) {
-    /* #foodTableItem1{
-        font-size: 2.3vw;
-    } */
-
-    .foodTableItemFood{
-        font-size: 2.3vw;
-    }
-
-    #foodTableFoodTextarea{
-        font-size: 2.3vw;
-        height: 14vw;
-    }
-
-    .foodTableOpinion{
-        font-size: 3vw;
-    }
-
-    #foodTableButton{
-        font-size: 3vw;
-    }
-
-    .foodTableRecommend{
-        font-size: 2.3vw;
-    }
-  
-    #foodTableItem8{
-        font-size: 3vw;
-    }
-   
-    .foodTableCheckboxTried{
-        height: 4vw;
-        width: 4vw;
-    }
-
-  }
 
   @media only screen and (max-width: 480px) {
 
@@ -90,9 +22,9 @@
         font-size: 2.3vw;
     }
   
-    #foodTableItem8{
+    /* #foodTableItem8{
         font-size: 3vw;
-    }
+    } */
    
     .foodTableCheckboxTried{
         height: 4vw;
@@ -123,9 +55,9 @@
         font-size: 2vw;
     }
   
-    #foodTableItem8{
+    /* #foodTableItem8{
         font-size: 2.5vw;
-    }
+    } */
    
     .foodTableCheckboxTried{
         height: 3.5vw;
@@ -156,9 +88,9 @@
         font-size: 1.5vw;
     }
   
-    #foodTableItem8{
+    /* #foodTableItem8{
         font-size: 1.5vw;
-    }
+    } */
    
     .foodTableCheckboxTried{
         height: 3vw;

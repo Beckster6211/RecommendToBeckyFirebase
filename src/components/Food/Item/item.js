@@ -61,6 +61,7 @@ function Item({
         
       }}
       >
+
             <p 
             // id="foodTableItem1"
             className="foodTableItemFood bg-light border border-dark border-2 rounded p-1"
@@ -340,7 +341,7 @@ function Item({
                     <Form.Control 
             id="foodTableFoodTextarea"
             name="foodTableFoodTextarea"
-            className="border border-dark border-2 p-1"
+            className="text-center border border-dark border-2 p-1"
             as="textarea"
             defaultValue={foodRecommend} 
             readOnly 

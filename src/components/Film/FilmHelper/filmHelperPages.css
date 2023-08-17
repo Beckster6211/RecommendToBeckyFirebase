@@ -1,18 +1,5 @@
-
-#filmLikeButton{
-    font-size: 1.5vw;
-}
-
-#filmDislikeButton{
-    font-size: 1.5vw;
-}
-
-#filmHelperButton{
-    font-size: 1.5vw;
-}
-
-
-@media only screen and (max-width: 600px) {
+    
+@media only screen and (max-width: 480px) {
     #filmLikeButton{
         font-size: 2.5vw;
     }
@@ -25,27 +12,80 @@
         font-size: 2.5vw;
     }
 
-    /* #foodLikeOffcanvas{} */
-    /* #foodHelperOffcanvas{} */
-    /* #foodDislikeOffcanvas{} */
-  }
-  
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  /* @media only screen and (min-width: 600px) { */
-    /* #foodLikeButton{
-        font-size: 1.5vw;
+    /* #filmLikeOffcanvas{} */
+    /* #filmHelperOffcanvas{} */
+    /* #filmDislikeOffcanvas{} */
+}
+
+@media only screen and (min-width: 481px) {
+    #filmLikeButton{
+        font-size: 2.6vw;
     }
 
-    #foodDislikeButton{
-        font-size: 1.5vw;
+    #filmDislikeButton{
+        font-size: 2.6vw;
     }
 
-    #foodHelperButton{
-        font-size: 1.5vw;
+    #filmHelperButton{
+        font-size: 2.6vw;
+    }
+
+    /* #filmLikeOffcanvas{} */
+    /* #filmHelperOffcanvas{} */
+    /* #filmDislikeOffcanvas{} */
+}
+
+@media only screen and (min-width: 769px) {
+    #filmLikeButton{
+        font-size: 1.6vw;
+    }
+
+    #filmDislikeButton{
+        font-size: 1.6vw;
+    }
+
+    #filmHelperButton{
+        font-size: 1.6vw;
+    }
+
+    /* #filmLikeOffcanvas{} */
+    /* #filmHelperOffcanvas{} */
+    /* #filmDislikeOffcanvas{} */
+}
+
+@media only screen and (min-width: 1025px) {
+    #filmLikeButton{
+        font-size: 1.2vw;
+    }
+
+    #filmDislikeButton{
+        font-size: 1.2vw;
+    }
+
+    #filmHelperButton{
+        font-size: 1.2vw;
+    }
+
+    /* #filmLikeOffcanvas{} */
+    /* #filmHelperOffcanvas{} */
+    /* #filmDislikeOffcanvas{} */
+}
+
+/*////////////////////*/
+/* @media only screen and (min-width: 1201px) {
+    #filmLikeButton{
+        font-size: 1vw;
+    }
+
+    #filmDislikeButton{
+        font-size: 1vw;
+    }
+
+    #filmHelperButton{
+        font-size: 1vw;
     } */
 
-    /* #foodLikeOffcanvas{} */
-    /* #foodHelperOffcanvas{} */
-    /* #foodDislikeOffcanvas{} */
+    /* #filmLikeOffcanvas{} */
+    /* #filmHelperOffcanvas{} */
+    /* #filmDislikeOffcanvas{} */
   /* } */
