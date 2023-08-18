@@ -1,4 +1,5 @@
 import React, {useRef} from "react"
+import "./form.css"
 
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card"
