@@ -39,23 +39,24 @@ function handleChange(event){
 
 
 // create
-// async function handleSubmit(event){
-//     console.log({form})
-//     console.log("submit button pressed");
-// event.preventDefault()
-// await addDoc(collection(db, "Tele"),
-// {
-//     beckyopinion: "🤷‍♀️",
-//     film: form.formFilm,
-//     description: form.formFilmDescription,
-//     // provider: form.formFilmProvider,
-//     connected: form.formFilmConnected,
-//     // genre: form.formFilmGenre,
-//     recommendedby: form.formFilmRecommend,
-//     watched: false,
-// });
-// window.location.reload()
-// }
+async function handleSubmit(event){
+    console.log({form})
+    console.log("submit button pressed");
+event.preventDefault()
+await addDoc(collection(db, "Tele"),
+{
+    beckyopinion: "🤷‍♀️",
+    tvshow: form.formTele,
+    description: form.formTeleDescription,
+    numberofseries: form.formTeleSeries,
+    // provider: form.formTeleProvider,
+    connected: form.formTeleConnected,
+    // genre: form.formFilmGenre,
+    recommendedby: form.formTeleRecommend,
+    binged: false,
+});
+window.location.reload()
+}
 
 // read
 useEffect(()=>{
@@ -73,9 +74,9 @@ useEffect(()=>{
 
 //update
 //tried
-const haveWatched = async (tele)=>{
+const haveBinged = async (tele)=>{
     await updateDoc(doc(db, "Tele", tele.id), {
-        watched: !tele.watched
+        binged: !tele.binged
     })
 }
 
@@ -109,7 +110,7 @@ return(
           // fontWeight:"900"
         }}
         >
-           🎞️ &nbsp; 🥤 &nbsp; Tele PAGE &nbsp; 🍿 &nbsp; 📽️
+           📺 &nbsp; 📀 &nbsp; Tele PAGE &nbsp; 📼 &nbsp; 💻
       </Container>
       {/* <br/> */}
       <Container 
@@ -155,11 +156,11 @@ return(
           className="px-2 py-3">
             {/* <div> */}
                 {/* film form */}
-              {/* <TeleForm
+              <TeleForm
               tele={tele}
               handleChange={handleChange}
             submitForm={handleSubmit}
-            /> */}
+            />
             {/* </div> */}
           </Accordion.Body>
         </Accordion.Item>
@@ -193,9 +194,9 @@ return(
               <TeleTable
               userBecky={Becky}
               tele={tele}
-            //   filmWatchedIt={haveWatched}
-            //   deleteFilm={deleteFilm}
-            //   handleOpinion={changeOpinion}
+              teleBingedIt={haveBinged}
+              deleteTele={deleteTele}
+              handleOpinion={changeOpinion}
               
             />
             {/* </div> */}

@@ -8,7 +8,7 @@ import TeleItem from "../Item/item";
 import Table from 'react-bootstrap/Table';
 import Container from "react-bootstrap/Container";
 
-function TeleTable({userBecky, tele, filmWatchedIt, deleteFilm, handleOpinion}){
+function TeleTable({userBecky, tele, teleBingedIt, deleteTele, handleOpinion}){
     // console.log({film})
 
     return(
@@ -122,10 +122,10 @@ function TeleTable({userBecky, tele, filmWatchedIt, deleteFilm, handleOpinion}){
                 teleSeries = {item.numberofseries}
                 index={index}
                 key={item.id}
-                // filmId = {item.id}
-                // removeFilm={deleteFilm}
-                // watchedIt={filmWatchedIt}
-                // changeOpinion={handleOpinion}
+                teleId = {item.id}
+                removeTele={deleteTele}
+                bingedIt={teleBingedIt}
+                changeOpinion={handleOpinion}
                 becky={userBecky}
               />
             );

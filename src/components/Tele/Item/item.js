@@ -16,7 +16,11 @@ function TeleItem({
     teleConnected,
     teleGenre,
     teleProvider,
-    teleSeries
+    teleSeries,
+    teleId,
+    changeOpinion,
+    bingedIt,
+    removeTele
     
 }){
 
@@ -200,9 +204,9 @@ function TeleItem({
           
         }}
           type="checkbox"
-        //   onChange={() => {
-        //     watchedIt(film);
-        //   }}
+          onChange={() => {
+            bingedIt(tele);
+          }}
           checked={teleBinged}
           // readOnly
         />
@@ -234,9 +238,9 @@ function TeleItem({
           // onClick={(event) => {
           //   changeOpinion(food, event);
           // }}
-        //   onClick={(event) => {
-        //     changeOpinion(film, event);
-        //   }}
+          onClick={(event) => {
+            changeOpinion(tele, event);
+          }}
         
         >
           🤩          
@@ -252,9 +256,9 @@ function TeleItem({
           // onClick={(event) => {
           //   changeOpinion(food, event);
           // }}
-        //   onClick={(event) => {
-        //     changeOpinion(film, event);
-        //   }}
+          onClick={(event) => {
+            changeOpinion(tele, event);
+          }}
         >
           😕
         </Button>
@@ -269,9 +273,9 @@ function TeleItem({
           // onClick={(event) => {
           //   changeOpinion(food, event);
           // }}
-        //   onClick={(event) => {
-        //     changeOpinion(film, event);
-        //   }}
+          onClick={(event) => {
+            changeOpinion(tele, event);
+          }}
         >
           😩
         </Button>
@@ -322,7 +326,7 @@ function TeleItem({
           }}
           onClick={() => {
             // console.log("delete button clicked");
-            // removeFilm(filmId);
+            removeTele(teleId);
           }}
         >
           🗑️
