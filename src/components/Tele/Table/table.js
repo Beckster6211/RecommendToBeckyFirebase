@@ -106,26 +106,27 @@ function TeleTable({userBecky, tele, filmWatchedIt, deleteFilm, handleOpinion}){
         >
           {tele.map((item, index) => {
             // console.log({item});
-            // console.log(item.film);
+            // console.log(item.numberofseries);
             // console.log(index);
             return (
               <TeleItem
                 tele={item}
                 teleItem={item.tvshow}
-                // filmPlot={item.description}
-                // filmWatched = {item.watched}
-                // filmOpinion = {item.beckyopinion}
-                // filmRecommend = {item.recommendedby}
-                // filmGenre = {item.genre}
-                // filmConnected = {item.connected}
-                // filmProvider = {item.provider}
-                // index={index}
+                telePlot={item.description}
+                teleBinged={item.binged}
+                teleOpinion = {item.beckyopinion}
+                teleRecommend = {item.recommendedby}
+                teleConnected = {item.connected}
+                teleGenre = {item.genre}
+                teleProvider = {item.provider}
+                teleSeries = {item.numberofseries}
+                index={index}
                 key={item.id}
                 // filmId = {item.id}
                 // removeFilm={deleteFilm}
                 // watchedIt={filmWatchedIt}
                 // changeOpinion={handleOpinion}
-                // becky={userBecky}
+                becky={userBecky}
               />
             );
           })}
