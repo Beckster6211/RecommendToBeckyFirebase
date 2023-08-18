@@ -1,0 +1,148 @@
+@media only screen and (max-width: 480px) {
+
+    .teleTableItemTele{
+        font-size: 2.3vw;
+    }
+
+    #teleTableteleTextarea{
+        font-size: 2.3vw;
+        height: 14vw;
+    }
+
+    .teleTableOpinion{
+        font-size: 3vw;
+    }
+
+    #teleTableButton{
+        font-size: 3vw;
+    }
+
+    #teleTableTeleRecommend{
+        font-size: 2.5vw;
+        height:15vw
+    }
+  
+    /* #filmTableItem8{
+        font-size: 3vw;
+    }
+    */
+    .teleTableBingedCheckbox{
+        height: 4vw;
+        width: 4vw;
+    }
+  }
+
+  @media only screen and (min-width: 481px) {
+
+    .teleTableItemTele{
+        font-size: 2vw;
+    }
+
+    #teleTableteleTextarea{
+        font-size: 1.8vw;
+        height: 10vw;
+    }
+
+    .teleTableOpinion{
+        font-size: 2.5vw;
+    }
+
+    #teleTableButton{
+        font-size: 2.5vw;
+    }
+
+    #teleTableTeleRecommend{
+        font-size: 2vw;
+        height:12vw
+    }
+  
+    /* #filmTableItem8{
+        font-size: 2.5vw;
+    } */
+   
+    .teleTableBingedCheckbox{
+        height: 3.5vw;
+        width: 3.5vw;
+    }
+  }
+
+  @media only screen and (min-width: 769px) {
+
+    .teleTableItemTele{
+        font-size: 1.5vw;
+    }
+
+    #teleTableteleTextarea{
+        font-size: 1.5vw;
+        height: 8vw;
+    }
+
+    .teleTableOpinion{
+        font-size: 1.9vw;
+    }
+
+    #teleTableButton{
+        font-size: 1.7vw;
+    }
+
+    #teleTableTeleRecommend{
+        font-size: 1.5vw;
+        height: 10vw
+    }
+  
+    /* #filmTableItem8{
+        font-size: 2.5vw;
+    } */
+   
+    .teleTableBingedCheckbox{
+        height: 3vw;
+        width: 3vw;
+    }
+  }
+
+  @media only screen and (min-width: 1025px) {
+
+    .teleTableItemTele{
+        font-size: 1.5vw;
+    }
+
+    #teleTableteleTextarea{
+        font-size: 1.5vw;
+        height: 8vw;
+    }
+
+    .teleTableOpinion{
+        font-size: 1.9vw;
+    }
+
+    #teleTableButton{
+        font-size: 1.7vw;
+    }
+
+    #teleTableTeleRecommend{
+        font-size: 1.5vw;
+        height:10vw
+    }
+  
+    /* #filmTableItem8{
+        font-size: 2.5vw;
+    } */
+   
+    .teleTableBingedCheckbox{
+        height: 3vw;
+        width: 3vw;
+    }
+  }
+
+  @media only screen and (min-width: 1201px) {
+
+    .teleTableItemTele{
+        font-size: 1.2vw;
+    }
+
+    #teleTableteleTextarea{
+        font-size: 1.2vw;
+        height: 10vw;
+    }
+
+  }

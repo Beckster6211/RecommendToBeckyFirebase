@@ -1,0 +1,77 @@
+
+@media only screen and (max-width: 480px) {
+
+    .teleFloatingLabel{
+      font-size: 2.5vw;
+    }
+  
+    .teleFormInput{
+      font-size: 3vw;
+    }
+  
+    #teleFormButton{
+      font-size: 2.7vw;
+    }
+  }
+  
+  @media only screen and (min-width: 481px) {
+  
+    .teleFloatingLabel{
+      font-size: 2.7vw;
+    }
+  
+    .teleFormInput{
+      font-size: 3.5vw;
+    }
+  
+    #teleFormButton{
+      font-size: 2.7vw;
+    }
+  
+  }
+  
+  
+  @media only screen and (min-width: 769px) {
+    .teleFloatingLabel{
+      font-size: 2vw;
+    }
+  
+    .teleFormInput{
+      font-size: 3.7vw;
+    }
+  
+    #teleFormButton{
+      font-size: 2.2vw;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    .teleFloatingLabel{
+      font-size: 1.5vw;
+    }
+  
+    .teleFormInput{
+      font-size: 3.7vw;
+    }
+  
+    #teleFormButton{
+      font-size: 1.5vw;
+    }
+  }
+  
+  @media only screen and (min-width: 1201px) {
+    .teleFloatingLabel{
+      font-size: 1.2vw;
+    }
+  
+    .teleFormInput{
+      font-size: 3.7vw;
+    }
+  
+    #teleFormButton{
+      font-size: 1.2vw;
+    }
+  }
+  
+  

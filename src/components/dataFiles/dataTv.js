@@ -28,7 +28,7 @@ let tele = [
     {
       tvshow: "Bridgerton",
       provider: "Netflix",
-      connected: "The Bridgerton book collection (8), maybe series 2",
+      connected: "The Bridgerton book collection (8), maybe series 2. Queen Charlotte: A Bridgerton Story (Bridgerton Prequel spin-off)",
       genre: "Period drama, Regency romance",
       numberofseries: 1,
       description:

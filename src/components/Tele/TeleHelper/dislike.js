@@ -1,18 +1,18 @@
 import React, {useState} from "react"
 
-import "./filmHelperPages.css"
+import "./teleHelperPages.css"
 
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
-function FilmDislike(){
+function TeleDislike(){
 
     const [rightShow, setRightShow] = useState(false);
 
     return(
         <div>
           <Button 
-            id="filmDislikeButton"
+            id="teleDislikeButton"
             className=""
             style={{
               // fontSize:"1.5vw"
@@ -24,7 +24,7 @@ function FilmDislike(){
           </Button>
 
           <Offcanvas 
-          id="filmDislikeOffcanvas"
+          id="teleDislikeOffcanvas"
           className="bg-danger-subtle w-75"
           style={{
 
@@ -38,7 +38,7 @@ function FilmDislike(){
             closeButton
             >
               <Offcanvas.Title>
-              🥱 I Dislike... 🥱
+              😩 I Dislike... 😩
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
@@ -58,4 +58,4 @@ function FilmDislike(){
     )
 }
 
-export default FilmDislike
+export default TeleDislike

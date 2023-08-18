@@ -7,9 +7,9 @@ import Form from "react-bootstrap/Form"
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Button from "react-bootstrap/button"
 
-function FilmForm({film, handleChange, submitForm}){
-    const myFilm = useRef(null)
-    // console.log(myFilm.current?.value)
+function TeleForm({tele, handleChange, submitForm}){
+    const myTele = useRef(null)
+    // console.log(myTele.current?.value)
 
     return(
         <Container 
@@ -37,26 +37,26 @@ function FilmForm({film, handleChange, submitForm}){
 
             <Form.Group 
               className = ""  
-              controlId="formFilm"
+              controlId="formTele"
             >
               <FloatingLabel 
               // id="foodFloatingLabel1"
-              className="filmFloatingLabel"
+              className="teleFloatingLabel"
               style={{
                 // fontSize:"1.2vw"
               }}
-              controlId = "formFilm" 
-              label= "Film...">
+              controlId = "formTele" 
+              label= "Tv Show...">
                 <Form.Control 
-                className="filmFormInput text-break border border-dark
+                className="teleFormInput text-break border border-dark
                border-3"
                style={{
                 // fontSize:"2vw"
               }} 
-              ref={myFilm}
+              ref={myTele}
                 type="text"
-                placeholder = "Film..." 
-                name="formFilm"
+                placeholder = "Tv Show..." 
+                name="formTele"
                 // id="formFoodItem"
                 // type="text"
                 // placeholder="Food..."
@@ -65,35 +65,35 @@ function FilmForm({film, handleChange, submitForm}){
                 }}
                 >
 
+
+
                 </Form.Control>
               </FloatingLabel>
             </Form.Group>
+
+
 
             <Form.Group 
             className="pt-2">
 
               <FloatingLabel 
               // id="foodFloatingLabel2"
-              className="filmFloatingLabel"
+              className="teleFloatingLabel"
               style={{
                 // fontSize:"1.2vw"
               }}
-              controlId = "formFilmDescription" 
+              controlId = "formTeleDescription" 
               label= "Plot/Description...">
                 <Form.Control 
-                className="filmFormInput border border-dark border-3" 
+                className="teleFormInput border border-dark border-3" 
                 
                 as = "textarea" 
                 style = {{
                   height:"90px",
                   // fontSize:"1.4vw"
                 }} 
-                ref={myFilm}
-                placeholder = "Plot/Description"
-                name="formFilmDescription"
-                // id="formFoodRecipe"
-                // type="text"
-                // placeholder="Where/Recipe..."
+                ref={myTele}               placeholder = "Plot/Description"
+                name="formTeleDescription"
                 onChange={(event) => {
                   handleChange(event);
                 }}
@@ -103,27 +103,64 @@ function FilmForm({film, handleChange, submitForm}){
               </FloatingLabel>
             </Form.Group>
 
-            {/* <Form.Group 
-            className="py-2" 
-            controlId="formFilmProvider">
-
-              <FloatingLabel 
-              // id="foodFloatingLabel3"
-              className="filmFloatingLabel"
+                <Form.Group 
+                className="pt-2"
+                >
+                    <FloatingLabel
+                    // id="foodFloatingLabel2"
+              className="teleFloatingLabel"
               style={{
                 // fontSize:"1.2vw"
               }}
-              controlId = "formFilmProvider" 
+              controlId = "formTeleSeries" 
+              label= "Number Of Series..."
+                    >
+                        <Form.Control
+                         className="teleFormInput border border-dark border-3" 
+                
+                         as = "input" 
+                         type="number"
+                         style = {{
+                        //    height:"90px",
+                           // fontSize:"1.4vw"
+                         }} 
+                         ref={myTele}               placeholder = "Number of Series..."
+                         name="formTeleSeries"
+                        //  defaultValue="1"
+                        
+                         onChange={(event) => {
+                           handleChange(event);
+                         }}
+                        >
+                        </Form.Control>
+                       
+                    </FloatingLabel>
+                    
+                </Form.Group>
+                
+               
+
+            {/* <Form.Group 
+            className="py-2" 
+            controlId="formTeleProvider">
+
+              <FloatingLabel 
+              // id="foodFloatingLabel3"
+              className="teleFloatingLabel"
+              style={{
+                // fontSize:"1.2vw"
+              }}
+              controlId = "formTeleProvider" 
               label="Provider..." >
                 <Form.Control 
-                className="filmFormInput border border-dark border-3"
+                className="teleFormInput border border-dark border-3"
                 style={{
                   // fontSize:"1.4vw"
                 }} 
-                ref={myFilm}
+                ref={myTele}
                 type="text" 
                 placeholder="Provider..."
-                name="formFilmProvider"
+                name="formTeleProvider"
                 // id="formFoodRecommend"
                 // type="text"
                 onChange={(event) => {
@@ -140,23 +177,23 @@ function FilmForm({film, handleChange, submitForm}){
 
               <FloatingLabel 
               // id="foodFloatingLabel2"
-              className="filmFloatingLabel"
+              className="teleFloatingLabel"
               style={{
                 // fontSize:"1.2vw"
               }}
-              controlId = "formFilmConnected" 
+              controlId = "formTeleConnected" 
               label= "Connected With...">
                 <Form.Control 
-                className="filmFormInput border border-dark border-3" 
+                className="teleFormInput border border-dark border-3" 
                 
                 as = "textarea" 
                 style = {{
                   height:"90px",
                   // fontSize:"1.4vw"
                 }} 
-                ref={myFilm}
+                ref={myTele}
                 placeholder = "Connected With..."
-                name="formFilmConnected"
+                name="formTeleConnected"
                 // id="formFoodRecipe"
                 // type="text"
                 onChange={(event) => {
@@ -170,25 +207,25 @@ function FilmForm({film, handleChange, submitForm}){
 
             {/* <Form.Group 
             className="py-2" 
-            controlId="formFilmGenre">
+            controlId="formTeleGenre">
 
               <FloatingLabel 
               // id="foodFloatingLabel3"
-              className="filmFloatingLabel"
+              className="teleFloatingLabel"
               style={{
                 // fontSize:"1.2vw"
               }}
-              controlId = "formFilmGenre" 
+              controlId = "formTeleGenre" 
               label="Genre..." >
                 <Form.Control 
-                className="filmFormInput border border-dark border-3"
+                className="teleFormInput border border-dark border-3"
                 style={{
                   // fontSize:"1.4vw"
                 }} 
-                ref={myFilm}
+                ref={myTele}
                 type="text" 
                 placeholder="Genre..."
-                name="formFilmGenre"
+                name="formTeleGenre"
                 // id="formFoodRecommend"
                 // type="text"
                 onChange={(event) => {
@@ -202,25 +239,25 @@ function FilmForm({film, handleChange, submitForm}){
 
             <Form.Group 
             className="py-2" 
-            controlId="formFilmRecommend">
+            controlId="formTeleRecommend">
 
               <FloatingLabel 
               // id="foodFloatingLabel3"
-              className="filmFloatingLabel"
+              className="teleFloatingLabel"
               style={{
                 // fontSize:"1.2vw"
               }}
-              controlId = "formFilmRecommend" 
+              controlId = "formTeleRecommend" 
               label="Recommended By..." >
                 <Form.Control 
-                className="filmFormInput border border-dark border-3"
+                className="teleFormInput border border-dark border-3"
                 style={{
                   // fontSize:"1.4vw"
                 }} 
-                ref={myFilm}
+                ref={myTele}
                 type="text" 
                 placeholder="Recommended By..."
-                name="formFilmRecommend"
+                name="formTeleRecommend"
                 // id="formFoodRecommend"
                 // type="text"
                 // placeholder="Recommmended By..."
@@ -234,9 +271,9 @@ function FilmForm({film, handleChange, submitForm}){
             </Form.Group>
 
                 {
-                    myFilm.current?.value === "" ?
+                    myTele.current?.value === "" ?
                     <Button 
-            id="filmFormButton"
+            id="teleFormButton"
             variant = "info"
             className="border border-dark border-3 text-dark"  
             // type = "submit"
@@ -254,7 +291,7 @@ function FilmForm({film, handleChange, submitForm}){
             : 
 
             <Button 
-            id="filmFormButton"
+            id="teleFormButton"
             variant = "info"
             className="border border-dark border-3 text-dark"  
             type = "submit"
@@ -289,4 +326,4 @@ function FilmForm({film, handleChange, submitForm}){
     )
 }
 
-export default FilmForm
+export default TeleForm
