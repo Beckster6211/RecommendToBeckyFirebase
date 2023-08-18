@@ -14,7 +14,7 @@ function TeleTable({userBecky, tele, teleBingedIt, deleteTele, handleOpinion}){
     return(
         <Container 
     fluid 
-    className="filmTableComponent p-0"
+    className="teleTableComponent p-0"
     style={{
       // height:"55vw"
     }}
@@ -24,14 +24,14 @@ function TeleTable({userBecky, tele, teleBingedIt, deleteTele, handleOpinion}){
       striped
       bordered 
       hover 
-      className="filmTable border border-dark border-4 table-fixed"
+      className="teleTable border border-dark border-4 table-fixed"
       style={{
         
       }}
       >
       <thead 
       // id="foodTable1"
-      className="filmTableHeadFoot bg-dark-subtle border border-dark border-4 "
+      className="teleTableHeadFoot bg-dark-subtle border border-dark border-4 "
       style={{
         verticalAlign:"middle", 
         position: "sticky",
@@ -69,7 +69,7 @@ function TeleTable({userBecky, tele, teleBingedIt, deleteTele, handleOpinion}){
     with sticky table header not sure if footer needed */}
         <tfoot 
         // id="foodTable2"
-        className="filmTableHeadFoot bg-dark-subtle border border-dark border-4"
+        className="teleTableHeadFoot bg-dark-subtle border border-dark border-4"
         style={{
           verticalAlign:"middle", 
           // fontSize:"2vw", 
@@ -98,7 +98,7 @@ function TeleTable({userBecky, tele, teleBingedIt, deleteTele, handleOpinion}){
 
 
         <tbody 
-        className="filmTableBody"
+        className="teleTableBody"
         style={{
           fontSize:"1.7vw", 
           // verticalAlign:""

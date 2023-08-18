@@ -38,7 +38,7 @@ function TeleItem({
             >
                 <p 
             // id="foodTableItem1"
-            className="filmTableItemFilm bg-light border border-dark border-2 rounded p-1 mb-2"
+            className="teleTableItemTele bg-light border border-dark border-2 rounded p-1 mb-2"
             style={{
               // fontSize:"1.6vw",
 
@@ -49,8 +49,8 @@ function TeleItem({
               ({teleSeries})
             </p>
             <Form.Control 
-            id="filmTablefilmTextarea"
-            name="filmTableFilmTextarea"
+            id="teleTableteleTextarea"
+            name="teleTableTeleTextarea"
             className="border border-dark border-2 p-1 mb-2"
             as="textarea"
             defaultValue={telePlot} 
@@ -61,7 +61,7 @@ function TeleItem({
             }}
             />
             <Form.Control 
-            id="filmTablefilmTextarea"
+            id="teleTableteleTextarea"
             className="border border-dark border-2 p-1"
             as="textarea"
             defaultValue={teleConnected} 
@@ -94,8 +94,8 @@ function TeleItem({
           >
           <input
           // id="foodTableItem9"
-          name="filmTableWatchedCheckbox"
-            className="filmTableWatchedCheckbox"
+          name="teleTableBingedCheckbox"
+            className="teleTableBingedCheckbox"
             style={{
               // width:"4vw",
               // height:"4vw",
@@ -112,7 +112,7 @@ function TeleItem({
 
           <p
           // id="foodTableItem3"
-        className="filmTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="teleTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"3vw",
         }}
@@ -126,7 +126,7 @@ function TeleItem({
             }}
             >
               <Button 
-              id="filmTableButton"
+              id="teleTableButton"
               variant="success"
               className="border border-2 border-dark rounded "
               style={{
@@ -144,7 +144,7 @@ function TeleItem({
           🤩        
         </Button>
         <Button 
-        id="filmTableButton"
+        id="teleTableButton"
         variant="secondary"
         className="border border-dark border-2 rounded"
         style={{
@@ -162,7 +162,7 @@ function TeleItem({
           🤔
         </Button>
         <Button 
-        id="filmTableButton"
+        id="teleTableButton"
         variant = "danger"
         className="border border-dark border-2 rounded"
         style={{
@@ -196,8 +196,8 @@ function TeleItem({
           className="p-1 pb-0 mx-1 mb-0 border border-dark border-2 rounded bg-light"
           >
           <input
-          name="filmTableBeckyWatchedCheckbox"
-        className="filmTableCheckboxWatched"
+          name="teleTableBingedCheckbox"
+        className="teleTableBingedCheckbox"
         style={{
           // width:"3vw",
           // height:"3vw",
@@ -213,7 +213,7 @@ function TeleItem({
         </p>
         <p
         // id="foodTableItemBecky1"
-        className="filmTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="teleTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"2.2vw",
         }}
@@ -228,7 +228,7 @@ function TeleItem({
             }}
             >
              <Button 
-             id="filmTableButton"
+             id="teleTableButton"
              variant="success"
               className="border border-2 border-dark rounded"
               style={{
@@ -246,7 +246,7 @@ function TeleItem({
           🤩          
         </Button> 
         <Button 
-        id="filmTableButton"
+        id="teleTableButton"
         variant="secondary"
         className="border border-dark border-2 rounded"
         style={{
@@ -263,7 +263,7 @@ function TeleItem({
           😕
         </Button>
         <Button 
-        id="filmTableButton"
+        id="teleTableButton"
         variant = "danger"
         className="border border-dark border-2 rounded"
         style={{
@@ -290,8 +290,8 @@ function TeleItem({
       >
 
 <Form.Control 
-            id="filmTableFilmRecommend"
-            className="filmTableFilmRecommend border border-dark border-2 p-1"
+            id="teleTableTeleRecommend"
+            className="teleTableTeleRecommend border border-dark border-2 p-1"
             as="textarea"
             defaultValue={teleRecommend} 
             readOnly 
@@ -318,7 +318,7 @@ function TeleItem({
       }}
       >
           <Button 
-          id="filmTableButton"
+          id="teleTableButton"
           variant="light"
           className="border border-dark border-2"
           style={{

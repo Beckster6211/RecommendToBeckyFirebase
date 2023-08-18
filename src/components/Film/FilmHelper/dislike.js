@@ -5,7 +5,7 @@ import "./filmHelperPages.css"
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
-function FoodDislike(){
+function FilmDislike(){
 
     const [rightShow, setRightShow] = useState(false);
 
@@ -58,4 +58,4 @@ function FoodDislike(){
     )
 }
 
-export default FoodDislike
+export default FilmDislike

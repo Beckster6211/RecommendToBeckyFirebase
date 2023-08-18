@@ -119,9 +119,9 @@ return(
       >
         
           
-          {/* <FilmLike/>
-          <FilmHelper/>
-          <FilmDislike/>  */}
+          <TeleLike/>
+          <TeleHelper/>
+          <TeleDislike/> 
          
         
       </Container>
