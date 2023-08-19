@@ -4,9 +4,9 @@ import "./visit.css"
 //components
 // import ReadTable from "./Table/table";
 // import ReadForm from "./Form/form";
-// import ReadLike from "./ReadHelper/like";
-// import ReadHelper from "./ReadHelper/helper";
-// import ReadDislike from "./ReadHelper/dislike";
+import VisitLike from "./VisitHelper/like";
+import VisitHelper from "./VisitHelper/visitHelper";
+import VisitDislike from "./VisitHelper/dislike";
 
 // bootstrap
 import Accordion from 'react-bootstrap/Accordion';
@@ -119,9 +119,9 @@ return(
       >
         
           
-          {/* <ReadLike/>
-          <ReadHelper/>
-          <ReadDislike/>  */}
+          <VisitLike/>
+          <VisitHelper/>
+          <VisitDislike/> 
          
         
       </Container>
