@@ -85,6 +85,7 @@ function Navigation(){
                 className="border-end border-dark border-2 bg-primary"
                 >
                     <Nav.Link
+                    href="/visit"
                     className="text-dark p-0"
                     style={{
                         // fontSize:"2.5vw"
