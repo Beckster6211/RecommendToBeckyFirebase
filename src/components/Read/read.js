@@ -1,12 +1,12 @@
 import React, {useState, useEffect} from "react"
-import "./tele.css"
+import "./read.css"
 
 //components
-import TeleTable from "./Table/table";
-import TeleForm from "./Form/form";
-import TeleLike from "./TeleHelper/like";
-import TeleHelper from "./TeleHelper/helper";
-import TeleDislike from "./TeleHelper/dislike";
+import ReadTable from "./Table/table";
+import ReadForm from "./Form/form";
+import ReadLike from "./ReadHelper/like";
+import ReadHelper from "./ReadHelper/helper";
+import ReadDislike from "./ReadHelper/dislike";
 
 // bootstrap
 import Accordion from 'react-bootstrap/Accordion';
@@ -27,10 +27,10 @@ import {
 } from "firebase/firestore"
 
 
-function Tele({Becky}){
-    const [tele, setNewTele] = useState([])
+function Read({Becky}){
+    const [read, setNewRead] = useState([])
     const [form, setForm] = useState({})
-    // console.log({tele})
+    console.log({read})
 
 ////add from form
 function handleChange(event){
@@ -43,74 +43,74 @@ async function handleSubmit(event){
     console.log({form})
     console.log("submit button pressed");
 event.preventDefault()
-await addDoc(collection(db, "Tele"),
+await addDoc(collection(db, "Read"),
 {
     beckyopinion: "🤷‍♀️",
-    tvshow: form.formTele,
-    description: form.formTeleDescription,
-    numberofseries: form.formTeleSeries,
-    // provider: form.formTeleProvider,
-    connected: form.formTeleConnected,
-    // genre: form.formFilmGenre,
-    recommendedby: form.formTeleRecommend,
-    binged: false,
+    book: form.formBook,
+    author: form.formAuthor,
+    description: form.formReadDescription,
+    numberofbooks: form.formReadSeries,
+    connected: form.formReadConnected,
+    // genre: form.formReadGenre,
+    recommendedby: form.formReadRecommend,
+    read: false,
 });
 window.location.reload()
 }
 
 // read
 useEffect(()=>{
-    const q = query(collection(db, "Tele"))
+    const q = query(collection(db, "Read"))
     const unsubscribe = onSnapshot(q, (querySnapshot)=>{ 
-        let teleArray = []
+        let readArray = []
         querySnapshot.forEach((doc)=>{
-            teleArray.push({...doc.data(),
+            readArray.push({...doc.data(),
             id: doc.id})
         })
-        setNewTele(teleArray)
+        setNewRead(readArray)
     })
     return () => unsubscribe()
 }, [])
 
 //update
 //tried
-const haveBinged = async (tele)=>{
-    await updateDoc(doc(db, "Tele", tele.id), {
-        binged: !tele.binged
+const haveReadBook = async (read)=>{
+    await updateDoc(doc(db, "Read", read.id), {
+        read: !read.read
     })
 }
 
 //opinion
-const changeOpinion = async (tele, event)=>{
+const changeOpinion = async (read, event)=>{
     let beckyOpinion = event.target.name;
-    await updateDoc(doc(db, "Tele", tele.id),{
+    await updateDoc(doc(db, "Read", read.id),{
         beckyopinion:beckyOpinion
     })
 }
 
 //delete
-const deleteTele = async(id)=>{
-    await deleteDoc(doc(db,"Tele", id))
+const deleteRead = async(id)=>{
+    await deleteDoc(doc(db,"Read", id))
 }
 
 return(
         <Container 
       fluid
-      className="telePage pt-3"
+      className="readPage pt-3"
       style={{
 
       }}
       >
       {/* <br/> */}
       <Container 
-      id = "telePage1"
+      id = "readPage1"
         className=" bg-warning-subtle rounded text-center p-0" 
         style={{
           // fontSize:"3vw", 
           // fontWeight:"900"
         }}
         >
-           📺 &nbsp; 📀 &nbsp; Tele PAGE &nbsp; 📼 &nbsp; 💻
+          📕 &nbsp; 📖 &nbsp; Read PAGE &nbsp; 📓 &nbsp; 🔖
       </Container>
       {/* <br/> */}
       <Container 
@@ -119,16 +119,16 @@ return(
       >
         
           
-          <TeleLike/>
-          <TeleHelper/>
-          <TeleDislike/> 
+          <ReadLike/>
+          <ReadHelper/>
+          <ReadDislike/> 
          
         
       </Container>
       
       {/* <br/> */}
       <Accordion 
-      id="teleAccordion"
+      id="readAccordion"
       defaultActiveKey={["0"]} 
       alwaysOpen
       className="p-2 border border-dark border-3 rounded bg-light"
@@ -143,21 +143,21 @@ return(
             <Container 
             // id="foodPage2"
             fluid 
-            className="telePageAccordion text-center"
+            className="readPageAccordion text-center"
             style={{
               // fontSize:"2.5vw", 
               // fontWeight:"700"
             }}
             >
-              Tele Form
+              Read Form
               </Container>
            </Accordion.Header>
           <Accordion.Body 
           className="px-2 py-3">
             {/* <div> */}
                 {/* film form */}
-              <TeleForm
-              tele={tele}
+              <ReadForm
+              read={read}
               handleChange={handleChange}
             submitForm={handleSubmit}
             />
@@ -177,13 +177,13 @@ return(
             <Container 
             // id="foodPage3"
             fluid 
-            className="telePageAccordion text-center"
+            className="readPageAccordion text-center"
             style={{
               // fontSize:"2.5vw", 
               // fontWeight:"700"
             }}
             >
-              Tele Table
+              Read Table
             </Container>
             </Accordion.Header>
           <Accordion.Body 
@@ -191,11 +191,11 @@ return(
           >
             {/* <div>
                 Film Table */}
-              <TeleTable
+              <ReadTable
               userBecky={Becky}
-              tele={tele}
-              teleBingedIt={haveBinged}
-              deleteTele={deleteTele}
+              read={read}
+              readTheBook={haveReadBook}
+              deleteRead={deleteRead}
               handleOpinion={changeOpinion}
               
             />
@@ -208,4 +208,4 @@ return(
 )
 }
 
-export default Tele
+export default Read

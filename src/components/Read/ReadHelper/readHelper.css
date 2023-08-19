@@ -1,0 +1,91 @@
+    
+@media only screen and (max-width: 480px) {
+    #readLikeButton{
+        font-size: 2.5vw;
+    }
+
+    #readDislikeButton{
+        font-size: 2.5vw;
+    }
+
+    #readHelperButton{
+        font-size: 2.5vw;
+    }
+
+    /* #readLikeOffcanvas{} */
+    /* #readHelperOffcanvas{} */
+    /* #readDislikeOffcanvas{} */
+}
+
+@media only screen and (min-width: 481px) {
+    #readLikeButton{
+        font-size: 2.6vw;
+    }
+
+    #readDislikeButton{
+        font-size: 2.6vw;
+    }
+
+    #readHelperButton{
+        font-size: 2.6vw;
+    }
+
+    /* #readLikeOffcanvas{} */
+    /* #readHelperOffcanvas{} */
+    /* #readDislikeOffcanvas{} */
+}
+
+@media only screen and (min-width: 769px) {
+    #readLikeButton{
+        font-size: 1.6vw;
+    }
+
+    #readDislikeButton{
+        font-size: 1.6vw;
+    }
+
+    #readHelperButton{
+        font-size: 1.6vw;
+    }
+
+    /* #readLikeOffcanvas{} */
+    /* #readHelperOffcanvas{} */
+    /* #readDislikeOffcanvas{} */
+}
+
+@media only screen and (min-width: 1025px) {
+    #readLikeButton{
+        font-size: 1.2vw;
+    }
+
+    #readDislikeButton{
+        font-size: 1.2vw;
+    }
+
+    #readHelperButton{
+        font-size: 1.2vw;
+    }
+
+    /* #readLikeOffcanvas{} */
+    /* #readHelperOffcanvas{} */
+    /* #readDislikeOffcanvas{} */
+}
+
+/*////////////////////*/
+/* @media only screen and (min-width: 1201px) {
+    #readLikeButton{
+        font-size: 1vw;
+    }
+
+    #readDislikeButton{
+        font-size: 1vw;
+    }
+
+    #readHelperButton{
+        font-size: 1vw;
+    } */
+
+    /* #readLikeOffcanvas{} */
+    /* #readHelperOffcanvas{} */
+    /* #readDislikeOffcanvas{} */
+  /* } */
