@@ -1,0 +1,148 @@
+@media only screen and (max-width: 480px) {
+
+    .readTableItemRead{
+        font-size: 2.3vw;
+    }
+
+    #readTableReadTextarea{
+        font-size: 2.3vw;
+        height: 14vw;
+    }
+
+    .readTableOpinion{
+        font-size: 3vw;
+    }
+
+    #readTableButton{
+        font-size: 3vw;
+    }
+
+    #readTableReadRecommend{
+        font-size: 2.5vw;
+        height:15vw
+    }
+  
+    /* #filmTableItem8{
+        font-size: 3vw;
+    }
+    */
+    .readTableReadItCheckbox{
+        height: 4vw;
+        width: 4vw;
+    }
+  }
+
+  @media only screen and (min-width: 481px) {
+
+    .readTableItemRead{
+        font-size: 2vw;
+    }
+
+    #readTableReadTextarea{
+        font-size: 1.8vw;
+        height: 10vw;
+    }
+
+    .readTableOpinion{
+        font-size: 2.5vw;
+    }
+
+    #readTableButton{
+        font-size: 2.5vw;
+    }
+
+    #readTableReadRecommend{
+        font-size: 2vw;
+        height:12vw
+    }
+  
+    /* #filmTableItem8{
+        font-size: 2.5vw;
+    } */
+   
+    .readTableReadItCheckbox{
+        height: 3.5vw;
+        width: 3.5vw;
+    }
+  }
+
+  @media only screen and (min-width: 769px) {
+
+    .readTableItemRead{
+        font-size: 1.5vw;
+    }
+
+    #readTableReadTextarea{
+        font-size: 1.5vw;
+        height: 8vw;
+    }
+
+    .readTableOpinion{
+        font-size: 1.9vw;
+    }
+
+    #readTableButton{
+        font-size: 1.7vw;
+    }
+
+    #readTableReadRecommend{
+        font-size: 1.5vw;
+        height: 10vw
+    }
+  
+    /* #filmTableItem8{
+        font-size: 2.5vw;
+    } */
+   
+    .readTableReadItCheckbox{
+        height: 3vw;
+        width: 3vw;
+    }
+  }
+
+  @media only screen and (min-width: 1025px) {
+
+    .readTableItemRead{
+        font-size: 1.5vw;
+    }
+
+    #readTableReadTextarea{
+        font-size: 1.5vw;
+        height: 8vw;
+    }
+
+    .readTableOpinion{
+        font-size: 1.9vw;
+    }
+
+    #readTableButton{
+        font-size: 1.7vw;
+    }
+
+    #readTableReadRecommend{
+        font-size: 1.5vw;
+        height:10vw
+    }
+  
+    /* #filmTableItem8{
+        font-size: 2.5vw;
+    } */
+   
+    .readTableReadItCheckbox{
+        height: 3vw;
+        width: 3vw;
+    }
+  }
+
+  @media only screen and (min-width: 1201px) {
+
+    .readTableItemRead{
+        font-size: 1.2vw;
+    }
+
+    #readTableReadTextarea{
+        font-size: 1.2vw;
+        height: 10vw;
+    }
+
+  }

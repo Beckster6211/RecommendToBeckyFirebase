@@ -17,6 +17,7 @@ import Footer from "./components/Footer/footer";
 import Food from "./components/Food/food";
 import Film from "./components/Film/film"
 import Tele from "./components/Tele/tele"
+import Read from "./components/Read/read";
 // 
 function App() {
 const [isBecky, setIsBecky] = useState(false)
@@ -63,6 +64,13 @@ onAuthStateChanged(auth, (user)=>{
       path="/tele"
       element = {
         <Tele Becky={isBecky}/>
+      }
+      />
+
+      <Route
+      path="/read"
+      element={
+        <Read Becky = {isBecky}/>
       }
       />
 
