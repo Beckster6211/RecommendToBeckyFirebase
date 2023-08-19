@@ -30,7 +30,7 @@ import {
 function Read({Becky}){
     const [read, setNewRead] = useState([])
     const [form, setForm] = useState({})
-    console.log({read})
+    // console.log({read})
 
 ////add from form
 function handleChange(event){
