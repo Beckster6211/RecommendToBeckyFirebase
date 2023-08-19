@@ -31,7 +31,7 @@ function TeleItem({
         className="border border-dark border-4"
         >
             <td
-            className="p-2 align-middle border border-dark border-4 bg-info"
+            className="p-2 align-middle border border-dark border-4 bg-danger"
             style={{
               
             }}
@@ -78,7 +78,7 @@ function TeleItem({
     becky === false ? 
 
       <td
-        className="p-2 border border-dark border-4 bg-info-subtle"
+        className="p-2 border border-dark border-4 bg-danger-subtle"
       style={{
       }}
         >          
@@ -284,7 +284,7 @@ function TeleItem({
     }
 
             <td
-      className="p-2 align-middle border border-dark border-4 bg-info"
+      className="p-2 align-middle border border-dark border-4 bg-danger"
       style={{
       }}
       >
@@ -313,7 +313,7 @@ function TeleItem({
         </p> */}
       </td>
             <td
-      className="p-2 align-middle border border-dark border-4 bg-info-subtle"
+      className="p-2 align-middle border border-dark border-4 bg-danger-subtle"
       style={{
       }}
       >

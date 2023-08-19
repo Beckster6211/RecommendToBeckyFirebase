@@ -14,18 +14,18 @@ function ReadForm({read, handleChange, submitForm}){
     return(
         <Container 
     fluid 
-    className="bg-info border border-info border-3 rounded p-1">
+    className="bg-success border border-success border-3 rounded p-1">
 
       <Container 
       fluid 
-        className="bg-info p-2">
+        className="bg-success p-2">
         <Card 
-          className ="bg-info-subtle border border-info-subtle" >
+          className ="bg-success-subtle border border-success-subtle" >
           <Card.Body>
 
           <Form 
         //   id="foodForm"
-          className = "bg-info-subtle p-1" 
+          className = "bg-success-subtle p-1" 
           autoComplete="off"
           onSubmit={(event) => {
             submitForm(event);

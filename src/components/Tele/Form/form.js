@@ -14,18 +14,18 @@ function TeleForm({tele, handleChange, submitForm}){
     return(
         <Container 
     fluid 
-    className="bg-info border border-info border-3 rounded p-1">
+    className="bg-danger border border-danger border-3 rounded p-1">
 
       <Container 
       fluid 
-        className="bg-info p-2">
+        className="bg-danger p-2">
         <Card 
-          className ="bg-info-subtle border border-info-subtle" >
+          className ="bg-danger-subtle border border-danger-subtle" >
           <Card.Body>
 
           <Form 
         //   id="foodForm"
-          className = "bg-info-subtle p-1" 
+          className = "bg-danger-subtle p-1" 
           autoComplete="off"
           onSubmit={(event) => {
             submitForm(event);

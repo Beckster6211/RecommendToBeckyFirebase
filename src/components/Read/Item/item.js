@@ -31,7 +31,7 @@ function ReadItem({
         className="border border-dark border-4"
         >
             <td
-            className="p-2 align-middle border border-dark border-4 bg-info"
+            className="p-2 align-middle border border-dark border-4 bg-success"
             style={{
               
             }}
@@ -78,7 +78,7 @@ function ReadItem({
     becky === false ? 
 
       <td
-        className="p-2 border border-dark border-4 bg-info-subtle"
+        className="p-2 border border-dark border-4 bg-success-subtle"
       style={{
       }}
         >          
@@ -184,7 +184,7 @@ function ReadItem({
 
     :
         <td
-        className="p-2 align-middle border border-dark border-4 bg-warning-subtle"
+        className="p-2 align-middle border border-dark border-4 bg-success-subtle"
       style={{
       }}
         >
@@ -284,7 +284,7 @@ function ReadItem({
     }
 
             <td
-      className="p-2 align-middle border border-dark border-4 bg-info"
+      className="p-2 align-middle border border-dark border-4 bg-success"
       style={{
       }}
       >
@@ -302,7 +302,7 @@ function ReadItem({
             />
       </td>
             <td
-      className="p-2 align-middle border border-dark border-4 bg-info-subtle"
+      className="p-2 align-middle border border-dark border-4 bg-success-subtle"
       style={{
       }}
       >
