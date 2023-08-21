@@ -2,8 +2,8 @@ import React, {useState, useEffect} from "react"
 import "./visit.css"
 
 //components
-// import ReadTable from "./Table/table";
-// import ReadForm from "./Form/form";
+import VisitTable from "./Table/table";
+import VisitForm from "./Form/form";
 import VisitLike from "./VisitHelper/like";
 import VisitHelper from "./VisitHelper/visitHelper";
 import VisitDislike from "./VisitHelper/dislike";
@@ -28,9 +28,9 @@ import {
 
 
 function Visit({Becky}){
-    const [read, setNewRead] = useState([])
+    const [visit, setNewVisit] = useState([])
     const [form, setForm] = useState({})
-    // console.log({read})
+    console.log({visit})
 
 ////add from form
 function handleChange(event){
@@ -43,54 +43,51 @@ async function handleSubmit(event){
     console.log({form})
     console.log("submit button pressed");
 event.preventDefault()
-await addDoc(collection(db, "Read"),
+await addDoc(collection(db, "Visit"),
 {
     beckyopinion: "🤷‍♀️",
-    book: form.formBook,
-    author: form.formAuthor,
-    description: form.formReadDescription,
-    numberofbooks: form.formReadSeries,
-    connected: form.formReadConnected,
-    // genre: form.formReadGenre,
-    recommendedby: form.formReadRecommend,
-    read: false,
+    what: form.formWhat,
+    where: form.formWhere,
+    details: form.formVisitDescription,
+    recommendedby: form.formVisitRecommend,
+    stayed: false,
 });
 window.location.reload()
 }
 
 // read
 useEffect(()=>{
-    const q = query(collection(db, "Read"))
+    const q = query(collection(db, "Visit"))
     const unsubscribe = onSnapshot(q, (querySnapshot)=>{ 
-        let readArray = []
+        let visitArray = []
         querySnapshot.forEach((doc)=>{
-            readArray.push({...doc.data(),
+            visitArray.push({...doc.data(),
             id: doc.id})
         })
-        setNewRead(readArray)
+        setNewVisit(visitArray)
     })
     return () => unsubscribe()
 }, [])
 
 //update
 //tried
-const haveReadBook = async (read)=>{
-    await updateDoc(doc(db, "Read", read.id), {
-        read: !read.read
+const StayedThere = async (visit)=>{
+    await updateDoc(doc(db, "Visit", visit.id), {
+        stayed: !visit.stayed
     })
 }
 
 //opinion
 const changeOpinion = async (read, event)=>{
     let beckyOpinion = event.target.name;
-    await updateDoc(doc(db, "Read", read.id),{
+    await updateDoc(doc(db, "Visit", read.id),{
         beckyopinion:beckyOpinion
     })
 }
 
 //delete
-const deleteRead = async(id)=>{
-    await deleteDoc(doc(db,"Read", id))
+const deleteVisit = async(id)=>{
+    await deleteDoc(doc(db,"Visit", id))
 }
 
 return(
@@ -103,7 +100,7 @@ return(
       >
       {/* <br/> */}
       <Container 
-      id = "readPage1"
+      id = "visitPage1"
         className=" bg-warning-subtle rounded text-center p-0" 
         style={{
           // fontSize:"3vw", 
@@ -128,7 +125,7 @@ return(
       
       {/* <br/> */}
       <Accordion 
-      id="readAccordion"
+      id="visitAccordion"
       defaultActiveKey={["0"]} 
       alwaysOpen
       className="p-2 border border-dark border-3 rounded bg-light"
@@ -143,7 +140,7 @@ return(
             <Container 
             // id="foodPage2"
             fluid 
-            className="readPageAccordion text-center"
+            className="visitPageAccordion text-center"
             style={{
               // fontSize:"2.5vw", 
               // fontWeight:"700"
@@ -156,11 +153,11 @@ return(
           className="px-2 py-3">
             {/* <div> */}
                 {/* film form */}
-              {/* <ReadForm
-              read={read}
+              <VisitForm
+              visit={visit}
               handleChange={handleChange}
             submitForm={handleSubmit}
-            /> */}
+            />
             {/* </div> */}
           </Accordion.Body>
         </Accordion.Item>
@@ -177,7 +174,7 @@ return(
             <Container 
             // id="foodPage3"
             fluid 
-            className="readPageAccordion text-center"
+            className="visitPageAccordion text-center"
             style={{
               // fontSize:"2.5vw", 
               // fontWeight:"700"
@@ -191,14 +188,14 @@ return(
           >
             {/* <div>
                 Film Table */}
-              {/* <ReadTable
+              <VisitTable
               userBecky={Becky}
-              read={read}
-              readTheBook={haveReadBook}
-              deleteRead={deleteRead}
+              visit={visit}
+              stayedThere={StayedThere}
+              deleteVisit={deleteVisit}
               handleOpinion={changeOpinion}
               
-            /> */}
+            />
             {/* </div> */}
           </Accordion.Body>
         </Accordion.Item>

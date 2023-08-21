@@ -1,0 +1,148 @@
+@media only screen and (max-width: 480px) {
+
+    .visitTableItemVisit{
+        font-size: 2.3vw;
+    }
+
+    #visitTableVisitTextarea{
+        font-size: 2.3vw;
+        height: 14vw;
+    }
+
+    .visitTableOpinion{
+        font-size: 3vw;
+    }
+
+    #visitTableButton{
+        font-size: 3vw;
+    }
+
+    #visitTableVisitRecommend{
+        font-size: 2.5vw;
+        height:15vw
+    }
+  
+    /* #filmTableItem8{
+        font-size: 3vw;
+    }
+    */
+    .visitTableStayedCheckbox{
+        height: 4vw;
+        width: 4vw;
+    }
+  }
+
+  @media only screen and (min-width: 481px) {
+
+    .visitTableItemVisit{
+        font-size: 2vw;
+    }
+
+    #visitTableVisitTextarea{
+        font-size: 1.8vw;
+        height: 10vw;
+    }
+
+    .visitTableOpinion{
+        font-size: 2.5vw;
+    }
+
+    #visitTableButton{
+        font-size: 2.5vw;
+    }
+
+    #visitTableVisitRecommend{
+        font-size: 2vw;
+        height:12vw
+    }
+  
+    /* #filmTableItem8{
+        font-size: 2.5vw;
+    } */
+   
+    .visitTableStayedCheckbox{
+        height: 3.5vw;
+        width: 3.5vw;
+    }
+  }
+
+  @media only screen and (min-width: 769px) {
+
+    .visitTableItemVisit{
+        font-size: 1.5vw;
+    }
+
+    #visitTableVisitTextarea{
+        font-size: 1.5vw;
+        height: 8vw;
+    }
+
+    .visitTableOpinion{
+        font-size: 1.9vw;
+    }
+
+    #visitTableButton{
+        font-size: 1.7vw;
+    }
+
+    #visitTableVisitRecommend{
+        font-size: 1.5vw;
+        height: 10vw
+    }
+  
+    /* #filmTableItem8{
+        font-size: 2.5vw;
+    } */
+   
+    .visitTableStayedCheckbox{
+        height: 3vw;
+        width: 3vw;
+    }
+  }
+
+  @media only screen and (min-width: 1025px) {
+
+    .visitTableItemVisit{
+        font-size: 1.5vw;
+    }
+
+    #visitTableVisitTextarea{
+        font-size: 1.5vw;
+        height: 8vw;
+    }
+
+    .visitTableOpinion{
+        font-size: 1.9vw;
+    }
+
+    #visitTableButton{
+        font-size: 1.7vw;
+    }
+
+    #visitTableVisitRecommend{
+        font-size: 1.5vw;
+        height:10vw
+    }
+  
+    /* #filmTableItem8{
+        font-size: 2.5vw;
+    } */
+   
+    .visitTableStayedCheckbox{
+        height: 3vw;
+        width: 3vw;
+    }
+  }
+
+  @media only screen and (min-width: 1201px) {
+
+    .visitTableItemVisit{
+        font-size: 1.2vw;
+    }
+
+    #visitTableVisitTextarea{
+        font-size: 1.2vw;
+        height: 10vw;
+    }
+
+  }
