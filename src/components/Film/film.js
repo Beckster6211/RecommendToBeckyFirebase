@@ -103,7 +103,7 @@ return(
       {/* <br/> */}
       <Container 
       id = "filmPage1"
-        className=" bg-warning-subtle rounded text-center p-0" 
+        className=" bg-info-subtle rounded text-center p-0" 
         style={{
           // fontSize:"3vw", 
           // fontWeight:"900"

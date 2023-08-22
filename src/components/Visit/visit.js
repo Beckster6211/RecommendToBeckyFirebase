@@ -101,7 +101,7 @@ return(
       {/* <br/> */}
       <Container 
       id = "visitPage1"
-        className=" bg-warning-subtle rounded text-center p-0" 
+        className=" bg-primary-subtle rounded text-center p-0" 
         style={{
           // fontSize:"3vw", 
           // fontWeight:"900"
@@ -114,13 +114,9 @@ return(
       // fluid
       className="d-flex justify-content-evenly py-2"
       >
-        
-          
           <VisitLike/>
           <VisitHelper/>
           <VisitDislike/> 
-         
-        
       </Container>
       
       {/* <br/> */}

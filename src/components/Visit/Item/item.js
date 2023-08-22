@@ -33,7 +33,7 @@ function VisitItem({
               
             }}
             >
-                <p 
+                {/* <p 
             // id="foodTableItem1"
             className="visitTableItemVisit bg-light border border-dark border-2 rounded p-1 mb-2"
             style={{
@@ -42,10 +42,20 @@ function VisitItem({
             }}
             >
               {visitWhat}
-              {/* <br/>
-              {where} */}
-            </p>
-            <p 
+             
+            </p> */}
+            <Form.Control 
+            id="visitTableVisitTextarea"
+            className="border border-dark border-2 p-1 mb-1"
+            as="textarea"
+            defaultValue={visitWhat} 
+            readOnly 
+            style={{
+              // fontSize:"1.5vw",
+              // height:"14vw"          
+            }} 
+            />
+            {/* <p 
             // id="foodTableItem1"
             className="visitTableItemVisit bg-light border border-dark border-2 rounded p-1 mb-2"
             style={{
@@ -53,10 +63,20 @@ function VisitItem({
 
             }}
             >
-              {/* {what}
-              <br/> */}
               {visitWhere}
-            </p>
+            </p> */}
+            <Form.Control 
+            id="visitTableVisitTextarea"
+            className="border border-dark border-2 p-1 mb-1"
+            as="textarea"
+            defaultValue={visitWhere} 
+            readOnly 
+            style={{
+              // fontSize:"1.5vw",
+              // height:"14vw"          
+            }} 
+            />
+
             <Form.Control 
             id="visitTableVisitTextarea"
             className="border border-dark border-2 p-1"

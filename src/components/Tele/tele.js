@@ -104,7 +104,7 @@ return(
       {/* <br/> */}
       <Container 
       id = "telePage1"
-        className=" bg-warning-subtle rounded text-center p-0" 
+        className=" bg-danger-subtle rounded text-center p-0" 
         style={{
           // fontSize:"3vw", 
           // fontWeight:"900"

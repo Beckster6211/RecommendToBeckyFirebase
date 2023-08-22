@@ -34,6 +34,22 @@ let visit = [
     //   stayed: false,
     //   beckyopinion: "🤷‍♀️",
     // },
+    // {
+    //   what: "Field Museum of Natural History",
+    //   location: "Chicago Illinois US",
+    //   why: "Sue 90% T-Rex skeleton",
+    //   recommendedby: "Emma Randle (SOC Bootcamp 4)",
+    //   visited: false,
+    //   beckyopinion: "🤷‍♀️",
+    // },
+    // {
+    //   what: "Hollywood Walk of Fame",
+    //   location: "LA California US",
+    //   why: "Mickey Mouse star (1st animated character)",
+    //   recommendedby: "Me",
+    //   visited: false,
+    //   beckyopinion: "🤷‍♀️",
+    // },
   ];
   
   module.exports = visit;
