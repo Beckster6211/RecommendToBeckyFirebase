@@ -1,0 +1,77 @@
+.visitTableComponent{
+    overflow: auto;
+    /* width: auto; */
+    height: 80vmin;      
+    }
+
+    .visitTable{
+        /* background-color: #FFC107; bootstrap warning */
+        table-layout: fixed;
+        word-wrap: break-word;
+      }
+    
+      .tableHead{
+        position: sticky;
+        top: 0;
+      }
+    
+      /* .tableHeader{
+        
+      } */
+    
+      /* .foodTableBody{
+        background-color: darkgreen;
+      } */
+    
+      
+      /* tr:nth-child(odd) {
+        background-color:#ffff99;  */
+        /*warning subtle*/
+       /* } */
+  
+       /* tr:nth-child(even) {
+        background-color:#FFC107;  */
+        /*warning subtle*/
+       /* } */
+  
+      tr:hover {
+        background-color: aqua;
+      }
+  
+      @media only screen and (max-width: 480px) {
+        .visitTableHeadFoot{
+          font-size: 2.5vw;
+          font-weight: 500;
+        }
+      }
+      
+      @media only screen and (min-width: 481px) {
+        .visitTableHeadFoot{
+          font-size: 2vw;
+          font-weight: 500;
+        }
+      }
+      
+      @media only screen and (min-width: 769px) {
+        .visitTableHeadFoot{
+          font-size: 1.7vw;
+          font-weight: 500;
+        }
+      }
+      
+      @media only screen and (min-width: 1025px) {
+        .visitTableHeadFoot{
+          font-size: 1.5vw;
+          font-weight: 500;
+        }
+      }
+      
+      @media only screen and (min-width: 1201px) {
+        .visitTableHeadFoot{
+          font-size: 1.3vw;
+          font-weight: 500;
+        }
+      }
+      
+      
+  

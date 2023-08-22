@@ -18,6 +18,7 @@ import Food from "./components/Food/food";
 import Film from "./components/Film/film"
 import Tele from "./components/Tele/tele"
 import Read from "./components/Read/read";
+import Visit from "./components/Visit/visit"
 // 
 function App() {
 const [isBecky, setIsBecky] = useState(false)
@@ -71,6 +72,13 @@ onAuthStateChanged(auth, (user)=>{
       path="/read"
       element={
         <Read Becky = {isBecky}/>
+      }
+      />
+
+      <Route
+      path="/visit"
+      element={
+        <Visit Becky={isBecky}/>
       }
       />
 

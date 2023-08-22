@@ -1,0 +1,77 @@
+
+@media only screen and (max-width: 480px) {
+
+    .visitFloatingLabel{
+      font-size: 2.5vw;
+    }
+  
+    .visitFormInput{
+      font-size: 3vw;
+    }
+  
+    #visitFormButton{
+      font-size: 2.7vw;
+    }
+  }
+  
+  @media only screen and (min-width: 481px) {
+  
+    .visitFloatingLabel{
+      font-size: 2.7vw;
+    }
+  
+    .visitFormInput{
+      font-size: 3.5vw;
+    }
+  
+    #visitFormButton{
+      font-size: 2.7vw;
+    }
+  
+  }
+  
+  
+  @media only screen and (min-width: 769px) {
+    .visitFloatingLabel{
+      font-size: 2vw;
+    }
+  
+    .visitFormInput{
+      font-size: 3.7vw;
+    }
+  
+    #visitFormButton{
+      font-size: 2.2vw;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    .visitFloatingLabel{
+      font-size: 1.5vw;
+    }
+  
+    .visitFormInput{
+      font-size: 3.7vw;
+    }
+  
+    #visitFormButton{
+      font-size: 1.5vw;
+    }
+  }
+  
+  @media only screen and (min-width: 1201px) {
+    .visitFloatingLabel{
+      font-size: 1.2vw;
+    }
+  
+    .visitFormInput{
+      font-size: 3.7vw;
+    }
+  
+    #visitFormButton{
+      font-size: 1.2vw;
+    }
+  }
+  
+  
