@@ -4,9 +4,9 @@ import "./try.css"
 //components
 // import VisitTable from "./Table/table";
 // import VisitForm from "./Form/form";
-// import VisitLike from "./VisitHelper/like";
-// import VisitHelper from "./VisitHelper/visitHelper";
-// import VisitDislike from "./VisitHelper/dislike";
+import TryLike from "./TryHelper/like";
+import TryHelper from "./TryHelper/tryHelper";
+import TryDislike from "./TryHelper/dislike";
 
 // bootstrap
 import Accordion from 'react-bootstrap/Accordion';
@@ -114,9 +114,9 @@ return(
       // fluid
       className="d-flex justify-content-evenly py-2"
       >
-          {/* <VisitLike/>
-          <VisitHelper/>
-          <VisitDislike/>  */}
+          <TryLike/>
+          <TryHelper/>
+          <TryDislike/> 
       </Container>
       
       {/* <br/> */}
