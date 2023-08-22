@@ -30,7 +30,7 @@ import {
 function Visit({Becky}){
     const [visit, setNewVisit] = useState([])
     const [form, setForm] = useState({})
-    console.log({visit})
+    // console.log({visit})
 
 ////add from form
 function handleChange(event){

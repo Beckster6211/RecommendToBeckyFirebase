@@ -80,7 +80,7 @@ function VisitForm({visit, handleChange, submitForm}){
                 // fontSize:"1.2vw"
               }}
               controlId = "formWhere" 
-              label= "Where">
+              label= "Where specific...">
                 <Form.Control 
                 className="visitFormInput text-break border border-dark
                border-3"
@@ -113,7 +113,7 @@ function VisitForm({visit, handleChange, submitForm}){
                 // fontSize:"1.2vw"
               }}
               controlId = "formVisitDescription" 
-              label= "Details...">
+              label= "Why/Details...">
                 <Form.Control 
                 className="visitFormInput border border-dark border-3" 
                 
