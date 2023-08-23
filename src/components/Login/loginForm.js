@@ -23,12 +23,12 @@ function LoginForm(){
         
     // console.log(signIn)
     function getEmail(event){
-        console.log(event.target.value)
+        // console.log(event.target.value)
         setEmail(event.target.value)
     }
 
     function getPassword(event){
-        console.log(event.target.value)
+        // console.log(event.target.value)
         setPassword(event.target.value)
     } 
 

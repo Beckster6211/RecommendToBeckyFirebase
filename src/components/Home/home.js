@@ -42,19 +42,26 @@ function Home({Becky}){
             style={{
               minHeight:"75vh"
             }}
-            
             >
+
             <h2>Home Page</h2>
             <h4>ToDo...</h4>
-            <p>Explain idea behind site </p>
-            <p>How to use site (maybe pictures???)</p>
-            <p>Perhaps a video (tour of site)???</p>
-            <p>Change login picture/icon</p>
-            <p>Change portfolio picture/icon. Do link to portfolio (todo todo change portfolio)</p>
-            <p>Remove console.logs</p>
-            <p>Tidy code (alter id and classname names for easier styling with media queries)</p>
-            <p>Rest of pages</p>
-            <p>fix login</p>
+            <br/>
+            <ul>
+              <li>Explain idea behind site</li>
+              <li>How to use site (maybe pictures)</li>
+              <li>Perhaps video (tour of site)</li>
+              <li>todo like, dislike, helper for each page</li>
+              <li>change login picture/icon (to avatar)</li>
+              <li>change portfolio picture/icon (todo todo portfolio change)</li>
+              <li>remove console logs</li>
+              <li>tidy code </li>
+              <li>look at id and classnames for easier styling and media queries</li>
+              <li><s>rest of pages</s></li>
+              <li><s>fix login</s></li>
+              <li>todo becky recommends site</li>
+              <li>correct welcome message????</li>
+            </ul>
             </Container>
         </div>
     )
