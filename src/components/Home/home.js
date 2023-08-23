@@ -47,7 +47,9 @@ function Home({Becky}){
             <h2>Home Page</h2>
             <h4>ToDo...</h4>
             <br/>
-            <ul>
+            <ul 
+            className="text-start"
+            >
               <li>Explain idea behind site</li>
               <li>How to use site (maybe pictures)</li>
               <li>Perhaps video (tour of site)</li>
