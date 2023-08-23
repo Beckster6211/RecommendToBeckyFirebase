@@ -1,9 +1,10 @@
 import React, {useState} from "react"
 
 // import "./beckyAlert.css"
-
+//
 import "./alert.css"
 
+//
 import Modal from "react-bootstrap/Modal"
 import CloseButton from 'react-bootstrap/CloseButton';
 
@@ -11,11 +12,10 @@ function BeckyAlert(){
    
     const [open, setOpen] = useState(true)
 
-
     return(
         <div> 
             <Modal
-            // id="modalBecky1"
+                // id="modalBecky1"
                 className="bg-light bg-opacity-50 px-5"
                 style={{
                   // fontSize:"3vw"
@@ -24,22 +24,20 @@ function BeckyAlert(){
                 onHide = {()=> setOpen(false)}
                 centered
                 animation
-                
                 >
+
                 <Modal.Body 
                 className="text-center rounded bg-primary border border-dark border-3"
                 style={{
 
                 }}
-                
                 >
 
-<CloseButton
+                  <CloseButton
                   className="modalCloseButton position-absolute top-0 end-0 m-2"
                   onClick={()=>{
                     setOpen(false)
                   }}
-                  
                   />
 
                   <p
@@ -60,7 +58,6 @@ function BeckyAlert(){
                   </p>
                 </Modal.Body>
               </Modal>
-                    
         </div>
     )
 }

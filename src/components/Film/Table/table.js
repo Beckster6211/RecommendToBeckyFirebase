@@ -12,7 +12,7 @@ function FilmTable({userBecky, film, filmWatchedIt, deleteFilm, handleOpinion}){
     // console.log({film})
 
     return(
-        <Container 
+    <Container 
     fluid 
     className="filmTableComponent p-0"
     style={{

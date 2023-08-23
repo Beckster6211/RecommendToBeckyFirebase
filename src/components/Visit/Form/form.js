@@ -23,8 +23,7 @@ function VisitForm({visit, handleChange, submitForm}){
           className ="bg-primary-subtle border border-primary-subtle" >
           <Card.Body>
 
-          <Form 
-        //   id="foodForm"
+          <Form
           className = "bg-primary-subtle p-1" 
           autoComplete="off"
           onSubmit={(event) => {
@@ -39,8 +38,7 @@ function VisitForm({visit, handleChange, submitForm}){
               className = ""  
               controlId="formWhat"
             >
-              <FloatingLabel 
-              // id="foodFloatingLabel1"
+              <FloatingLabel
               className="visitFloatingLabel"
               style={{
                 // fontSize:"1.2vw"
@@ -57,9 +55,6 @@ function VisitForm({visit, handleChange, submitForm}){
                 type="text"
                 placeholder = "What" 
                 name="formWhat"
-                // id="formFoodItem"
-                // type="text"
-                // placeholder="Food..."
                 onChange={(event) => {
                   handleChange(event);
                 }}
@@ -73,8 +68,7 @@ function VisitForm({visit, handleChange, submitForm}){
               className = "pt-2"  
               controlId="formWhere"
             >
-              <FloatingLabel 
-              // id="foodFloatingLabel1"
+              <FloatingLabel
               className="visitFloatingLabel"
               style={{
                 // fontSize:"1.2vw"
@@ -91,9 +85,6 @@ function VisitForm({visit, handleChange, submitForm}){
                 type="text"
                 placeholder = "Where" 
                 name="formWhere"
-                // id="formFoodItem"
-                // type="text"
-                // placeholder="Food..."
                 onChange={(event) => {
                   handleChange(event);
                 }}
@@ -106,8 +97,7 @@ function VisitForm({visit, handleChange, submitForm}){
             <Form.Group 
             className="pt-2">
 
-              <FloatingLabel 
-              // id="foodFloatingLabel2"
+              <FloatingLabel
               className="visitFloatingLabel"
               style={{
                 // fontSize:"1.2vw"
@@ -138,8 +128,7 @@ function VisitForm({visit, handleChange, submitForm}){
             className="py-2" 
             controlId="formVisitRecommend">
 
-              <FloatingLabel 
-              // id="foodFloatingLabel3"
+              <FloatingLabel
               className="visitFloatingLabel"
               style={{
                 // fontSize:"1.2vw"
@@ -155,9 +144,6 @@ function VisitForm({visit, handleChange, submitForm}){
                 type="text" 
                 placeholder="Recommended By..."
                 name="formVisitRecommend"
-                // id="formFoodRecommend"
-                // type="text"
-                // placeholder="Recommmended By..."
                 onChange={(event) => {
                   handleChange(event);
                 }}

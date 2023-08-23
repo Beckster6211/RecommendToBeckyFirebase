@@ -1,7 +1,9 @@
 import React, {useState} from "react"
 
+//
 import "./visitHelper.css"
 
+//bootstrap
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
@@ -15,7 +17,7 @@ function VisitLike(){
             id="visitLikeButton" 
             className=""
             style={{
-              // fontSize:"1.5vw"
+              
             }}
             variant="success" 
             onClick={()=>setLeftShow(true)}
@@ -27,7 +29,7 @@ function VisitLike(){
             id="visitLikeOffcanvas"
             className="bg-success-subtle w-75"
             style={{
-              // width:"50%"
+              
             }}
             show={leftShow} 
             onHide={()=>setLeftShow(false)} 

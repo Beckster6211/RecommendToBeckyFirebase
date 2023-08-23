@@ -42,8 +42,8 @@ function handleChange(event){
 async function handleSubmit(event){
     console.log({form})
     console.log("submit button pressed");
-event.preventDefault()
-await addDoc(collection(db, "Film"),
+    event.preventDefault()
+    await addDoc(collection(db, "Film"),
 {
     beckyopinion: "🤷‍♀️",
     film: form.formFilm,
@@ -93,7 +93,7 @@ const deleteFilm = async(id)=>{
 }
 
 return(
-        <Container 
+      <Container 
       fluid
       className="filmPage pt-3"
       style={{
@@ -103,8 +103,8 @@ return(
       {/* <br/> */}
       <Container 
       id = "filmPage1"
-        className=" bg-info-subtle rounded text-center p-0" 
-        style={{
+      className=" bg-info-subtle rounded text-center p-0" 
+      style={{
           // fontSize:"3vw", 
           // fontWeight:"900"
         }}
@@ -116,15 +116,10 @@ return(
       // fluid
       className="d-flex justify-content-evenly py-2"
       >
-        
-          
           <FilmLike/>
           <FilmHelper/>
           <FilmDislike/> 
-         
-        
       </Container>
-      
       {/* <br/> */}
       <Accordion 
       id="filmAccordion"

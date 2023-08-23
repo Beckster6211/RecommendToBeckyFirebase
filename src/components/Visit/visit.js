@@ -42,8 +42,8 @@ function handleChange(event){
 async function handleSubmit(event){
     console.log({form})
     console.log("submit button pressed");
-event.preventDefault()
-await addDoc(collection(db, "Visit"),
+    event.preventDefault()
+    await addDoc(collection(db, "Visit"),
 {
     beckyopinion: "🤷‍♀️",
     what: form.formWhat,
@@ -52,7 +52,7 @@ await addDoc(collection(db, "Visit"),
     recommendedby: form.formVisitRecommend,
     stayed: false,
 });
-window.location.reload()
+    window.location.reload()
 }
 
 // read
@@ -91,25 +91,30 @@ const deleteVisit = async(id)=>{
 }
 
 return(
-        <Container 
+      <Container 
       fluid
       className="visitPage pt-3"
       style={{
 
       }}
       >
-      {/* <br/> */}
+
       <Container 
-      id = "visitPage1"
+        id = "visitPage1"
         className=" bg-primary-subtle rounded text-center p-0" 
         style={{
-          // fontSize:"3vw", 
-          // fontWeight:"900"
+    
         }}
         >
-          🗺️ &nbsp; ✈️ &nbsp; Visit PAGE &nbsp; 🧳 &nbsp; 🌍
+          
+          🗺️ &nbsp; 
+          ✈️ &nbsp; 
+          Visit PAGE 
+          &nbsp; 🧳 
+          &nbsp; 🌍
+
       </Container>
-      {/* <br/> */}
+
       <Container 
       // fluid
       className="d-flex justify-content-evenly py-2"
@@ -117,9 +122,9 @@ return(
           <VisitLike/>
           <VisitHelper/>
           <VisitDislike/> 
+
       </Container>
-      
-      {/* <br/> */}
+  
       <Accordion 
       id="visitAccordion"
       defaultActiveKey={["0"]} 
@@ -134,12 +139,10 @@ return(
           <Accordion.Header 
           className="">
             <Container 
-            // id="foodPage2"
             fluid 
             className="visitPageAccordion text-center"
             style={{
-              // fontSize:"2.5vw", 
-              // fontWeight:"700"
+              
             }}
             >
               Visit Form
@@ -147,33 +150,31 @@ return(
            </Accordion.Header>
           <Accordion.Body 
           className="px-2 py-3">
-            {/* <div> */}
-                {/* film form */}
+            
               <VisitForm
               visit={visit}
               handleChange={handleChange}
-            submitForm={handleSubmit}
+              submitForm={handleSubmit}
             />
-            {/* </div> */}
+            
           </Accordion.Body>
         </Accordion.Item>
-        {/* <br/> */}
+        
         <br/>
         <Accordion.Item 
         eventKey="0" 
         className="border border-dark border-3 rounded"
-        // style={{height:"70vw"}}
+        style={{
+         
+        }}
         >
           <Accordion.Header 
-        //   className="bg-info"
           >
             <Container 
-            // id="foodPage3"
             fluid 
             className="visitPageAccordion text-center"
             style={{
-              // fontSize:"2.5vw", 
-              // fontWeight:"700"
+              
             }}
             >
               Visit Table
@@ -182,9 +183,8 @@ return(
           <Accordion.Body 
           className="px-2 py-3"
           >
-            {/* <div>
-                Film Table */}
               <VisitTable
+
               userBecky={Becky}
               visit={visit}
               stayedThere={StayedThere}
@@ -192,7 +192,7 @@ return(
               handleOpinion={changeOpinion}
               
             />
-            {/* </div> */}
+
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>

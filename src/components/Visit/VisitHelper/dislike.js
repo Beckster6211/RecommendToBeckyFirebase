@@ -1,7 +1,9 @@
 import React, {useState} from "react"
 
+//
 import "./visitHelper.css"
 
+//
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
@@ -15,7 +17,7 @@ function VisitDislike(){
             id="visitDislikeButton"
             className=""
             style={{
-              // fontSize:"1.5vw"
+              
             }}
             variant="danger" 
             onClick={()=> setRightShow(true)}

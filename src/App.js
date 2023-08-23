@@ -23,7 +23,7 @@ import Try from "./components/Try/try";
 // 
 function App() {
 const [isBecky, setIsBecky] = useState(false)
-console.log({isBecky})
+// console.log({isBecky})
 
 const auth = getAuth()    
 onAuthStateChanged(auth, (user)=>{
@@ -36,6 +36,9 @@ onAuthStateChanged(auth, (user)=>{
         } else if (user.uid === "MLkBzDUaDbSyMH3u5orQW7oBYxN2"){
           console.log("this user is Becky")
           setIsBecky(true)
+        } else if (user.uid !== "MLkBzDUaDbSyMH3u5orQW7oBYxN2"){
+          console.log("this user isnt becky")
+          setIsBecky(false)
         }
     })
 
@@ -44,8 +47,11 @@ onAuthStateChanged(auth, (user)=>{
   className="App"
   >
     <Header/>
+
     <Navigation/>
+
     <Routes>
+
       <Route 
       path = "/" 
       element = {
@@ -55,13 +61,16 @@ onAuthStateChanged(auth, (user)=>{
       path = "/food" 
       element ={
         <Food Becky = {isBecky}/>
-                } />
+      } 
+      />
+
       <Route
       path="/film"
       element = {
         <Film Becky={isBecky}/>
       }
       />
+
       <Route
       path="/tele"
       element = {
@@ -97,9 +106,12 @@ onAuthStateChanged(auth, (user)=>{
                 } />
       
     </Routes>
+
     <Navigation/>
+
     <Footer/>
-        </div>
+
+    </div>
   );
 }
 

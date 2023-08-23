@@ -1,6 +1,8 @@
 import React from "react"
+//
 import "./item.css"
 
+// bootstrap
 import Button from "react-bootstrap/Button"
 import Form from "react-bootstrap/Form"
 import Stack from 'react-bootstrap/Stack'
@@ -20,8 +22,6 @@ function VisitItem({
     removeVisit
     
 }){
-
-    // console.log({tele})
 
     return (
         <tr
@@ -110,7 +110,6 @@ function VisitItem({
           border border-dark border-2 rounded bg-light"
           >
           <input
-          // id="foodTableItem9"
           name="visitTableVisitItCheckbox"
             className="visitTableStayedCheckbox"
             style={{
@@ -128,7 +127,6 @@ function VisitItem({
         </p>
 
           <p
-          // id="foodTableItem3"
         className="visitTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"3vw",
@@ -152,9 +150,6 @@ function VisitItem({
                 // fontSize:"3vw"
               }}
           name="😁"
-          // onClick={(event) => {
-          //   changeOpinion(food, event);
-          // }}
           onChange = {()=>{
             console.log("Not for you, Sorry")
           }}
@@ -170,9 +165,6 @@ function VisitItem({
           // fontSize:"3vw"
         }}
           name="😑"
-          // onClick={(event) => {
-          //   changeOpinion(food, event);
-          // }}
           onChange = {()=>{
             console.log("Not for you, Sorry")
           }}
@@ -188,9 +180,6 @@ function VisitItem({
           // fontSize:"3vw"
         }}
           name="😫"
-          // onClick={(event) => {
-          //   changeOpinion(food, event);
-          // }}
           onChange = {()=>{
             console.log("Not for you, Sorry")
           }}
@@ -202,6 +191,7 @@ function VisitItem({
       </td>
 
     :
+
         <td
         className="p-2 align-middle border border-dark border-4 bg-primary-subtle"
       style={{
@@ -231,7 +221,6 @@ function VisitItem({
         />
         </p>
         <p
-        // id="foodTableItemBecky1"
         className="visitTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"2.2vw",
@@ -256,9 +245,6 @@ function VisitItem({
                 // fontSize:"2vw"
               }}
           name="😁"
-          // onClick={(event) => {
-          //   changeOpinion(food, event);
-          // }}
           onClick={(event) => {
             changeOpinion(visit, event);
           }}
@@ -274,9 +260,6 @@ function VisitItem({
           // fontSize:"2vw"
         }}
           name="😑"
-          // onClick={(event) => {
-          //   changeOpinion(food, event);
-          // }}
           onClick={(event) => {
             changeOpinion(visit, event);
           }}
@@ -291,9 +274,6 @@ function VisitItem({
           // fontSize:"2vw"
         }}
           name="😫"
-          // onClick={(event) => {
-          //   changeOpinion(food, event);
-          // }}
           onClick={(event) => {
             changeOpinion(visit, event);
           }}
