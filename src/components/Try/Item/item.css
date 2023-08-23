@@ -1,0 +1,148 @@
+@media only screen and (max-width: 480px) {
+
+    .visitTableItemVisit{
+        font-size: 2.3vw;
+    }
+
+    #tryTableTryTextarea{
+        font-size: 2.3vw;
+        height: 14vw;
+    }
+
+    .tryTableOpinion{
+        font-size: 3vw;
+    }
+
+    #tryTableButton{
+        font-size: 3vw;
+    }
+
+    #tryTableTryRecommend{
+        font-size: 2.5vw;
+        height:15vw
+    }
+  
+    /* #filmTableItem8{
+        font-size: 3vw;
+    }
+    */
+    .tryTableTriedItCheckbox{
+        height: 4vw;
+        width: 4vw;
+    }
+  }
+
+  @media only screen and (min-width: 481px) {
+
+    .visitTableItemVisit{
+        font-size: 2vw;
+    }
+
+    #tryTableTryTextarea{
+        font-size: 1.8vw;
+        height: 10vw;
+    }
+
+    .tryTableOpinion{
+        font-size: 2.5vw;
+    }
+
+    #tryTableButton{
+        font-size: 2.5vw;
+    }
+
+    #tryTableTryRecommend{
+        font-size: 2vw;
+        height:12vw
+    }
+  
+    /* #filmTableItem8{
+        font-size: 2.5vw;
+    } */
+   
+    .tryTableTriedItCheckbox{
+        height: 3.5vw;
+        width: 3.5vw;
+    }
+  }
+
+  @media only screen and (min-width: 769px) {
+
+    .visitTableItemVisit{
+        font-size: 1.5vw;
+    }
+
+    #tryTableTryTextarea{
+        font-size: 1.5vw;
+        height: 8vw;
+    }
+
+    .tryTableOpinion{
+        font-size: 1.9vw;
+    }
+
+    #tryTableButton{
+        font-size: 1.7vw;
+    }
+
+    #tryTableTryRecommend{
+        font-size: 1.5vw;
+        height: 10vw
+    }
+  
+    /* #filmTableItem8{
+        font-size: 2.5vw;
+    } */
+   
+    .tryTableTriedItCheckbox{
+        height: 3vw;
+        width: 3vw;
+    }
+  }
+
+  @media only screen and (min-width: 1025px) {
+
+    .visitTableItemVisit{
+        font-size: 1.5vw;
+    }
+
+    #tryTableTryTextarea{
+        font-size: 1.5vw;
+        height: 8vw;
+    }
+
+    .tryTableOpinion{
+        font-size: 1.9vw;
+    }
+
+    #tryTableButton{
+        font-size: 1.7vw;
+    }
+
+    #tryTableTryRecommend{
+        font-size: 1.5vw;
+        height:10vw
+    }
+  
+    /* #filmTableItem8{
+        font-size: 2.5vw;
+    } */
+   
+    .tryTableTriedItCheckbox{
+        height: 3vw;
+        width: 3vw;
+    }
+  }
+
+  @media only screen and (min-width: 1201px) {
+
+    .visitTableItemVisit{
+        font-size: 1.2vw;
+    }
+
+    #tryTableTryTextarea{
+        font-size: 1.2vw;
+        height: 10vw;
+    }
+
+  }

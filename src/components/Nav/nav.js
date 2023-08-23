@@ -99,6 +99,7 @@ function Navigation(){
                 className="bg-secondary"
                 >
                     <Nav.Link
+                    href="/try"
                     className="text-dark p-0"
                     style={{
                         // fontSize:"2.5vw"

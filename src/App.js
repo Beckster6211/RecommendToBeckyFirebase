@@ -19,6 +19,7 @@ import Film from "./components/Film/film"
 import Tele from "./components/Tele/tele"
 import Read from "./components/Read/read";
 import Visit from "./components/Visit/visit"
+import Try from "./components/Try/try";
 // 
 function App() {
 const [isBecky, setIsBecky] = useState(false)
@@ -79,6 +80,13 @@ onAuthStateChanged(auth, (user)=>{
       path="/visit"
       element={
         <Visit Becky={isBecky}/>
+      }
+      />
+
+      <Route
+      path="/try"
+      element={
+        <Try Becky = {isBecky}/>
       }
       />
 
