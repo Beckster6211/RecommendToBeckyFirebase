@@ -1,6 +1,9 @@
 import React from "react"
+
+//
 import "./item.css"
 
+// bootstrap
 import Button from "react-bootstrap/Button"
 import Form from "react-bootstrap/Form"
 import Stack from 'react-bootstrap/Stack'
@@ -20,8 +23,6 @@ function TryItem({
     removeTry
     
 }){
-
-    // console.log({tele})
 
     return (
         <tr
@@ -110,7 +111,6 @@ function TryItem({
           border border-dark border-2 rounded bg-light"
           >
           <input
-          // id="foodTableItem9"
           name="tryTableTriedItCheckbox"
             className="tryTableTriedItCheckbox"
             style={{
@@ -128,7 +128,6 @@ function TryItem({
         </p>
 
           <p
-          // id="foodTableItem3"
         className="tryTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"3vw",
@@ -152,9 +151,6 @@ function TryItem({
                 // fontSize:"3vw"
               }}
           name="👍"
-          // onClick={(event) => {
-          //   changeOpinion(food, event);
-          // }}
           onChange = {()=>{
             console.log("Not for you, Sorry")
           }}
@@ -170,9 +166,6 @@ function TryItem({
           // fontSize:"3vw"
         }}
           name="🤙"
-          // onClick={(event) => {
-          //   changeOpinion(food, event);
-          // }}
           onChange = {()=>{
             console.log("Not for you, Sorry")
           }}
@@ -188,9 +181,6 @@ function TryItem({
           // fontSize:"3vw"
         }}
           name="👎"
-          // onClick={(event) => {
-          //   changeOpinion(food, event);
-          // }}
           onChange = {()=>{
             console.log("Not for you, Sorry")
           }}
@@ -231,7 +221,6 @@ function TryItem({
         />
         </p>
         <p
-        // id="foodTableItemBecky1"
         className="tryTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"2.2vw",
@@ -256,9 +245,6 @@ function TryItem({
                 // fontSize:"2vw"
               }}
           name="👍"
-          // onClick={(event) => {
-          //   changeOpinion(food, event);
-          // }}
           onClick={(event) => {
             changeOpinion(tryIt, event);
           }}
@@ -274,9 +260,6 @@ function TryItem({
           // fontSize:"2vw"
         }}
           name="🤙"
-          // onClick={(event) => {
-          //   changeOpinion(food, event);
-          // }}
           onClick={(event) => {
             changeOpinion(tryIt, event);
           }}
@@ -291,9 +274,6 @@ function TryItem({
           // fontSize:"2vw"
         }}
           name="👎"
-          // onClick={(event) => {
-          //   changeOpinion(food, event);
-          // }}
           onClick={(event) => {
             changeOpinion(tryIt, event);
           }}

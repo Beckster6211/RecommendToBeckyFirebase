@@ -1,0 +1,77 @@
+
+@media only screen and (max-width: 480px) {
+
+    .tryFloatingLabel{
+      font-size: 2.5vw;
+    }
+  
+    .tryFormInput{
+      font-size: 3vw;
+    }
+  
+    #tryFormButton{
+      font-size: 2.7vw;
+    }
+  }
+  
+  @media only screen and (min-width: 481px) {
+  
+    .tryFloatingLabel{
+      font-size: 2.7vw;
+    }
+  
+    .tryFormInput{
+      font-size: 3.5vw;
+    }
+  
+    #tryFormButton{
+      font-size: 2.7vw;
+    }
+  
+  }
+  
+  
+  @media only screen and (min-width: 769px) {
+    .tryFloatingLabel{
+      font-size: 2vw;
+    }
+  
+    .tryFormInput{
+      font-size: 3.7vw;
+    }
+  
+    #tryFormButton{
+      font-size: 2.2vw;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    .tryFloatingLabel{
+      font-size: 1.5vw;
+    }
+  
+    .tryFormInput{
+      font-size: 3.7vw;
+    }
+  
+    #tryFormButton{
+      font-size: 1.5vw;
+    }
+  }
+  
+  @media only screen and (min-width: 1201px) {
+    .tryFloatingLabel{
+      font-size: 1.2vw;
+    }
+  
+    .tryFormInput{
+      font-size: 3.7vw;
+    }
+  
+    #tryFormButton{
+      font-size: 1.2vw;
+    }
+  }
+  
+  

@@ -1,6 +1,9 @@
 import React, {useRef} from "react"
+
+//
 import "./form.css"
 
+// bootstrap
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card"
 import Form from "react-bootstrap/Form"
@@ -14,18 +17,17 @@ function TryForm({tryIt, handleChange, submitForm}){
     return(
         <Container 
     fluid 
-    className="bg-primary border border-primary border-3 rounded p-1">
+    className="bg-secondary border border-secondary border-3 rounded p-1">
 
       <Container 
       fluid 
-        className="bg-primary p-2">
+        className="bg-secondary p-2">
         <Card 
-          className ="bg-primary-subtle border border-primary-subtle" >
+          className ="bg-secondary-subtle border border-secondary-subtle" >
           <Card.Body>
 
-          <Form 
-        //   id="foodForm"
-          className = "bg-primary-subtle p-1" 
+          <Form
+          className = "bg-secondary-subtle p-1" 
           autoComplete="off"
           onSubmit={(event) => {
             submitForm(event);
@@ -39,16 +41,15 @@ function TryForm({tryIt, handleChange, submitForm}){
               className = ""  
               controlId="formTryWhat"
             >
-              <FloatingLabel 
-              // id="foodFloatingLabel1"
-              className="visitFloatingLabel"
+              <FloatingLabel
+              className="tryFloatingLabel"
               style={{
                 // fontSize:"1.2vw"
               }}
               controlId = "formTryWhat" 
               label= "Try this...">
                 <Form.Control 
-                className="visitFormInput text-break border border-dark
+                className="tryFormInput text-break border border-dark
                border-3"
                style={{
                 // fontSize:"2vw"
@@ -57,9 +58,6 @@ function TryForm({tryIt, handleChange, submitForm}){
                 type="text"
                 placeholder = "Try this..." 
                 name="formTryWhat"
-                // id="formFoodItem"
-                // type="text"
-                // placeholder="Food..."
                 onChange={(event) => {
                   handleChange(event);
                 }}
@@ -73,16 +71,15 @@ function TryForm({tryIt, handleChange, submitForm}){
               className = "pt-2"  
               controlId="formTryWhere"
             >
-              <FloatingLabel 
-              // id="foodFloatingLabel1"
-              className="visitFloatingLabel"
+              <FloatingLabel
+              className="tryFloatingLabel"
               style={{
                 // fontSize:"1.2vw"
               }}
               controlId = "formTryWhere" 
               label= "Where specific...">
                 <Form.Control 
-                className="visitFormInput text-break border border-dark
+                className="tryFormInput text-break border border-dark
                border-3"
               ref={myTry}
                 type="text"
@@ -92,10 +89,7 @@ function TryForm({tryIt, handleChange, submitForm}){
                 style = {{
                   height:"90px",
                   // fontSize:"1.4vw"
-                }} 
-                // id="formFoodItem"
-                // type="text"
-                // placeholder="Food..."
+                }}
                 onChange={(event) => {
                   handleChange(event);
                 }}
@@ -108,16 +102,15 @@ function TryForm({tryIt, handleChange, submitForm}){
             <Form.Group 
             className="pt-2">
 
-              <FloatingLabel 
-              // id="foodFloatingLabel2"
-              className="visitFloatingLabel"
+              <FloatingLabel
+              className="tryFloatingLabel"
               style={{
                 // fontSize:"1.2vw"
               }}
               controlId = "formTryDescription" 
               label= "Why...">
                 <Form.Control 
-                className="visitFormInput border border-dark border-3" 
+                className="tryFormInput border border-dark border-3" 
                 
                 as = "textarea" 
                 style = {{
@@ -140,16 +133,15 @@ function TryForm({tryIt, handleChange, submitForm}){
             className="py-2" 
             controlId="formTryRecommend">
 
-              <FloatingLabel 
-              // id="foodFloatingLabel3"
-              className="visitFloatingLabel"
+              <FloatingLabel
+              className="tryFloatingLabel"
               style={{
                 // fontSize:"1.2vw"
               }}
               controlId = "formTryRecommend" 
               label="Recommended By..." >
                 <Form.Control 
-                className="visitFormInput border border-dark border-3"
+                className="tryFormInput border border-dark border-3"
                 style={{
                   // fontSize:"1.4vw"
                 }} 
@@ -157,9 +149,6 @@ function TryForm({tryIt, handleChange, submitForm}){
                 type="text" 
                 placeholder="Recommended By..."
                 name="formTryRecommend"
-                // id="formFoodRecommend"
-                // type="text"
-                // placeholder="Recommmended By..."
                 onChange={(event) => {
                   handleChange(event);
                 }}
@@ -172,7 +161,7 @@ function TryForm({tryIt, handleChange, submitForm}){
                 {
                     myTry.current?.value === "" ?
                     <Button 
-            id="visitFormButton"
+            id="tryFormButton"
             variant = "info"
             className="border border-dark border-3 text-dark"  
             // type = "submit"
@@ -190,7 +179,7 @@ function TryForm({tryIt, handleChange, submitForm}){
             : 
 
             <Button 
-            id="visitFormButton"
+            id="tryFormButton"
             variant = "info"
             className="border border-dark border-3 text-dark"  
             type = "submit"

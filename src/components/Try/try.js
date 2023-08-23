@@ -107,19 +107,26 @@ return(
           // fontWeight:"900"
         }}
         >
-          🧗‍♀️ &nbsp; 🔫 &nbsp; Try PAGE &nbsp; 🛹 &nbsp; 🏄‍♀️
+
+          🧗‍♀️ &nbsp; 
+          🔫 &nbsp; 
+          Try PAGE 
+          &nbsp; 🛹 
+          &nbsp; 🏄‍♀️
+
       </Container>
-      {/* <br/> */}
+
       <Container 
       // fluid
       className="d-flex justify-content-evenly py-2"
       >
+
           <TryLike/>
           <TryHelper/>
-          <TryDislike/> 
+          <TryDislike/>
+
       </Container>
       
-      {/* <br/> */}
       <Accordion 
       id="tryAccordion"
       defaultActiveKey={["0"]} 
@@ -133,8 +140,7 @@ return(
         className="border border-dark border-3 rounded">
           <Accordion.Header 
           className="">
-            <Container 
-            // id="foodPage2"
+            <Container
             fluid 
             className="tryPageAccordion text-center"
             style={{
@@ -147,17 +153,16 @@ return(
            </Accordion.Header>
           <Accordion.Body 
           className="px-2 py-3">
-            {/* <div> */}
-                {/* film form */}
+          
               <TryForm
               tryIt={tryIt}
               handleChange={handleChange}
             submitForm={handleSubmit}
             />
-            {/* </div> */}
+          
           </Accordion.Body>
         </Accordion.Item>
-        {/* <br/> */}
+       
         <br/>
         <Accordion.Item 
         eventKey="0" 
@@ -165,10 +170,8 @@ return(
         // style={{height:"70vw"}}
         >
           <Accordion.Header 
-        //   className="bg-info"
           >
             <Container 
-            // id="foodPage3"
             fluid 
             className="tryPageAccordion text-center"
             style={{
@@ -182,8 +185,7 @@ return(
           <Accordion.Body 
           className="px-2 py-3"
           >
-            {/* <div>
-                Film Table */}
+
               <TryTable
               userBecky={Becky}
               tryIt={tryIt}
@@ -192,7 +194,7 @@ return(
               handleOpinion={changeOpinion}
               
             />
-            {/* </div> */}
+          
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>

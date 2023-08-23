@@ -29,8 +29,7 @@ function VisitTable({userBecky, tryIt, triedIt, deleteTry, handleOpinion}){
         
       }}
       >
-      <thead 
-      // id="foodTable1"
+      <thead
       className="tryTableHeadFoot bg-dark-subtle border border-dark border-4 "
       style={{
         verticalAlign:"middle", 
@@ -67,8 +66,7 @@ function VisitTable({userBecky, tryIt, triedIt, deleteTry, handleOpinion}){
         {/* 
         //////////
     with sticky table header not sure if footer needed */}
-        <tfoot 
-        // id="foodTable2"
+        <tfoot
         className="tryTableHeadFoot bg-dark-subtle border border-dark border-4"
         style={{
           verticalAlign:"middle", 
@@ -106,7 +104,6 @@ function VisitTable({userBecky, tryIt, triedIt, deleteTry, handleOpinion}){
         >
           {tryIt.map((item, index) => {
             // console.log({item});
-            // console.log(item.numberofseries);
             // console.log(index);
             return (
               <TryItem
