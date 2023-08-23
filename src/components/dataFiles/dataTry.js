@@ -1,22 +1,23 @@
 // 👍🤙👎🤷
 
 let tryThis = [
-        {
-      what: "Coventry Building Society Arena",
-      location: "Coventry West Mids UK",
-      why: "Home Wasps rugby 🐝",
-      recommendedby: "Me",
-      visited: true,
-      beckyopinion: "👍",
-    },
-    {
-      what: "Depot Climbing",
-      location: "Birmingham UK",
-      why: "I promised to try climbing & bouldering",
-      recommendedby: "Michael & Charlie (SOC Bootcamp 4)",
-      visited: false,
-      beckyopinion: "🤷‍♀️",
-    },
+    //     {
+    //   what: "Coventry Building Society Arena",
+    //   location: "Coventry West Mids UK",
+    //   why: "Home Wasps rugby 🐝",
+    //   recommendedby: "Me",
+    //   visited: true,
+    //   beckyopinion: "👍",
+    // },
+    // {
+    //   what: "Depot Climbing",
+    //   location: "Birmingham UK",
+    //   why: "I promised to try climbing & bouldering",
+    //   recommendedby: "Michael & Charlie (SOC Bootcamp 4)",
+    //   visited: false,
+    //   beckyopinion: "🤷‍♀️",
+    // },
+    //// may move too becky recommends
     {
       what: "Combe Martin Wildlife & Dinosaur Park Park",
       location: "Combe Martin, EX34 0NG, Devon",
@@ -40,6 +41,7 @@ let tryThis = [
     // camel trail padstow? chip shop (chicken nuggets)???
     // fowey chip shop curry sauce
     // cadbury world, its chocolate (free pot of chocolate yum yum)
+    // zip line
   ];
   
   module.exports = tryThis;

@@ -2,8 +2,8 @@ import React, {useState, useEffect} from "react"
 import "./try.css"
 
 //components
-// import VisitTable from "./Table/table";
-// import VisitForm from "./Form/form";
+import TryTable from "./Table/table";
+import TryForm from "./Form/form";
 import TryLike from "./TryHelper/like";
 import TryHelper from "./TryHelper/tryHelper";
 import TryDislike from "./TryHelper/dislike";
@@ -28,9 +28,9 @@ import {
 
 
 function Try({Becky}){
-    const [visit, setNewVisit] = useState([])
+    const [tryIt, setNewTryIt] = useState([])
     const [form, setForm] = useState({})
-    // console.log({visit})
+    console.log({tryIt})
 
 ////add from form
 function handleChange(event){
@@ -43,51 +43,51 @@ async function handleSubmit(event){
     console.log({form})
     console.log("submit button pressed");
 event.preventDefault()
-await addDoc(collection(db, "Visit"),
+await addDoc(collection(db, "Try"),
 {
     beckyopinion: "🤷‍♀️",
-    what: form.formWhat,
-    where: form.formWhere,
-    details: form.formVisitDescription,
-    recommendedby: form.formVisitRecommend,
-    stayed: false,
+    what: form.formTryWhat,
+    location: form.formTryWhere,
+    why: form.formTryDescription,
+    recommendedby: form.formTryRecommend,
+    visited: false,
 });
 window.location.reload()
 }
 
 // read
 useEffect(()=>{
-    const q = query(collection(db, "Visit"))
+    const q = query(collection(db, "Try"))
     const unsubscribe = onSnapshot(q, (querySnapshot)=>{ 
-        let visitArray = []
+        let tryArray = []
         querySnapshot.forEach((doc)=>{
-            visitArray.push({...doc.data(),
+            tryArray.push({...doc.data(),
             id: doc.id})
         })
-        setNewVisit(visitArray)
+        setNewTryIt(tryArray)
     })
     return () => unsubscribe()
 }, [])
 
 //update
 //tried
-const StayedThere = async (visit)=>{
-    await updateDoc(doc(db, "Visit", visit.id), {
-        stayed: !visit.stayed
+const TriedIt = async (tryIt)=>{
+    await updateDoc(doc(db, "Try", tryIt.id), {
+        visited: !tryIt.visited
     })
 }
 
 //opinion
-const changeOpinion = async (read, event)=>{
+const changeOpinion = async (tryIt, event)=>{
     let beckyOpinion = event.target.name;
-    await updateDoc(doc(db, "Visit", read.id),{
+    await updateDoc(doc(db, "Try", tryIt.id),{
         beckyopinion:beckyOpinion
     })
 }
 
 //delete
-const deleteVisit = async(id)=>{
-    await deleteDoc(doc(db,"Visit", id))
+const deleteTry = async(id)=>{
+    await deleteDoc(doc(db,"Try", id))
 }
 
 return(
@@ -100,7 +100,7 @@ return(
       >
       {/* <br/> */}
       <Container 
-      id = "visitPage1"
+      id = "tryPage1"
         className=" bg-secondary-subtle rounded text-center p-0" 
         style={{
           // fontSize:"3vw", 
@@ -121,7 +121,7 @@ return(
       
       {/* <br/> */}
       <Accordion 
-      id="visitAccordion"
+      id="tryAccordion"
       defaultActiveKey={["0"]} 
       alwaysOpen
       className="p-2 border border-dark border-3 rounded bg-light"
@@ -136,7 +136,7 @@ return(
             <Container 
             // id="foodPage2"
             fluid 
-            className="visitPageAccordion text-center"
+            className="tryPageAccordion text-center"
             style={{
               // fontSize:"2.5vw", 
               // fontWeight:"700"
@@ -149,11 +149,11 @@ return(
           className="px-2 py-3">
             {/* <div> */}
                 {/* film form */}
-              {/* <VisitForm
-              visit={visit}
+              <TryForm
+              tryIt={tryIt}
               handleChange={handleChange}
             submitForm={handleSubmit}
-            /> */}
+            />
             {/* </div> */}
           </Accordion.Body>
         </Accordion.Item>
@@ -170,7 +170,7 @@ return(
             <Container 
             // id="foodPage3"
             fluid 
-            className="visitPageAccordion text-center"
+            className="tryPageAccordion text-center"
             style={{
               // fontSize:"2.5vw", 
               // fontWeight:"700"
@@ -184,14 +184,14 @@ return(
           >
             {/* <div>
                 Film Table */}
-              {/* <VisitTable
+              <TryTable
               userBecky={Becky}
-              visit={visit}
-              stayedThere={StayedThere}
-              deleteVisit={deleteVisit}
+              tryIt={tryIt}
+              triedIt={TriedIt}
+              deleteTry={deleteTry}
               handleOpinion={changeOpinion}
               
-            /> */}
+            />
             {/* </div> */}
           </Accordion.Body>
         </Accordion.Item>
