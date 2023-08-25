@@ -40,7 +40,7 @@ function FoodLike(){
               <Offcanvas.Title
               className=""
               >
-              😋 I Like...😋
+              😋 I like to eat... 😋
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
@@ -48,13 +48,54 @@ function FoodLike(){
               <br/>
               bullet point list of what I like
               <br/>
-              .
-              .
-              .
-              .
-              <br/>
               yummy
-              {/* maybe do a video of explaining what I like */}
+              <br/>
+              maybe do a video of explaining what I like
+            <br/>
+            <br/>
+            <h6>Here some help on what I like to eat
+              <br/>
+              <small> (If it helps you 😊)</small>
+            </h6>
+            <ul 
+            className=""
+            >
+              <li>
+                I LOVE ❤️ LOVE ❤️ LOVE ❤️ pancakes 🥞
+                <br/>
+                <small>(I really wish there was IHOP in Birmingham 😭)</small>
+              </li>
+              <li>
+                I have a sweet tooth 🍬🦷 
+                <br/>
+                <small>(my favourite sweet, the classic-flying saucers)</small>
+              </li>
+              <li>
+                I do enjoy the mix of some flavours, sweet and savoury, bitter and smooth...
+                <br/>
+                <small> (perfect meal pancakes with fried english 🥞🥓🍳🍟🍄)</small> 
+              </li>
+              <li>
+                I like lemon
+                <br/>
+                <small>(Lemon meringue, lemon cake, lemon puffs 🍋)</small>
+              </li>
+              <li>
+                I am a meat eater 🥩
+                <br/> 
+                <small>(open to alternatives though 🌿)</small>
+              </li>
+              <li>
+                I like some fish 
+                <br/>
+                <small>(white fish such as - cod, haddock, mackerel, seabass or fillets like salmon)</small>
+              </li>
+              <li>
+                I like BBQ 🔥
+                <br/>
+                <small>( 👍 handheld food - burgers, hotdogs, corn on a cob, wings, ribs 👍)</small>
+              </li>
+            </ul>
             </Offcanvas.Body>
           </Offcanvas>
         </div>

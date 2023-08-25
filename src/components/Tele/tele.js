@@ -94,7 +94,7 @@ const deleteTele = async(id)=>{
 }
 
 return(
-        <Container 
+      <Container 
       fluid
       className="telePage pt-3"
       style={{
