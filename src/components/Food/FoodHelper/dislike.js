@@ -42,17 +42,55 @@ function FoodDislike(){
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              ToDo.....
+              {/* ToDo.....
               <br/>
             bullet point list of what I dislike
               <br/>
-              .
-              .
-              .
-              .
-              <br/>
               yuck
-              {/* maybe do a video of explaining what I dislike */}
+              maybe do a video of explaining what I dislike */}
+              <h6
+            className="foodHeading"
+            >Here some help on what I don't like to eat
+              <br/>
+              <small> (If it helps you 😊)</small>
+            </h6>
+            <ul 
+            className="foodList"
+            >
+              <li>
+                I don't like spicy food 🌶️🥵
+                <br/>
+                <small>(I don't mind a tiny bit of cheeky heat 🤏)</small>
+              </li>
+              <li>
+                I HATE cheese, fastest way to ruin a burger 🧀
+                <br/>
+                <small>(I will eat pizza and lasagne though 😐)</small>
+              </li>
+              <li>
+                I don't like nuts 🥜
+                <br/>
+                <small>(Even if you covered them in chocolate, still no)</small>
+              </li>
+              <li>
+                I don't like some fish 
+                <br/>
+                <small>(I don't like tinned fish - tinned tuna, salmon)</small>
+              </li>
+              <li>
+                I can be fussy about texture
+                <br/>
+                <small>(👎 I don't like juice with bits in or thick milkshakes 👎)</small>
+              </li>
+              <li>
+                I hate the beans in Chilli
+                <br/>
+                <small>(There is always too many to pick out...😭)</small>
+              </li>
+            </ul>
+            <p>
+              maybe video explaining list?
+            </p>
             </Offcanvas.Body>
           </Offcanvas>
         </div>
