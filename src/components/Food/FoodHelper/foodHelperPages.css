@@ -12,6 +12,14 @@
         font-size: 2.5vw;
     }
 
+    .foodHeading{
+        font-size: 3.5vw;
+    }
+
+    .foodList{
+        font-size: 3vw;
+    }
+
     /* #foodLikeOffcanvas{} */
     /* #foodHelperOffcanvas{} */
     /* #foodDislikeOffcanvas{} */

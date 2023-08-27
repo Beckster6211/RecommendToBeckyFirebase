@@ -44,7 +44,7 @@ function FoodLike(){
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-            ToDo.....
+            {/* ToDo.....
               <br/>
               bullet point list of what I like
               <br/>
@@ -52,13 +52,15 @@ function FoodLike(){
               <br/>
               maybe do a video of explaining what I like
             <br/>
-            <br/>
-            <h6>Here some help on what I like to eat
+            <br/> */}
+            <h6
+            className="foodHeading"
+            >Here some help on what I like to eat
               <br/>
               <small> (If it helps you 😊)</small>
             </h6>
             <ul 
-            className=""
+            className="foodList"
             >
               <li>
                 I LOVE ❤️ LOVE ❤️ LOVE ❤️ pancakes 🥞
@@ -73,17 +75,17 @@ function FoodLike(){
               <li>
                 I do enjoy the mix of some flavours, sweet and savoury, bitter and smooth...
                 <br/>
-                <small> (perfect meal pancakes with fried english 🥞🥓🍳🍟🍄)</small> 
+                <small> (perfect meal pancakes with full english 🥞🥓🍳🍟🍄)</small> 
               </li>
               <li>
                 I like lemon
                 <br/>
-                <small>(Lemon meringue, lemon cake, lemon puffs 🍋)</small>
+                <small>(Lemon meringue, lemon cake, lemon puff biscuits 🍋)</small>
               </li>
               <li>
                 I am a meat eater 🥩
                 <br/> 
-                <small>(open to alternatives though 🌿)</small>
+                <small>(open to alternatives 🌿)</small>
               </li>
               <li>
                 I like some fish 
@@ -95,7 +97,15 @@ function FoodLike(){
                 <br/>
                 <small>( 👍 handheld food - burgers, hotdogs, corn on a cob, wings, ribs 👍)</small>
               </li>
+              <li>
+                My favourite takeaway Chinese 🥡
+                <br/>
+                <small>(I really like noodles - chow mein, my fav)</small>
+              </li>
             </ul>
+            <p>
+              maybe video explaining list?
+            </p>
             </Offcanvas.Body>
           </Offcanvas>
         </div>
