@@ -38,7 +38,7 @@ function FoodDislike(){
             closeButton
             >
               <Offcanvas.Title>
-              🤮 I Dislike... 🤮
+              🤮 I don't like to eat... 🤮
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
