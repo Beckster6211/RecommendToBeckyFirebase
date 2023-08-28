@@ -37,7 +37,9 @@ function FoodHelper(){
                 className="bg-secondary"
               closeButton
             >
-              <Offcanvas.Title>
+              <Offcanvas.Title
+              id="foodHelperTitle"
+              >
               ℹ️ Food Helper ℹ️
               </Offcanvas.Title>
             </Offcanvas.Header>
@@ -98,7 +100,7 @@ function FoodHelper(){
                   {/* <br/>
                   There are two buttons to help you with what I like and dislike. The like opens an modal on the left side of the screen and the dislike opens on the right.  */}
                 
-                <p>Video explaining the food page???</p>
+                <p>???Video explaining the food page???</p>
 
             </Offcanvas.Body>
           </Offcanvas>
