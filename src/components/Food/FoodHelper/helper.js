@@ -20,7 +20,8 @@ function FoodHelper(){
             variant="secondary" 
             onClick={()=>setTopShow(true)}
           >
-            Food Helper ☝️ 
+            Food Helper ℹ️
+             {/* ☝️  */}
           </Button>
 
           <Offcanvas 

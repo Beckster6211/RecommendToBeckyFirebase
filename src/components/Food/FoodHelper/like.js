@@ -20,8 +20,9 @@ function FoodLike(){
             variant="success" 
             onClick={()=>setLeftShow(true)}
           >
-            👈 Like
-          </Button>
+            {/* 👈  */}
+            😋 Like
+           </Button>
 
           <Offcanvas 
             id="foodLikeOffcanvas"
@@ -38,6 +39,7 @@ function FoodLike(){
               closeButton
             >
               <Offcanvas.Title
+              id="foodLikeTitle"
               className=""
               >
               😋 I like to eat... 😋

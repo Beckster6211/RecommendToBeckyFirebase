@@ -20,7 +20,8 @@ function FoodDislike(){
             variant="danger" 
             onClick={()=> setRightShow(true)}
             >
-              Dislike 👉
+              Dislike 🤮
+               {/* 👉 */}
           </Button>
 
           <Offcanvas 
@@ -37,7 +38,9 @@ function FoodDislike(){
               className="bg-danger"
             closeButton
             >
-              <Offcanvas.Title>
+              <Offcanvas.Title
+              id="foodDislikeTitle"
+              >
               🤮 I don't like to eat... 🤮
               </Offcanvas.Title>
             </Offcanvas.Header>
