@@ -8,7 +8,7 @@ import FilmItem from "../Item/item";
 import Table from 'react-bootstrap/Table';
 import Container from "react-bootstrap/Container";
 
-function FilmTable({userBecky, film, filmWatchedIt, deleteFilm, handleOpinion}){
+function FilmTable({userBecky, film, filmWatchedIt, deleteFilm, handleOpinion, thoughtsBecky}){
     // console.log({film})
 
     return(
@@ -115,6 +115,7 @@ function FilmTable({userBecky, film, filmWatchedIt, deleteFilm, handleOpinion}){
                 filmPlot={item.description}
                 filmWatched = {item.watched}
                 filmOpinion = {item.beckyopinion}
+                filmThoughts = {item.beckythoughts}
                 filmRecommend = {item.recommendedby}
                 filmGenre = {item.genre}
                 filmConnected = {item.connected}
@@ -126,6 +127,7 @@ function FilmTable({userBecky, film, filmWatchedIt, deleteFilm, handleOpinion}){
                 watchedIt={filmWatchedIt}
                 changeOpinion={handleOpinion}
                 becky={userBecky}
+                beckyThoughts = {thoughtsBecky}
               />
             );
           })}

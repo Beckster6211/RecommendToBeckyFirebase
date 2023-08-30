@@ -102,6 +102,7 @@ function Food({Becky}) {
     // console.log(`becky opinion changed ${food.beckyopinion}`);
   };
 
+  /// changing what I thought
   const beckyThoughtsChange = async (food, event)=>{
     let beckyThoughts = event.target.value
     // console.log(beckyThoughts)
