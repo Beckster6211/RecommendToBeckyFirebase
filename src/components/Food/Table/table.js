@@ -9,7 +9,7 @@ import Table from 'react-bootstrap/Table';
 import Container from "react-bootstrap/Container";
 
 //
-function FoodTable({userBecky, food, foodITried, handleOpinion, deleteFood }) {
+function FoodTable({userBecky, food, foodITried, handleOpinion,thoughtsBecky, deleteFood }) {
   // console.log(food);
   return (
     <Container 
@@ -42,19 +42,23 @@ function FoodTable({userBecky, food, foodITried, handleOpinion, deleteFood }) {
             <th 
             className="tableHeader bg-dark-subtle border-dark border-end border-4"
             // style={{fontWeight:"500"}}
-            >Food</th>
+            >Food
+            </th>
             <th 
             className="tableHeader bg-dark-subtle border-dark border-end border-4"
             // style={{fontWeight:"500"}}
-            >Becky Opinion</th>
+            >Becky Opinion
+            </th>
             <th 
             className="tableHeader bg-dark-subtle border-dark border-end border-4"
             // style={{fontWeight:"500"}}
-            >Who recommends</th>
+            >Who recommends
+            </th>
             <th 
             className="tableHeader bg-dark-subtle"
             // style={{fontWeight:"500"}}
-            >Delete</th>
+            >Delete
+            </th>
           </tr>
         </thead>
 
@@ -73,16 +77,20 @@ function FoodTable({userBecky, food, foodITried, handleOpinion, deleteFood }) {
           <tr>
             <th
             className="bg-dark-subtle border-dark border-end border-4"
-            >Food</th>
+            >Food
+            </th>
             <th
             className="bg-dark-subtle border-dark border-end border-4"
-            >Becky Opinion</th>
+            >Becky Opinion
+            </th>
             <th
             className="bg-dark-subtle border-dark border-end border-4"
-            >Who recommends</th>
+            >Who recommends
+            </th>
             <th
             className="bg-dark-subtle"
-            >Delete</th>
+            >Delete
+            </th>
           </tr>
         </tfoot> 
 
@@ -104,6 +112,7 @@ function FoodTable({userBecky, food, foodITried, handleOpinion, deleteFood }) {
                 foodItem={item.fooditem}
                 foodRecipe={item.recipe}
                 foodOpinion={item.beckyopinion}
+                foodThought={item.beckythoughts}
                 foodId={item.id}
                 foodTried={item.tried}
                 foodRecommend={item.recommendedby}
@@ -113,6 +122,7 @@ function FoodTable({userBecky, food, foodITried, handleOpinion, deleteFood }) {
                 triedIt={foodITried}
                 changeOpinion={handleOpinion}
                 becky={userBecky}
+                beckyThoughts={thoughtsBecky}
               />
             );
           })}

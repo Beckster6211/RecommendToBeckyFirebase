@@ -10,6 +10,8 @@ import {getAuth, onAuthStateChanged} from "firebase/auth"
 import Button from "react-bootstrap/Button"
 import Stack from 'react-bootstrap/Stack'
 import Form from "react-bootstrap/Form"
+import Tooltip from "react-bootstrap/Tooltip";
+import { OverlayTrigger } from "react-bootstrap";
 
 
 //
@@ -18,15 +20,17 @@ function Item({
   foodItem,
   foodRecipe,
   foodOpinion,
+  foodThought,
   foodTried,
   foodRecommend,
   removeFood,
   foodId,
   triedIt,
   changeOpinion,
-  becky
+  becky,
+  beckyThoughts
 }) {
-  // console.log(foodItem);
+  // console.log(foodThought);
   // console.log({becky})
 
   /////////// auth in item to stop passing to each item
@@ -46,6 +50,16 @@ function Item({
 //           setIsBecky(true)
 //         }
 //     })
+
+
+const tooltip = (
+  <Tooltip
+  >
+    Sorry. 
+    <br/>
+    Not for you
+  </Tooltip>
+)
 
 
   return (
@@ -98,13 +112,25 @@ function Item({
         <Stack 
         direction="horizontal"
         className="justify-content-evenly"
+        gap={1}
         >
           <p
           className="
-          p-1 pb-0 mx-1 mb-0 
+          px-1 py-1 ms-1 mb-0
           border border-dark border-2 rounded bg-light"
           >
-          <input
+            {/* <OverlayTrigger
+            placement = "top" 
+            trigger = "click"
+            overlay={
+              
+              <Tooltip>
+                Sorry. Not for you
+              </Tooltip>
+            
+            }
+            > */}
+            <input
           // id="foodTableItem9"
           name="foodTableTriedCheckbox"
             className="foodTableCheckboxTried"
@@ -114,12 +140,16 @@ function Item({
               
             }}
             type="checkbox"
-            onChange = {()=>{
+            onChange = { ()=>{
               console.log("Not for you, sorry")
-               }}       
+               }}  
+                
             checked={foodTried}
             readOnly
         /> 
+
+            {/* </OverlayTrigger> */}
+          
         </p>
           <p
           // id="foodTableItem3"
@@ -131,7 +161,81 @@ function Item({
         }}
         >{foodOpinion}</p>
         </Stack>
-            <Stack 
+        {/* <br/> */}
+        <Form.Control 
+            id="foodTableFoodTextarea"
+            name="foodTableFoodTextarea"
+            className="border border-dark border-2 p-1 mt-2"
+            as="textarea"
+            defaultValue={foodThought} 
+            readOnly 
+            style={{
+              // fontSize:"1.5vw",
+              // height:"14vw"          
+            }}
+            />
+        <Stack
+        direction="horizontal"
+        className="justify-content-evenly pt-2"
+        gap={1}
+        >
+          <Button 
+              id="foodTableButton"
+              variant="success"
+              className="border border-2 border-dark rounded p-0"
+              style={{
+                // fontSize:"3vw"
+              }}
+          name="😋"
+          // onClick={(event) => {
+          //   changeOpinion(food, event);
+          // }}
+          onChange = {()=>{
+            console.log("Not for you, Sorry")
+          }}
+          readOnly
+        >
+          😋          
+        </Button>
+        <Button 
+        id="foodTableButton"
+        variant="secondary"
+        className="border border-dark border-2 rounded p-0"
+        style={{
+          // fontSize:"3vw"
+        }}
+          name="🤫"
+          // onClick={(event) => {
+          //   changeOpinion(food, event);
+          // }}
+          onChange = {()=>{
+            console.log("Not for you, Sorry")
+          }}
+          readOnly
+        >
+          🤫
+        </Button>
+        <Button 
+        id="foodTableButton"
+        variant = "danger"
+        className="border border-dark border-2 rounded p-0"
+        style={{
+          // fontSize:"3vw"
+        }}
+          name="🤮"
+          // onClick={(event) => {
+          //   changeOpinion(food, event);
+          // }}
+          onChange = {()=>{
+            console.log("Not for you, Sorry")
+          }}
+          readOnly
+        >
+          🤮
+        </Button>
+        </Stack>
+        
+            {/* <Stack 
             gap={1} 
             className="p-1"
             style={{
@@ -192,7 +296,7 @@ function Item({
         >
           🤮
         </Button>
-        </Stack>
+        </Stack> */}
          
         {/* 
         /////////
@@ -221,9 +325,11 @@ function Item({
           <Stack 
         direction="horizontal"
         className="justify-content-evenly"
+        gap={1}
         >
           <p
-          className="p-1 pb-0 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+          className="
+          px-1 py-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
           >
           <input
           name="foodTableBeckyTriedCheckbox"
@@ -250,9 +356,26 @@ function Item({
         >{foodOpinion}</p>
         </Stack>
         
+        <Form.Control 
+            id="foodTableFoodTextarea"
+            name="foodTableFoodTextarea"
+            className="border border-dark border-2 p-1 mt-2"
+            as="textarea"
+            defaultValue={foodThought} 
+            onChange={(event) =>{
+              beckyThoughts(food, event)
+            }}
+            // readOnly 
+            style={{
+              // fontSize:"1.5vw",
+              // height:"14vw"          
+            }}
+            />
+
        <Stack 
+       direction = "horizontal"
+       className="justify-content-evenly pt-2"
        gap={1} 
-            className="p-1"
             style={{
               // border:"solid black 3px"
             }}
@@ -260,7 +383,7 @@ function Item({
              <Button 
              id="foodTableButton"
              variant="success"
-              className="border border-2 border-dark rounded"
+              className="border border-2 border-dark rounded p-0"
               style={{
                 // fontSize:"2vw"
               }}
@@ -278,7 +401,7 @@ function Item({
         <Button 
         id="foodTableButton"
         variant="secondary"
-        className="border border-dark border-2 rounded"
+        className="border border-dark border-2 rounded p-0"
         style={{
           // fontSize:"2vw"
         }}
@@ -295,7 +418,7 @@ function Item({
         <Button 
         id="foodTableButton"
         variant = "danger"
-        className="border border-dark border-2 rounded"
+        className="border border-dark border-2 rounded p-0"
         style={{
           // fontSize:"2vw"
         }}
@@ -310,6 +433,7 @@ function Item({
           🤮
         </Button>
             </Stack>
+           
         {/* comment this one out once done */}
         {/* <button
           name="🤷‍♀️"
