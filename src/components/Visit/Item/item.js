@@ -14,13 +14,14 @@ function VisitItem({
     visitWhere,
     visitDetails,
     visitOpinion,
+    visitThoughts,
     visitRecommend,
     visitStayed,
     visitId,
     changeOpinion,
     stayedThere,
-    removeVisit
-    
+    removeVisit,
+    beckyThoughts
 }){
 
     return (
@@ -95,7 +96,7 @@ function VisitItem({
     becky === false ? 
 
       <td
-        className="p-2 border border-dark border-4 bg-primary-subtle"
+        className="p-2 align-middle border border-dark border-4 bg-primary-subtle"
       style={{
       }}
         >          
@@ -106,7 +107,7 @@ function VisitItem({
         >
           <p
           className="
-          p-1 pb-0 mx-1 mb-0 
+          px-1 py-1 ms-1 mb-0
           border border-dark border-2 rounded bg-light"
           >
           <input
@@ -135,9 +136,24 @@ function VisitItem({
             {visitOpinion}
             </p>
         </Stack>
+
+        <Form.Control 
+            id="foodTableFoodTextarea"
+            name="foodTableFoodTextarea"
+            className="border border-dark border-2 p-1 mt-2"
+            as="textarea"
+            defaultValue={visitThoughts} 
+            readOnly 
+            style={{
+              // fontSize:"1.5vw",
+              // height:"14vw"          
+            }}
+            />
+
             <Stack 
+            direction="horizontal"
             gap={1} 
-            className="p-1 text-center"
+            className="justify-content-evenly pt-2"
             style={{
               // border:"solid black 3px"
             }}
@@ -145,7 +161,7 @@ function VisitItem({
               <Button 
               id="visitTableButton"
               variant="success"
-              className="border border-2 border-dark rounded "
+              className="border border-2 border-dark rounded p-0"
               style={{
                 // fontSize:"3vw"
               }}
@@ -160,7 +176,7 @@ function VisitItem({
         <Button 
         id="visitTableButton"
         variant="secondary"
-        className="border border-dark border-2 rounded"
+        className="border border-dark border-2 rounded p-0"
         style={{
           // fontSize:"3vw"
         }}
@@ -175,7 +191,7 @@ function VisitItem({
         <Button 
         id="visitTableButton"
         variant = "danger"
-        className="border border-dark border-2 rounded"
+        className="border border-dark border-2 rounded p-0"
         style={{
           // fontSize:"3vw"
         }}
@@ -200,9 +216,10 @@ function VisitItem({
           <Stack 
         direction="horizontal"
         className="justify-content-evenly"
+        gap={1}
         >
           <p
-          className="p-1 pb-0 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+          className="px-1 py-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
           >
           <input
           name="visitTableStayedCheckbox"
@@ -230,9 +247,26 @@ function VisitItem({
             </p>
         </Stack>
         
+        <Form.Control 
+            id="foodTableFoodTextarea"
+            name="foodTableFoodTextarea"
+            className="border border-dark border-2 p-1 mt-2"
+            as="textarea"
+            defaultValue={visitThoughts} 
+            onChange={(event) =>{
+              beckyThoughts(visit, event)
+            }}
+            // readOnly 
+            style={{
+              // fontSize:"1.5vw",
+              // height:"14vw"          
+            }}
+            />
+
        <Stack 
+        direction = "horizontal"
        gap={1} 
-            className="p-1"
+            className="justify-content-evenly pt-2"
             style={{
               // border:"solid black 3px"
             }}
@@ -240,7 +274,7 @@ function VisitItem({
              <Button 
              id="visitTableButton"
              variant="success"
-              className="border border-2 border-dark rounded"
+              className="border border-2 border-dark rounded p-0"
               style={{
                 // fontSize:"2vw"
               }}
@@ -255,7 +289,7 @@ function VisitItem({
         <Button 
         id="visitTableButton"
         variant="secondary"
-        className="border border-dark border-2 rounded"
+        className="border border-dark border-2 rounded p-0"
         style={{
           // fontSize:"2vw"
         }}
@@ -269,7 +303,7 @@ function VisitItem({
         <Button 
         id="visitTableButton"
         variant = "danger"
-        className="border border-dark border-2 rounded"
+        className="border border-dark border-2 rounded p-0"
         style={{
           // fontSize:"2vw"
         }}

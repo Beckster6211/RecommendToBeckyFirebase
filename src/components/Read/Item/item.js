@@ -80,7 +80,7 @@ function ReadItem({
     becky === false ? 
 
       <td
-        className="p-2 border border-dark border-4 bg-success-subtle"
+        className="p-2 align-middle border border-dark border-4 bg-success-subtle"
       style={{
       }}
         >          
