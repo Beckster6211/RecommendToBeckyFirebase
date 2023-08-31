@@ -12,6 +12,7 @@ function TeleItem({
     teleRecommend,
     teleBinged,
     teleOpinion,
+    teleThoughts,
     telePlot,
     teleConnected,
     teleGenre,
@@ -20,7 +21,8 @@ function TeleItem({
     teleId,
     changeOpinion,
     bingedIt,
-    removeTele
+    removeTele,
+    beckyThoughts
     
 }){
 
@@ -89,7 +91,7 @@ function TeleItem({
         >
           <p
           className="
-          p-1 pb-0 mx-1 mb-0 
+          px-1 py-1 ms-1 mb-0 
           border border-dark border-2 rounded bg-light"
           >
           <input
@@ -118,9 +120,22 @@ function TeleItem({
         }}
         >{teleOpinion}</p>
         </Stack>
+        <Form.Control 
+            id="foodTableFoodTextarea"
+            name="foodTableFoodTextarea"
+            className="border border-dark border-2 p-1 mt-2"
+            as="textarea"
+            defaultValue={teleThoughts} 
+            readOnly 
+            style={{
+              // fontSize:"1.5vw",
+              // height:"14vw"          
+            }}
+            />
             <Stack 
+            direction="horizontal"
             gap={1} 
-            className="p-1 text-center"
+            className="justify-content-evenly pt-2"
             style={{
               // border:"solid black 3px"
             }}
@@ -128,7 +143,7 @@ function TeleItem({
               <Button 
               id="teleTableButton"
               variant="success"
-              className="border border-2 border-dark rounded "
+              className="border border-2 border-dark rounded p-0"
               style={{
                 // fontSize:"3vw"
               }}
@@ -146,7 +161,7 @@ function TeleItem({
         <Button 
         id="teleTableButton"
         variant="secondary"
-        className="border border-dark border-2 rounded"
+        className="border border-dark border-2 rounded p-0"
         style={{
           // fontSize:"3vw"
         }}
@@ -164,7 +179,7 @@ function TeleItem({
         <Button 
         id="teleTableButton"
         variant = "danger"
-        className="border border-dark border-2 rounded"
+        className="border border-dark border-2 rounded p-0"
         style={{
           // fontSize:"3vw"
         }}
@@ -193,7 +208,7 @@ function TeleItem({
         className="justify-content-evenly"
         >
           <p
-          className="p-1 pb-0 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+          className="px-1 py-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
           >
           <input
           name="teleTableBingedCheckbox"
@@ -220,9 +235,26 @@ function TeleItem({
         >{teleOpinion}</p>
         </Stack>
         
+        <Form.Control 
+            id="foodTableFoodTextarea"
+            name="foodTableFoodTextarea"
+            className="border border-dark border-2 p-1 mt-2"
+            as="textarea"
+            defaultValue={teleThoughts} 
+            onChange={(event) =>{
+              beckyThoughts(tele, event)
+            }}
+            // readOnly 
+            style={{
+              // fontSize:"1.5vw",
+              // height:"14vw"          
+            }}
+            />
+
        <Stack 
+       direction = "horizontal"
        gap={1} 
-            className="p-1"
+            className="justify-content-evenly pt-2"
             style={{
               // border:"solid black 3px"
             }}
@@ -230,7 +262,7 @@ function TeleItem({
              <Button 
              id="teleTableButton"
              variant="success"
-              className="border border-2 border-dark rounded"
+              className="border border-2 border-dark rounded p-0"
               style={{
                 // fontSize:"2vw"
               }}
@@ -248,7 +280,7 @@ function TeleItem({
         <Button 
         id="teleTableButton"
         variant="secondary"
-        className="border border-dark border-2 rounded"
+        className="border border-dark border-2 rounded p-0"
         style={{
           // fontSize:"2vw"
         }}
@@ -265,7 +297,7 @@ function TeleItem({
         <Button 
         id="teleTableButton"
         variant = "danger"
-        className="border border-dark border-2 rounded"
+        className="border border-dark border-2 rounded p-0"
         style={{
           // fontSize:"2vw"
         }}
