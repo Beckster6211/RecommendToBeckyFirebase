@@ -159,7 +159,8 @@ const tooltip = (
           
           
         }}
-        >{foodOpinion}</p>
+        >{foodOpinion}
+        </p>
         </Stack>
         {/* <br/> */}
         <Form.Control 
