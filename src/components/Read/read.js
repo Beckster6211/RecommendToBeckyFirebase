@@ -46,6 +46,7 @@ event.preventDefault()
 await addDoc(collection(db, "Read"),
 {
     beckyopinion: "🤷‍♀️",
+    beckythoughts: "Not sure...",
     book: form.formBook,
     author: form.formAuthor,
     description: form.formReadDescription,
@@ -86,6 +87,15 @@ const changeOpinion = async (read, event)=>{
     await updateDoc(doc(db, "Read", read.id),{
         beckyopinion:beckyOpinion
     })
+}
+
+/// changing what I thought
+const beckyThoughtsChange = async (food, event)=>{
+  let beckyThoughts = event.target.value
+  // console.log(beckyThoughts)
+  await updateDoc(doc(db, "Read", read.id), {
+    beckythoughts: beckyThoughts
+  })
 }
 
 //delete
@@ -197,6 +207,7 @@ return(
               readTheBook={haveReadBook}
               deleteRead={deleteRead}
               handleOpinion={changeOpinion}
+              thoughtsBecky={beckyThoughtsChange}
               
             />
             {/* </div> */}
