@@ -87,7 +87,7 @@ const changeOpinion = async (tryIt, event)=>{
 }
 
  /// changing what I thought
- const beckyThoughtsChange = async (food, event)=>{
+ const beckyThoughtsChange = async (tryIt, event)=>{
   let beckyThoughts = event.target.value
   // console.log(beckyThoughts)
   await updateDoc(doc(db, "Try", tryIt.id), {

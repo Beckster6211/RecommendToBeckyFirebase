@@ -103,8 +103,12 @@ function TryItem({
         >          
         <Stack 
         direction="horizontal"
-        gap={1}
+        // gap={1}
         className="justify-content-evenly"
+        // style={{
+        //   border: "solid black 3px"
+        // }}
+
         >
           <p
           className="
@@ -153,7 +157,7 @@ function TryItem({
 
             <Stack 
              direction="horizontal"
-            gap={1} 
+            // gap={0} 
             className="justify-content-evenly pt-2"
             style={{
               // border:"solid black 3px"
@@ -177,7 +181,7 @@ function TryItem({
         <Button 
         id="tryTableButton"
         variant="secondary"
-        className="border border-dark border-2 rounded p-0"
+        className="border border-dark border-2 rounded p-0 mx-1"
         style={{
           // fontSize:"3vw"
         }}
