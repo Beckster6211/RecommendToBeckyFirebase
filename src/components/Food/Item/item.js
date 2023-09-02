@@ -52,14 +52,14 @@ function Item({
 //     })
 
 
-const tooltip = (
-  <Tooltip
-  >
-    Sorry. 
-    <br/>
-    Not for you
-  </Tooltip>
-)
+// const tooltip = (
+//   <Tooltip
+//   >
+//     Sorry. 
+//     <br/>
+//     Not for you
+//   </Tooltip>
+// )
 
 
   return (
@@ -112,7 +112,7 @@ const tooltip = (
         <Stack 
         direction="horizontal"
         className="justify-content-evenly"
-        gap={1}
+        // gap={1}
         >
           <p
           className="
@@ -159,7 +159,8 @@ const tooltip = (
           
           
         }}
-        >{foodOpinion}
+        >
+          {foodOpinion}
         </p>
         </Stack>
         {/* <br/> */}
@@ -178,7 +179,7 @@ const tooltip = (
         <Stack
         direction="horizontal"
         className="justify-content-evenly pt-2"
-        gap={1}
+        // gap={1}
         >
           <Button 
               id="foodTableButton"
@@ -326,7 +327,7 @@ const tooltip = (
           <Stack 
         direction="horizontal"
         className="justify-content-evenly"
-        gap={1}
+        // gap={1}
         >
           <p
           className="
@@ -376,7 +377,7 @@ const tooltip = (
        <Stack 
        direction = "horizontal"
        className="justify-content-evenly pt-2"
-       gap={1} 
+      //  gap={1} 
             style={{
               // border:"solid black 3px"
             }}
