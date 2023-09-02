@@ -53,7 +53,7 @@ function FoodHelper(){
                 This is to help you navigate the food page, if you don't want to read the text there is a video at the bottom you can watch (enjoy me rambling 😀)
                 <br/>
                 <br/>
-                <strong>Food Page</strong> is made of helper buttons, a Food Form and the Food Table.
+                <strong>Food Page</strong> <small> (background food clipart)</small> is made of helper buttons, a Food Form and the Food Table.
               </h6>
               <p> 
                 <strong>The 3 helper buttons</strong> each one opens a modal element <small>(that takes up 50% of the page depending on which one you open, you already found the main helper one, that opens down the page 👍)</small> 
@@ -96,7 +96,7 @@ function FoodHelper(){
                 </h6>
 
                 <p>
-                  <strong>Food Table</strong> shows displays the food item and where (inside textareas so they are scrollable), my opinion (a checkbox to show if I have tried it ✔️ and an emoji of what I think if I have tried it - emojis to show the opinion of yes 😋 no 🤮 and alright 🤫), who recommends (also in a textarea so is scrollable) and delete (which has a delete button which unlike the opinion buttons are locked for my use only, the delete button is open, so if you add something wrong you can delete 🙂).
+                  <strong>Food Table</strong> shows displays the food item and where (inside textareas so they are scrollable), my opinion (a checkbox to show if I have tried it ✔️, an emoji of what I think if I have tried it - emojis to show the opinion of yes 😋 no 🤮 and alright 🤫) and also what my opinion of it is (if tried it yet 🤔), who recommends (also in a textarea so is scrollable) and delete (which has a delete button which unlike the opinion buttons are locked for my use only, the delete button is open, so if you add something wrong you can delete but please be careful when deleting so don't erase others 🙂).
                 </p>
                   {/* <br/>
                   There are two buttons to help you with what I like and dislike. The like opens an modal on the left side of the screen and the dislike opens on the right.  */}

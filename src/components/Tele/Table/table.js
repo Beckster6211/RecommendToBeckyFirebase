@@ -8,7 +8,7 @@ import TeleItem from "../Item/item";
 import Table from 'react-bootstrap/Table';
 import Container from "react-bootstrap/Container";
 
-function TeleTable({userBecky, tele, teleBingedIt, deleteTele, handleOpinion}){
+function TeleTable({userBecky, tele, teleBingedIt, deleteTele, handleOpinion, thoughtsBecky}){
     // console.log({film})
 
     return(
@@ -115,6 +115,7 @@ function TeleTable({userBecky, tele, teleBingedIt, deleteTele, handleOpinion}){
                 telePlot={item.description}
                 teleBinged={item.binged}
                 teleOpinion = {item.beckyopinion}
+                teleThoughts = {item.beckythoughts}
                 teleRecommend = {item.recommendedby}
                 teleConnected = {item.connected}
                 teleGenre = {item.genre}
@@ -127,6 +128,7 @@ function TeleTable({userBecky, tele, teleBingedIt, deleteTele, handleOpinion}){
                 bingedIt={teleBingedIt}
                 changeOpinion={handleOpinion}
                 becky={userBecky}
+                beckyThoughts = {thoughtsBecky}
               />
             );
           })}

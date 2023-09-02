@@ -16,12 +16,13 @@ function TryItem({
     tryWhy,
     tryVisited,
     tryOpinion,
+    tryThoughts,
     tryRecommend,
     tryId,
     changeOpinion,
     triedIt,
-    removeTry
-    
+    removeTry,
+    beckyThoughts
 }){
 
     return (
@@ -96,18 +97,22 @@ function TryItem({
     becky === false ? 
 
       <td
-        className="p-2 border border-dark border-4 bg-secondary-subtle"
+        className="p-2 align-middle border border-dark border-4 bg-secondary-subtle"
       style={{
       }}
         >          
         <Stack 
         direction="horizontal"
-        gap={1}
+        // gap={1}
         className="justify-content-evenly"
+        // style={{
+        //   border: "solid black 3px"
+        // }}
+
         >
           <p
           className="
-          p-1 pb-0 mx-1 mb-0 
+          px-1 py-1 ms-1 mb-0 
           border border-dark border-2 rounded bg-light"
           >
           <input
@@ -136,9 +141,24 @@ function TryItem({
             {tryOpinion}
             </p>
         </Stack>
+
+        <Form.Control 
+            id="foodTableFoodTextarea"
+            name="foodTableFoodTextarea"
+            className="border border-dark border-2 p-1 mt-2"
+            as="textarea"
+            defaultValue={tryThoughts} 
+            readOnly 
+            style={{
+              // fontSize:"1.5vw",
+              // height:"14vw"          
+            }}
+            />
+
             <Stack 
-            gap={1} 
-            className="p-1 text-center"
+             direction="horizontal"
+            // gap={0} 
+            className="justify-content-evenly pt-2"
             style={{
               // border:"solid black 3px"
             }}
@@ -146,7 +166,7 @@ function TryItem({
               <Button 
               id="tryTableButton"
               variant="success"
-              className="border border-2 border-dark rounded "
+              className="border border-2 border-dark rounded p-0"
               style={{
                 // fontSize:"3vw"
               }}
@@ -161,7 +181,7 @@ function TryItem({
         <Button 
         id="tryTableButton"
         variant="secondary"
-        className="border border-dark border-2 rounded"
+        className="border border-dark border-2 rounded p-0 mx-1"
         style={{
           // fontSize:"3vw"
         }}
@@ -176,7 +196,7 @@ function TryItem({
         <Button 
         id="tryTableButton"
         variant = "danger"
-        className="border border-dark border-2 rounded"
+        className="border border-dark border-2 rounded p-0"
         style={{
           // fontSize:"3vw"
         }}
@@ -200,9 +220,10 @@ function TryItem({
           <Stack 
         direction="horizontal"
         className="justify-content-evenly"
+        gap={1}
         >
           <p
-          className="p-1 pb-0 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+          className="px-1 py-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
           >
           <input
           name="tryTableTriedItCheckbox"
@@ -230,9 +251,26 @@ function TryItem({
             </p>
         </Stack>
         
+        <Form.Control 
+            id="foodTableFoodTextarea"
+            name="foodTableFoodTextarea"
+            className="border border-dark border-2 p-1 mt-2"
+            as="textarea"
+            defaultValue={tryThoughts} 
+            onChange={(event) =>{
+              beckyThoughts(tryIt, event)
+            }}
+            // readOnly 
+            style={{
+              // fontSize:"1.5vw",
+              // height:"14vw"          
+            }}
+            />
+
        <Stack 
+       direction = "horizontal"
        gap={1} 
-            className="p-1"
+            className="justify-content-evenly pt-2"
             style={{
               // border:"solid black 3px"
             }}
@@ -240,7 +278,7 @@ function TryItem({
              <Button 
              id="tryTableButton"
              variant="success"
-              className="border border-2 border-dark rounded"
+              className="border border-2 border-dark rounded p-0"
               style={{
                 // fontSize:"2vw"
               }}
@@ -255,7 +293,7 @@ function TryItem({
         <Button 
         id="tryTableButton"
         variant="secondary"
-        className="border border-dark border-2 rounded"
+        className="border border-dark border-2 rounded p-0"
         style={{
           // fontSize:"2vw"
         }}
@@ -269,7 +307,7 @@ function TryItem({
         <Button 
         id="tryTableButton"
         variant = "danger"
-        className="border border-dark border-2 rounded"
+        className="border border-dark border-2 rounded p-0"
         style={{
           // fontSize:"2vw"
         }}

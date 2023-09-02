@@ -12,6 +12,7 @@ function ReadItem({
     readRecommend,
     readBook,
     readOpinion,
+    readThoughts,
     readPlot,
     readConnected,
     readAuthor,
@@ -20,7 +21,8 @@ function ReadItem({
     readId,
     changeOpinion,
     readTheBook,
-    removeRead
+    removeRead,
+    beckyThoughts
     
 }){
 
@@ -78,7 +80,7 @@ function ReadItem({
     becky === false ? 
 
       <td
-        className="p-2 border border-dark border-4 bg-success-subtle"
+        className="p-2 align-middle border border-dark border-4 bg-success-subtle"
       style={{
       }}
         >          
@@ -89,7 +91,7 @@ function ReadItem({
         >
           <p
           className="
-          p-1 pb-0 mx-1 mb-0 
+          px-1 py-1 ms-1 mb-0 
           border border-dark border-2 rounded bg-light"
           >
           <input
@@ -118,9 +120,24 @@ function ReadItem({
         }}
         >{readOpinion}</p>
         </Stack>
+
+        <Form.Control 
+            id="foodTableFoodTextarea"
+            name="foodTableFoodTextarea"
+            className="border border-dark border-2 p-1 mt-2"
+            as="textarea"
+            defaultValue={readThoughts} 
+            readOnly 
+            style={{
+              // fontSize:"1.5vw",
+              // height:"14vw"          
+            }}
+            />
+
             <Stack 
             gap={1} 
-            className="p-1 text-center"
+            direction="horizontal"
+            className="justify-content-evenly pt-2"
             style={{
               // border:"solid black 3px"
             }}
@@ -128,7 +145,7 @@ function ReadItem({
               <Button 
               id="readTableButton"
               variant="success"
-              className="border border-2 border-dark rounded "
+              className="border border-2 border-dark rounded p-0"
               style={{
                 // fontSize:"3vw"
               }}
@@ -146,7 +163,7 @@ function ReadItem({
         <Button 
         id="readTableButton"
         variant="secondary"
-        className="border border-dark border-2 rounded"
+        className="border border-dark border-2 rounded p-0"
         style={{
           // fontSize:"3vw"
         }}
@@ -164,7 +181,7 @@ function ReadItem({
         <Button 
         id="readTableButton"
         variant = "danger"
-        className="border border-dark border-2 rounded"
+        className="border border-dark border-2 rounded p-0"
         style={{
           // fontSize:"3vw"
         }}
@@ -191,9 +208,10 @@ function ReadItem({
           <Stack 
         direction="horizontal"
         className="justify-content-evenly"
+        gap={1}
         >
           <p
-          className="p-1 pb-0 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+          className="px-1 py-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
           >
           <input
           name="readTableReadItCheckbox"
@@ -220,9 +238,26 @@ function ReadItem({
         >{readOpinion}</p>
         </Stack>
         
+        <Form.Control 
+            id="foodTableFoodTextarea"
+            name="foodTableFoodTextarea"
+            className="border border-dark border-2 p-1 mt-2"
+            as="textarea"
+            defaultValue={readThoughts} 
+            onChange={(event) =>{
+              beckyThoughts(read, event)
+            }}
+            // readOnly 
+            style={{
+              // fontSize:"1.5vw",
+              // height:"14vw"          
+            }}
+            />
+
        <Stack 
+       direction = "horizontal"
        gap={1} 
-            className="p-1"
+            className="justify-content-evenly pt-2"
             style={{
               // border:"solid black 3px"
             }}
@@ -230,7 +265,7 @@ function ReadItem({
              <Button 
              id="readTableButton"
              variant="success"
-              className="border border-2 border-dark rounded"
+              className="border border-2 border-dark rounded p-0"
               style={{
                 // fontSize:"2vw"
               }}
@@ -248,7 +283,7 @@ function ReadItem({
         <Button 
         id="readTableButton"
         variant="secondary"
-        className="border border-dark border-2 rounded"
+        className="border border-dark border-2 rounded p-0"
         style={{
           // fontSize:"2vw"
         }}
@@ -265,7 +300,7 @@ function ReadItem({
         <Button 
         id="readTableButton"
         variant = "danger"
-        className="border border-dark border-2 rounded"
+        className="border border-dark border-2 rounded p-0"
         style={{
           // fontSize:"2vw"
         }}

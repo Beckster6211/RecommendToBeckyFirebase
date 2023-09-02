@@ -46,6 +46,7 @@ async function handleSubmit(event){
     await addDoc(collection(db, "Visit"),
 {
     beckyopinion: "🤷‍♀️",
+    beckythoughts:"Not sure...",
     what: form.formWhat,
     where: form.formWhere,
     details: form.formVisitDescription,
@@ -83,6 +84,15 @@ const changeOpinion = async (read, event)=>{
     await updateDoc(doc(db, "Visit", read.id),{
         beckyopinion:beckyOpinion
     })
+}
+
+/// changing what I thought
+const beckyThoughtsChange = async (visit, event)=>{
+  let beckyThoughts = event.target.value
+  // console.log(beckyThoughts)
+  await updateDoc(doc(db, "Visit", visit.id), {
+    beckythoughts: beckyThoughts
+  })
 }
 
 //delete
@@ -190,7 +200,7 @@ return(
               stayedThere={StayedThere}
               deleteVisit={deleteVisit}
               handleOpinion={changeOpinion}
-              
+              thoughtsBecky={beckyThoughtsChange}
             />
 
           </Accordion.Body>

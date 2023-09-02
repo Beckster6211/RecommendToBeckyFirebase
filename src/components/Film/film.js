@@ -46,6 +46,7 @@ async function handleSubmit(event){
     await addDoc(collection(db, "Film"),
 {
     beckyopinion: "🤷‍♀️",
+    beckythoughts: "Not sure...",
     film: form.formFilm,
     description: form.formFilmDescription,
     // provider: form.formFilmProvider,
@@ -85,6 +86,14 @@ const changeOpinion = async (film, event)=>{
     await updateDoc(doc(db, "Film", film.id),{
         beckyopinion:beckyOpinion
     })
+}
+
+const beckyThoughtsChange = async (film, event)  => {
+  let beckyThoughts = event.target.value 
+  // console.log(beckyThoughts)
+  await updateDoc(doc(db,"Film", film.id),{
+    beckythoughts: beckyThoughts
+  })
 }
 
 //delete
@@ -191,6 +200,8 @@ return(
               filmWatchedIt={haveWatched}
               deleteFilm={deleteFilm}
               handleOpinion={changeOpinion}
+              thoughtsBecky = 
+              {beckyThoughtsChange}
               
             />
             {/* </div> */}

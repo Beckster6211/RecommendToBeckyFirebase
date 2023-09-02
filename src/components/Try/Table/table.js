@@ -8,7 +8,7 @@ import TryItem from "../Item/item";
 import Table from 'react-bootstrap/Table';
 import Container from "react-bootstrap/Container";
 
-function VisitTable({userBecky, tryIt, triedIt, deleteTry, handleOpinion}){
+function VisitTable({userBecky, tryIt, triedIt, deleteTry, handleOpinion, thoughtsBecky}){
     // console.log({visit})
 
     return(
@@ -113,6 +113,7 @@ function VisitTable({userBecky, tryIt, triedIt, deleteTry, handleOpinion}){
                 tryWhy = {item.why}
                 tryVisited={item.visited}
                 tryOpinion = {item.beckyopinion}
+                tryThoughts = {item.beckythoughts}
                 tryRecommend = {item.recommendedby}
                 index={index}
                 key={item.id}
@@ -121,6 +122,7 @@ function VisitTable({userBecky, tryIt, triedIt, deleteTry, handleOpinion}){
                 triedIt={triedIt}
                 changeOpinion={handleOpinion}
                 becky={userBecky}
+                beckyThoughts={thoughtsBecky}
               />
             );
           })}

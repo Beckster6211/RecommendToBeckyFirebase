@@ -52,6 +52,7 @@ function Food({Becky}) {
     // console.log(form.formFooditem);
     await addDoc(collection(db, "Food"), {
       beckyopinion: "🤷‍♀️",
+      beckythoughts:"Not sure...",
       fooditem: form.formFoodItem,
       recipe: form.formFoodRecipe,
       recommendedby: form.formFoodRecommend,
@@ -100,6 +101,15 @@ function Food({Becky}) {
     });
     // console.log(`becky opinion changed ${food.beckyopinion}`);
   };
+
+  /// changing what I thought
+  const beckyThoughtsChange = async (food, event)=>{
+    let beckyThoughts = event.target.value
+    // console.log(beckyThoughts)
+    await updateDoc(doc(db, "Food", food.id), {
+      beckythoughts: beckyThoughts
+    })
+  }
 
   //////Delete/delete one
   const deleteFood = async (id) => {
@@ -211,7 +221,7 @@ function Food({Becky}) {
               foodITried={haveTried}
               deleteFood={deleteFood}
               handleOpinion={changeOpinion}
-              
+              thoughtsBecky={beckyThoughtsChange}
             />
             {/* </div> */}
           </Accordion.Body>

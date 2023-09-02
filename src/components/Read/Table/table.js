@@ -8,7 +8,7 @@ import ReadItem from "../Item/item";
 import Table from 'react-bootstrap/Table';
 import Container from "react-bootstrap/Container";
 
-function ReadTable({userBecky, read, readTheBook, deleteRead, handleOpinion}){
+function ReadTable({userBecky, read, readTheBook, deleteRead, handleOpinion, thoughtsBecky}){
     // console.log({film})
 
     return(
@@ -115,6 +115,7 @@ function ReadTable({userBecky, read, readTheBook, deleteRead, handleOpinion}){
                 readPlot={item.description}
                 readBook={item.read}
                 readOpinion = {item.beckyopinion}
+                readThoughts = {item.beckythoughts}
                 readRecommend = {item.recommendedby}
                 readConnected = {item.connected}
                 readGenre = {item.genre}
@@ -127,6 +128,7 @@ function ReadTable({userBecky, read, readTheBook, deleteRead, handleOpinion}){
                 readTheBook={readTheBook}
                 changeOpinion={handleOpinion}
                 becky={userBecky}
+                beckyThoughts = {thoughtsBecky}
               />
             );
           })}

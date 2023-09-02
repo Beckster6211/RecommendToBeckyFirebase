@@ -8,7 +8,7 @@ import VisitItem from "../Item/item";
 import Table from 'react-bootstrap/Table';
 import Container from "react-bootstrap/Container";
 
-function VisitTable({userBecky, visit, stayedThere, deleteVisit, handleOpinion}){
+function VisitTable({userBecky, visit, stayedThere, deleteVisit, handleOpinion, thoughtsBecky}){
     // console.log({visit})
 
     return(
@@ -110,6 +110,7 @@ function VisitTable({userBecky, visit, stayedThere, deleteVisit, handleOpinion})
                 visitWhere={item.where}
                 visitDetails={item.details}
                 visitOpinion = {item.beckyopinion}
+                visitThoughts = {item.beckythoughts}
                 visitRecommend = {item.recommendedby}
                 visitStayed = {item.stayed}
                 index={index}
@@ -119,6 +120,7 @@ function VisitTable({userBecky, visit, stayedThere, deleteVisit, handleOpinion})
                 stayedThere={stayedThere}
                 changeOpinion={handleOpinion}
                 becky={userBecky}
+                beckyThoughts={thoughtsBecky}
               />
             );
           })}

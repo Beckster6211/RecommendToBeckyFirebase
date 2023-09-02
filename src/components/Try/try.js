@@ -46,6 +46,7 @@ event.preventDefault()
 await addDoc(collection(db, "Try"),
 {
     beckyopinion: "🤷‍♀️",
+    beckythoughts: "Not sure...",
     what: form.formTryWhat,
     location: form.formTryWhere,
     why: form.formTryDescription,
@@ -83,6 +84,15 @@ const changeOpinion = async (tryIt, event)=>{
     await updateDoc(doc(db, "Try", tryIt.id),{
         beckyopinion:beckyOpinion
     })
+}
+
+ /// changing what I thought
+ const beckyThoughtsChange = async (tryIt, event)=>{
+  let beckyThoughts = event.target.value
+  // console.log(beckyThoughts)
+  await updateDoc(doc(db, "Try", tryIt.id), {
+    beckythoughts: beckyThoughts
+  })
 }
 
 //delete
@@ -192,7 +202,7 @@ return(
               triedIt={TriedIt}
               deleteTry={deleteTry}
               handleOpinion={changeOpinion}
-              
+              thoughtsBecky={beckyThoughtsChange}
             />
           
           </Accordion.Body>

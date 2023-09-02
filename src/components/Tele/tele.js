@@ -46,6 +46,7 @@ event.preventDefault()
 await addDoc(collection(db, "Tele"),
 {
     beckyopinion: "🤷‍♀️",
+    beckythoughts: "Not sure...",
     tvshow: form.formTele,
     description: form.formTeleDescription,
     numberofseries: form.formTeleSeries,
@@ -86,6 +87,15 @@ const changeOpinion = async (tele, event)=>{
     await updateDoc(doc(db, "Tele", tele.id),{
         beckyopinion:beckyOpinion
     })
+}
+
+ /// changing what I thought
+ const beckyThoughtsChange = async (tele, event)=>{
+  let beckyThoughts = event.target.value
+  // console.log(beckyThoughts)
+  await updateDoc(doc(db, "Tele", tele.id), {
+    beckythoughts: beckyThoughts
+  })
 }
 
 //delete
@@ -197,6 +207,7 @@ return(
               teleBingedIt={haveBinged}
               deleteTele={deleteTele}
               handleOpinion={changeOpinion}
+              thoughtsBecky = {beckyThoughtsChange}
               
             />
             {/* </div> */}
