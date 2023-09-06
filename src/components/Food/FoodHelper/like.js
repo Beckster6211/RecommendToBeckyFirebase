@@ -75,9 +75,9 @@ function FoodLike(){
                 <small>(my favourite sweet, the classic-flying saucers)</small>
               </li>
               <li>
-                I do enjoy the mix of some flavours, sweet and savoury, bitter and smooth...
+                I do enjoy the mix of some flavours, sweet and savoury, hot and cold, bitter and smooth...
                 <br/>
-                <small> (perfect meal pancakes with full english 🥞🥓🍳🍟🍄)</small> 
+                <small> (perfect meal pancakes with full english 🥞🥓🍳🍟🍄 allllll covered in syrup)</small> 
               </li>
               <li>
                 I like lemon
@@ -102,11 +102,11 @@ function FoodLike(){
               <li>
                 My favourite takeaway Chinese 🥡
                 <br/>
-                <small>(I really like noodles - chow mein, my fav)</small>
+                <small>(I really like noodles - chow mein my fav 🥢 I do like chinese curry aswell 🥠)</small>
               </li>
             </ul>
             <p>
-              maybe video explaining list?
+              todo - maybe video explaining list?
             </p>
             </Offcanvas.Body>
           </Offcanvas>

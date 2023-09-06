@@ -63,7 +63,7 @@ function FoodDislike(){
               <li>
                 I don't like spicy food 🌶️🥵
                 <br/>
-                <small>(I don't mind a tiny bit of cheeky heat 🤏)</small>
+                <small>(I don't mind a tiny bit of heat 🤏)</small>
               </li>
               <li>
                 I HATE cheese, fastest way to ruin a burger 🧀
@@ -78,7 +78,7 @@ function FoodDislike(){
               <li>
                 I don't like some fish 
                 <br/>
-                <small>(I don't like tinned fish - tinned tuna, salmon)</small>
+                <small>(I don't like tinned fish - tinned tuna, tinned salmon)</small>
               </li>
               <li>
                 I can be fussy about texture
@@ -86,13 +86,13 @@ function FoodDislike(){
                 <small>(👎 I don't like juice with bits in or thick milkshakes 👎)</small>
               </li>
               <li>
-                I hate the beans in Chilli
+                I hate beans (all kinds)
                 <br/>
-                <small>(There is always too many to pick out...😭)</small>
+                <small>(especially Chilli - I can't pick them out, theres always too many...😭)</small>
               </li>
             </ul>
             <p>
-              maybe video explaining list?
+              todo - maybe video explaining list?
             </p>
             </Offcanvas.Body>
           </Offcanvas>
