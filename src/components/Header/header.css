@@ -9,7 +9,8 @@
     }
 
     .headerImageLogin{
-        width: 8vw;
+        width: 9vw;
+        transform: scaleX(-1);
     }
 }
 
@@ -25,6 +26,7 @@
 
     .headerImageLogin{
         width: 6.5vw;
+        transform: scaleX(-1);
     }
 
 
@@ -41,6 +43,7 @@
 
     .headerImageLogin{
         width: 5vw;
+        transform: scaleX(-1);
     }
 }
 
@@ -69,5 +72,6 @@
 
     .headerImageLogin{
         width: 3vw;
+        transform: scaleX(-1);
     }
 }

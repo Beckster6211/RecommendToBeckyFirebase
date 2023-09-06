@@ -53,8 +53,25 @@ function Home({Becky}){
               <li>Explain idea behind site</li>
               <li>How to use site (maybe pictures)</li>
               <li>Perhaps video (tour of site)</li>
-              <li>todo like, dislike, helper for each page</li>
-              <li>change login picture/icon (to avatar)</li>
+              <li>todo like, dislike, helper for each page
+              <ul>
+                <small>
+                <small>
+                <small>
+                <s><li>Food</li></s>
+                <li>Film</li>
+                <li>Tele</li>
+                <li>Read</li>
+                <li>Visit</li>
+                <li>Try</li>
+                </small>
+                </small>
+                </small>
+              </ul>
+
+              </li>
+              <li><s>change icon in tab</s></li>
+              <li><s>change login picture/icon (to avatar)</s></li>
               <li>change portfolio picture/icon (todo todo portfolio change)</li>
               <li>remove console logs</li>
               <li>tidy code </li>

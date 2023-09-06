@@ -43,7 +43,7 @@ function Header(){
                             style={{
                                 // width:"8vw"
                             }}
-                            src="./pexels-ann-h-14936128.jpg" 
+                            src="./Capture1.PNG" 
                             // height={"auto"}
                             roundedCircle
                             />
@@ -80,7 +80,7 @@ function Header(){
                             style={{
                                 // width:"7vw"
                             }}
-                            src="./5087579.png"
+                            src="./Capture.PNG"
                             // height={"auto"}
                             roundedCircle
                             />

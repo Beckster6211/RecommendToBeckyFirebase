@@ -40,7 +40,7 @@ function Footer(){
                             style={{
                                 // width:"5vw"
                             }}
-                            src="./5087579.png"                        roundedCircle
+                            src="./Capture.PNG"                        roundedCircle
                             />
                             
                                 
@@ -76,7 +76,7 @@ function Footer(){
                             style={{
                                 // width:"5vw"
                             }}
-                            src="./pexels-ann-h-14936128.jpg" 
+                            src="./Capture1.PNG" 
                             roundedCircle
                             />
                             {/* Login */}
