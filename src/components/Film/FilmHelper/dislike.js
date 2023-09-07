@@ -37,21 +37,41 @@ function FilmDislike(){
               className="bg-danger"
             closeButton
             >
-              <Offcanvas.Title>
-              🥱 I Dislike... 🥱
+              <Offcanvas.Title
+              id="filmDislikeTitle"
+              >
+              🥱 I don't like to watch... 🥱
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              ToDo.....
+            <h6
+            className="filmHeading"
+            >Here some help on what I don't like to eat
               <br/>
-            bullet point list of what I dislike
-              <br/>
-              .
-              .
-              .
-              .
-              <br/>
-              {/* maybe do a video of explaining what I dislike */}
+              <small> (If it helps you 😊)</small>
+            </h6>
+            <ul
+            className="filmList"
+            >
+              <li>
+                I Hate 😡 Hate 😡 Hate 😡 spiders 🕷️
+                <br/>
+                <small>(Freakys of nature)</small>
+              </li>
+              <li>
+                I don't enjoy horrors 😱
+                <br/>
+                <small>(I am a bit of a wuss, A Quiet Place is probably as scary as I'll go)</small>
+              </li>
+              <li>
+                I don't like pointless blood and guts films, I'm not squeamish or anything I just sometimes don't get the point 🩸
+                <br/>
+                <small>(One I watched it seemed like the plot was "How many different ways can we get someone to die?")</small> 😒
+              </li>
+            </ul>
+            <p>
+              todo - maybe video explaining list?
+            </p>
             </Offcanvas.Body>
           </Offcanvas>
         </div>

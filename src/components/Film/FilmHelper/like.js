@@ -38,22 +38,50 @@ function FilmLike(){
               closeButton
             >
               <Offcanvas.Title
+              id="filmLikeTitle"
               className=""
               >
-              😍 I Like...😍
+              😍 I like to watch...😍
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-            ToDo.....
+            <h6
+            className="filmHeading"
+            >Here some help on what I like to eat
               <br/>
-              bullet point list of what I like
-              <br/>
-              .
-              .
-              .
-              .
-              <br/>
-              {/* maybe do a video of explaining what I like */}
+              <small> (If it helps you 😊)</small>
+            </h6>
+            <ul className="filmList">
+            <li>
+                I LOVE ❤️ LOVE ❤️ LOVE ❤️ animation ✏️
+                <br/>
+                <small>(All different kinds, hand drawn like Tom and Jerry, modern computer/digital like Pixar and stop motion like Aardman)</small>
+              </li>
+
+              <li>
+                Anything and everything Disney 🏰
+                <small>(doesn't need explaining 😛)</small>
+              </li>
+
+              <li>
+                I have brothers so not against a superhero 🦸 I have joined in the conversations <small> (best Black Widow #1 not Iron Man or Thor, despite what my brothers say)</small>
+              </li>
+
+              <li>
+                I like sci-fi/fantasy/magic (Star Wars, Star Trek, Harry Potter...) 🛸🧛🧙
+                <small> I enjoy dystopian films, Its Earth but not Earth</small>
+              </li>
+
+              <li>
+                I'm okay with learning something 🧠 if based/inspired by true events.  <small>
+                  Sometimes I suprise myself (I really liked - Hidden Figures)
+                </small>
+              </li>
+            </ul>
+            
+            <p>
+              todo - maybe video explaining list?
+            </p>
             </Offcanvas.Body>
           </Offcanvas>
         </div>

@@ -41,7 +41,7 @@ function FoodHelper(){
               <Offcanvas.Title
               id="foodHelperTitle"
               >
-              ℹ️ Food Helper ℹ️
+              ℹ️ <u>Food Helper</u> ℹ️
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body
@@ -77,7 +77,7 @@ function FoodHelper(){
                 <li><strong>Recommended By -</strong></li>
                 In the Recommended By input field you can put your name - who recommends it (maybe the food item was recommended to you and you're passing it on and spreading the word) 
                 <br/>
-                <small>(If you could please put in brackets where you are from just as a referrence to me but you don't have to).</small>
+                <small>(If you could please put in brackets where you are from just as a referrence to me but you don't have to it would be nice for me to know where you've come here from).</small>
                   {/* </p>
                 <p> */}
                 {/* <br/> */}
@@ -100,7 +100,6 @@ function FoodHelper(){
                 </h6>
 
                 <p>
-                  
                   <strong><u>Food Table</u></strong>
                   <br/>
                   <li>
