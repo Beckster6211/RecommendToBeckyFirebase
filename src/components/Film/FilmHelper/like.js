@@ -47,7 +47,7 @@ function FilmLike(){
             <Offcanvas.Body>
             <h6
             className="filmHeading"
-            >Here some help on what I like to eat
+            >Here some help on the kinds of films I like to watch
               <br/>
               <small> (If it helps you 😊)</small>
             </h6>
@@ -60,21 +60,27 @@ function FilmLike(){
 
               <li>
                 Anything and everything Disney 🏰
+                <br/>
                 <small>(doesn't need explaining 😛)</small>
               </li>
 
               <li>
-                I have brothers so not against a superhero 🦸 I have joined in the conversations <small> (best Black Widow #1 not Iron Man or Thor, despite what my brothers say)</small>
+                I have brothers so not against a superhero 🦸 I have joined in the conversations 
+                <br/>
+                <small> (best Black Widow #1 not Iron Man or Thor, despite what my brothers say)</small>
               </li>
 
               <li>
                 I like sci-fi/fantasy/magic (Star Wars, Star Trek, Harry Potter...) 🛸🧛🧙
+                <br/>
                 <small> I enjoy dystopian films, Its Earth but not Earth</small>
               </li>
 
               <li>
-                I'm okay with learning something 🧠 if based/inspired by true events.  <small>
-                  Sometimes I suprise myself (I really liked - Hidden Figures)
+                I'm okay with learning something 🧠 if based/inspired by true events.  
+                <br/>
+                <small>
+                  Sometimes I suprise myself (I really liked - Hidden Figures and Hackshaw Ridge)🚀🎖️
                 </small>
               </li>
             </ul>

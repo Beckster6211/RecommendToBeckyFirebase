@@ -38,22 +38,64 @@ function TeleLike(){
               closeButton
             >
               <Offcanvas.Title
-              className=""
+              id="telelikeTitle"
               >
-              🤩 I Like...🤩
+              🤩 I like to binge...🤩
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-            ToDo.....
+            <h6
+            className="teleHeading"
+            >Here some help on the kinds of tv shows  I like to binge 
+            <small> (Don't worry if not bingeable all in one go, I can wait each week for new episodes) ⏳</small>
               <br/>
-              bullet point list of what I like
-              <br/>
-              .
-              .
-              .
-              .
-              <br/>
-              {/* maybe do a video of explaining what I like */}
+              <small> (If it helps you 😊)</small>
+            </h6>
+
+            <ul className="teleList">
+            <li>
+                I LOVE ❤️ LOVE ❤️ LOVE ❤️ animation ✏️
+                <br/>
+                <small>(All different kinds, hand drawn like Tom and Jerry, modern computer/digital like Pixar and stop motion like Aardman) ⏳</small>
+              </li>
+
+              <li>
+                I have brothers so not against a superhero 🦸 I have joined in the conversations 
+                <br/>
+                <small> (Loki, Arrow, Flash, SuperGirl...)</small>
+              </li>
+
+              <li>
+                I like sci-fi/fantasy/magic (
+                  Once Upon A Time, Misfits, Game of Thrones...) 📖👮🐉
+                  <br/>
+                <small> I enjoy dystopian shows, Its Earth but not Earth</small>
+              </li>
+
+              <li>
+                I'm okay with learning something 🧠 if quite indepth, like science or medical. 
+                <br/>
+                 <small>
+                  Sometimes I suprise myself (Like - The Good Doctor and QI) 💭
+                </small>
+              </li>
+
+              <li>
+                I like comedy, particularly people just being funnny themselves 
+                <br/>
+                <small> (Like Taskmaster, Would I Lie To You...) 🤥</small>
+              </li>
+
+              <li>
+                A familar pattern seems to be that I like American tv shows
+                <br/>
+                <small>(The Big Bang Theory, Young Sheldon, Futurama) 🧪</small>
+              </li>
+            </ul>
+
+            <p>
+              todo - maybe video explaining list?
+            </p>
             </Offcanvas.Body>
           </Offcanvas>
         </div>

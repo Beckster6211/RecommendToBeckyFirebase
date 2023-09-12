@@ -38,22 +38,45 @@ function ReadLike(){
               closeButton
             >
               <Offcanvas.Title
-              className=""
+              id="readLikeTitle"
               >
-              🤓 I Like...🤓
+              🤓 I like to read...🤓
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-            ToDo.....
+            <h6
+            className="readHeading"
+            >Here some help on the kinds of books I like to read 
               <br/>
-              bullet point list of what I like
-              <br/>
-              .
-              .
-              .
-              .
-              <br/>
-              {/* maybe do a video of explaining what I like */}
+              <small> (If it helps you 😊)</small>
+            </h6>
+
+            <ul
+            className="readList"
+            >
+              <li>
+                I like to read fantasy/unusal type books 
+                <br/>
+                <small>(I like Immortal Instruments - Will watch the series at some point) 🗡️</small>
+              </li>
+
+              <li>
+                I like reading books that have a tv/film adaption 📖📺
+                <br/>
+                <small>I like how they look compared to my imagination and also how they do some scenes differently to the books (Like Hunger Games and Twilight) 📺</small>
+              </li>
+
+              <li>
+                I like mythology. My favourite is Athena (Greek Goddess of Wisdom - as well as others)
+                <br/>
+                <small>I like why things are called what they are and usually that has origins in Mythology (I like the Percy Jackson series of books 🔱) </small>
+              </li>
+
+            </ul>
+
+            <p>
+              todo - maybe video explaining list?
+            </p>
             </Offcanvas.Body>
           </Offcanvas>
         </div>

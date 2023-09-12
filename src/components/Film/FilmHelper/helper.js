@@ -76,7 +76,7 @@ function FilmHelper(){
                 </li>
 
                 <li><strong>Recommended By -</strong></li>
-                In the Recommended By input field you can put your name - who recommends it (maybe the food item was recommended to you and you're passing it on and spreading the word) 
+                In the Recommended By input field you can put your name - who recommends it (maybe the film was recommended to you and you're passing it on and spreading the word) 
                 <br/>
                 <small>(If you could please put in brackets where you are from just as a referrence to me but you don't have to it would be nice for me to know where you've come here from).</small>
             </p>
@@ -108,7 +108,7 @@ function FilmHelper(){
               </p>
             
             
-              <p>???Todo - Video explaining the food page???</p>
+              <p>???Todo - Video explaining the film page???</p>
             </Offcanvas.Body>
           </Offcanvas>
         </div>

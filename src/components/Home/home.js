@@ -59,9 +59,9 @@ function Home({Becky}){
                 <small>
                 <small>
                 <s><li>Food</li></s>
-                <li>Film</li>
-                <li>Tele</li>
-                <li>Read</li>
+                <s><li>Film</li></s>
+                <s><li>Tele</li></s>
+                <s><li>Read</li></s>
                 <li>Visit</li>
                 <li>Try</li>
                 </small>

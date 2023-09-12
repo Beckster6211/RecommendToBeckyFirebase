@@ -46,7 +46,7 @@ function FilmDislike(){
             <Offcanvas.Body>
             <h6
             className="filmHeading"
-            >Here some help on what I don't like to eat
+            >Here some help on the kinds of films I don't like
               <br/>
               <small> (If it helps you 😊)</small>
             </h6>

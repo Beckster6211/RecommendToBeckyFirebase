@@ -37,21 +37,54 @@ function TeleDislike(){
               className="bg-danger"
             closeButton
             >
-              <Offcanvas.Title>
-              😩 I Dislike... 😩
+              <Offcanvas.Title
+               id="teleDislikeTitle"
+              >
+              😩 I don't like to binge... 😩
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              ToDo.....
-              <br/>
-            bullet point list of what I dislike
-              <br/>
-              .
-              .
-              .
-              .
-              <br/>
-              {/* maybe do a video of explaining what I dislike */}
+            <h6
+            className="teleHeading"
+            >Here some help on the kinds of tv shows  I don't like to binge 
+            <small> (Don't worry if not bingeable all in one go, I can wait each week for new episodes) ⏳</small>
+            <br/>
+              <small> (If it helps you 😊)</small>
+            </h6>
+            <ul
+            className="teleList"
+            >
+              <li>
+                I Hate 😡 Hate 😡 Hate 😡 spiders 🕷️
+                <br/>
+                <small>(Freakys of nature)</small>
+              </li>
+
+              <li>
+                I don't enjoy scary 😱
+                <br/>
+                <small>(I am a bit of a wuss, I quit Constantine 15 minutes in)</small>
+              </li>
+
+              <li>
+                Not really a soap fan 🧼
+                <br/>
+                <small> (my dad watches Coronation Street, think I know more of the story lines than he does though)🧱 </small>
+              </li>
+
+              <li>
+                Not a reality fan 
+                <br/>
+                <small>
+                  (I don't like TOWIE, Made Chelsea or Love Island those kind of shows) ❤️🏝️
+                </small>
+              </li>
+
+              </ul>
+              
+              <p>
+              todo - maybe video explaining list?
+            </p>
             </Offcanvas.Body>
           </Offcanvas>
         </div>
