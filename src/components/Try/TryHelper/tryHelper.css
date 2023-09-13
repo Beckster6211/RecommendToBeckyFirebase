@@ -12,9 +12,30 @@
         font-size: 2.5vw;
     }
 
-    /* #tryLikeOffcanvas{} */
-    /* #tryHelperOffcanvas{} */
-    /* #tryDislikeOffcanvas{} */
+    #trylikeTitle{
+        font-size: 4vw;
+    }
+
+    .tryHeading{
+        font-size: 3.7vw;
+    }
+
+    .tryList{
+        font-size: 3.3vw;
+    }
+
+    #tryDislikeTitle{
+        font-size:4vw ;
+    }
+
+    .tryHelperText{
+        font-size: 3vw;
+    }
+
+    .tryHelperHeading{
+        font-size: 3.4vw;
+    }
+    
 }
 
 @media only screen and (min-width: 481px) {

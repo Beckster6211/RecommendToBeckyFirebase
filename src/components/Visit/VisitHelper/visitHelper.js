@@ -79,7 +79,7 @@ function VisitHelper(){
                 <li>
                   <strong>Recommended By -</strong> 
                 </li>
-                In the Recommended By input field you can put your name - who recommends it (maybe the book was recommended to you and you're passing it on and spreading the word) 
+                In the Recommended By input field you can put your name - who recommends it (maybe the place was recommended to you and you're passing it on and spreading the word) 
                 <br/>
                 <small>(If you could please put in brackets where you are from just as a referrence to me but you don't have to it would be nice for me to know where you've come here from).</small>
             </p>

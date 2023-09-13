@@ -40,22 +40,45 @@ function TryLike(){
               closeButton
             >
               <Offcanvas.Title
-              className=""
+              id="tryLikeTitle"
               >
-              👍 I Like...👍
+              👍 I'd like to try ... 👍
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-            ToDo.....
+            <h6
+            className="tryHeading"
+            >Here some help on the kinds of I would like to try
               <br/>
-              bullet point list of what I like
-              <br/>
-              .
-              .
-              .
-              .
-              <br/>
-              {/* maybe do a video of explaining what I like */}
+              <small> (If it helps you 😊)</small>
+            </h6>
+            <ul
+            className="tryList"
+            >
+              <li>
+                I'm not against a bit of out there. I like a little adrenalin rush
+                <br/>
+                <small>(I've done one of those high wall climbs 🧗)</small>
+              </li>
+
+              <li>
+                I am trying to be healthier (I have a dog would love if could take him for runs instead of walks) 🐕🚶
+                <br/>
+                <small>
+                  (I do struggle a little with sticking to it, so if anyone needs a buddy) 🏃 🏋️
+                </small>
+              </li>
+
+              <li>
+                Open to new sport experiences 
+                <small> (Sometimes I surprise mself with the sports I like watching on tv 🏆)</small>
+              </li>
+            </ul>
+
+            <p>
+              todo - maybe video explaining list?
+            </p>
+
             </Offcanvas.Body>
           </Offcanvas>
         </div>

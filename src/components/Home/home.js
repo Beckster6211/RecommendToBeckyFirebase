@@ -63,12 +63,12 @@ function Home({Becky}){
                 <s><li>Tele</li></s>
                 <s><li>Read</li></s>
                 <s><li>Visit</li></s>
-                <li>Try</li>
+                <s><li>Try</li></s>
                 </small>
                 </small>
                 </small>
               </ul>
-
+              <small><small>Need to read throught and check them all</small></small>
               </li>
               <li><s>change icon in tab</s></li>
               <li><s>change login picture/icon (to avatar)</s></li>

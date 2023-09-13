@@ -39,21 +39,31 @@ function TryDislike(){
               className="bg-danger"
             closeButton
             >
-              <Offcanvas.Title>
-              👎 I Dislike... 👎
+              <Offcanvas.Title
+              id="tryDislikeTitle"
+              >
+              👎 I wouldn't like to try... 👎
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              ToDo.....
+            <h6
+            className="tryHeading"
+            >Here some help on the kinds of I wouldn't like to try
               <br/>
-            bullet point list of what I dislike
-              <br/>
-              .
-              .
-              .
-              .
-              <br/>
-              {/* maybe do a video of explaining what I dislike */}
+              <small> (If it helps you 😊)</small>
+            </h6>
+
+            <ul
+            className="tryList"
+            >
+              <li>
+                I do have a little bit of a balance issues ⚖️
+                <br/>
+                <small>
+                  (I have problem ears but will try my best 👂)
+                </small>
+              </li>
+            </ul>
             </Offcanvas.Body>
           </Offcanvas>
         </div>
