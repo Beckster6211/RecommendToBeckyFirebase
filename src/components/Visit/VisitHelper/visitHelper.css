@@ -12,9 +12,29 @@
         font-size: 2.5vw;
     }
 
-    /* #visitLikeOffcanvas{} */
-    /* #visitHelperOffcanvas{} */
-    /* #visitDislikeOffcanvas{} */
+    #visitlikeTitle{
+        font-size: 4vw;
+    }
+
+    .visitHeading{
+        font-size: 3.7vw;
+    }
+
+    .visitList{
+        font-size: 3.3vw;
+    }
+
+    #visitDislikeTitle{
+        font-size:4vw ;
+    }
+
+    .visitHelperText{
+        font-size: 3vw;
+    }
+
+    .visitHelperHeading{
+        font-size: 3.4vw;
+    }
 }
 
 @media only screen and (min-width: 481px) {

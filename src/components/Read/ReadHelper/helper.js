@@ -69,7 +69,7 @@ function ReadHelper(){
                 In the Book input field, you can put the book that you recommend to me (Becky) to read.
 
                 <li><strong>Author -</strong></li>
-                In the Author input field, you can put the the author of the book <small>(The author of the book may intrigue me)</small>
+                In the Author input field, you can put the author of the book <small>(The author of the book may intrigue me)</small>
 
                 <li><strong>Plot/Description -</strong></li> 
                 In the Plot/Description input field you can put the description/plot of the book. <small>(You could write that yourself or take from the web)</small>
@@ -97,7 +97,7 @@ function ReadHelper(){
               </p>
 
               <h6 className="readHelperHeading">
-                  You could always have a look through the table to get an idea of how to fill out the tele form 👀
+                  You could always have a look through the table to get an idea of how to fill out the read form 👀
               </h6>
 
               <p>
@@ -110,7 +110,7 @@ function ReadHelper(){
 
                     <li>
                       <strong>
-                    my opinion</strong>, a checkbox to show if I have watched it ✔️, an emoji of what I think if I have watched it - <small>(<strong>locked buttons for my use only</strong> to show the opinion of yes 🤓, no 😴 and alright 😶)</small> and also what my opinion of it is <small>(if read it yet 🤔)</small> 
+                    my opinion</strong>, a checkbox to show if I have read it ✔️, an emoji of what I think if I have read it - <small>(<strong>locked buttons for my use only</strong> to show the opinion of yes 🤓, no 😴 and alright 😶)</small> and also what my opinion of it is <small>(if read it yet 🤔)</small> 
                     </li>
 
                     <li>

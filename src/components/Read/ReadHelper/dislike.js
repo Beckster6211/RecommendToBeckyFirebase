@@ -64,7 +64,7 @@ function ReadDislike(){
                   <li>
                     I don't like anything too heavy or intense
                     <br/>
-                    <small>(Tried to get into Dan Brown Davinici Code but didn't like it - my dad enjoyed it ✝️)</small>
+                    <small>(Tried to get into Dan Brown The Da Vinci Code but didn't like it - my dad enjoyed it ✝️)</small>
                   </li>
 
                   <li>
@@ -72,17 +72,10 @@ function ReadDislike(){
                     <br/>
                     <small> (although if its the right person maybe??) ⌨️</small> 
                   </li>
-
                 </ul>
-
-
-              ToDo.....
-              <br/>
-            bullet point list of what I dislike
-              <br/>
-                           .
-              <br/>
-              {/* maybe do a video of explaining what I dislike */}
+                <p>
+              todo - maybe video explaining list?
+            </p>
             </Offcanvas.Body>
           </Offcanvas>
         </div>

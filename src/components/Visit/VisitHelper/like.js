@@ -40,22 +40,43 @@ function VisitLike(){
               closeButton
             >
               <Offcanvas.Title
-              className=""
+              id="visitLikeTitle"
               >
-              😁 I Like...😁
+              😁 I'd like to visit... 😁
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-            ToDo.....
+            <h6
+            className="visitHeading"
+            >Here some help on the kinds of places I'd like to visit
               <br/>
-              bullet point list of what I like
-              <br/>
-              .
-              .
-              .
-              .
-              <br/>
-              {/* maybe do a video of explaining what I like */}
+              <small> (If it helps you 😊)</small>
+            </h6>
+
+            <ul
+            className="visitList"
+            >
+              <li>
+                I prefer cold/cooler weather 🥶 😎
+                <br/>
+                <small>(Not a hot weather fan and I burn very easily)</small>
+              </li>
+
+              <li>
+                I like to secretly and discreetly learn something
+                <br/>
+                <small>(I can't resist a 'Did you know...'💡)</small>
+              </li>
+
+              <li> 
+                I do have a passport so I am not against going outside the country
+                <br/>
+                <small>I have tended to visit this country, a lot of Cornwall - <small>(still lots more to do)</small></small>
+              </li>
+            </ul>
+            <p>
+              todo - maybe video explaining list?
+            </p>
             </Offcanvas.Body>
           </Offcanvas>
         </div>

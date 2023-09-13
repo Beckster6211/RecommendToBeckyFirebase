@@ -62,7 +62,7 @@ function Home({Becky}){
                 <s><li>Film</li></s>
                 <s><li>Tele</li></s>
                 <s><li>Read</li></s>
-                <li>Visit</li>
+                <s><li>Visit</li></s>
                 <li>Try</li>
                 </small>
                 </small>
