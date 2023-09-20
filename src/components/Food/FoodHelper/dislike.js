@@ -20,7 +20,7 @@ function FoodDislike(){
             variant="danger" 
             onClick={()=> setRightShow(true)}
             >
-              Dislike 🤮
+              Dislike 👎
                {/* 👉 */}
           </Button>
 
@@ -41,19 +41,13 @@ function FoodDislike(){
               <Offcanvas.Title
               id="foodDislikeTitle"
               >
-              🤮 I don't like to eat... 🤮
+              🤮 Food I don't like... 🤮
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              {/* ToDo.....
-              <br/>
-            bullet point list of what I dislike
-              <br/>
-              yuck
-              maybe do a video of explaining what I dislike */}
               <h6
             className="foodHeading"
-            >Here some help on what I don't like to eat
+            >Here some info on what I don't like to eat/drink
               <br/>
               <small> (If it helps you 😊)</small>
             </h6>
@@ -63,7 +57,7 @@ function FoodDislike(){
               <li>
                 I don't like spicy food 🌶️🥵
                 <br/>
-                <small>(I don't mind a tiny bit of heat 🤏)</small>
+                <small>(I don't mind a tiny bit of heat 🤏 <small>That can be cheeky</small>)</small>
               </li>
               <li>
                 I HATE cheese, fastest way to ruin a burger 🧀
@@ -71,9 +65,9 @@ function FoodDislike(){
                 <small>(I will eat pizza and lasagne though 😐)</small>
               </li>
               <li>
-                I don't like nuts 🥜
+                I don't like raisins and nuts 🥜 (This includes coconut 🥥)
                 <br/>
-                <small>(Even if you covered them in chocolate, still no)</small>
+                <small>(Even if covered in chocolate, still no)</small>
               </li>
               <li>
                 I don't like some fish 
@@ -90,6 +84,13 @@ function FoodDislike(){
                 <br/>
                 <small>(especially Chilli - I can't pick them out, theres always too many...😭)</small>
               </li>
+
+              <li>
+                MARMITE A BIG NOOOOOOO ❌
+                <br/>
+                <small>(if you like marmite, there is something wrong with you 👽)</small>
+              </li>
+              
             </ul>
             <p>
               todo - maybe video explaining list?

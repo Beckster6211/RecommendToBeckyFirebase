@@ -53,23 +53,41 @@ function Home({Becky}){
               <li>Explain idea behind site</li>
               <li>How to use site (maybe pictures)</li>
               <li>Perhaps video (tour of site)</li>
-              <li>todo like, dislike, helper for each page
+              <li>todo like, dislike, helper for each page</li>
+
               <ul>
                 <small>
                 <small>
-                <small>
-                <s><li>Food</li></s>
-                <s><li>Film</li></s>
-                <s><li>Tele</li></s>
-                <s><li>Read</li></s>
-                <s><li>Visit</li></s>
-                <s><li>Try</li></s>
+
+                  Food
+                  <small> 
+                <li><s>Helpers</s> & <s>checked</s> & styled & media queries </li>
                 </small>
+                Film
+                <small> 
+                <li><s>Helpers</s> & checked & styled & media queries </li>
+                </small>
+                Tele
+                <small> 
+                <li><s>Helpers</s> & checked & styled & media queries </li>
+                </small>
+                Read
+                <small> 
+                <li><s>Helpers</s> & checked & styled & media queries </li>
+                </small>
+                Visit
+                <small> 
+                <li><s>Helpers</s> & checked & styled & media queries </li>
+                </small>
+                Try
+                <small> 
+                <li><s>Helpers</s> & checked & styled & media queries </li>
+                </small>
+                
                 </small>
                 </small>
               </ul>
-              <small><small>Need to read throught and check them all</small></small>
-              </li>
+              
               <li><s>change icon in tab</s></li>
               <li><s>change login picture/icon (to avatar)</s></li>
               <li>change portfolio picture/icon (todo todo portfolio change)</li>
@@ -79,7 +97,7 @@ function Home({Becky}){
               <li><s>rest of pages</s></li>
               <li><s>fix login</s></li>
               <li>todo becky recommends site</li>
-              <li>correct welcome message????</li>
+              <li>correct welcome message (repeating)????</li>
             </ul>
             </Container>
         </div>

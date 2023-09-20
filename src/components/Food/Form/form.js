@@ -157,7 +157,7 @@ function FoodForm({ food, handleChange, submitForm }) {
                     console.log("Put something in the inputs please")
                 }}
                   >
-                    😄 Enjoy 😄
+                    😄 Cheers 😄
                     </Button>
 
   :
@@ -171,7 +171,7 @@ function FoodForm({ food, handleChange, submitForm }) {
               width:"auto"
             }}
             >
-              😄 Enjoy 😄
+              😄 Cheers 😄
               </Button>
                 }
 

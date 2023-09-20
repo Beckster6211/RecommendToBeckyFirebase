@@ -109,10 +109,8 @@ function VisitHelper(){
                       <strong>
                     delete</strong> <small>(the delete button I have left open to all, so if you add something wrong you can delete it but <strong>please be careful</strong> when deleting so don't erase others 🙂)</small>
                     </li>
-
-                    <p>???Todo - Video explaining the binge page???</p> 
               </p>
-
+                <p>???Todo - Video explaining the binge page???</p> 
             </Offcanvas.Body>
           </Offcanvas>
         </div>

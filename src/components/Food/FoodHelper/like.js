@@ -21,7 +21,7 @@ function FoodLike(){
             onClick={()=>setLeftShow(true)}
           >
             {/* 👈  */}
-            😋 Like
+            👍 Like
            </Button>
 
           <Offcanvas 
@@ -42,22 +42,13 @@ function FoodLike(){
               id="foodLikeTitle"
               className=""
               >
-              😋 I like to eat... 😋
+              😋 Food I like... 😋
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-            {/* ToDo.....
-              <br/>
-              bullet point list of what I like
-              <br/>
-              yummy
-              <br/>
-              maybe do a video of explaining what I like
-            <br/>
-            <br/> */}
             <h6
             className="foodHeading"
-            >Here some help on what I like to eat
+            >Here some info on what I like to eat/drink
               <br/>
               <small> (If it helps you 😊)</small>
             </h6>

@@ -35,7 +35,9 @@ function Navigation(){
                         // fontSize:"2.5vw"
                     }}
                     >
-                        😋Enjoy
+                        😋
+                        <br/>
+                        Enjoy
                         {/* 😋 */}
                         </Nav.Link>
                 </Nav.Item>
@@ -49,7 +51,9 @@ function Navigation(){
                         // fontSize:"2.5vw"
                     }}
                     >
-                        🎬Watch
+                        🎬
+                        <br/>
+                        Watch
                         {/* 🎬 */}
                         </Nav.Link>
                 </Nav.Item>
@@ -63,7 +67,9 @@ function Navigation(){
                         // fontSize:"2.5vw"
                     }}
                     >
-                        📺Binge
+                        📺
+                        <br/>
+                        Binge
                         {/* 📺 */}
                         </Nav.Link>
                 </Nav.Item>
@@ -77,7 +83,9 @@ function Navigation(){
                         // fontSize:"2.5vw"
                     }}
                     >
-                        📚Read
+                        📚
+                        <br/>
+                        Read
                         {/* 📚 */}
                         </Nav.Link>
                 </Nav.Item>
@@ -91,7 +99,9 @@ function Navigation(){
                         // fontSize:"2.5vw"
                     }}
                     >
-                        🗺️Visit
+                        🗺️
+                        <br/>
+                        Visit
                        {/* 🗺️ */}
                        </Nav.Link>
                 </Nav.Item>
@@ -105,7 +115,9 @@ function Navigation(){
                         // fontSize:"2.5vw"
                     }}
                     >
-                        💡Try
+                        💡
+                        <br/>
+                        Try
                         {/* 💡 */}
                         </Nav.Link>
                 </Nav.Item>
