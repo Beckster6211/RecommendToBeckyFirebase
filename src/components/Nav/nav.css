@@ -1,11 +1,17 @@
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 300px) {
+    .navLinks{
+        font-size: 3.3vw;
+    }
+}
+
+@media only screen and (min-width: 301px) {
     .navLinks{
         font-size: 3.6vw;
     }
 }
 
-@media only screen and (min-width: 481px) {
+/* @media only screen and (min-width: 481px) {
     .navLinks{
         font-size: 3.7vw;
     }
@@ -21,7 +27,7 @@
     .navLinks{
         font-size: 1.7vw;
     }
-}
+} */
 
 
 /*

@@ -58,6 +58,7 @@ function Home({Becky}){
               <ul>
                 <small>
                 <small>
+                  
 
                   Food
                   <small> 
@@ -83,7 +84,29 @@ function Home({Becky}){
                 <small> 
                 <li><s>Helpers</s> & checked & styled & media queries </li>
                 </small>
-                
+
+                header
+                  <small>
+                    <li>checked & styled & media queries</li>
+                  </small>
+
+                  footer
+                  <small>
+                    <li>checked & styled & media queries</li>
+                  </small>
+
+                  nav 
+                  <small>
+                    <li>checked & styled & media queries</li>
+                  </small>
+
+                  login 
+                  <small>
+                    <li>
+                      checked & styled & media queries
+                    </li>
+                  </small>
+                  
                 </small>
                 </small>
               </ul>
