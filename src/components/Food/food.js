@@ -130,13 +130,13 @@ function Food({Becky}) {
       {/* <br/> */}
       <Container 
       id = "foodPage1"
-        className="foodPage1 bg-warning-subtle rounded text-center p-0" 
+        className="foodPage1 bg-warning-subtle rounded text-center p-1 align-middle" 
         style={{
           // fontSize:"3vw", 
           // fontWeight:"900"
         }}
         >
-            🍽️ &nbsp;☕ &nbsp; FOOD PAGE &nbsp;🧂 &nbsp;🌶️ 
+            &nbsp; 🍽️ &nbsp;☕ &nbsp; FOOD PAGE &nbsp;🧂 &nbsp;🌶️ &nbsp;
             {/* FOOD PAGE
             <br/>
             &nbsp; 🍽️ &nbsp; ☕ &nbsp; 🧂 &nbsp; 🌶️&nbsp; */}

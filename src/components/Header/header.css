@@ -1,49 +1,49 @@
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 300px) {
     .headerImagePortfolio{
-        width: 9vw;
+        width: 12vw;
     }
 
     #headerTitle{
-        font-size: 4.5vw;
+        font-size: 5.8vw;
     }
 
     .headerImageLogin{
-        width: 9vw;
-        transform: scaleX(-1);
+        width: 10vw;
+        /* transform: scaleX(-1); */
     }
 }
 
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 301px) {
 
+    .headerImagePortfolio{
+        width: 11vw;
+    }
+
+    #headerTitle{
+        font-size: 6vw;
+    }
+
+    .headerImageLogin{
+        width: 10vw;
+        /* transform: scaleX(-1); */
+    }
+
+
+}
+
+@media only screen and (min-width: 450px) {
     .headerImagePortfolio{
         width: 8vw;
     }
 
     #headerTitle{
-        font-size: 4.5vw;
+        font-size: 5vw;
     }
 
     .headerImageLogin{
-        width: 6.5vw;
-        transform: scaleX(-1);
-    }
-
-
-}
-
-@media only screen and (min-width: 769px) {
-    .headerImagePortfolio{
-        width: 4.5vw;
-    }
-
-    #headerTitle{
-        font-size: 3.5vw;
-    }
-
-    .headerImageLogin{
-        width: 5vw;
-        transform: scaleX(-1);
+        width: 7vw;
+        /* transform: scaleX(-1); */
     }
 }
 
@@ -63,15 +63,15 @@
 
 @media only screen and (min-width: 1201px) {
     .headerImagePortfolio{
-        width: 3.5vw;
+        width: 3.2vw;
     }
 
     #headerTitle{
-        font-size: 2.3vw;
+        font-size: 2.5vw;
     }
 
     .headerImageLogin{
-        width: 3vw;
-        transform: scaleX(-1);
+        width: 3.3vw;
+        /* transform: scaleX(-1); */
     }
 }

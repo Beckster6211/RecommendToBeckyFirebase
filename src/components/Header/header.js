@@ -26,7 +26,7 @@ function Header(){
                     
                     <Container
                     fluid
-                    className="bg-secondary-subtle py-2 mx-1  
+                    className="bg-secondary-subtle px-1 py-0 mx-1  
                     border border-dark border-3
                     "
                     style={{
@@ -43,7 +43,7 @@ function Header(){
                             style={{
                                 // width:"8vw"
                             }}
-                            src="./Capture1.PNG" 
+                            src="./Capture.PNG" 
                             // height={"auto"}
                             roundedCircle
                             />
@@ -72,7 +72,7 @@ function Header(){
                         {/* Recommend To Becky */}
                         <Navbar.Brand 
                         href="/login" 
-                        className="p-0 py-1 m-0"
+                        className="py-1 m-0"
                         >
                             <Image
                             // id="headerImage2"
@@ -80,7 +80,7 @@ function Header(){
                             style={{
                                 // width:"7vw"
                             }}
-                            src="./Capture.PNG"
+                            src="./Capture1.PNG"
                             // height={"auto"}
                             roundedCircle
                             />

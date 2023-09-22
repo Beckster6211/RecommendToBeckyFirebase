@@ -1,7 +1,7 @@
 
 @media only screen and (max-width: 300px) {
     .navLinks{
-        font-size: 3.3vw;
+        font-size: 3.4vw;
     }
 }
 
@@ -11,19 +11,19 @@
     }
 }
 
-/* @media only screen and (min-width: 481px) {
+@media only screen and (min-width: 701px) {
     .navLinks{
-        font-size: 3.7vw;
+        font-size: 3vw;
     }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1001px) {
     .navLinks{
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
 }
 
-@media only screen and (min-width: 1025px) {
+/* @media only screen and (min-width: 1025px) {
     .navLinks{
         font-size: 1.7vw;
     }
