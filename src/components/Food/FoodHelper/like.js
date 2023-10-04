@@ -17,7 +17,7 @@ function FoodLike(){
             style={{
               // fontSize:"1.5vw"
             }}
-            variant="success" 
+            // variant="success" 
             onClick={()=>setLeftShow(true)}
           >
             {/* 👈  */}

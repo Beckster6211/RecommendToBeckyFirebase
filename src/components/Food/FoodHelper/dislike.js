@@ -17,7 +17,7 @@ function FoodDislike(){
             style={{
               // fontSize:"1.5vw"
             }}
-            variant="danger" 
+            // variant="danger" 
             onClick={()=> setRightShow(true)}
             >
               {/* 👎 */}

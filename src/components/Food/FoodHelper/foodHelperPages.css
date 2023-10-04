@@ -1,4 +1,11 @@
-  
+#foodLikeButton{
+    background-color: teal;
+}
+
+ #foodDislikeButton{
+    background-color: tomato;
+}
+
 @media only screen and (max-width: 300px) {
 
     #foodHelperButton{
@@ -39,6 +46,7 @@
     
     #foodDislikeButton{
         font-size: 3vw;
+        background-color: orangered;
     }
     #foodDislikeTitle{
         font-size: 3.8vw;
