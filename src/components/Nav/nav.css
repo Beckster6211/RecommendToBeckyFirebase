@@ -23,6 +23,12 @@
     }
 }
 
+@media only screen and (min-width: 1201px){
+    .navLinks{
+        font-size:1.5vw
+    }
+}
+
 /* @media only screen and (min-width: 1025px) {
     .navLinks{
         font-size: 1.7vw;

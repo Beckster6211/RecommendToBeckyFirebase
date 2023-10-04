@@ -1,144 +1,126 @@
   
-@media only screen and (max-width: 480px) {
-    #foodLikeButton{
-        font-size: 3vw;
-    }
-
-    #foodDislikeButton{
-        font-size: 3vw;
-    }
+@media only screen and (max-width: 300px) {
 
     #foodHelperButton{
         font-size: 3vw;
     }
+    #foodHelperTitle{
+        font-size: 3.8vw;
+        font-weight: 700
+    }
+    .foodHelperText{
+        font-size: 3.5vw;
+    }
+
+    .foodHelperHeading{
+        font-size: 3.5vw;
+    }
+
+
+
+    #foodLikeButton{
+        font-size: 3vw;
+    }
+     #foodLikeTitle{
+        font-size: 3.8vw;
+        font-weight: 700
+    }
+
+
 
     .foodHeading{
         font-size: 3.7vw;
     }
-
-    .foodList{
-        font-size: 3.3vw;
-    }
-
-    .foodHelperText{
-        font-size: 3vw;
-    }
-
-    .foodHelperHeading{
-        font-size: 3.4vw;
-    }
-
-    #foodHelperTitle{
-        font-size: 4vw;
-    }
-
-    #foodLikeTitle{
-        font-size: 4vw;
-    }
-
-    #foodDislikeTitle{
-        font-size: 4vw;
-    }
-}
-
-@media only screen and (min-width: 481px) {
-    #foodLikeButton{
-        font-size: 2.8vw;
-    }
-
-    #foodDislikeButton{
-        font-size: 2.8vw;
-    }
-
-    #foodHelperButton{
-        font-size: 2.8vw;
-    }
-
-    .foodHeading{
-        font-size: 3.9vw;
-    }
-
     .foodList{
         font-size: 3.5vw;
     }
 
+
+    
+    #foodDislikeButton{
+        font-size: 3vw;
+    }
+    #foodDislikeTitle{
+        font-size: 3.8vw;
+        font-weight: 700
+    }
+}
+
+@media only screen and (min-width: 301px) {
+
+    #foodHelperButton{
+        font-size: 2.5vw;
+    }
+    #foodHelperTitle{
+        font-size: 4.2vw;
+        font-weight: 700
+    }
     .foodHelperText{
         font-size: 3.2vw;
     }
-
     .foodHelperHeading{
-        font-size: 3.6vw;
-    }
+        font-size: 3.2vw;
+    }    
 
-    #foodHelperTitle{
-        font-size: 4.2vw;
-    }
 
+
+    #foodLikeButton{
+        font-size: 2.5vw;
+    }    
     #foodLikeTitle{
         font-size: 4.2vw;
+        font-weight: 700
     }
 
-    #foodDislikeTitle{
-        font-size: 4.2vw;
-    }
-}
 
-@media only screen and (min-width: 769px) {
-    #foodLikeButton{
-        font-size: 3vw;
-    }
-
-    #foodDislikeButton{
-        font-size: 3vw;
-    }
-
-    #foodHelperButton{
-        font-size: 3vw;
-    }
 
     .foodHeading{
-        font-size: 2.3vw;
+        font-size: 3.9vw;
+    }
+    .foodList{
+        font-size: 3.5vw;
     }
 
-    .foodList{
+
+    #foodDislikeButton{
         font-size: 2.5vw;
     }
+    #foodDislikeTitle{
+        font-size: 4.2vw;
+        font-weight: 700
+    }
+}
 
-    .foodHelperText{
+@media only screen and (min-width: 701px) {
+
+    #foodHelperButton{
         font-size: 2vw;
     }
 
-    .foodHelperHeading{
-        font-size: 2.3vw;
-    }
-
     #foodHelperTitle{
-        font-size: 3vw;
+        font-size: 2.5vw;
+        font-weight: 700
+    }   
+    .foodHelperText{
+        font-size: 1.7vw;
     }
 
-    #foodLikeTitle{
-        font-size: 3vw;
+    .foodHelperHeading{
+        font-size: 2vw;
     }
 
-    #foodDislikeTitle{
-        font-size: 3vw;
-    }
+ 
 
-   
-}
 
-@media only screen and (min-width: 1025px) {
     #foodLikeButton{
-        font-size: 1.8vw;
+        font-size: 2vw;
+    } 
+    #foodLikeTitle{
+        font-size: 2.5vw;
+        font-weight: 700
     }
 
-    #foodDislikeButton{
-        font-size: 1.8vw;
-    }
 
-    #foodHelperButton{
-        font-size: 1.8vw;
-    }
 
     .foodHeading{
         font-size: 2.3vw;
@@ -148,24 +130,73 @@
         font-size: 2vw;
     }
 
+
+
+
+    #foodDislikeButton{
+        font-size: 2vw;
+    }
+    #foodDislikeTitle{
+        font-size: 2.5vw;
+        font-weight: 700
+    }
+}
+
+@media only screen and (min-width: 1005px) {
+    #foodHelperButton{
+        font-size: 1.5vw;
+    }    
+    #foodHelperTitle{
+        font-size: 2vw;
+        font-weight: 700
+    }
     .foodHelperText{
+        font-size: 1.2vw;
+    }
+
+    .foodHelperHeading{
         font-size: 1.5vw;
     }
 
-    .foodHelperHeading{
-        font-size: 1.8vw;
-    }
 
-    #foodHelperTitle{
-        font-size: 2.5vw;
-    }
 
+    #foodLikeButton{
+        font-size: 1.5vw;
+    }
     #foodLikeTitle{
-        font-size: 2.5vw;
+        font-size: 2vw;
+        font-weight: 700
     }
 
+
+    .foodHeading{
+        font-size: 2vw;
+    }
+    .foodList{
+        font-size: 1.5vw;
+    }    
+
+
+    #foodDislikeButton{
+        font-size: 1.5vw;
+    }
     #foodDislikeTitle{
-        font-size: 2.5vw;
+        font-size: 2vw;
+        font-weight: 700
+    }
+  
+}
+
+@media only screen and (min-width: 1201px) {
+    #foodLikeButton{
+        font-size: 1vw;
+    }
+    #foodHelperButton{
+        font-size: 1vw;
+    }
+
+    #foodDislikeButton{
+        font-size: 1vw;
     }
 }
 

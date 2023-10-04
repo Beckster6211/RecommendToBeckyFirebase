@@ -52,6 +52,9 @@ function FoodForm({ food, handleChange, submitForm }) {
             <Form.Group 
               className = ""  
               controlId="formFood"
+              // style={{
+              //   fontSize:"1vw"
+              // }} 
             >
               <FloatingLabel 
               // id="foodFloatingLabel1"
@@ -60,16 +63,16 @@ function FoodForm({ food, handleChange, submitForm }) {
                 // fontSize:"1.2vw"
               }}
               controlId = "formFoodItem" 
-              label= "Food...">
+              label= "Food/Drink...">
                 <Form.Control 
                 className="foodFormInput text-break border border-dark
                border-3"
                style={{
-                // fontSize:"2vw"
+                // fontSize:"2.5vw"
               }} 
               ref={myFood}
                 type="text"
-                placeholder = "Food..." 
+                placeholder = "Food/Drink..." 
                 name="formFoodItem"
                 // id="formFoodItem"
                 // type="text"
@@ -146,7 +149,7 @@ function FoodForm({ food, handleChange, submitForm }) {
                   <Button 
                   id="foodFormButton"
                   variant = "info"
-                  className="border border-dark border-3 text-dark"  
+                  className="border border-dark border-3 text-white"  
                   // type = "submit"
                   style={{
                     // fontSize:"1.6vw", 
@@ -164,7 +167,7 @@ function FoodForm({ food, handleChange, submitForm }) {
           <Button 
             id="foodFormButton"
             variant = "info"
-            className="border border-dark border-3 text-dark"  
+            className="border border-dark border-3 text-white"  
             type = "submit"
             style={{
               // fontSize:"1.6vw", 

@@ -30,7 +30,7 @@ function Navigation(){
                     <Nav.Link 
                     
                     href="/food"
-                    className="text-dark p-0"
+                    className="text-white p-0"
                     style={{
                         // fontSize:"2.5vw"
                     }}
@@ -46,7 +46,7 @@ function Navigation(){
                 >
                     <Nav.Link
                     href="/film"
-                    className="text-dark p-0"
+                    className="text-white p-0"
                     style={{
                         // fontSize:"2.5vw"
                     }}
@@ -62,7 +62,7 @@ function Navigation(){
                 >
                     <Nav.Link
                     href="/tele"
-                    className="text-dark p-0"
+                    className="text-white p-0"
                     style={{
                         // fontSize:"2.5vw"
                     }}
@@ -78,7 +78,7 @@ function Navigation(){
                 >
                     <Nav.Link
                     href="/read"
-                    className="text-dark p-0"
+                    className="text-white p-0"
                     style={{
                         // fontSize:"2.5vw"
                     }}
@@ -94,7 +94,7 @@ function Navigation(){
                 >
                     <Nav.Link
                     href="/visit"
-                    className="text-dark p-0"
+                    className="text-white p-0"
                     style={{
                         // fontSize:"2.5vw"
                     }}
@@ -110,7 +110,7 @@ function Navigation(){
                 >
                     <Nav.Link
                     href="/try"
-                    className="text-dark p-0"
+                    className="text-white p-0"
                     style={{
                         // fontSize:"2.5vw"
                     }}

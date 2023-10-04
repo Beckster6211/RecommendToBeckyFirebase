@@ -13,14 +13,16 @@ function FoodHelper(){
         <div>
             <Button 
             id="foodHelperButton"
-            className=""
+            className="border border-dark border-3 py-1 px-2 mt-1 mx-1"
             style={{
               // fontSize:"1.5vw"
             }}
             variant="secondary" 
             onClick={()=>setTopShow(true)}
           >
-            Food Helper ℹ️
+            ℹ️ 
+            Food Helper
+            ℹ️ 
              {/* ☝️  */}
           </Button>
 

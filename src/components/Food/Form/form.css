@@ -1,43 +1,43 @@
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 300px) {
 
+  .foodFloatingLabel{
+    font-size: 3vw;
+  }
+
+  /* .foodFormInput{
+    font-size: 1.5vw;
+  } */
+
+  #foodFormButton{
+    font-size: 2.7vw;
+  }
+}
+
+@media only screen and (min-width: 301px) {
+
+  .foodFloatingLabel{
+    font-size: 3.2vw;
+  }
+
+  /* .foodFormInput{
+    font-size: 3.5vw;
+  } */
+
+  #foodFormButton{
+    font-size: 2.5vw;
+  }
+
+}
+
+@media only screen and (min-width: 501px) {
   .foodFloatingLabel{
     font-size: 2.5vw;
   }
 
-  .foodFormInput{
-    font-size: 3vw;
-  }
-
-  #foodFormButton{
-    font-size: 2.7vw;
-  }
-}
-
-@media only screen and (min-width: 481px) {
-
-  .foodFloatingLabel{
-    font-size: 2.7vw;
-  }
-
-  .foodFormInput{
-    font-size: 3.5vw;
-  }
-
-  #foodFormButton{
-    font-size: 2.7vw;
-  }
-
-}
-
-@media only screen and (min-width: 769px) {
-  .foodFloatingLabel{
-    font-size: 2vw;
-  }
-
-  .foodFormInput{
+  /* .foodFormInput{
     font-size: 3.7vw;
-  }
+  } */
 
   #foodFormButton{
     font-size: 2.2vw;
@@ -45,7 +45,22 @@
 
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 701px) {
+  .foodFloatingLabel{
+    font-size: 2.2vw;
+  }
+
+  /* .foodFormInput{
+    font-size: 3.7vw;
+  } */
+
+  #foodFormButton{
+    font-size: 2vw;
+  }
+
+}
+
+@media only screen and (min-width: 1005px) {
   .foodFloatingLabel{
     font-size: 1.5vw;
   }

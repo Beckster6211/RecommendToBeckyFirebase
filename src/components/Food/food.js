@@ -130,7 +130,7 @@ function Food({Becky}) {
       {/* <br/> */}
       <Container 
       id = "foodPage1"
-        className="foodPage1 bg-warning-subtle rounded text-center p-1 border border-dark border-2" 
+        className="foodPage1 bg-warning-subtle rounded text-center p-1 border border-dark border-3" 
         style={{
           // fontSize:"3vw", 
           // fontWeight:"900"

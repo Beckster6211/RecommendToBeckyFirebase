@@ -1,5 +1,5 @@
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 300px) {
 
     .foodTableItemFood{
         font-size: 2.3vw;
@@ -32,27 +32,27 @@
     }
   }
   
-  @media only screen and (min-width: 481px) {
+  @media only screen and (min-width: 301px) {
 
     .foodTableItemFood{
-        font-size: 2vw;
+        font-size: 2.4vw;
     }
 
     #foodTableFoodTextarea{
-        font-size: 2vw;
+        font-size: 2.4vw;
         height: 11vw;
     }
 
     .foodTableOpinion{
-        font-size: 2.5vw;
+        font-size: 2.9vw;
     }
 
     #foodTableButton{
-        font-size: 2.5vw;
+        font-size: 3.3vw;
     }
 
     .foodTableRecommend{
-        font-size: 2vw;
+        font-size: 2.4vw;
     }
   
     /* #foodTableItem8{
@@ -60,32 +60,32 @@
     } */
    
     .foodTableCheckboxTried{
-        height: 3.5vw;
-        width: 3.5vw;
+        height: 3.7vw;
+        width: 3.7vw;
     }
   }
   
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 701px) {
 
     .foodTableItemFood{
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
 
     #foodTableFoodTextarea{
-        font-size: 1.5vw;
+        font-size: 2vw;
         height: 11vw;
     }
 
     .foodTableOpinion{
-        font-size: 1.9vw;
+        font-size: 2.5vw;
     }
 
     #foodTableButton{
-        font-size: 1.7vw;
+        font-size: 2.4vw;
     }
 
     .foodTableRecommend{
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
   
     /* #foodTableItem8{
@@ -98,7 +98,7 @@
     }
   }
   
-  @media only screen and (min-width: 1025px) {
+  @media only screen and (min-width: 1001px) {
 
     .foodTableItemFood{
         font-size: 1.5vw;
@@ -117,13 +117,13 @@
         font-size: 1.7vw;
     }
 
-    /* .foodTableRecommend{
-        font-size: 1.5vw;
-    } */
-  
-    #foodTableItem8{
+    .foodTableRecommend{
         font-size: 1.5vw;
     }
+  
+    /* #foodTableItem8{
+        font-size: 1.5vw;
+    } */
    
     .foodTableCheckboxTried{
         height: 3vw;
@@ -134,12 +134,29 @@
   @media only screen and (min-width: 1201px) {
 
     .foodTableItemFood{
-        font-size: 1.2vw;
+        font-size: 1vw;
     }
 
     #foodTableFoodTextarea{
+        font-size: 1vw;
+        height: 6vw;
+    }
+
+    .foodTableOpinion{
+        font-size: 1.3vw;
+    }
+
+    #foodTableButton{
+        font-size: 1.5vw;
+    }
+
+    .foodTableRecommend{
         font-size: 1.2vw;
-        height: 11vw;
+    }
+
+    .foodTableCheckboxTried{
+        height: 1.6vw;
+        width: 1.6vw;
     }
 
   }

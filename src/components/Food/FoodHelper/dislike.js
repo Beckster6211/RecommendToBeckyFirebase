@@ -13,14 +13,18 @@ function FoodDislike(){
         <div>
           <Button 
             id="foodDislikeButton"
-            className=""
+            className="border border-dark border-3 py-0 px-2"
             style={{
               // fontSize:"1.5vw"
             }}
             variant="danger" 
             onClick={()=> setRightShow(true)}
             >
-              Dislike 👎
+              {/* 👎 */}
+              ❌
+              <br/>
+              Dislike 
+              
                {/* 👉 */}
           </Button>
 

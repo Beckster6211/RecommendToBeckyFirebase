@@ -13,7 +13,7 @@ function FoodLike(){
         <div>
           <Button
             id="foodLikeButton" 
-            className=""
+            className="border border-dark border-3 py-0 px-2"
             style={{
               // fontSize:"1.5vw"
             }}
@@ -21,7 +21,11 @@ function FoodLike(){
             onClick={()=>setLeftShow(true)}
           >
             {/* 👈  */}
-            👍 Like
+            {/* 👍  */}
+            ✔️
+            {/* ✅ */}
+            <br/>
+            Like
            </Button>
 
           <Offcanvas 
@@ -40,7 +44,7 @@ function FoodLike(){
             >
               <Offcanvas.Title
               id="foodLikeTitle"
-              className=""
+              className="text-dark"
               >
               😋 Food I like... 😋
               </Offcanvas.Title>
