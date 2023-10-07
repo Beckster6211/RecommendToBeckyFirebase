@@ -13,7 +13,7 @@ function FoodLike(){
         <div>
           <Button
             id="foodLikeButton" 
-            className="border border-dark border-3 py-0 px-2"
+            className="border border-dark border-3 py-0 px-3"
             style={{
               // fontSize:"1.5vw"
             }}

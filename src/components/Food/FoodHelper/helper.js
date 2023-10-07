@@ -13,7 +13,7 @@ function FoodHelper(){
         <div>
             <Button 
             id="foodHelperButton"
-            className="border border-dark border-3 py-1 px-2 mt-1 mx-1"
+            className="border border-dark border-3 py-2 px-2 mx-1"
             style={{
               // fontSize:"1.5vw"
             }}

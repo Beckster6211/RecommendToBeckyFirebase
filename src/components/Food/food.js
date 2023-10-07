@@ -122,9 +122,8 @@ function Food({Becky}) {
     // <div className="foodPage">
       <Container 
       fluid
-      className="foodPage pt-3"
+      className="foodPage pt-3 "
       style={{
-
       }}
       >
       {/* <br/> */}
