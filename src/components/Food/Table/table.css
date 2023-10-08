@@ -11,14 +11,16 @@
       word-wrap: break-word;
     }
   
-    .tableHead{
+    /* .tableHead{
       position: sticky;
       top: 0;
-    }
+    } */
 
-    .foodTableBody{
+    /* .foodTableBody{
 
-    }  
+    }   */
+
+  
     
     tr:nth-child(odd) {
       background-color:#ffff99; 
@@ -35,10 +37,19 @@
     }
 
     @media only screen and (max-width: 300px) {
-      .foodTableHeadFoot{
+      .foodTableHead{
         font-size: 3.2vw;
         font-weight: 500;
-      }
+      } 
+
+      .foodTableFoot{
+        font-size: 2.5vw;
+        font-weight: 500;
+        /* vertical-align: center;
+        position: sticky;
+        bottom: 0 */
+      } 
+      
     }
     
     @media only screen and (min-width: 301px) {
@@ -46,6 +57,20 @@
         font-size: 2.7vw;
         font-weight: 500;
       }
+
+      .foodTableHead{
+        font-size: 2.7vw;
+        font-weight: 500;
+      }
+
+
+      .foodTableFoot{
+        font-size: 2vw;
+        font-weight: 500;
+        /* vertical-align: center;
+        position: sticky;
+        bottom: 0 */
+      } 
     }
     
     @media only screen and (min-width: 701px) {
@@ -53,6 +78,20 @@
         font-size: 1.7vw;
         font-weight: 500;
       }
+
+      .foodTableHead{
+        font-size: 1.7vw;
+        font-weight: 500;
+      }
+
+
+      .foodTableFoot{
+        font-size: 1vw;
+        font-weight: 500;
+        vertical-align: center;
+        position: sticky;
+        bottom: 0
+      } 
     }
     
     @media only screen and (min-width: 1001px) {

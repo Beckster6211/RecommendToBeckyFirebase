@@ -31,7 +31,7 @@ function FoodTable({userBecky, food, foodITried, handleOpinion,thoughtsBecky, de
       >
       <thead 
       // id="foodTable1"
-      className="foodTableHeadFoot bg-dark-subtle border border-dark border-4 "
+      className="foodTableHead bg-dark-subtle border border-dark border-4 "
       style={{
         verticalAlign:"middle", 
         position: "sticky",
@@ -66,13 +66,12 @@ function FoodTable({userBecky, food, foodITried, handleOpinion,thoughtsBecky, de
         {/* 
         //////////
     with sticky table header not sure if footer needed */}
-        <tfoot 
-        // id="foodTable2"
-        className="foodTableHeadFoot bg-dark-subtle border border-dark border-4"
+        <tfoot
+        className="foodTableFoot bg-dark-subtle border border-dark border-4"
         style={{
-          verticalAlign:"middle", 
-          // fontSize:"2vw", 
-          // fontWeight:"500"
+          // verticalAlign:"middle", 
+          // position: "sticky",
+          // bottom:"0"
           }}>
           <tr>
             <th
