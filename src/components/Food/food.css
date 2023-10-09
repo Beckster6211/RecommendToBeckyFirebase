@@ -5,6 +5,7 @@
 
 
 @media only screen and (max-width: 300px) {
+  
   #foodPage1{
     font-size: 4vw;
     font-weight: 900;
@@ -12,7 +13,7 @@
   }
 
   .foodPageAccordion{
-    font-size: 5vw;
+    font-size: 4.5vw;
     font-weight: 700;
   }
 }
@@ -20,7 +21,7 @@
 @media only screen and (min-width: 301px) {
 
   #foodPage1{
-    font-size: 3.5vw;
+    font-size: 3.8vw;
     font-weight: 900;
     width:65%
   }

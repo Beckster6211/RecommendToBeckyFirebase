@@ -10,7 +10,9 @@
   } */
 
   #foodFormButton{
-    font-size: 2.7vw;
+    background-color: mediumpurple;
+    font-size: 3vw;
+    font-weight: 700;
   }
 }
 
@@ -25,7 +27,9 @@
   } */
 
   #foodFormButton{
+    background-color: mediumpurple;
     font-size: 2.5vw;
+    font-weight: 700;
   }
 
 }

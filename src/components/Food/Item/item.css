@@ -30,6 +30,10 @@
         height: 3.5vw;
         width: 3.5vw;
     }
+
+    #foodTableTrashButton{
+        font-size: 4.5vw;
+    }
   }
   
   @media only screen and (min-width: 301px) {
@@ -62,6 +66,10 @@
     .foodTableCheckboxTried{
         height: 3.7vw;
         width: 3.7vw;
+    }
+
+    #foodTableTrashButton{
+        font-size: 4vw;
     }
   }
   
@@ -96,6 +104,10 @@
         height: 3vw;
         width: 3vw;
     }
+
+    #foodTableTrashButton{
+        font-size: 3.5vw;
+    }
   }
   
   @media only screen and (min-width: 1001px) {
@@ -128,6 +140,10 @@
     .foodTableCheckboxTried{
         height: 3vw;
         width: 3vw;
+    }
+
+    #foodTableTrashButton{
+        font-size: 3vw;
     }
   }
   

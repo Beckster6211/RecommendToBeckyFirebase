@@ -36,7 +36,7 @@ function Navigation(){
                     }}
                     >
                         😋
-                        {/* <br/> */}
+                        <br/>
                         Enjoy
                         {/* 😋 */}
                         </Nav.Link>
@@ -52,7 +52,7 @@ function Navigation(){
                     }}
                     >
                         🎬
-                        {/* <br/> */}
+                        <br/>
                         Watch
                         {/* 🎬 */}
                         </Nav.Link>
@@ -68,7 +68,7 @@ function Navigation(){
                     }}
                     >
                         📺
-                        {/* <br/> */}
+                        <br/>
                         Binge
                         {/* 📺 */}
                         </Nav.Link>
@@ -84,7 +84,7 @@ function Navigation(){
                     }}
                     >
                         📚
-                        {/* <br/> */}
+                        <br/>
                         Read
                         {/* 📚 */}
                         </Nav.Link>
@@ -100,7 +100,7 @@ function Navigation(){
                     }}
                     >
                         🗺️
-                        {/* <br/> */}
+                        <br/>
                         Visit
                        {/* 🗺️ */}
                        </Nav.Link>
@@ -116,7 +116,7 @@ function Navigation(){
                     }}
                     >
                         💡
-                        {/* <br/> */}
+                        <br/>
                         Try
                         {/* 💡 */}
                         </Nav.Link>

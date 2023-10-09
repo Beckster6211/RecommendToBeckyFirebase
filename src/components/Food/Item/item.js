@@ -70,7 +70,7 @@ function Item({
     }}
     >
       <td 
-      className="p-2 align-middle border border-dark border-4 bg-warning"
+      className="p-1 align-middle border border-dark border-4 bg-warning"
       style={{
         
       }}
@@ -105,7 +105,7 @@ function Item({
         becky === false ?
         
         <td
-        className="p-2 align-middle border border-dark border-4 bg-warning-subtle"
+        className="p-1 align-middle border border-dark border-4 bg-warning-subtle"
       style={{
       }}
         >          
@@ -320,7 +320,7 @@ function Item({
       
         :
         <td
-        className="p-2 align-middle border border-dark border-4 bg-warning-subtle"
+        className="p-1 align-middle border border-dark border-4 bg-warning-subtle"
       style={{
       }}
         >
@@ -451,7 +451,7 @@ function Item({
         <p>{foodTried}</p>
       </td> */}
       <td
-      className="p-2 align-middle border border-dark border-4 bg-warning"
+      className="p-1 align-middle border border-dark border-4 bg-warning"
       style={{
       }}
       >
@@ -480,14 +480,14 @@ function Item({
 
 
       <td
-      className="p-2 align-middle border border-dark border-4 bg-warning-subtle"
+      className="p-0 align-middle border border-dark border-4 bg-warning-subtle"
       style={{
       }}
       >
           <Button 
-          id="foodTableButton"
+          id="foodTableTrashButton"
           variant="light"
-          className="border border-dark border-2"
+          className="border border-dark border-2 p-2"
           style={{
             // fontSize:"2.5vw"
           }}

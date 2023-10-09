@@ -148,7 +148,7 @@ function FoodForm({ food, handleChange, submitForm }) {
 
                   <Button 
                   id="foodFormButton"
-                  variant = "info"
+                  // variant = "info"
                   className="border border-dark border-3 text-white"  
                   // type = "submit"
                   style={{
@@ -166,7 +166,7 @@ function FoodForm({ food, handleChange, submitForm }) {
   :
           <Button 
             id="foodFormButton"
-            variant = "info"
+            // variant = "info"
             className="border border-dark border-3 text-white"  
             type = "submit"
             style={{
