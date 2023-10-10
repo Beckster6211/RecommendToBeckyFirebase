@@ -2,33 +2,30 @@
   @media only screen and (max-width: 300px) {
 
     .foodTableItemFood{
-        font-size: 2.3vw;
+        font-size: 2.1vw;
     }
 
     #foodTableFoodTextarea{
-        font-size: 2.3vw;
+        font-size: 2.1vw;
         height: 14vw;
+        scrollbar-width: thin;
     }
 
     .foodTableOpinion{
-        font-size: 2.7vw;
+        font-size: 2.5vw;
     }
 
     #foodTableButton{
-        font-size: 3.3vw;
+        font-size: 3vw;
     }
 
     .foodTableRecommend{
-        font-size: 2.3vw;
+        font-size: 2.1vw;
     }
-  
-    /* #foodTableItem8{
-        font-size: 3vw;
-    } */
    
     .foodTableCheckboxTried{
-        height: 3.5vw;
-        width: 3.5vw;
+        height: 3vw;
+        width: 3vw;
     }
 
     #foodTableTrashButton{
@@ -45,6 +42,7 @@
     #foodTableFoodTextarea{
         font-size: 2.4vw;
         height: 11vw;
+        scrollbar-width: thin;
     }
 
     .foodTableOpinion{
@@ -58,10 +56,6 @@
     .foodTableRecommend{
         font-size: 2.4vw;
     }
-  
-    /* #foodTableItem8{
-        font-size: 2.5vw;
-    } */
    
     .foodTableCheckboxTried{
         height: 3.7vw;
@@ -81,7 +75,8 @@
 
     #foodTableFoodTextarea{
         font-size: 2vw;
-        height: 11vw;
+        height: 9vw;
+        scrollbar-width: thin;
     }
 
     .foodTableOpinion{
@@ -95,10 +90,6 @@
     .foodTableRecommend{
         font-size: 2vw;
     }
-  
-    /* #foodTableItem8{
-        font-size: 1.5vw;
-    } */
    
     .foodTableCheckboxTried{
         height: 3vw;
@@ -119,6 +110,7 @@
     #foodTableFoodTextarea{
         font-size: 1.5vw;
         height: 11vw;
+        scrollbar-width: thin;
     }
 
     .foodTableOpinion{
@@ -132,10 +124,6 @@
     .foodTableRecommend{
         font-size: 1.5vw;
     }
-  
-    /* #foodTableItem8{
-        font-size: 1.5vw;
-    } */
    
     .foodTableCheckboxTried{
         height: 3vw;
@@ -156,6 +144,7 @@
     #foodTableFoodTextarea{
         font-size: 1vw;
         height: 6vw;
+        scrollbar-width: thin;
     }
 
     .foodTableOpinion{

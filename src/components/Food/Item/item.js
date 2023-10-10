@@ -78,7 +78,7 @@ function Item({
 
             <p 
             // id="foodTableItem1"
-            className="foodTableItemFood bg-light border border-dark border-2 rounded p-1"
+            className="foodTableItemFood bg-light border border-dark border-2 rounded p-1 mb-2"
             style={{
               // fontSize:"1.6vw",
 
@@ -95,7 +95,7 @@ function Item({
             readOnly 
             style={{
               // fontSize:"1.5vw",
-              // height:"14vw"          
+              // height:"14vw"      
             }}
             />
       </td>
@@ -116,7 +116,7 @@ function Item({
         >
           <p
           className="
-          px-1 py-1 ms-1 mb-0
+          p-1 ms-1 mb-0
           border border-dark border-2 rounded bg-light"
           >
             {/* <OverlayTrigger

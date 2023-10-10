@@ -52,7 +52,7 @@ function FoodLike(){
             <Offcanvas.Body>
             <h6
             className="foodHeading"
-            >Here some info on what I like to eat/drink
+            >Some info on what I like to eat/drink
               <br/>
               <small> (If it helps you 😊)</small>
             </h6>

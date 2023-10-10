@@ -7,25 +7,43 @@
 
 @media only screen and (min-width: 301px) {
     .navLinks{
-        font-size: 3.6vw;
+        font-size: 3.2vw;
+    }
+}
+
+@media only screen and (min-width: 501px) {
+    .navLinks{
+        font-size: 2.5vw;
     }
 }
 
 @media only screen and (min-width: 701px) {
     .navLinks{
-        font-size: 3vw;
+        font-size: 1.8vw;
     }
 }
 
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 901px) {
     .navLinks{
         font-size: 2vw;
     }
 }
 
+@media only screen and (min-width: 1001px) {
+    .navLinks{
+        font-size: 1.5vw;
+    }
+}
+
 @media only screen and (min-width: 1201px){
     .navLinks{
-        font-size:1.5vw
+        font-size: 1.3vw
+    }
+}
+
+@media only screen and (min-width: 1601px){
+    .navLinks{
+        font-size: 1vw
     }
 }
 

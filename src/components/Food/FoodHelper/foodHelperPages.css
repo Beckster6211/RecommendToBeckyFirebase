@@ -12,15 +12,15 @@
         font-size: 3vw;
     }
     #foodHelperTitle{
-        font-size: 3.8vw;
+        font-size: 4.5vw;
         font-weight: 700
     }
     .foodHelperText{
-        font-size: 3.5vw;
+        font-size: 3.8vw;
     }
 
     .foodHelperHeading{
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 
 
@@ -29,27 +29,26 @@
         font-size: 3vw;
     }
      #foodLikeTitle{
-        font-size: 3.8vw;
+        font-size: 4.5vw;
         font-weight: 700
     }
 
 
 
     .foodHeading{
-        font-size: 3.7vw;
+        font-size: 4vw;
     }
     .foodList{
-        font-size: 3.5vw;
+        font-size: 3.8vw;
     }
 
 
     
     #foodDislikeButton{
         font-size: 3vw;
-        background-color: orangered;
     }
     #foodDislikeTitle{
-        font-size: 3.8vw;
+        font-size: 4.5vw;
         font-weight: 700
     }
 }
