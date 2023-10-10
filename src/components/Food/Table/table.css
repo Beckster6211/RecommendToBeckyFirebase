@@ -38,12 +38,12 @@
 
     @media only screen and (max-width: 300px) {
       .foodTableHead{
-        font-size: 2.7vw;
+        font-size: 2.9vw;
         font-weight: 500;
       } 
 
       .foodTableFoot{
-        font-size: 2.5vw;
+        font-size: 2.6vw;
         font-weight: 500;
         /* vertical-align: center;
         position: sticky;
@@ -80,7 +80,7 @@
 
       .foodTableComponent{
         overflow: auto;
-        height: 115vmin; 
+        height: 90vmin; 
   
     }
     }
@@ -102,7 +102,7 @@
       
       .foodTableComponent{
         overflow: auto;
-        height: 72vmin;
+        height: 50vmin;
       }
     }
     
@@ -129,7 +129,7 @@
       .foodTableComponent{
         overflow: auto;
         /* width: auto; */
-        height: 45vmin; 
+        height: 35vmin; 
         }
     }
     
@@ -140,13 +140,13 @@
       } */
 
       .foodTableHead{
-        font-size: 1.8vw;
+        font-size: 1.5vw;
         font-weight: 500;
       }
 
 
       .foodTableFoot{
-        font-size: 1.4vw;
+        font-size: 1.1vw;
         font-weight: 500;
         /* vertical-align: center;
         position: sticky;

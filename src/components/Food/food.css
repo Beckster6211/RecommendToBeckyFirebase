@@ -27,33 +27,33 @@
   }
 
   .foodPageAccordion{
-    font-size: 4vw;
+    font-size: 3.2vw;
     font-weight: 700;
   }
 }
 
 @media only screen and (min-width: 701px) {
   #foodPage1{
-    font-size: 3vw;
+    font-size: 2.7vw;
     font-weight: 900;
-    width:65%
+    width:50%
   }
 
   .foodPageAccordion{
-    font-size: 3vw;
+    font-size: 2.2vw;
     font-weight: 700;
   }
 }
 
 @media only screen and (min-width: 1005px) {
   #foodPage1{
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     font-weight: 900;
-    width:50%
+    width:40%
   }
 
   .foodPageAccordion{
-    font-size: 2.5vw;
+    font-size: 1.8vw;
     font-weight: 700;
   }
 }

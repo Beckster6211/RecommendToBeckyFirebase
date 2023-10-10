@@ -17,22 +17,22 @@
 @media only screen and (min-width: 301px) {
 
     .headerImagePortfolio{
-        width: 11vw;
+        width: 9vw;
     }
 
     #headerTitle{
-        font-size: 6vw;
+        font-size: 5vw;
     }
 
     .headerImageLogin{
-        width: 10vw;
+        width: 8vw;
         /* transform: scaleX(-1); */
     }
 
 
 }
 
-@media only screen and (min-width: 450px) {
+/* @media only screen and (min-width: 450px) {
     .headerImagePortfolio{
         width: 8vw;
     }
@@ -42,7 +42,22 @@
     }
 
     .headerImageLogin{
-        width: 7vw;
+        width: 7vw; */
+        /* transform: scaleX(-1); */
+    /* }
+} */
+
+@media only screen and (min-width: 701px){
+    .headerImagePortfolio{
+        width: 6.5vw;
+    }
+
+    #headerTitle{
+        font-size: 3.7vw;
+    }
+
+    .headerImageLogin{
+        width: 5.5vw;
         /* transform: scaleX(-1); */
     }
 }
@@ -63,7 +78,7 @@
 
 @media only screen and (min-width: 1201px) {
     .headerImagePortfolio{
-        width: 3.2vw;
+        width: 3.6vw;
     }
 
     #headerTitle{

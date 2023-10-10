@@ -116,7 +116,7 @@ function Item({
         >
           <p
           className="
-          p-1 ms-1 mb-0
+          p-1 ms-1 mb-0 
           border border-dark border-2 rounded bg-light"
           >
             {/* <OverlayTrigger
@@ -153,7 +153,7 @@ function Item({
         </p>
           <p
           // id="foodTableItem3"
-        className="foodTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="foodTableOpinion p-1 ms-0 me-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"3vw",
           
