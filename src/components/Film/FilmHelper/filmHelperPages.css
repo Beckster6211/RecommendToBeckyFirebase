@@ -1,115 +1,241 @@
-    
-@media only screen and (max-width: 480px) {
-    #filmLikeButton{
-        font-size: 2.5vw;
-    }
+#filmLikeButton{
+    background-color: teal;
+}
 
-    #filmDislikeButton{
-        font-size: 2.5vw;
-    }
+ #filmDislikeButton{
+    background-color: tomato;
+}
+
+
+@media only screen and (max-width: 300px) {
 
     #filmHelperButton{
-        font-size: 2.5vw;
+        font-size: 3.3vw;
     }
-
+    #filmHelperTitle{
+        font-size: 4.5vw;
+        font-weight: 700
+    }
     .filmHelperText{
-        font-size: 3vw;
+        font-size: 3.8vw;
     }
 
     .filmHelperHeading{
-        font-size: 3.4vw;
-    }
-
-    #filmLikeTitle{
         font-size: 4vw;
     }
 
+
+
+    #filmLikeButton{
+        font-size: 3.5vw;
+    }
+     #filmLikeTitle{
+        font-size: 4.5vw;
+        font-weight: 700
+    }
+
+
+
     .filmHeading{
+        font-size: 4vw;
+    }
+    .filmList{
+        font-size: 3.8vw;
+    }
+
+
+    
+    #filmDislikeButton{
+        font-size: 3.5vw;
+    }
+    #filmDislikeTitle{
+        font-size: 4.5vw;
+        font-weight: 700
+    }
+}
+
+@media only screen and (min-width: 301px) {
+
+    #filmHelperButton{
+        font-size: 2.3vw;
+    }
+    #filmHelperTitle{
         font-size: 3.7vw;
+        font-weight: 700
+    }
+    .filmHelperText{
+        font-size: 2.3vw;
+    }
+    .filmHelperHeading{
+        font-size: 2.5vw;
+    }    
+
+
+
+    #filmLikeButton{
+        font-size: 2.3vw;
+    }    
+    #filmLikeTitle{
+        font-size: 3.7vw;
+        font-weight: 700
+    }
+
+
+
+    .filmHeading{
+        font-size: 3vw;
+    }
+    .filmList{
+        font-size: 2.5vw;
+    }
+
+
+    #filmDislikeButton{
+        font-size: 2.3vw;
+    }
+    #filmDislikeTitle{
+        font-size: 3.7vw;
+        font-weight: 700
+    }
+}
+
+@media only screen and (min-width: 701px) {
+
+    #filmHelperButton{
+        font-size: 1.7vw;
+    }
+
+    #filmHelperTitle{
+        font-size: 2.5vw;
+        font-weight: 700
+    }   
+    .filmHelperText{
+        font-size: 1.7vw;
+    }
+
+    .filmHelperHeading{
+        font-size: 2vw;
+    }
+
+ 
+
+
+    #filmLikeButton{
+        font-size: 1.7vw;
+    } 
+    #filmLikeTitle{
+        font-size: 2.5vw;
+        font-weight: 700
+    }
+
+
+
+    .filmHeading{
+        font-size: 2.3vw;
     }
 
     .filmList{
-        font-size: 3.3vw;
+        font-size: 2vw;
     }
 
+
+
+
+    #filmDislikeButton{
+        font-size: 1.7vw;
+    }
     #filmDislikeTitle{
-        font-size: 4vw;
+        font-size: 2.5vw;
+        font-weight: 700
     }
-
-    /* #filmLikeOffcanvas{} */
-    /* #filmHelperOffcanvas{} */
-    /* #filmDislikeOffcanvas{} */
 }
 
-@media only screen and (min-width: 481px) {
-    #filmLikeButton{
-        font-size: 2.6vw;
-    }
-
-    #filmDislikeButton{
-        font-size: 2.6vw;
-    }
-
+@media only screen and (min-width: 1005px) {
     #filmHelperButton{
-        font-size: 2.6vw;
+        font-size: 1.5vw;
+    }    
+    #filmHelperTitle{
+        font-size: 2vw;
+        font-weight: 700
     }
-
-    /* #filmLikeOffcanvas{} */
-    /* #filmHelperOffcanvas{} */
-    /* #filmDislikeOffcanvas{} */
-}
-
-@media only screen and (min-width: 769px) {
-    #filmLikeButton{
-        font-size: 1.6vw;
-    }
-
-    #filmDislikeButton{
-        font-size: 1.6vw;
-    }
-
-    #filmHelperButton{
-        font-size: 1.6vw;
-    }
-
-    /* #filmLikeOffcanvas{} */
-    /* #filmHelperOffcanvas{} */
-    /* #filmDislikeOffcanvas{} */
-}
-
-@media only screen and (min-width: 1025px) {
-    #filmLikeButton{
+    .filmHelperText{
         font-size: 1.2vw;
     }
 
+    .filmHelperHeading{
+        font-size: 1.5vw;
+    }
+
+
+
+    #filmLikeButton{
+        font-size: 1.5vw;
+    }
+    #filmLikeTitle{
+        font-size: 2vw;
+        font-weight: 700
+    }
+
+
+    .filmHeading{
+        font-size: 2vw;
+    }
+    .filmList{
+        font-size: 1.5vw;
+    }    
+
+
     #filmDislikeButton{
-        font-size: 1.2vw;
+        font-size: 1.5vw;
     }
-
-    #filmHelperButton{
-        font-size: 1.2vw;
+    #filmDislikeTitle{
+        font-size: 2vw;
+        font-weight: 700
     }
-
-    /* #filmLikeOffcanvas{} */
-    /* #filmHelperOffcanvas{} */
-    /* #filmDislikeOffcanvas{} */
+  
 }
 
-/*////////////////////*/
-/* @media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 1201px) {
+
+    #filmHelperButton{
+        font-size: 1vw;
+    }    
+    #filmHelperTitle{
+        font-size: 1.3vw;
+        font-weight: 700
+    }
+    .filmHelperText{
+        font-size: 0.9vw;
+    }
+
+    .filmHelperHeading{
+        font-size: 1vw;
+    }
+
+
     #filmLikeButton{
         font-size: 1vw;
     }
+    #filmLikeTitle{
+        font-size: 1.3vw;
+        font-weight: 700
+    }
+
+
+    .filmHeading{
+        font-size: 1.5vw;
+    }
+    .filmList{
+        font-size: 1.1vw;
+    }
+
 
     #filmDislikeButton{
         font-size: 1vw;
     }
+    #filmDislikeTitle{
+        font-size: 1.3vw;
+        font-weight: 700
+    }
 
-    #filmHelperButton{
-        font-size: 1vw;
-    } */
-
-    /* #filmLikeOffcanvas{} */
-    /* #filmHelperOffcanvas{} */
-    /* #filmDislikeOffcanvas{} */
-  /* } */
+}

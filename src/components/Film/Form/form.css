@@ -1,76 +1,101 @@
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 300px) {
 
   .filmFloatingLabel{
-    font-size: 2.5vw;
-  }
-
-  .filmFormInput{
     font-size: 3vw;
   }
 
+  /* .filmFormInput{
+    font-size: 1.5vw;
+  } */
+
   #filmFormButton{
-    font-size: 2.7vw;
+    background-color: mediumpurple;
+    font-size: 3vw;
+    font-weight: 700;
   }
 }
 
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 301px) {
 
   .filmFloatingLabel{
-    font-size: 2.7vw;
+    font-size: 3.2vw;
   }
 
-  .filmFormInput{
+  /* .filmFormInput{
     font-size: 3.5vw;
-  }
+  } */
 
   #filmFormButton{
-    font-size: 2.7vw;
+    background-color: mediumpurple;
+    font-size: 2.5vw;
+    font-weight: 700;
   }
 
 }
 
-
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 501px) {
   .filmFloatingLabel{
-    font-size: 2vw;
+    font-size: 2.3vw;
   }
 
-  .filmFormInput{
+  /* .filmFormInput{
     font-size: 3.7vw;
-  }
+  } */
 
   #filmFormButton{
+    background-color: mediumpurple;
     font-size: 2.2vw;
+    font-weight: 700;
   }
 
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 701px) {
   .filmFloatingLabel{
     font-size: 1.5vw;
   }
 
-  .filmFormInput{
+  /* .filmFormInput{
     font-size: 3.7vw;
-  }
+  } */
 
   #filmFormButton{
-    font-size: 1.5vw;
+    background-color: mediumpurple;
+    font-size: 1.7vw;
+    font-weight: 700;
+  }
+
+}
+
+@media only screen and (min-width: 1005px) {
+  .filmFloatingLabel{
+    font-size: 1.3vw;
+  }
+
+  /* .filmFormInput{
+    font-size: 3.7vw;
+  } */
+
+  #filmFormButton{
+    background-color: mediumpurple;
+    font-size: 1.3vw;
+    font-weight: 700;
   }
 }
 
 @media only screen and (min-width: 1201px) {
   .filmFloatingLabel{
-    font-size: 1.2vw;
+    font-size: 1vw;
   }
-
+/* 
   .filmFormInput{
     font-size: 3.7vw;
-  }
+  } */
 
   #filmFormButton{
-    font-size: 1.2vw;
+    background-color: mediumpurple;
+    font-size: 1vw;
+    font-weight: 700;
   }
 }
 

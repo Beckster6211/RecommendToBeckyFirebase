@@ -13,14 +13,17 @@ function FilmLike(){
         <div>
           <Button
             id="filmLikeButton" 
-            className=""
+            className="border border-dark border-3 py-0 px-3"
             style={{
               // fontSize:"1.5vw"
             }}
-            variant="success" 
+            // variant="success" 
             onClick={()=>setLeftShow(true)}
           >
-            👈 Like
+           ✔️
+            {/* ✅ */}
+            <br/>
+            Like
           </Button>
 
           <Offcanvas 
@@ -39,7 +42,7 @@ function FilmLike(){
             >
               <Offcanvas.Title
               id="filmLikeTitle"
-              className=""
+              className="text-dark"
               >
               😍 I like to watch...😍
               </Offcanvas.Title>
@@ -47,7 +50,7 @@ function FilmLike(){
             <Offcanvas.Body>
             <h6
             className="filmHeading"
-            >Here some help on the kinds of films I like to watch
+            >Some info on the kinds of films I like to watch
               <br/>
               <small> (If it helps you 😊)</small>
             </h6>

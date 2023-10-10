@@ -237,8 +237,8 @@ function FilmForm({film, handleChange, submitForm}){
                     myFilm.current?.value === "" ?
                     <Button 
             id="filmFormButton"
-            variant = "info"
-            className="border border-dark border-3 text-dark"  
+            // variant = "info"
+            className="border border-dark border-3 text-white"  
             // type = "submit"
             style={{
               // fontSize:"1.6vw", 
@@ -248,22 +248,22 @@ function FilmForm({film, handleChange, submitForm}){
                 console.log("Put something in the inputs please")
             }}
             >
-              😄 Enjoy 😄
+              😄 Cheers 😄
               </Button>
 
             : 
 
             <Button 
             id="filmFormButton"
-            variant = "info"
-            className="border border-dark border-3 text-dark"  
+            // variant = "info"
+            className="border border-dark border-3 text-white"  
             type = "submit"
             style={{
               // fontSize:"1.6vw", 
               width:"auto"
             }}
             >
-              😄 Enjoy 😄
+              😄 Cheers 😄
               </Button>
                 }
 

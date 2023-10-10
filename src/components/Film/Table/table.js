@@ -31,7 +31,7 @@ function FilmTable({userBecky, film, filmWatchedIt, deleteFilm, handleOpinion, t
       >
       <thead 
       // id="foodTable1"
-      className="filmTableHeadFoot bg-dark-subtle border border-dark border-4 "
+      className="filmTableHead bg-dark-subtle border border-dark border-4 "
       style={{
         verticalAlign:"middle", 
         position: "sticky",
@@ -69,9 +69,9 @@ function FilmTable({userBecky, film, filmWatchedIt, deleteFilm, handleOpinion, t
     with sticky table header not sure if footer needed */}
         <tfoot 
         // id="foodTable2"
-        className="filmTableHeadFoot bg-dark-subtle border border-dark border-4"
+        className="filmTableFoot bg-dark-subtle border border-dark border-4"
         style={{
-          verticalAlign:"middle", 
+          // verticalAlign:"middle", 
           // fontSize:"2vw", 
           // fontWeight:"500"
           }}>

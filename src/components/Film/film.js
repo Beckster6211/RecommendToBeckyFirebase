@@ -112,13 +112,13 @@ return(
       {/* <br/> */}
       <Container 
       id = "filmPage1"
-      className=" bg-info-subtle rounded text-center p-0" 
+      className=" filmPage1 bg-info-subtle rounded text-center p-1 border border-dark border-3" 
       style={{
           // fontSize:"3vw", 
           // fontWeight:"900"
         }}
         >
-           🎞️ &nbsp; 🥤 &nbsp; FILM PAGE &nbsp; 🍿 &nbsp; 📽️
+           🎞️&nbsp;🥤&nbsp;FILM PAGE&nbsp;🍿&nbsp;📽️
       </Container>
       {/* <br/> */}
       <Container 

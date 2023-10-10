@@ -13,14 +13,17 @@ function FilmDislike(){
         <div>
           <Button 
             id="filmDislikeButton"
-            className=""
+            className="border border-dark border-3 py-0 px-2"
             style={{
               // fontSize:"1.5vw"
             }}
-            variant="danger" 
+            // variant="danger" 
             onClick={()=> setRightShow(true)}
             >
-              Dislike 👉
+              {/* Dislike 👉 */}
+              ❌
+              <br/>
+              Dislike
           </Button>
 
           <Offcanvas 
@@ -46,7 +49,7 @@ function FilmDislike(){
             <Offcanvas.Body>
             <h6
             className="filmHeading"
-            >Here some help on the kinds of films I don't like
+            >Some info on the kinds of films I don't like
               <br/>
               <small> (If it helps you 😊)</small>
             </h6>

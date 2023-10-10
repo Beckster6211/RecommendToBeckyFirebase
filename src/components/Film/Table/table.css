@@ -1,8 +1,8 @@
-.filmTableComponent{
-    overflow: auto;
+/* .filmTableComponent{
+    overflow: auto; */
     /* width: auto; */
-    height: 80vmin;      
-    }
+    /* height: 80vmin;      
+    } */
   
     .filmTable{
       /* background-color: #FFC107; bootstrap warning */
@@ -38,39 +38,154 @@
       background-color: aqua;
     }
 
-    @media only screen and (max-width: 480px) {
-      .filmTableHeadFoot{
-        font-size: 2.5vw;
+    @media only screen and (max-width: 300px) {
+      .filmTableHead{
+        font-size: 2.9vw;
         font-weight: 500;
+      } 
+
+      .filmTableFoot{
+        font-size: 2.6vw;
+        font-weight: 500;
+        /* vertical-align: center;
+        position: sticky;
+        bottom: 0 */
+      } 
+
+      .filmTableComponent{
+        overflow: auto;
+        height: 120vmin; 
+  
+    }
+      
+    }
+    
+    @media only screen and (min-width: 301px) {
+      /* .filmTableHeadFoot{
+        font-size: 2.7vw;
+        font-weight: 500;
+      } */
+
+      .filmTableHead{
+        font-size: 2.9vw;
+        font-weight: 500;
+      }
+
+
+      .filmTableFoot{
+        font-size: 2.1vw;
+        font-weight: 500;
+        /* vertical-align: center;
+        position: sticky;
+        bottom: 0 */
+      } 
+
+      .filmTableComponent{
+        overflow: auto;
+        height: 90vmin; 
+  
+    }
+    }
+
+    @media only screen and (min-width: 501px){
+      .filmTableHead{
+        font-size: 2.2vw;
+        font-weight: 500;
+      }
+
+
+      .filmTableFoot{
+        font-size: 1.8vw;
+        font-weight: 500;
+        /* vertical-align: center;
+        position: sticky;
+        bottom: 0 */
+      } 
+      
+      .filmTableComponent{
+        overflow: auto;
+        height: 50vmin;
       }
     }
     
-    @media only screen and (min-width: 481px) {
-      .filmTableHeadFoot{
+    @media only screen and (min-width: 701px) {
+      /* .filmTableHeadFoot{
+        font-size: 1.7vw;
+        font-weight: 500;
+      } */
+
+      .filmTableHead{
         font-size: 2vw;
         font-weight: 500;
       }
-    }
-    
-    @media only screen and (min-width: 769px) {
-      .filmTableHeadFoot{
-        font-size: 1.7vw;
+
+
+      .filmTableFoot{
+        font-size: 1.4vw;
         font-weight: 500;
-      }
+        /* vertical-align: center;
+        position: sticky;
+        bottom: 0 */
+      } 
+
+      .filmTableComponent{
+        overflow: auto;
+        /* width: auto; */
+        height: 35vmin; 
+        }
     }
     
-    @media only screen and (min-width: 1025px) {
-      .filmTableHeadFoot{
+    @media only screen and (min-width: 1001px) {
+      /* .filmTableHeadFoot{
+        font-size: 1.5vw;
+        font-weight: 500;
+      } */
+
+      .filmTableHead{
         font-size: 1.5vw;
         font-weight: 500;
       }
+
+
+      .filmTableFoot{
+        font-size: 1.1vw;
+        font-weight: 500;
+        /* vertical-align: center;
+        position: sticky;
+        bottom: 0 */
+      } 
+
+      .filmTableComponent{
+        overflow: auto;
+        /* width: auto; */
+        height: 37vmin; 
+        }
     }
     
     @media only screen and (min-width: 1201px) {
-      .filmTableHeadFoot{
+      /* .filmTableHeadFoot{
         font-size: 1.3vw;
         font-weight: 500;
+      } */
+
+      .filmTableHead{
+        font-size: 1.1vw;
+        font-weight: 500;
       }
+
+
+      .filmTableFoot{
+        font-size: 0.8vw;
+        font-weight: 500;
+        /* vertical-align: center;
+        position: sticky;
+        bottom: 0 */
+      } 
+
+      .filmTableComponent{
+        overflow: auto;
+        /* width: auto; */
+        height: 40vmin; 
+        }
     }
-    
     
