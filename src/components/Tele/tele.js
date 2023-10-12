@@ -114,13 +114,13 @@ return(
       {/* <br/> */}
       <Container 
       id = "telePage1"
-        className=" bg-danger-subtle rounded text-center p-0" 
+        className=" telePage1 bg-danger-subtle rounded text-center p-1 border border-dark border-3" 
         style={{
           // fontSize:"3vw", 
           // fontWeight:"900"
         }}
         >
-           📺 &nbsp; 📀 &nbsp; Tele PAGE &nbsp; 📼 &nbsp; 💻
+           📺&nbsp;📀&nbsp;Tele PAGE&nbsp;📼&nbsp;💻
       </Container>
       {/* <br/> */}
       <Container 

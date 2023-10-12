@@ -5,69 +5,70 @@
     min-height: 75vh
   }
   
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 300px) {
+  
     #telePage1{
-      font-size: 4vw;
+      font-size: 4.7vw;
+      font-weight: 900;
+      width:75%
+    }
+  
+    .telePageAccordion{
+      font-size: 4.5vw;
+      font-weight: 700;
+    }
+  }
+  
+  @media only screen and (min-width: 301px) {
+  
+    #telePage1{
+      font-size: 3.8vw;
       font-weight: 900;
       width:65%
     }
   
     .telePageAccordion{
-      font-size: 3.5vw;
+      font-size: 3.2vw;
       font-weight: 700;
     }
   }
-
-  @media only screen and (min-width: 481px) {
-
+  
+  @media only screen and (min-width: 701px) {
     #telePage1{
-      font-size: 4vw;
+      font-size: 2.7vw;
       font-weight: 900;
-      width:65%
+      width:50%
     }
   
     .telePageAccordion{
-      font-size: 3vw;
+      font-size: 2.2vw;
       font-weight: 700;
     }
   }
-
   
-@media only screen and (min-width: 769px) {
-  #telePage1{
-    font-size: 3vw;
-    font-weight: 900;
-    width:65%
+  @media only screen and (min-width: 1005px) {
+    #telePage1{
+      font-size: 2.2vw;
+      font-weight: 900;
+      width:40%
+    }
+  
+    .telePageAccordion{
+      font-size: 1.8vw;
+      font-weight: 700;
+    }
   }
-
-  .telePageAccordion{
-    font-size: 2vw;
-    font-weight: 700;
+  
+  @media only screen and (min-width: 1201px) {
+    #telePage1{
+      font-size: 1.5vw;
+      font-weight: 900;
+      width:40%
+    }
+  
+    .telePageAccordion{
+      font-size: 1.5vw;
+      font-weight: 700;
+    }
   }
-}
-
-@media only screen and (min-width: 1025px) {
-  #telePage1{
-    font-size: 2.5vw;
-    font-weight: 900;
-    width:50%
-  }
-
-  .telePageAccordion{
-    font-size: 1.5vw;
-    font-weight: 700;
-  }
-}
-
-@media only screen and (min-width: 1201px) {
-  #telePage1{
-    font-size: 2vw;
-    font-weight: 900;
-    width:40%
-  }
-
-  .telePageAccordion{
-    font-size: 1.5vw;
-    font-weight: 700;
-  }
-}
+  

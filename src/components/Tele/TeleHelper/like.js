@@ -13,14 +13,18 @@ function TeleLike(){
         <div>
           <Button
             id="teleLikeButton" 
-            className=""
+            className="border border-dark border-3 py-0 px-3"
             style={{
               // fontSize:"1.5vw"
             }}
-            variant="success" 
+            // variant="success" 
             onClick={()=>setLeftShow(true)}
           >
-            👈 Like
+            {/* 👈 Like */}
+            ✔️
+            {/* ✅ */}
+            <br/>
+            Like
           </Button>
 
           <Offcanvas 
@@ -39,6 +43,7 @@ function TeleLike(){
             >
               <Offcanvas.Title
               id="telelikeTitle"
+              className="text-dark"
               >
               🤩 I like to binge...🤩
               </Offcanvas.Title>
@@ -46,7 +51,7 @@ function TeleLike(){
             <Offcanvas.Body>
             <h6
             className="teleHeading"
-            >Here some help on the kinds of tv shows  I like to binge 
+            >Some help on the kinds of tv shows I like to binge 
             <small> (Don't worry if not bingeable all in one go, I can wait each week for new episodes) ⏳</small>
               <br/>
               <small> (If it helps you 😊)</small>
@@ -57,6 +62,12 @@ function TeleLike(){
                 I LOVE ❤️ LOVE ❤️ LOVE ❤️ animation ✏️
                 <br/>
                 <small>(All different kinds, hand drawn like Tom and Jerry, modern computer/digital like Pixar and stop motion like Aardman) ⏳</small>
+              </li>
+
+              <li>
+                Anything and everything Disney 🏰
+                <br/>
+                <small>(doesn't need explaining 😛)</small>
               </li>
 
               <li>

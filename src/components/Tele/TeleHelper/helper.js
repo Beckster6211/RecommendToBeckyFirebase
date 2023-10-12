@@ -13,14 +13,15 @@ function TeleHelper(){
         <div>
             <Button 
             id="teleHelperButton"
-            className=""
+            className="border border-dark border-3 py-2 px-2 mx-1"
             style={{
               // fontSize:"1.5vw"
             }}
             variant="secondary" 
             onClick={()=>setTopShow(true)}
           >
-            Tele Helper ☝️ 
+            {/* Tele Helper ☝️  */}
+            ℹ️  Tele Helper ℹ️ 
           </Button>
 
           <Offcanvas 
@@ -53,11 +54,11 @@ function TeleHelper(){
                 <strong>Tele Page</strong> <small> (background is a lots of different televisions)</small> is made of helper buttons (3), a Tele Form and the Tele Table.
             </h6>
             <p>
-            <strong>The 3 helper buttons</strong> each one opens a modal element <small>(that takes up 50% of the page depending on which one you open, you already found the main helper, that opens down the page 👍)</small>
+            <strong>The 3 helper buttons</strong> each one opens a modal element <small>(that takes up 50% of the page depending on which one you open, you already found the main helper, that opens down the page 🔽)</small>
             <br/>
-                The like button - opens on left 
+                The like button - opens on left ◀️
                 <br/>
-                The dislike button -  opens on right
+                The dislike button -  opens on right ▶️
                 <br/>
                 These reveal lists, by seeing what I like and dislike may help with recommendations. 
                 <br/>
@@ -77,13 +78,13 @@ function TeleHelper(){
 
                 <li>
                   <strong>Connected With -</strong>
-                  In the connected with put if the tv show is connected with anything - such as other films, other tv shows or books <small>(I am a little OCD and like to watch things in order)</small>
+                  In the connected with put if the tv show is connected with anything - such as films, other tv shows or books <small>(I am a little OCD and like to watch things in order)</small>
                 </li>
 
                 <li><strong>Recommended By -</strong></li>
                 In the Recommended By input field you can put your name - who recommends it (maybe the tv show was recommended to you and you're passing it on and spreading the word) 
                 <br/>
-                <small>(If you could please put in brackets where you are from just as a referrence to me but you don't have to it would be nice for me to know where you've come here from).</small>
+                <small>(If you could please put in brackets where you are from just as a referrence to me but you don't have to, it would be nice for me to know where you've come here from).</small>
             </p>
 
             <h6 className="teleHelperHeading">
@@ -99,16 +100,14 @@ function TeleHelper(){
 
                     <li>
                       <strong>
-                    my opinion</strong>, a checkbox to show if I have watched it ✔️, an emoji of what I think if I have watched it - <small>(<strong>locked buttons for my use only</strong> to show the opinion of yes 🤩, no 😩 and alright 🤔)</small> and also what my opinion of it is <small>(if watched it yet 🤔)</small> 
+                    Becky opinion</strong>, shows my opinion as, a checkbox to show if I have binged it ✔️, an emoji of what I think if I have binged it 🤷‍♀️ and a textarea of what my thoughts are - <small>(<strong>emoji buttons locked for my use only</strong> to show the opinion of yes 🤩, no 😩 and alright 🤔)</small>
                     </li>
 
                     <li>
                     <strong>who recommends</strong> <small>(also in a textarea so is scrollable)</small> 
                     </li>
 
-                    <li>
-                      <strong>
-                    delete</strong> <small>(the delete button I have left open to all, so if you add something wrong you can delete it but <strong>please be careful</strong> when deleting so don't erase others 🙂)</small>
+                    <li>the<strong> delete</strong> <small>(the trash button I have left open to all, so if you add something wrong you can easily delete it  <strong>but please be careful</strong> when deleting so don't erase others 🙂)</small>
                     </li>
             </p>
 

@@ -158,8 +158,8 @@ function FilmItem({
         >{filmOpinion}</p>
         </Stack>
         <Form.Control 
-            id="foodTableFoodTextarea"
-            name="foodTableFoodTextarea"
+            id="filmTableFilmTextarea"
+            name="filmTableFilmTextarea"
             className="border border-dark border-2 p-1 mt-2"
             as="textarea"
             defaultValue={filmThoughts} 
@@ -274,8 +274,8 @@ function FilmItem({
         </Stack>
 
         <Form.Control 
-            id="foodTableFoodTextarea"
-            name="foodTableFoodTextarea"
+            id="filmTableFilmTextarea"
+            name="filmTableFilmTextarea"
             className="border border-dark border-2 p-1 mt-2"
             as="textarea"
             defaultValue={filmThoughts} 

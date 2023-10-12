@@ -274,8 +274,8 @@ function TeleForm({tele, handleChange, submitForm}){
                     myTele.current?.value === "" ?
                     <Button 
             id="teleFormButton"
-            variant = "info"
-            className="border border-dark border-3 text-dark"  
+            // variant = "info"
+            className="border border-dark border-3 text-white"  
             // type = "submit"
             style={{
               // fontSize:"1.6vw", 
@@ -285,22 +285,22 @@ function TeleForm({tele, handleChange, submitForm}){
                 console.log("Put something in the inputs please")
             }}
             >
-              😄 Enjoy 😄
+              😄 Cheers 😄
               </Button>
 
             : 
 
             <Button 
             id="teleFormButton"
-            variant = "info"
-            className="border border-dark border-3 text-dark"  
+            // variant = "info"
+            className="border border-dark border-3 text-white"  
             type = "submit"
             style={{
               // fontSize:"1.6vw", 
               width:"auto"
             }}
             >
-              😄 Enjoy 😄
+              😄 Cheers 😄
               </Button>
                 }
 

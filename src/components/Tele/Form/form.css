@@ -1,77 +1,101 @@
+@media only screen and (max-width: 300px) {
 
-@media only screen and (max-width: 480px) {
+  .teleFloatingLabel{
+    font-size: 3vw;
+  }
 
-    .teleFloatingLabel{
-      font-size: 2.5vw;
-    }
-  
-    .teleFormInput{
-      font-size: 3vw;
-    }
-  
-    #teleFormButton{
-      font-size: 2.7vw;
-    }
+  /* .teleFormInput{
+    font-size: 1.5vw;
+  } */
+
+  #teleFormButton{
+    background-color: mediumpurple;
+    font-size: 3vw;
+    font-weight: 700;
   }
-  
-  @media only screen and (min-width: 481px) {
-  
-    .teleFloatingLabel{
-      font-size: 2.7vw;
-    }
-  
-    .teleFormInput{
-      font-size: 3.5vw;
-    }
-  
-    #teleFormButton{
-      font-size: 2.7vw;
-    }
-  
+}
+
+@media only screen and (min-width: 301px) {
+
+  .teleFloatingLabel{
+    font-size: 3.2vw;
   }
-  
-  
-  @media only screen and (min-width: 769px) {
-    .teleFloatingLabel{
-      font-size: 2vw;
-    }
-  
-    .teleFormInput{
-      font-size: 3.7vw;
-    }
-  
-    #teleFormButton{
-      font-size: 2.2vw;
-    }
-  
+
+  /* .teleFormInput{
+    font-size: 3.5vw;
+  } */
+
+  #teleFormButton{
+    background-color: mediumpurple;
+    font-size: 2.5vw;
+    font-weight: 700;
   }
-  
-  @media only screen and (min-width: 1025px) {
-    .teleFloatingLabel{
-      font-size: 1.5vw;
-    }
-  
-    .teleFormInput{
-      font-size: 3.7vw;
-    }
-  
-    #teleFormButton{
-      font-size: 1.5vw;
-    }
+
+}
+
+@media only screen and (min-width: 501px) {
+  .teleFloatingLabel{
+    font-size: 2.3vw;
   }
-  
-  @media only screen and (min-width: 1201px) {
-    .teleFloatingLabel{
-      font-size: 1.2vw;
-    }
-  
-    .teleFormInput{
-      font-size: 3.7vw;
-    }
-  
-    #teleFormButton{
-      font-size: 1.2vw;
-    }
+
+  /* .teleFormInput{
+    font-size: 3.7vw;
+  } */
+
+  #teleFormButton{
+    background-color: mediumpurple;
+    font-size: 2.2vw;
+    font-weight: 700;
   }
-  
-  
+
+}
+
+@media only screen and (min-width: 701px) {
+  .teleFloatingLabel{
+    font-size: 1.5vw;
+  }
+
+  /* .teleFormInput{
+    font-size: 3.7vw;
+  } */
+
+  #teleFormButton{
+    background-color: mediumpurple;
+    font-size: 1.7vw;
+    font-weight: 700;
+  }
+
+}
+
+@media only screen and (min-width: 1005px) {
+  .teleFloatingLabel{
+    font-size: 1.3vw;
+  }
+
+  /* .teleFormInput{
+    font-size: 3.7vw;
+  } */
+
+  #teleFormButton{
+    background-color: mediumpurple;
+    font-size: 1.3vw;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .teleFloatingLabel{
+    font-size: 1vw;
+  }
+/* 
+  .teleFormInput{
+    font-size: 3.7vw;
+  } */
+
+  #teleFormButton{
+    background-color: mediumpurple;
+    font-size: 1vw;
+    font-weight: 700;
+  }
+}
+

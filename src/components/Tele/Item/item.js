@@ -33,7 +33,7 @@ function TeleItem({
         className="border border-dark border-4"
         >
             <td
-            className="p-2 align-middle border border-dark border-4 bg-danger"
+            className="p-1 align-middle border border-dark border-4 bg-danger"
             style={{
               
             }}
@@ -51,7 +51,7 @@ function TeleItem({
               ({teleSeries})
             </p>
             <Form.Control 
-            id="teleTableteleTextarea"
+            id="teleTableTeleTextarea"
             name="teleTableTeleTextarea"
             className="border border-dark border-2 p-1 mb-2"
             as="textarea"
@@ -63,7 +63,7 @@ function TeleItem({
             }}
             />
             <Form.Control 
-            id="teleTableteleTextarea"
+            id="teleTableTeleTextarea"
             className="border border-dark border-2 p-1"
             as="textarea"
             defaultValue={teleConnected} 
@@ -80,19 +80,17 @@ function TeleItem({
     becky === false ? 
 
       <td
-        className="p-2 align-middle border border-dark border-4 bg-danger-subtle"
+        className="p-1 align-middle border border-dark border-4 bg-danger-subtle"
       style={{
       }}
         >          
         <Stack 
         direction="horizontal"
-        gap={1}
+        // gap={1}
         className="justify-content-evenly"
         >
           <p
-          className="
-          px-1 py-1 ms-1 mb-0 
-          border border-dark border-2 rounded bg-light"
+          className="p-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
           >
           <input
           // id="foodTableItem9"
@@ -114,15 +112,15 @@ function TeleItem({
 
           <p
           // id="foodTableItem3"
-        className="teleTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="teleTableOpinion p-1 ms-0 me-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"3vw",
         }}
         >{teleOpinion}</p>
         </Stack>
         <Form.Control 
-            id="foodTableFoodTextarea"
-            name="foodTableFoodTextarea"
+            id="teleTableTeleTextarea"
+            name="teleTableTeleTextarea"
             className="border border-dark border-2 p-1 mt-2"
             as="textarea"
             defaultValue={teleThoughts} 
@@ -134,7 +132,7 @@ function TeleItem({
             />
             <Stack 
             direction="horizontal"
-            gap={1} 
+            // gap={1} 
             className="justify-content-evenly pt-2"
             style={{
               // border:"solid black 3px"
@@ -199,7 +197,7 @@ function TeleItem({
 
     :
         <td
-        className="p-2 align-middle border border-dark border-4 bg-danger-subtle"
+        className="p-1 align-middle border border-dark border-4 bg-danger-subtle"
       style={{
       }}
         >
@@ -208,7 +206,7 @@ function TeleItem({
         className="justify-content-evenly"
         >
           <p
-          className="px-1 py-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
+          className="p-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
           >
           <input
           name="teleTableBingedCheckbox"
@@ -228,7 +226,7 @@ function TeleItem({
         </p>
         <p
         // id="foodTableItemBecky1"
-        className="teleTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="teleTableOpinion p-1 ms-0 me-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"2.2vw",
         }}
@@ -236,8 +234,8 @@ function TeleItem({
         </Stack>
         
         <Form.Control 
-            id="foodTableFoodTextarea"
-            name="foodTableFoodTextarea"
+            id="teleTableTeleTextarea"
+            name="teleTableTeleTextarea"
             className="border border-dark border-2 p-1 mt-2"
             as="textarea"
             defaultValue={teleThoughts} 
@@ -316,14 +314,14 @@ function TeleItem({
     }
 
             <td
-      className="p-2 align-middle border border-dark border-4 bg-danger"
+      className="p-1 align-middle border border-dark border-4 bg-danger"
       style={{
       }}
       >
 
 <Form.Control 
-            id="teleTableTeleRecommend"
-            className="teleTableTeleRecommend border border-dark border-2 p-1"
+            id="teleTableTeleTextarea"
+            className="teleTableTeleTextarea border border-dark border-2 p-1"
             as="textarea"
             defaultValue={teleRecommend} 
             readOnly 
@@ -345,14 +343,14 @@ function TeleItem({
         </p> */}
       </td>
             <td
-      className="p-2 align-middle border border-dark border-4 bg-danger-subtle"
+      className="p-0 align-middle border border-dark border-4 bg-danger-subtle"
       style={{
       }}
       >
           <Button 
-          id="teleTableButton"
+          id="teleTableTrashButton"
           variant="light"
-          className="border border-dark border-2"
+          className="border border-dark border-2 p-2"
           style={{
             // fontSize:"2.5vw"
           }}

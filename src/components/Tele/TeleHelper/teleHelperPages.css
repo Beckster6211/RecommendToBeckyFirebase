@@ -1,111 +1,241 @@
-    
-@media only screen and (max-width: 480px) {
-    #teleLikeButton{
-        font-size: 2.5vw;
-    }
+#teleLikeButton{
+    background-color: teal;
+}
 
-    #teleDislikeButton{
-        font-size: 2.5vw;
-    }
+ #teleDislikeButton{
+    background-color: tomato;
+}
+
+
+@media only screen and (max-width: 300px) {
 
     #teleHelperButton{
-        font-size: 2.5vw;
+        font-size: 3.3vw;
     }
-
+    #teleHelperTitle{
+        font-size: 4.5vw;
+        font-weight: 700
+    }
     .teleHelperText{
-        font-size: 3vw;
+        font-size: 3.8vw;
     }
 
     .teleHelperHeading{
-        font-size: 3.4vw;
-    }
-
-    #telelikeTitle{
         font-size: 4vw;
     }
 
+
+
+    #teleLikeButton{
+        font-size: 3.5vw;
+    }
+     #teleLikeTitle{
+        font-size: 4.5vw;
+        font-weight: 700
+    }
+
+
+
     .teleHeading{
+        font-size: 4vw;
+    }
+    .teleList{
+        font-size: 3.8vw;
+    }
+
+
+    
+    #teleDislikeButton{
+        font-size: 3.5vw;
+    }
+    #teleDislikeTitle{
+        font-size: 4.5vw;
+        font-weight: 700
+    }
+}
+
+@media only screen and (min-width: 301px) {
+
+    #teleHelperButton{
+        font-size: 2.3vw;
+    }
+    #teleHelperTitle{
         font-size: 3.7vw;
+        font-weight: 700
+    }
+    .teleHelperText{
+        font-size: 2.3vw;
+    }
+    .teleHelperHeading{
+        font-size: 2.5vw;
+    }    
+
+
+
+    #teleLikeButton{
+        font-size: 2.3vw;
+    }    
+    #teleLikeTitle{
+        font-size: 3.7vw;
+        font-weight: 700
+    }
+
+
+
+    .teleHeading{
+        font-size: 3vw;
+    }
+    .teleList{
+        font-size: 2.5vw;
+    }
+
+
+    #teleDislikeButton{
+        font-size: 2.3vw;
+    }
+    #teleDislikeTitle{
+        font-size: 3.7vw;
+        font-weight: 700
+    }
+}
+
+@media only screen and (min-width: 701px) {
+
+    #teleHelperButton{
+        font-size: 1.7vw;
+    }
+
+    #teleHelperTitle{
+        font-size: 2.5vw;
+        font-weight: 700
+    }   
+    .teleHelperText{
+        font-size: 1.7vw;
+    }
+
+    .teleHelperHeading{
+        font-size: 2vw;
+    }
+
+ 
+
+
+    #teleLikeButton{
+        font-size: 1.7vw;
+    } 
+    #teleLikeTitle{
+        font-size: 2.5vw;
+        font-weight: 700
+    }
+
+
+
+    .teleHeading{
+        font-size: 2.3vw;
     }
 
     .teleList{
-        font-size: 3.3vw;
+        font-size: 2vw;
     }
 
+
+
+
+    #teleDislikeButton{
+        font-size: 1.7vw;
+    }
     #teleDislikeTitle{
-        font-size: 4vw;
+        font-size: 2.5vw;
+        font-weight: 700
     }
 }
 
-@media only screen and (min-width: 481px) {
-    #teleLikeButton{
-        font-size: 2.6vw;
-    }
-
-    #teleDislikeButton{
-        font-size: 2.6vw;
-    }
-
+@media only screen and (min-width: 1005px) {
     #teleHelperButton{
-        font-size: 2.6vw;
+        font-size: 1.5vw;
+    }    
+    #teleHelperTitle{
+        font-size: 2vw;
+        font-weight: 700
     }
-
-    /* #teleLikeOffcanvas{} */
-    /* #teleHelperOffcanvas{} */
-    /* #teleDislikeOffcanvas{} */
-}
-
-@media only screen and (min-width: 769px) {
-    #teleLikeButton{
-        font-size: 1.6vw;
-    }
-
-    #teleDislikeButton{
-        font-size: 1.6vw;
-    }
-
-    #teleHelperButton{
-        font-size: 1.6vw;
-    }
-
-    /* #teleLikeOffcanvas{} */
-    /* #teleHelperOffcanvas{} */
-    /* #teleDislikeOffcanvas{} */
-}
-
-@media only screen and (min-width: 1025px) {
-    #teleLikeButton{
+    .teleHelperText{
         font-size: 1.2vw;
     }
 
+    .teleHelperHeading{
+        font-size: 1.5vw;
+    }
+
+
+
+    #teleLikeButton{
+        font-size: 1.5vw;
+    }
+    #teleLikeTitle{
+        font-size: 2vw;
+        font-weight: 700
+    }
+
+
+    .teleHeading{
+        font-size: 2vw;
+    }
+    .teleList{
+        font-size: 1.5vw;
+    }    
+
+
     #teleDislikeButton{
-        font-size: 1.2vw;
+        font-size: 1.5vw;
     }
-
-    #teleHelperButton{
-        font-size: 1.2vw;
+    #teleDislikeTitle{
+        font-size: 2vw;
+        font-weight: 700
     }
-
-    /* #teleLikeOffcanvas{} */
-    /* #teleHelperOffcanvas{} */
-    /* #teleDislikeOffcanvas{} */
+  
 }
 
-/*////////////////////*/
-/* @media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 1201px) {
+
+    #teleHelperButton{
+        font-size: 1vw;
+    }    
+    #teleHelperTitle{
+        font-size: 1.3vw;
+        font-weight: 700
+    }
+    .teleHelperText{
+        font-size: 0.9vw;
+    }
+
+    .teleHelperHeading{
+        font-size: 1vw;
+    }
+
+
     #teleLikeButton{
         font-size: 1vw;
     }
+    #teleLikeTitle{
+        font-size: 1.3vw;
+        font-weight: 700
+    }
+
+
+    .teleHeading{
+        font-size: 1.5vw;
+    }
+    .teleList{
+        font-size: 1.1vw;
+    }
+
 
     #teleDislikeButton{
         font-size: 1vw;
     }
+    #teleDislikeTitle{
+        font-size: 1.3vw;
+        font-weight: 700
+    }
 
-    #teleHelperButton{
-        font-size: 1vw;
-    } */
-
-    /* #teleLikeOffcanvas{} */
-    /* #teleHelperOffcanvas{} */
-    /* #teleDislikeOffcanvas{} */
-  /* } */
+}

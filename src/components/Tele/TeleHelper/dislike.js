@@ -13,14 +13,17 @@ function TeleDislike(){
         <div>
           <Button 
             id="teleDislikeButton"
-            className=""
+            className="border border-dark border-3 py-0 px-2"
             style={{
               // fontSize:"1.5vw"
             }}
-            variant="danger" 
+            // variant="danger" 
             onClick={()=> setRightShow(true)}
             >
-              Dislike 👉
+              {/* Dislike 👉 */}
+              ❌
+              <br/>
+              Dislike
           </Button>
 
           <Offcanvas 
@@ -46,7 +49,7 @@ function TeleDislike(){
             <Offcanvas.Body>
             <h6
             className="teleHeading"
-            >Here some help on the kinds of tv shows  I don't like to binge 
+            >Some help on the kinds of tv shows  I don't like to binge 
             <small> (Don't worry if not bingeable all in one go, I can wait each week for new episodes) ⏳</small>
             <br/>
               <small> (If it helps you 😊)</small>
@@ -76,7 +79,7 @@ function TeleDislike(){
                 Not a reality fan 
                 <br/>
                 <small>
-                  (I don't like TOWIE, Made Chelsea or Love Island those kind of shows) ❤️🏝️
+                  (I don't like TOWIE, Made Chelsea or Love Island, those kind of shows) ❤️🏝️
                 </small>
               </li>
 

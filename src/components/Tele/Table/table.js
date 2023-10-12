@@ -31,7 +31,7 @@ function TeleTable({userBecky, tele, teleBingedIt, deleteTele, handleOpinion, th
       >
       <thead 
       // id="foodTable1"
-      className="teleTableHeadFoot bg-dark-subtle border border-dark border-4 "
+      className="teleTableHead bg-dark-subtle border border-dark border-4 "
       style={{
         verticalAlign:"middle", 
         position: "sticky",
@@ -69,7 +69,7 @@ function TeleTable({userBecky, tele, teleBingedIt, deleteTele, handleOpinion, th
     with sticky table header not sure if footer needed */}
         <tfoot 
         // id="foodTable2"
-        className="teleTableHeadFoot bg-dark-subtle border border-dark border-4"
+        className="teleTableFoot bg-dark-subtle border border-dark border-4"
         style={{
           verticalAlign:"middle", 
           // fontSize:"2vw", 
