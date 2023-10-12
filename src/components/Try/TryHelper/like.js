@@ -15,14 +15,17 @@ function TryLike(){
         <div>
           <Button
             id="tryLikeButton" 
-            className=""
+            className="border border-dark border-3 py-0 px-3"
             style={{
               // fontSize:"1.5vw"
             }}
-            variant="success" 
+            // variant="success" 
             onClick={()=>setLeftShow(true)}
           >
-            👈 Like
+            {/* 👈 Like */}
+            ✔️
+            <br/>
+            Like
           </Button>
 
           <Offcanvas 
@@ -48,7 +51,7 @@ function TryLike(){
             <Offcanvas.Body>
             <h6
             className="tryHeading"
-            >Here some help on the kinds of I would like to try
+            >Some help on the kinds of I would like to try
               <br/>
               <small> (If it helps you 😊)</small>
             </h6>
@@ -65,7 +68,7 @@ function TryLike(){
                 I am trying to be healthier (I have a dog would love if could take him for runs instead of walks) 🐕🚶
                 <br/>
                 <small>
-                  (I do struggle a little with sticking to it, so if anyone needs a buddy) 🏃 🏋️
+                  (I do struggle a little with sticking to it, so if anyone needs an exercise buddy) 🏃 🏋️
                 </small>
               </li>
 

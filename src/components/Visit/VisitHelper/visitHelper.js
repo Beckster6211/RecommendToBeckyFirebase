@@ -99,7 +99,7 @@ function VisitHelper(){
 
                     <li>
                       <strong>
-                    Becky opinion</strong>, a checkbox to show if I have visited ✔️, an emoji of what I think if I have visited 🤷‍♀️ and a textarea of what my thoughts are - <small>(<strong>emoji buttons locked buttons for my use only</strong> to show the opinion of yes 😁, no 😫 and alright 😑)</small>
+                    Becky opinion</strong>, a checkbox to show if I have visited ✔️, an emoji of what I think if I have visited 🤷‍♀️ and a textarea of what my thoughts are - <small>(<strong>emoji buttons locked for my use only</strong> to show the opinion of yes 😁, no 😫 and alright 😑)</small>
                     </li>
 
                     <li>

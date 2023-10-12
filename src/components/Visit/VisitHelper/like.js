@@ -23,6 +23,7 @@ function VisitLike(){
             onClick={()=>setLeftShow(true)}
           >
             {/* 👈 Like */}
+            ✔️
             <br/>
             Like
           </Button>

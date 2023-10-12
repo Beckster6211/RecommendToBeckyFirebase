@@ -1,112 +1,241 @@
-    
-@media only screen and (max-width: 480px) {
-    #tryLikeButton{
-        font-size: 2.5vw;
-    }
+#tryLikeButton{
+    background-color: teal;
+}
 
-    #tryDislikeButton{
-        font-size: 2.5vw;
-    }
+ #tryDislikeButton{
+    background-color: tomato;
+}
+
+
+@media only screen and (max-width: 300px) {
 
     #tryHelperButton{
-        font-size: 2.5vw;
-    }
-
-    #trylikeTitle{
-        font-size: 4vw;
-    }
-
-    .tryHeading{
-        font-size: 3.7vw;
-    }
-
-    .tryList{
         font-size: 3.3vw;
     }
-
-    #tryDislikeTitle{
-        font-size:4vw ;
+    #tryHelperTitle{
+        font-size: 4.5vw;
+        font-weight: 700
     }
-
     .tryHelperText{
-        font-size: 3vw;
+        font-size: 3.8vw;
     }
 
     .tryHelperHeading{
-        font-size: 3.4vw;
+        font-size: 4vw;
     }
+
+
+
+    #tryLikeButton{
+        font-size: 3.5vw;
+    }
+     #tryLikeTitle{
+        font-size: 4.5vw;
+        font-weight: 700
+    }
+
+
+
+    .tryHeading{
+        font-size: 4vw;
+    }
+    .tryList{
+        font-size: 3.8vw;
+    }
+
+
     
+    #tryDislikeButton{
+        font-size: 3.5vw;
+    }
+    #tryDislikeTitle{
+        font-size: 4.5vw;
+        font-weight: 700
+    }
 }
 
-@media only screen and (min-width: 481px) {
-    #tryLikeButton{
-        font-size: 2.6vw;
-    }
-
-    #tryDislikeButton{
-        font-size: 2.6vw;
-    }
+@media only screen and (min-width: 301px) {
 
     #tryHelperButton{
-        font-size: 2.6vw;
+        font-size: 2.3vw;
     }
+    #tryHelperTitle{
+        font-size: 3.7vw;
+        font-weight: 700
+    }
+    .tryHelperText{
+        font-size: 2.3vw;
+    }
+    .tryHelperHeading{
+        font-size: 2.5vw;
+    }    
 
-    /* #tryLikeOffcanvas{} */
-    /* #tryHelperOffcanvas{} */
-    /* #tryDislikeOffcanvas{} */
-}
 
-@media only screen and (min-width: 769px) {
+
     #tryLikeButton{
-        font-size: 1.6vw;
+        font-size: 2.3vw;
+    }    
+    #tryLikeTitle{
+        font-size: 3.7vw;
+        font-weight: 700
     }
+
+
+
+    .tryHeading{
+        font-size: 3vw;
+    }
+    .tryList{
+        font-size: 2.5vw;
+    }
+
 
     #tryDislikeButton{
-        font-size: 1.6vw;
+        font-size: 2.3vw;
     }
-
-    #tryHelperButton{
-        font-size: 1.6vw;
+    #tryDislikeTitle{
+        font-size: 3.7vw;
+        font-weight: 700
     }
-
-    /* #tryLikeOffcanvas{} */
-    /* #tryHelperOffcanvas{} */
-    /* #tryDislikeOffcanvas{} */
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 701px) {
+
+    #tryHelperButton{
+        font-size: 1.7vw;
+    }
+
+    #tryHelperTitle{
+        font-size: 2.5vw;
+        font-weight: 700
+    }   
+    .tryHelperText{
+        font-size: 1.7vw;
+    }
+
+    .tryHelperHeading{
+        font-size: 2vw;
+    }
+
+ 
+
+
     #tryLikeButton{
+        font-size: 1.7vw;
+    } 
+    #tryLikeTitle{
+        font-size: 2.5vw;
+        font-weight: 700
+    }
+
+
+
+    .tryHeading{
+        font-size: 2.3vw;
+    }
+
+    .tryList{
+        font-size: 2vw;
+    }
+
+
+
+
+    #tryDislikeButton{
+        font-size: 1.7vw;
+    }
+    #tryDislikeTitle{
+        font-size: 2.5vw;
+        font-weight: 700
+    }
+}
+
+@media only screen and (min-width: 1005px) {
+    #tryHelperButton{
+        font-size: 1.5vw;
+    }    
+    #tryHelperTitle{
+        font-size: 2vw;
+        font-weight: 700
+    }
+    .tryHelperText{
         font-size: 1.2vw;
     }
 
+    .tryHelperHeading{
+        font-size: 1.5vw;
+    }
+
+
+
+    #tryLikeButton{
+        font-size: 1.5vw;
+    }
+    #tryLikeTitle{
+        font-size: 2vw;
+        font-weight: 700
+    }
+
+
+    .tryHeading{
+        font-size: 2vw;
+    }
+    .tryList{
+        font-size: 1.5vw;
+    }    
+
+
     #tryDislikeButton{
-        font-size: 1.2vw;
+        font-size: 1.5vw;
     }
-
-    #tryHelperButton{
-        font-size: 1.2vw;
+    #tryDislikeTitle{
+        font-size: 2vw;
+        font-weight: 700
     }
-
-    /* #tryLikeOffcanvas{} */
-    /* #tryHelperOffcanvas{} */
-    /* #tryDislikeOffcanvas{} */
+  
 }
 
-/*////////////////////*/
-/* @media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 1201px) {
+
+    #tryHelperButton{
+        font-size: 1vw;
+    }    
+    #tryHelperTitle{
+        font-size: 1.3vw;
+        font-weight: 700
+    }
+    .tryHelperText{
+        font-size: 0.9vw;
+    }
+
+    .tryHelperHeading{
+        font-size: 1vw;
+    }
+
+
     #tryLikeButton{
         font-size: 1vw;
     }
+    #tryLikeTitle{
+        font-size: 1.3vw;
+        font-weight: 700
+    }
+
+
+    .tryHeading{
+        font-size: 1.5vw;
+    }
+    .tryList{
+        font-size: 1.1vw;
+    }
+
 
     #tryDislikeButton{
         font-size: 1vw;
     }
+    #tryDislikeTitle{
+        font-size: 1.3vw;
+        font-weight: 700
+    }
 
-    #tryHelperButton{
-        font-size: 1vw;
-    } */
-
-    /* #tryLikeOffcanvas{} */
-    /* #tryHelperOffcanvas{} */
-    /* #tryDislikeOffcanvas{} */
-  /* } */
+}

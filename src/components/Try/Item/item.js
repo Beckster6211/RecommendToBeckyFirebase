@@ -30,7 +30,7 @@ function TryItem({
         className="border border-dark border-4"
         >
             <td
-            className="p-2 align-middle border border-dark border-4 bg-secondary"
+            className="p-1 align-middle border border-dark border-4 bg-secondary"
             style={{
               
             }}
@@ -48,7 +48,7 @@ function TryItem({
             </p> */}
             <Form.Control 
             id="tryTableTryTextarea"
-            className="border border-dark border-2 p-1 mb-1"
+            className="border border-dark border-2 p-1 mb-2"
             as="textarea"
             defaultValue={tryWhat} 
             readOnly 
@@ -69,7 +69,7 @@ function TryItem({
             </p> */}
             <Form.Control 
             id="tryTableTryTextarea"
-            className="border border-dark border-2 p-1 mb-1"
+            className="border border-dark border-2 p-1 mb-2"
             as="textarea"
             defaultValue={tryWhere} 
             readOnly 
@@ -97,7 +97,7 @@ function TryItem({
     becky === false ? 
 
       <td
-        className="p-2 align-middle border border-dark border-4 bg-secondary-subtle"
+        className="p-1 align-middle border border-dark border-4 bg-secondary-subtle"
       style={{
       }}
         >          
@@ -112,7 +112,7 @@ function TryItem({
         >
           <p
           className="
-          px-1 py-1 ms-1 mb-0 
+          p-1 ms-1 mb-0 
           border border-dark border-2 rounded bg-light"
           >
           <input
@@ -133,7 +133,7 @@ function TryItem({
         </p>
 
           <p
-        className="tryTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="tryTableOpinion p-1 ms-0 me-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"3vw",
         }}
@@ -143,8 +143,8 @@ function TryItem({
         </Stack>
 
         <Form.Control 
-            id="foodTableFoodTextarea"
-            name="foodTableFoodTextarea"
+            id="tryTableTryTextarea"
+            name="tryTableTryTextarea"
             className="border border-dark border-2 p-1 mt-2"
             as="textarea"
             defaultValue={tryThoughts} 
@@ -181,7 +181,7 @@ function TryItem({
         <Button 
         id="tryTableButton"
         variant="secondary"
-        className="border border-dark border-2 rounded p-0 mx-1"
+        className="border border-dark border-2 rounded p-0"
         style={{
           // fontSize:"3vw"
         }}
@@ -213,17 +213,17 @@ function TryItem({
 
     :
         <td
-        className="p-2 align-middle border border-dark border-4 bg-secondary-subtle"
+        className="p- align-middle border border-dark border-4 bg-secondary-subtle"
       style={{
       }}
         >
           <Stack 
         direction="horizontal"
         className="justify-content-evenly"
-        gap={1}
+        // gap={1}
         >
           <p
-          className="px-1 py-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
+          className="p-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
           >
           <input
           name="tryTableTriedItCheckbox"
@@ -242,7 +242,7 @@ function TryItem({
         />
         </p>
         <p
-        className="tryTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="tryTableOpinion p-1 ms-0 me-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"2.2vw",
         }}
@@ -252,8 +252,8 @@ function TryItem({
         </Stack>
         
         <Form.Control 
-            id="foodTableFoodTextarea"
-            name="foodTableFoodTextarea"
+            id="tryTableTryTextarea"
+            name="tryTableTryTextarea"
             className="border border-dark border-2 p-1 mt-2"
             as="textarea"
             defaultValue={tryThoughts} 
@@ -269,7 +269,7 @@ function TryItem({
 
        <Stack 
        direction = "horizontal"
-       gap={1} 
+      //  gap={1} 
             className="justify-content-evenly pt-2"
             style={{
               // border:"solid black 3px"
@@ -329,8 +329,8 @@ function TryItem({
       >
 
 <Form.Control 
-            id="tryTableTryRecommend"
-            className="visitTableVisitRecommend border border-dark border-2 p-1"
+            id="tryTableTryTextarea"
+            className="tryTableTryTextarea border border-dark border-2 p-1"
             as="textarea"
             defaultValue={tryRecommend} 
             readOnly 
@@ -341,14 +341,14 @@ function TryItem({
             />
       </td>
             <td
-      className="p-2 align-middle border border-dark border-4 bg-secondary-subtle"
+      className="p-1 align-middle border border-dark border-4 bg-secondary-subtle"
       style={{
       }}
       >
           <Button 
           id="tryTableButton"
           variant="light"
-          className="border border-dark border-2"
+          className="border border-dark border-2 p-2"
           style={{
             // fontSize:"2.5vw"
           }}

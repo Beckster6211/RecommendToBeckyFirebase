@@ -111,18 +111,14 @@ return(
       {/* <br/> */}
       <Container 
       id = "tryPage1"
-        className=" bg-secondary-subtle rounded text-center p-0" 
+        className=" tryPage1 bg-secondary-subtle rounded text-center p-1 border border-dark border-3" 
         style={{
           // fontSize:"3vw", 
           // fontWeight:"900"
         }}
         >
 
-          🧗‍♀️ &nbsp; 
-          🔫 &nbsp; 
-          Try PAGE 
-          &nbsp; 🛹 
-          &nbsp; 🏄‍♀️
+          🧗‍♀️&nbsp;🔫&nbsp;TRY PAGE&nbsp;🛹&nbsp;🏄‍♀️
 
       </Container>
 

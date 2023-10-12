@@ -9,7 +9,7 @@ import Table from 'react-bootstrap/Table';
 import Container from "react-bootstrap/Container";
 
 function VisitTable({userBecky, tryIt, triedIt, deleteTry, handleOpinion, thoughtsBecky}){
-    // console.log({visit})
+    // console.log({try})
 
     return(
         <Container 
@@ -30,7 +30,7 @@ function VisitTable({userBecky, tryIt, triedIt, deleteTry, handleOpinion, though
       }}
       >
       <thead
-      className="tryTableHeadFoot bg-dark-subtle border border-dark border-4 "
+      className="tryTableHead bg-dark-subtle border border-dark border-4 "
       style={{
         verticalAlign:"middle", 
         position: "sticky",
@@ -67,7 +67,7 @@ function VisitTable({userBecky, tryIt, triedIt, deleteTry, handleOpinion, though
         //////////
     with sticky table header not sure if footer needed */}
         <tfoot
-        className="tryTableHeadFoot bg-dark-subtle border border-dark border-4"
+        className="tryTableFoot bg-dark-subtle border border-dark border-4"
         style={{
           verticalAlign:"middle", 
           // fontSize:"2vw", 

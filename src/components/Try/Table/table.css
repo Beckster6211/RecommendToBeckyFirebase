@@ -1,8 +1,8 @@
-.tryTableComponent{
-    overflow: auto;
+/* .tryTableComponent{
+    overflow: auto; */
     /* width: auto; */
-    height: 80vmin;      
-    }
+    /* height: 80vmin;      
+    } */
 
     .tryTable{
         table-layout: fixed;
@@ -32,40 +32,153 @@
         background-color: aqua;
       }
   
-      @media only screen and (max-width: 480px) {
-        .tryTableHeadFoot{
-          font-size: 2.5vw;
+      @media only screen and (max-width: 300px) {
+        .tryTableHead{
+          font-size: 2.9vw;
           font-weight: 500;
+        } 
+  
+        .tryTableFoot{
+          font-size: 2.6vw;
+          font-weight: 500;
+          /* vertical-align: center;
+          position: sticky;
+          bottom: 0 */
+        } 
+  
+        .tryTableComponent{
+          overflow: auto;
+          height: 120vmin; 
+    
+      }
+        
+      }
+      
+      @media only screen and (min-width: 301px) {
+        /* .tryTableHeadFoot{
+          font-size: 2.7vw;
+          font-weight: 500;
+        } */
+  
+        .tryTableHead{
+          font-size: 2.9vw;
+          font-weight: 500;
+        }
+  
+  
+        .tryTableFoot{
+          font-size: 2.1vw;
+          font-weight: 500;
+          /* vertical-align: center;
+          position: sticky;
+          bottom: 0 */
+        } 
+  
+        .tryTableComponent{
+          overflow: auto;
+          height: 90vmin; 
+    
+      }
+      }
+  
+      @media only screen and (min-width: 501px){
+        .tryTableHead{
+          font-size: 2.2vw;
+          font-weight: 500;
+        }
+  
+  
+        .tryTableFoot{
+          font-size: 1.8vw;
+          font-weight: 500;
+          /* vertical-align: center;
+          position: sticky;
+          bottom: 0 */
+        } 
+        
+        .tryTableComponent{
+          overflow: auto;
+          height: 50vmin;
         }
       }
       
-      @media only screen and (min-width: 481px) {
-        .tryTableHeadFoot{
+      @media only screen and (min-width: 701px) {
+        /* .tryTableHeadFoot{
+          font-size: 1.7vw;
+          font-weight: 500;
+        } */
+  
+        .tryTableHead{
           font-size: 2vw;
           font-weight: 500;
         }
-      }
-      
-      @media only screen and (min-width: 769px) {
-        .tryTableHeadFoot{
-          font-size: 1.7vw;
+  
+  
+        .tryTableFoot{
+          font-size: 1.4vw;
           font-weight: 500;
-        }
+          /* vertical-align: center;
+          position: sticky;
+          bottom: 0 */
+        } 
+  
+        .tryTableComponent{
+          overflow: auto;
+          /* width: auto; */
+          height: 35vmin; 
+          }
       }
       
-      @media only screen and (min-width: 1025px) {
-        .tryTableHeadFoot{
+      @media only screen and (min-width: 1001px) {
+        /* .tryTableHeadFoot{
+          font-size: 1.5vw;
+          font-weight: 500;
+        } */
+  
+        .tryTableHead{
           font-size: 1.5vw;
           font-weight: 500;
         }
+  
+  
+        .tryTableFoot{
+          font-size: 1.1vw;
+          font-weight: 500;
+          /* vertical-align: center;
+          position: sticky;
+          bottom: 0 */
+        } 
+  
+        .tryTableComponent{
+          overflow: auto;
+          /* width: auto; */
+          height: 37vmin; 
+          }
       }
       
       @media only screen and (min-width: 1201px) {
-        .tryTableHeadFoot{
+        /* .tryTableHeadFoot{
           font-size: 1.3vw;
           font-weight: 500;
-        }
-      }
-      
-      
+        } */
   
+        .tryTableHead{
+          font-size: 1.1vw;
+          font-weight: 500;
+        }
+  
+  
+        .tryTableFoot{
+          font-size: 0.8vw;
+          font-weight: 500;
+          /* vertical-align: center;
+          position: sticky;
+          bottom: 0 */
+        } 
+  
+        .tryTableComponent{
+          overflow: auto;
+          /* width: auto; */
+          height: 40vmin; 
+          }
+      }

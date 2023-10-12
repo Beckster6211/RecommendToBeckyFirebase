@@ -15,14 +15,15 @@ function TryHelper(){
         <div>
             <Button 
             id="tryHelperButton"
-            className=""
+            className="border border-dark border-3 py-2 px-2 mx-1"
             style={{
               // fontSize:"1.5vw"
             }}
             variant="secondary" 
             onClick={()=>setTopShow(true)}
           >
-            Try Helper ☝️ 
+            {/* Try Helper ☝️  */}
+            ℹ️  Try Helper ℹ️ 
           </Button>
 
           <Offcanvas 
@@ -57,11 +58,11 @@ function TryHelper(){
             </h6>
 
             <p>
-            <strong>The 3 helper buttons</strong> each one opens a modal element <small>(that takes up 50% of the page depending on which one you open, you already found the main helper, that opens down the page 👍)</small>
+            <strong>The 3 helper buttons</strong> each one opens a modal element <small>(that takes up 50% of the page depending on which one you open, you already found the main helper, that opens down the page 🔽)</small>
             <br/>
-            The like button - opens on left 
+            The like button - opens on left ◀️
                 <br/>
-                The dislike button -  opens on right
+                The dislike button -  opens on right ▶️
                 <br/>
                 These reveal lists, by seeing what I like and dislike may help with recommendations. 
                 <br/>
@@ -72,7 +73,7 @@ function TryHelper(){
                 In the Try this input field, you can put what you recommend to me (Becky) to try. 
 
                 <li><strong>Where Specific -</strong></li>
-                In the Where Specific input field, you can put the where the place that you recommend that I try this.  <small>(Geographically where)</small>
+                In the Where Specific input field, you can put where the place that you recommend that I try this.  <small>(Geographically where)</small>
 
                 <li><strong>Why -</strong></li> 
                 In the Why input field you can put the details or why should try this. <small>(You could write that yourself or take from the web)</small>
@@ -99,7 +100,7 @@ function TryHelper(){
 
                     <li>
                       <strong>
-                    my opinion</strong>, a checkbox to show if I have tried it ✔️, an emoji of what I think if I have tried it - <small>(<strong>locked buttons for my use only</strong> to show the opinion of yes 👍, no 👎 and alright 🤙)</small> and also what my opinion of it is <small>(if tried it yet 🤔)</small> 
+                    Becky opinion</strong>, a checkbox to show if I have tried it ✔️, an emoji of what I think if I have tried it 🤷‍♀️ and a textarea of what my thoughts are - <small>(<strong>emoji buttons locked for my use only</strong> to show the opinion of yes 👍, no 👎 and alright 🤙)</small> 
                     </li>
 
                     <li>
@@ -107,8 +108,7 @@ function TryHelper(){
                     </li>
 
                     <li>
-                      <strong>
-                    delete</strong> <small>(the delete button I have left open to all, so if you add something wrong you can delete it but <strong>please be careful</strong> when deleting so don't erase others 🙂)</small>
+                      the<strong>the delete</strong> <small>(the delete button I have left open to all, so if you add something wrong you can easily delete it <strong> but please be careful</strong> when deleting so don't erase others 🙂)</small>
                     </li>
               </p>
 

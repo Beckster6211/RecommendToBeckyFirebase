@@ -120,7 +120,7 @@ return(
           // fontWeight:"900"
         }}
         >
-           📺&nbsp;📀&nbsp;Tele PAGE&nbsp;📼&nbsp;💻
+           📺&nbsp;📀&nbsp;TELE PAGE&nbsp;📼&nbsp;💻
       </Container>
       {/* <br/> */}
       <Container 

@@ -117,7 +117,7 @@ return(
         }}
         >
           
-          🗺️&nbsp;✈️&nbsp;Visit PAGE&nbsp;🧳&nbsp;🌍
+          🗺️&nbsp;✈️&nbsp;VISIT PAGE&nbsp;🧳&nbsp;🌍
 
       </Container>
 

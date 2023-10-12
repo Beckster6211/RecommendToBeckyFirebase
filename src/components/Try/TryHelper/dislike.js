@@ -15,14 +15,17 @@ function TryDislike(){
         <div>
           <Button 
             id="tryDislikeButton"
-            className=""
+            className="border border-dark border-3 py-0 px-2"
             style={{
               // fontSize:"1.5vw"
             }}
-            variant="danger" 
+            // variant="danger" 
             onClick={()=> setRightShow(true)}
             >
-              Dislike 👉
+              {/* Dislike 👉 */}
+              ❌
+              <br/>
+              Dislike
           </Button>
 
           <Offcanvas 
@@ -48,7 +51,7 @@ function TryDislike(){
             <Offcanvas.Body>
             <h6
             className="tryHeading"
-            >Here some help on the kinds of I wouldn't like to try
+            >Some help on the kinds of I wouldn't like to try
               <br/>
               <small> (If it helps you 😊)</small>
             </h6>
@@ -61,6 +64,14 @@ function TryDislike(){
                 <br/>
                 <small>
                   (I have problem ears but will try my best 👂)
+                </small>
+              </li>
+
+              <li>
+                I suffer from motion sickness 🤢
+                <br/>
+                <small>
+                  (so a no to rollar coasters 🎢)
                 </small>
               </li>
             </ul>

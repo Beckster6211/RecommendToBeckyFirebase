@@ -120,7 +120,7 @@ return(
           // fontWeight:"900"
         }}
         >
-          📕&nbsp;📖&nbsp;Read PAGE&nbsp;📓&nbsp;🔖
+          📕&nbsp;📖&nbsp;READ PAGE&nbsp;📓&nbsp;🔖
       </Container>
       {/* <br/> */}
       <Container 
