@@ -15,14 +15,16 @@ function VisitLike(){
         <div>
           <Button
             id="visitLikeButton" 
-            className=""
+            className="border border-dark border-3 py-0 px-3"
             style={{
               
             }}
-            variant="success" 
+            // variant="success" 
             onClick={()=>setLeftShow(true)}
           >
-            👈 Like
+            {/* 👈 Like */}
+            <br/>
+            Like
           </Button>
 
           <Offcanvas 
@@ -42,13 +44,13 @@ function VisitLike(){
               <Offcanvas.Title
               id="visitLikeTitle"
               >
-              😁 I'd like to visit... 😁
+              😁 I would like to visit... 😁
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
             <h6
             className="visitHeading"
-            >Here some help on the kinds of places I'd like to visit
+            >Some help on the kinds of places I'd like to visit
               <br/>
               <small> (If it helps you 😊)</small>
             </h6>

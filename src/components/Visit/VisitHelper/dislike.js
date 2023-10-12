@@ -15,14 +15,17 @@ function VisitDislike(){
         <div>
           <Button 
             id="visitDislikeButton"
-            className=""
+            className="border border-dark border-3 py-0 px-2"
             style={{
               
             }}
-            variant="danger" 
+            // variant="danger" 
             onClick={()=> setRightShow(true)}
             >
-              Dislike 👉
+              {/* Dislike 👉 */}
+              ❌
+              <br/>
+              Dislike
           </Button>
 
           <Offcanvas 
@@ -42,14 +45,14 @@ function VisitDislike(){
               <Offcanvas.Title
               id="visitDislikeTitle"
               >
-              😫 I don't like to visit... 😫
+              😫 I wouldn't like to visit... 😫
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
 
             <h6
             className="visitHeading"
-            >Here some help on the kinds of places I wouldn't like to visit
+            >Some help on the kinds of places I wouldn't like to visit
               <br/>
               <small> (If it helps you 😊)</small>
             </h6>

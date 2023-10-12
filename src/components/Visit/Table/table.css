@@ -1,8 +1,8 @@
-.visitTableComponent{
-    overflow: auto;
+/* .visitTableComponent{
+    overflow: auto; */
     /* width: auto; */
-    height: 80vmin;      
-    }
+    /* height: 80vmin;      
+    } */
 
     .visitTable{
         table-layout: fixed;
@@ -32,40 +32,153 @@
         background-color: aqua;
       }
   
-      @media only screen and (max-width: 480px) {
-        .visitTableHeadFoot{
-          font-size: 2.5vw;
+      @media only screen and (max-width: 300px) {
+        .visitTableHead{
+          font-size: 2.9vw;
           font-weight: 500;
+        } 
+  
+        .visitTableFoot{
+          font-size: 2.6vw;
+          font-weight: 500;
+          /* vertical-align: center;
+          position: sticky;
+          bottom: 0 */
+        } 
+  
+        .visitTableComponent{
+          overflow: auto;
+          height: 120vmin; 
+    
+      }
+        
+      }
+      
+      @media only screen and (min-width: 301px) {
+        /* .visitTableHeadFoot{
+          font-size: 2.7vw;
+          font-weight: 500;
+        } */
+  
+        .visitTableHead{
+          font-size: 2.9vw;
+          font-weight: 500;
+        }
+  
+  
+        .visitTableFoot{
+          font-size: 2.1vw;
+          font-weight: 500;
+          /* vertical-align: center;
+          position: sticky;
+          bottom: 0 */
+        } 
+  
+        .visitTableComponent{
+          overflow: auto;
+          height: 90vmin; 
+    
+      }
+      }
+  
+      @media only screen and (min-width: 501px){
+        .visitTableHead{
+          font-size: 2.2vw;
+          font-weight: 500;
+        }
+  
+  
+        .visitTableFoot{
+          font-size: 1.8vw;
+          font-weight: 500;
+          /* vertical-align: center;
+          position: sticky;
+          bottom: 0 */
+        } 
+        
+        .visitTableComponent{
+          overflow: auto;
+          height: 50vmin;
         }
       }
       
-      @media only screen and (min-width: 481px) {
-        .visitTableHeadFoot{
+      @media only screen and (min-width: 701px) {
+        /* .visitTableHeadFoot{
+          font-size: 1.7vw;
+          font-weight: 500;
+        } */
+  
+        .visitTableHead{
           font-size: 2vw;
           font-weight: 500;
         }
-      }
-      
-      @media only screen and (min-width: 769px) {
-        .visitTableHeadFoot{
-          font-size: 1.7vw;
+  
+  
+        .visitTableFoot{
+          font-size: 1.4vw;
           font-weight: 500;
-        }
+          /* vertical-align: center;
+          position: sticky;
+          bottom: 0 */
+        } 
+  
+        .visitTableComponent{
+          overflow: auto;
+          /* width: auto; */
+          height: 35vmin; 
+          }
       }
       
-      @media only screen and (min-width: 1025px) {
-        .visitTableHeadFoot{
+      @media only screen and (min-width: 1001px) {
+        /* .visitTableHeadFoot{
+          font-size: 1.5vw;
+          font-weight: 500;
+        } */
+  
+        .visitTableHead{
           font-size: 1.5vw;
           font-weight: 500;
         }
+  
+  
+        .visitTableFoot{
+          font-size: 1.1vw;
+          font-weight: 500;
+          /* vertical-align: center;
+          position: sticky;
+          bottom: 0 */
+        } 
+  
+        .visitTableComponent{
+          overflow: auto;
+          /* width: auto; */
+          height: 37vmin; 
+          }
       }
       
       @media only screen and (min-width: 1201px) {
-        .visitTableHeadFoot{
+        /* .visitTableHeadFoot{
           font-size: 1.3vw;
           font-weight: 500;
-        }
-      }
-      
-      
+        } */
   
+        .visitTableHead{
+          font-size: 1.1vw;
+          font-weight: 500;
+        }
+  
+  
+        .visitTableFoot{
+          font-size: 0.8vw;
+          font-weight: 500;
+          /* vertical-align: center;
+          position: sticky;
+          bottom: 0 */
+        } 
+  
+        .visitTableComponent{
+          overflow: auto;
+          /* width: auto; */
+          height: 40vmin; 
+          }
+      }

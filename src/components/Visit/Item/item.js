@@ -29,7 +29,7 @@ function VisitItem({
         className="border border-dark border-4"
         >
             <td
-            className="p-2 align-middle border border-dark border-4 bg-primary"
+            className="p-1 align-middle border border-dark border-4 bg-primary"
             style={{
               
             }}
@@ -47,7 +47,7 @@ function VisitItem({
             </p> */}
             <Form.Control 
             id="visitTableVisitTextarea"
-            className="border border-dark border-2 p-1 mb-1"
+            className="border border-dark border-2 p-1 mb-2"
             as="textarea"
             defaultValue={visitWhat} 
             readOnly 
@@ -68,7 +68,7 @@ function VisitItem({
             </p> */}
             <Form.Control 
             id="visitTableVisitTextarea"
-            className="border border-dark border-2 p-1 mb-1"
+            className="border border-dark border-2 p-1 mb-2"
             as="textarea"
             defaultValue={visitWhere} 
             readOnly 
@@ -96,22 +96,22 @@ function VisitItem({
     becky === false ? 
 
       <td
-        className="p-2 align-middle border border-dark border-4 bg-primary-subtle"
+        className="p-1 align-middle border border-dark border-4 bg-primary-subtle"
       style={{
       }}
         >          
         <Stack 
         direction="horizontal"
-        gap={1}
+        // gap={1}
         className="justify-content-evenly"
         >
           <p
           className="
-          px-1 py-1 ms-1 mb-0
+          p-1 ms-1 mb-0
           border border-dark border-2 rounded bg-light"
           >
           <input
-          name="visitTableVisitItCheckbox"
+          name="visitTableStayedCheckbox"
             className="visitTableStayedCheckbox"
             style={{
               // width:"4vw",
@@ -128,7 +128,7 @@ function VisitItem({
         </p>
 
           <p
-        className="visitTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="visitTableOpinion p-1 ms-0 me-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"3vw",
         }}
@@ -138,8 +138,8 @@ function VisitItem({
         </Stack>
 
         <Form.Control 
-            id="foodTableFoodTextarea"
-            name="foodTableFoodTextarea"
+            id="visitTableVisitTextarea"
+            name="visitTableVisitTextarea"
             className="border border-dark border-2 p-1 mt-2"
             as="textarea"
             defaultValue={visitThoughts} 
@@ -152,7 +152,7 @@ function VisitItem({
 
             <Stack 
             direction="horizontal"
-            gap={1} 
+            // gap={1} 
             className="justify-content-evenly pt-2"
             style={{
               // border:"solid black 3px"
@@ -209,17 +209,17 @@ function VisitItem({
     :
 
         <td
-        className="p-2 align-middle border border-dark border-4 bg-primary-subtle"
+        className="p-1 align-middle border border-dark border-4 bg-primary-subtle"
       style={{
       }}
         >
           <Stack 
         direction="horizontal"
         className="justify-content-evenly"
-        gap={1}
+        // gap={1}
         >
           <p
-          className="px-1 py-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
+          className="p-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
           >
           <input
           name="visitTableStayedCheckbox"
@@ -238,7 +238,7 @@ function VisitItem({
         />
         </p>
         <p
-        className="visitTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="visitTableOpinion p-1 ms-0 me-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"2.2vw",
         }}
@@ -248,8 +248,8 @@ function VisitItem({
         </Stack>
         
         <Form.Control 
-            id="foodTableFoodTextarea"
-            name="foodTableFoodTextarea"
+            id="visitTableVisitTextarea"
+            name="visitTableVisitTextarea"
             className="border border-dark border-2 p-1 mt-2"
             as="textarea"
             defaultValue={visitThoughts} 
@@ -265,7 +265,7 @@ function VisitItem({
 
        <Stack 
         direction = "horizontal"
-       gap={1} 
+      //  gap={1} 
             className="justify-content-evenly pt-2"
             style={{
               // border:"solid black 3px"
@@ -319,14 +319,14 @@ function VisitItem({
     }
 
             <td
-      className="p-2 align-middle border border-dark border-4 bg-primary"
+      className="p-1 align-middle border border-dark border-4 bg-primary"
       style={{
       }}
       >
 
 <Form.Control 
-            id="visitTableVisitRecommend"
-            className="visitTableVisitRecommend border border-dark border-2 p-1"
+            id="visitTableVisitTextarea"
+            className="visitTableVisitTextarea border border-dark border-2 p-1"
             as="textarea"
             defaultValue={visitRecommend} 
             readOnly 
@@ -337,14 +337,14 @@ function VisitItem({
             />
       </td>
             <td
-      className="p-2 align-middle border border-dark border-4 bg-primary-subtle"
+      className="p-1 align-middle border border-dark border-4 bg-primary-subtle"
       style={{
       }}
       >
           <Button 
           id="visitTableButton"
           variant="light"
-          className="border border-dark border-2"
+          className="border border-dark border-2 p-2"
           style={{
             // fontSize:"2.5vw"
           }}

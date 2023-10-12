@@ -157,8 +157,8 @@ function VisitForm({visit, handleChange, submitForm}){
                     myVisit.current?.value === "" ?
                     <Button 
             id="visitFormButton"
-            variant = "info"
-            className="border border-dark border-3 text-dark"  
+            // variant = "info"
+            className="border border-dark border-3 text-white"  
             // type = "submit"
             style={{
               // fontSize:"1.6vw", 
@@ -168,22 +168,22 @@ function VisitForm({visit, handleChange, submitForm}){
                 console.log("Put something in the inputs please")
             }}
             >
-              😄 Enjoy 😄
+              😄 Cheers 😄
               </Button>
 
             : 
 
             <Button 
             id="visitFormButton"
-            variant = "info"
-            className="border border-dark border-3 text-dark"  
+            // variant = "info"
+            className="border border-dark border-3 text-white"  
             type = "submit"
             style={{
               // fontSize:"1.6vw", 
               width:"auto"
             }}
             >
-              😄 Enjoy 😄
+              😄 Cheers 😄
               </Button>
                 }
 

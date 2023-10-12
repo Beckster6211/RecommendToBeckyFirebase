@@ -111,17 +111,13 @@ return(
 
       <Container 
         id = "visitPage1"
-        className=" bg-primary-subtle rounded text-center p-0" 
+        className=" visitPage1 bg-primary-subtle rounded text-center p-1 border border-dark border-3" 
         style={{
     
         }}
         >
           
-          🗺️ &nbsp; 
-          ✈️ &nbsp; 
-          Visit PAGE 
-          &nbsp; 🧳 
-          &nbsp; 🌍
+          🗺️&nbsp;✈️&nbsp;Visit PAGE&nbsp;🧳&nbsp;🌍
 
       </Container>
 

@@ -1,77 +1,101 @@
+@media only screen and (max-width: 300px) {
 
-@media only screen and (max-width: 480px) {
+  .visitFloatingLabel{
+    font-size: 3vw;
+  }
 
-    .visitFloatingLabel{
-      font-size: 2.5vw;
-    }
-  
-    .visitFormInput{
-      font-size: 3vw;
-    }
-  
-    #visitFormButton{
-      font-size: 2.7vw;
-    }
+  /* .visitFormInput{
+    font-size: 1.5vw;
+  } */
+
+  #visitFormButton{
+    background-color: mediumpurple;
+    font-size: 3vw;
+    font-weight: 700;
   }
-  
-  @media only screen and (min-width: 481px) {
-  
-    .visitFloatingLabel{
-      font-size: 2.7vw;
-    }
-  
-    .visitFormInput{
-      font-size: 3.5vw;
-    }
-  
-    #visitFormButton{
-      font-size: 2.7vw;
-    }
-  
+}
+
+@media only screen and (min-width: 301px) {
+
+  .visitFloatingLabel{
+    font-size: 3.2vw;
   }
-  
-  
-  @media only screen and (min-width: 769px) {
-    .visitFloatingLabel{
-      font-size: 2vw;
-    }
-  
-    .visitFormInput{
-      font-size: 3.7vw;
-    }
-  
-    #visitFormButton{
-      font-size: 2.2vw;
-    }
-  
+
+  /* .visitFormInput{
+    font-size: 3.5vw;
+  } */
+
+  #visitFormButton{
+    background-color: mediumpurple;
+    font-size: 2.5vw;
+    font-weight: 700;
   }
-  
-  @media only screen and (min-width: 1025px) {
-    .visitFloatingLabel{
-      font-size: 1.5vw;
-    }
-  
-    .visitFormInput{
-      font-size: 3.7vw;
-    }
-  
-    #visitFormButton{
-      font-size: 1.5vw;
-    }
+
+}
+
+@media only screen and (min-width: 501px) {
+  .visitFloatingLabel{
+    font-size: 2.3vw;
   }
-  
-  @media only screen and (min-width: 1201px) {
-    .visitFloatingLabel{
-      font-size: 1.2vw;
-    }
-  
-    .visitFormInput{
-      font-size: 3.7vw;
-    }
-  
-    #visitFormButton{
-      font-size: 1.2vw;
-    }
+
+  /* .visitFormInput{
+    font-size: 3.7vw;
+  } */
+
+  #visitFormButton{
+    background-color: mediumpurple;
+    font-size: 2.2vw;
+    font-weight: 700;
   }
-  
-  
+
+}
+
+@media only screen and (min-width: 701px) {
+  .visitFloatingLabel{
+    font-size: 1.5vw;
+  }
+
+  /* .visitFormInput{
+    font-size: 3.7vw;
+  } */
+
+  #visitFormButton{
+    background-color: mediumpurple;
+    font-size: 1.7vw;
+    font-weight: 700;
+  }
+
+}
+
+@media only screen and (min-width: 1005px) {
+  .visitFloatingLabel{
+    font-size: 1.3vw;
+  }
+
+  /* .visitFormInput{
+    font-size: 3.7vw;
+  } */
+
+  #visitFormButton{
+    background-color: mediumpurple;
+    font-size: 1.3vw;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .visitFloatingLabel{
+    font-size: 1vw;
+  }
+/* 
+  .visitFormInput{
+    font-size: 3.7vw;
+  } */
+
+  #visitFormButton{
+    background-color: mediumpurple;
+    font-size: 1vw;
+    font-weight: 700;
+  }
+}
+

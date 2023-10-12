@@ -30,7 +30,7 @@ function VisitTable({userBecky, visit, stayedThere, deleteVisit, handleOpinion, 
       }}
       >
       <thead 
-      className="visitTableHeadFoot bg-dark-subtle border border-dark border-4 "
+      className="visitTableHead bg-dark-subtle border border-dark border-4 "
       style={{
         verticalAlign:"middle", 
         position: "sticky",
@@ -67,7 +67,7 @@ function VisitTable({userBecky, visit, stayedThere, deleteVisit, handleOpinion, 
         //////////
     with sticky table header not sure if footer needed */}
         <tfoot 
-        className="visitTableHeadFoot bg-dark-subtle border border-dark border-4"
+        className="visitTableFoot bg-dark-subtle border border-dark border-4"
         style={{
           verticalAlign:"middle", 
           }}>

@@ -1,111 +1,241 @@
-    
-@media only screen and (max-width: 480px) {
-    #visitLikeButton{
-        font-size: 2.5vw;
-    }
+#visitLikeButton{
+    background-color: teal;
+}
 
-    #visitDislikeButton{
-        font-size: 2.5vw;
-    }
+ #visitDislikeButton{
+    background-color: tomato;
+}
+
+
+@media only screen and (max-width: 300px) {
 
     #visitHelperButton{
-        font-size: 2.5vw;
-    }
-
-    #visitlikeTitle{
-        font-size: 4vw;
-    }
-
-    .visitHeading{
-        font-size: 3.7vw;
-    }
-
-    .visitList{
         font-size: 3.3vw;
     }
-
-    #visitDislikeTitle{
-        font-size:4vw ;
+    #visitHelperTitle{
+        font-size: 4.5vw;
+        font-weight: 700
     }
-
     .visitHelperText{
-        font-size: 3vw;
+        font-size: 3.8vw;
     }
 
     .visitHelperHeading{
-        font-size: 3.4vw;
+        font-size: 4vw;
+    }
+
+
+
+    #visitLikeButton{
+        font-size: 3.5vw;
+    }
+     #visitLikeTitle{
+        font-size: 4.5vw;
+        font-weight: 700
+    }
+
+
+
+    .visitHeading{
+        font-size: 4vw;
+    }
+    .visitList{
+        font-size: 3.8vw;
+    }
+
+
+    
+    #visitDislikeButton{
+        font-size: 3.5vw;
+    }
+    #visitDislikeTitle{
+        font-size: 4.5vw;
+        font-weight: 700
     }
 }
 
-@media only screen and (min-width: 481px) {
-    #visitLikeButton{
-        font-size: 2.6vw;
-    }
-
-    #visitDislikeButton{
-        font-size: 2.6vw;
-    }
+@media only screen and (min-width: 301px) {
 
     #visitHelperButton{
-        font-size: 2.6vw;
+        font-size: 2.3vw;
     }
+    #visitHelperTitle{
+        font-size: 3.7vw;
+        font-weight: 700
+    }
+    .visitHelperText{
+        font-size: 2.3vw;
+    }
+    .visitHelperHeading{
+        font-size: 2.5vw;
+    }    
 
-    /* #visitLikeOffcanvas{} */
-    /* #visitHelperOffcanvas{} */
-    /* #visitDislikeOffcanvas{} */
-}
 
-@media only screen and (min-width: 769px) {
+
     #visitLikeButton{
-        font-size: 1.6vw;
+        font-size: 2.3vw;
+    }    
+    #visitLikeTitle{
+        font-size: 3.7vw;
+        font-weight: 700
     }
+
+
+
+    .visitHeading{
+        font-size: 3vw;
+    }
+    .visitList{
+        font-size: 2.5vw;
+    }
+
 
     #visitDislikeButton{
-        font-size: 1.6vw;
+        font-size: 2.3vw;
     }
-
-    #visitHelperButton{
-        font-size: 1.6vw;
+    #visitDislikeTitle{
+        font-size: 3.7vw;
+        font-weight: 700
     }
-
-    /* #visitLikeOffcanvas{} */
-    /* #visitHelperOffcanvas{} */
-    /* #visitDislikeOffcanvas{} */
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 701px) {
+
+    #visitHelperButton{
+        font-size: 1.7vw;
+    }
+
+    #visitHelperTitle{
+        font-size: 2.5vw;
+        font-weight: 700
+    }   
+    .visitHelperText{
+        font-size: 1.7vw;
+    }
+
+    .visitHelperHeading{
+        font-size: 2vw;
+    }
+
+ 
+
+
     #visitLikeButton{
+        font-size: 1.7vw;
+    } 
+    #visitLikeTitle{
+        font-size: 2.5vw;
+        font-weight: 700
+    }
+
+
+
+    .visitHeading{
+        font-size: 2.3vw;
+    }
+
+    .visitList{
+        font-size: 2vw;
+    }
+
+
+
+
+    #visitDislikeButton{
+        font-size: 1.7vw;
+    }
+    #visitDislikeTitle{
+        font-size: 2.5vw;
+        font-weight: 700
+    }
+}
+
+@media only screen and (min-width: 1005px) {
+    #visitHelperButton{
+        font-size: 1.5vw;
+    }    
+    #visitHelperTitle{
+        font-size: 2vw;
+        font-weight: 700
+    }
+    .visitHelperText{
         font-size: 1.2vw;
     }
 
+    .visitHelperHeading{
+        font-size: 1.5vw;
+    }
+
+
+
+    #visitLikeButton{
+        font-size: 1.5vw;
+    }
+    #visitLikeTitle{
+        font-size: 2vw;
+        font-weight: 700
+    }
+
+
+    .visitHeading{
+        font-size: 2vw;
+    }
+    .visitList{
+        font-size: 1.5vw;
+    }    
+
+
     #visitDislikeButton{
-        font-size: 1.2vw;
+        font-size: 1.5vw;
     }
-
-    #visitHelperButton{
-        font-size: 1.2vw;
+    #visitDislikeTitle{
+        font-size: 2vw;
+        font-weight: 700
     }
-
-    /* #visitLikeOffcanvas{} */
-    /* #visitHelperOffcanvas{} */
-    /* #visitDislikeOffcanvas{} */
+  
 }
 
-/*////////////////////*/
-/* @media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 1201px) {
+
+    #visitHelperButton{
+        font-size: 1vw;
+    }    
+    #visitHelperTitle{
+        font-size: 1.3vw;
+        font-weight: 700
+    }
+    .visitHelperText{
+        font-size: 0.9vw;
+    }
+
+    .visitHelperHeading{
+        font-size: 1vw;
+    }
+
+
     #visitLikeButton{
         font-size: 1vw;
     }
+    #visitLikeTitle{
+        font-size: 1.3vw;
+        font-weight: 700
+    }
+
+
+    .visitHeading{
+        font-size: 1.5vw;
+    }
+    .visitList{
+        font-size: 1.1vw;
+    }
+
 
     #visitDislikeButton{
         font-size: 1vw;
     }
+    #visitDislikeTitle{
+        font-size: 1.3vw;
+        font-weight: 700
+    }
 
-    #visitHelperButton{
-        font-size: 1vw;
-    } */
-
-    /* #visitLikeOffcanvas{} */
-    /* #visitHelperOffcanvas{} */
-    /* #visitDislikeOffcanvas{} */
-  /* } */
+}
