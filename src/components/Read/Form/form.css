@@ -1,77 +1,101 @@
+@media only screen and (max-width: 300px) {
 
-@media only screen and (max-width: 480px) {
+  .readFloatingLabel{
+    font-size: 3vw;
+  }
 
-    .readFloatingLabel{
-      font-size: 2.5vw;
-    }
-  
-    .readFormInput{
-      font-size: 3vw;
-    }
-  
-    #readFormButton{
-      font-size: 2.7vw;
-    }
+  /* .readFormInput{
+    font-size: 1.5vw;
+  } */
+
+  #readFormButton{
+    background-color: mediumpurple;
+    font-size: 3vw;
+    font-weight: 700;
   }
-  
-  @media only screen and (min-width: 481px) {
-  
-    .readFloatingLabel{
-      font-size: 2.7vw;
-    }
-  
-    .readFormInput{
-      font-size: 3.5vw;
-    }
-  
-    #readFormButton{
-      font-size: 2.7vw;
-    }
-  
+}
+
+@media only screen and (min-width: 301px) {
+
+  .readFloatingLabel{
+    font-size: 3.2vw;
   }
-  
-  
-  @media only screen and (min-width: 769px) {
-    .readFloatingLabel{
-      font-size: 2vw;
-    }
-  
-    .readFormInput{
-      font-size: 3.7vw;
-    }
-  
-    #readFormButton{
-      font-size: 2.2vw;
-    }
-  
+
+  /* .readFormInput{
+    font-size: 3.5vw;
+  } */
+
+  #readFormButton{
+    background-color: mediumpurple;
+    font-size: 2.5vw;
+    font-weight: 700;
   }
-  
-  @media only screen and (min-width: 1025px) {
-    .readFloatingLabel{
-      font-size: 1.5vw;
-    }
-  
-    .readFormInput{
-      font-size: 3.7vw;
-    }
-  
-    #readFormButton{
-      font-size: 1.5vw;
-    }
+
+}
+
+@media only screen and (min-width: 501px) {
+  .readFloatingLabel{
+    font-size: 2.3vw;
   }
-  
-  @media only screen and (min-width: 1201px) {
-    .readFloatingLabel{
-      font-size: 1.2vw;
-    }
-  
-    .readFormInput{
-      font-size: 3.7vw;
-    }
-  
-    #readFormButton{
-      font-size: 1.2vw;
-    }
+
+  /* .readFormInput{
+    font-size: 3.7vw;
+  } */
+
+  #readFormButton{
+    background-color: mediumpurple;
+    font-size: 2.2vw;
+    font-weight: 700;
   }
-  
-  
+
+}
+
+@media only screen and (min-width: 701px) {
+  .readFloatingLabel{
+    font-size: 1.5vw;
+  }
+
+  /* .readFormInput{
+    font-size: 3.7vw;
+  } */
+
+  #readFormButton{
+    background-color: mediumpurple;
+    font-size: 1.7vw;
+    font-weight: 700;
+  }
+
+}
+
+@media only screen and (min-width: 1005px) {
+  .readFloatingLabel{
+    font-size: 1.3vw;
+  }
+
+  /* .readFormInput{
+    font-size: 3.7vw;
+  } */
+
+  #readFormButton{
+    background-color: mediumpurple;
+    font-size: 1.3vw;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .readFloatingLabel{
+    font-size: 1vw;
+  }
+/* 
+  .readFormInput{
+    font-size: 3.7vw;
+  } */
+
+  #readFormButton{
+    background-color: mediumpurple;
+    font-size: 1vw;
+    font-weight: 700;
+  }
+}
+

@@ -9,7 +9,7 @@ import Table from 'react-bootstrap/Table';
 import Container from "react-bootstrap/Container";
 
 function TeleTable({userBecky, tele, teleBingedIt, deleteTele, handleOpinion, thoughtsBecky}){
-    // console.log({film})
+    // console.log({tele})
 
     return(
         <Container 

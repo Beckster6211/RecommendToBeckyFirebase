@@ -26,14 +26,14 @@ function ReadItem({
     
 }){
 
-    // console.log({tele})
+    // console.log({read})
 
     return (
         <tr
         className="border border-dark border-4"
         >
             <td
-            className="p-2 align-middle border border-dark border-4 bg-success"
+            className="p-1 align-middle border border-dark border-4 bg-success"
             style={{
               
             }}
@@ -80,18 +80,18 @@ function ReadItem({
     becky === false ? 
 
       <td
-        className="p-2 align-middle border border-dark border-4 bg-success-subtle"
+        className="p-1 align-middle border border-dark border-4 bg-success-subtle"
       style={{
       }}
         >          
         <Stack 
         direction="horizontal"
-        gap={1}
+        // gap={1}
         className="justify-content-evenly"
         >
           <p
           className="
-          px-1 py-1 ms-1 mb-0 
+          p-1 ms-1 mb-0 
           border border-dark border-2 rounded bg-light"
           >
           <input
@@ -114,7 +114,7 @@ function ReadItem({
 
           <p
           // id="foodTableItem3"
-        className="readTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="readTableOpinion p-1 ms-0 me-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"3vw",
         }}
@@ -122,8 +122,8 @@ function ReadItem({
         </Stack>
 
         <Form.Control 
-            id="foodTableFoodTextarea"
-            name="foodTableFoodTextarea"
+            id="readTableReadTextarea"
+            name="readTableReadTextarea"
             className="border border-dark border-2 p-1 mt-2"
             as="textarea"
             defaultValue={readThoughts} 
@@ -135,7 +135,7 @@ function ReadItem({
             />
 
             <Stack 
-            gap={1} 
+            // gap={1} 
             direction="horizontal"
             className="justify-content-evenly pt-2"
             style={{
@@ -201,17 +201,17 @@ function ReadItem({
 
     :
         <td
-        className="p-2 align-middle border border-dark border-4 bg-success-subtle"
+        className="p-1 align-middle border border-dark border-4 bg-success-subtle"
       style={{
       }}
         >
           <Stack 
         direction="horizontal"
         className="justify-content-evenly"
-        gap={1}
+        // gap={1}
         >
           <p
-          className="px-1 py-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
+          className="p-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
           >
           <input
           name="readTableReadItCheckbox"
@@ -231,7 +231,7 @@ function ReadItem({
         </p>
         <p
         // id="foodTableItemBecky1"
-        className="readTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="readTableOpinion p-1 ms-0 me-1 mb-0 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"2.2vw",
         }}
@@ -239,8 +239,8 @@ function ReadItem({
         </Stack>
         
         <Form.Control 
-            id="foodTableFoodTextarea"
-            name="foodTableFoodTextarea"
+            id="readTableReadTextarea"
+            name="readTableReadTextarea"
             className="border border-dark border-2 p-1 mt-2"
             as="textarea"
             defaultValue={readThoughts} 
@@ -256,7 +256,7 @@ function ReadItem({
 
        <Stack 
        direction = "horizontal"
-       gap={1} 
+      //  gap={1} 
             className="justify-content-evenly pt-2"
             style={{
               // border:"solid black 3px"
@@ -319,14 +319,14 @@ function ReadItem({
     }
 
             <td
-      className="p-2 align-middle border border-dark border-4 bg-success"
+      className="p-1 align-middle border border-dark border-4 bg-success"
       style={{
       }}
       >
 
 <Form.Control 
-            id="readTableReadRecommend"
-            className="readTableReadRecommend border border-dark border-2 p-1"
+            id="readTableReadTextarea"
+            className="readTableReadTextarea border border-dark border-2 p-1"
             as="textarea"
             defaultValue={readRecommend} 
             readOnly 
@@ -337,14 +337,14 @@ function ReadItem({
             />
       </td>
             <td
-      className="p-2 align-middle border border-dark border-4 bg-success-subtle"
+      className="p-1 align-middle border border-dark border-4 bg-success-subtle"
       style={{
       }}
       >
           <Button 
           id="readTableButton"
           variant="light"
-          className="border border-dark border-2"
+          className="border border-dark border-2 p-2"
           style={{
             // fontSize:"2.5vw"
           }}

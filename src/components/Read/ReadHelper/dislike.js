@@ -13,14 +13,17 @@ function ReadDislike(){
         <div>
           <Button 
             id="readDislikeButton"
-            className=""
+            className="border border-dark border-3 py-0 px-2"
             style={{
               // fontSize:"1.5vw"
             }}
-            variant="danger" 
+            // variant="danger" 
             onClick={()=> setRightShow(true)}
             >
-              Dislike 👉
+              {/* Dislike 👉 */}
+              ❌
+              <br/>
+              Dislike
           </Button>
 
           <Offcanvas 
@@ -47,7 +50,7 @@ function ReadDislike(){
 
             <h6
             className="readHeading"
-            >Here some help on the kinds of books I don't like to read 
+            >Some help on the kinds of books I don't like to read 
             <br/>
               <small> (If it helps you 😊)</small>
             </h6>

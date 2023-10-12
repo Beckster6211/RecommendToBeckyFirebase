@@ -13,14 +13,18 @@ function ReadLike(){
         <div>
           <Button
             id="readLikeButton" 
-            className=""
+            className="border border-dark border-3 py-0 px-3"
             style={{
               // fontSize:"1.5vw"
             }}
-            variant="success" 
+            // variant="success" 
             onClick={()=>setLeftShow(true)}
           >
-            👈 Like
+            {/* 👈 Like */}
+            ✔️
+            {/* ✅ */}
+            <br/>
+            Like
           </Button>
 
           <Offcanvas 
@@ -39,6 +43,7 @@ function ReadLike(){
             >
               <Offcanvas.Title
               id="readLikeTitle"
+              className="text-dark"
               >
               🤓 I like to read...🤓
               </Offcanvas.Title>
@@ -46,7 +51,7 @@ function ReadLike(){
             <Offcanvas.Body>
             <h6
             className="readHeading"
-            >Here some help on the kinds of books I like to read 
+            >Some help on the kinds of books I like to read 
               <br/>
               <small> (If it helps you 😊)</small>
             </h6>

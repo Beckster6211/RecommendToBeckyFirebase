@@ -114,13 +114,13 @@ return(
       {/* <br/> */}
       <Container 
       id = "readPage1"
-        className=" bg-success-subtle rounded text-center p-0" 
+        className=" readPage1 bg-success-subtle rounded text-center p-1 border border-dark border-3" 
         style={{
           // fontSize:"3vw", 
           // fontWeight:"900"
         }}
         >
-          📕 &nbsp; 📖 &nbsp; Read PAGE &nbsp; 📓 &nbsp; 🔖
+          📕&nbsp;📖&nbsp;Read PAGE&nbsp;📓&nbsp;🔖
       </Container>
       {/* <br/> */}
       <Container 

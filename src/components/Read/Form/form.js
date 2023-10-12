@@ -305,8 +305,8 @@ function ReadForm({read, handleChange, submitForm}){
                     myRead.current?.value === "" ?
                     <Button 
             id="readFormButton"
-            variant = "info"
-            className="border border-dark border-3 text-dark"  
+            // variant = "info"
+            className="border border-dark border-3 text-white"  
             // type = "submit"
             style={{
               // fontSize:"1.6vw", 
@@ -316,22 +316,22 @@ function ReadForm({read, handleChange, submitForm}){
                 console.log("Put something in the inputs please")
             }}
             >
-              😄 Enjoy 😄
+              😄 Cheers 😄
               </Button>
 
             : 
 
             <Button 
             id="readFormButton"
-            variant = "info"
-            className="border border-dark border-3 text-dark"  
+            // variant = "info"
+            className="border border-dark border-3 text-white"  
             type = "submit"
             style={{
               // fontSize:"1.6vw", 
               width:"auto"
             }}
             >
-              😄 Enjoy 😄
+              😄 Cheers 😄
               </Button>
                 }
 

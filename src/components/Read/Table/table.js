@@ -9,7 +9,7 @@ import Table from 'react-bootstrap/Table';
 import Container from "react-bootstrap/Container";
 
 function ReadTable({userBecky, read, readTheBook, deleteRead, handleOpinion, thoughtsBecky}){
-    // console.log({film})
+    // console.log({read})
 
     return(
         <Container 
@@ -31,7 +31,7 @@ function ReadTable({userBecky, read, readTheBook, deleteRead, handleOpinion, tho
       >
       <thead 
       // id="foodTable1"
-      className="readTableHeadFoot bg-dark-subtle border border-dark border-4 "
+      className="readTableHead bg-dark-subtle border border-dark border-4 "
       style={{
         verticalAlign:"middle", 
         position: "sticky",
@@ -69,7 +69,7 @@ function ReadTable({userBecky, read, readTheBook, deleteRead, handleOpinion, tho
     with sticky table header not sure if footer needed */}
         <tfoot 
         // id="foodTable2"
-        className="readTableHeadFoot bg-dark-subtle border border-dark border-4"
+        className="readTableFoot bg-dark-subtle border border-dark border-4"
         style={{
           verticalAlign:"middle", 
           // fontSize:"2vw", 

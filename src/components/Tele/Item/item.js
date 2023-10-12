@@ -251,7 +251,7 @@ function TeleItem({
 
        <Stack 
        direction = "horizontal"
-       gap={1} 
+      //  gap={1} 
             className="justify-content-evenly pt-2"
             style={{
               // border:"solid black 3px"

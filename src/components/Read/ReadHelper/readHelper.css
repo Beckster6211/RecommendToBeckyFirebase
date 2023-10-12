@@ -1,112 +1,241 @@
-    
-@media only screen and (max-width: 480px) {
-    #readLikeButton{
-        font-size: 2.5vw;
-    }
+#readLikeButton{
+    background-color: teal;
+}
 
-    #readDislikeButton{
-        font-size: 2.5vw;
-    }
+ #readDislikeButton{
+    background-color: tomato;
+}
+
+
+@media only screen and (max-width: 300px) {
 
     #readHelperButton{
-        font-size: 2.5vw;
-    }
-
-    #readlikeTitle{
-        font-size: 4vw;
-    }
-
-    .readHeading{
-        font-size: 3.7vw;
-    }
-
-    .readList{
         font-size: 3.3vw;
     }
-
-    #readDislikeTitle{
-        font-size:4vw ;
+    #readHelperTitle{
+        font-size: 4.5vw;
+        font-weight: 700
     }
-
     .readHelperText{
-        font-size: 3vw;
+        font-size: 3.8vw;
     }
 
     .readHelperHeading{
-        font-size: 3.4vw;
+        font-size: 4vw;
     }
 
+
+
+    #readLikeButton{
+        font-size: 3.5vw;
+    }
+     #readLikeTitle{
+        font-size: 4.5vw;
+        font-weight: 700
+    }
+
+
+
+    .readHeading{
+        font-size: 4vw;
+    }
+    .readList{
+        font-size: 3.8vw;
+    }
+
+
+    
+    #readDislikeButton{
+        font-size: 3.5vw;
+    }
+    #readDislikeTitle{
+        font-size: 4.5vw;
+        font-weight: 700
+    }
 }
 
-@media only screen and (min-width: 481px) {
-    #readLikeButton{
-        font-size: 2.6vw;
-    }
-
-    #readDislikeButton{
-        font-size: 2.6vw;
-    }
+@media only screen and (min-width: 301px) {
 
     #readHelperButton{
-        font-size: 2.6vw;
+        font-size: 2.3vw;
     }
+    #readHelperTitle{
+        font-size: 3.7vw;
+        font-weight: 700
+    }
+    .readHelperText{
+        font-size: 2.3vw;
+    }
+    .readHelperHeading{
+        font-size: 2.5vw;
+    }    
 
-    /* #readLikeOffcanvas{} */
-    /* #readHelperOffcanvas{} */
-    /* #readDislikeOffcanvas{} */
-}
 
-@media only screen and (min-width: 769px) {
+
     #readLikeButton{
-        font-size: 1.6vw;
+        font-size: 2.3vw;
+    }    
+    #readLikeTitle{
+        font-size: 3.7vw;
+        font-weight: 700
     }
+
+
+
+    .readHeading{
+        font-size: 3vw;
+    }
+    .readList{
+        font-size: 2.5vw;
+    }
+
 
     #readDislikeButton{
-        font-size: 1.6vw;
+        font-size: 2.3vw;
     }
-
-    #readHelperButton{
-        font-size: 1.6vw;
+    #readDislikeTitle{
+        font-size: 3.7vw;
+        font-weight: 700
     }
-
-    /* #readLikeOffcanvas{} */
-    /* #readHelperOffcanvas{} */
-    /* #readDislikeOffcanvas{} */
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 701px) {
+
+    #readHelperButton{
+        font-size: 1.7vw;
+    }
+
+    #readHelperTitle{
+        font-size: 2.5vw;
+        font-weight: 700
+    }   
+    .readHelperText{
+        font-size: 1.7vw;
+    }
+
+    .readHelperHeading{
+        font-size: 2vw;
+    }
+
+ 
+
+
     #readLikeButton{
+        font-size: 1.7vw;
+    } 
+    #readLikeTitle{
+        font-size: 2.5vw;
+        font-weight: 700
+    }
+
+
+
+    .readHeading{
+        font-size: 2.3vw;
+    }
+
+    .readList{
+        font-size: 2vw;
+    }
+
+
+
+
+    #readDislikeButton{
+        font-size: 1.7vw;
+    }
+    #readDislikeTitle{
+        font-size: 2.5vw;
+        font-weight: 700
+    }
+}
+
+@media only screen and (min-width: 1005px) {
+    #readHelperButton{
+        font-size: 1.5vw;
+    }    
+    #readHelperTitle{
+        font-size: 2vw;
+        font-weight: 700
+    }
+    .readHelperText{
         font-size: 1.2vw;
     }
 
+    .readHelperHeading{
+        font-size: 1.5vw;
+    }
+
+
+
+    #readLikeButton{
+        font-size: 1.5vw;
+    }
+    #readLikeTitle{
+        font-size: 2vw;
+        font-weight: 700
+    }
+
+
+    .readHeading{
+        font-size: 2vw;
+    }
+    .readList{
+        font-size: 1.5vw;
+    }    
+
+
     #readDislikeButton{
-        font-size: 1.2vw;
+        font-size: 1.5vw;
     }
-
-    #readHelperButton{
-        font-size: 1.2vw;
+    #readDislikeTitle{
+        font-size: 2vw;
+        font-weight: 700
     }
-
-    /* #readLikeOffcanvas{} */
-    /* #readHelperOffcanvas{} */
-    /* #readDislikeOffcanvas{} */
+  
 }
 
-/*////////////////////*/
-/* @media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 1201px) {
+
+    #readHelperButton{
+        font-size: 1vw;
+    }    
+    #readHelperTitle{
+        font-size: 1.3vw;
+        font-weight: 700
+    }
+    .readHelperText{
+        font-size: 0.9vw;
+    }
+
+    .readHelperHeading{
+        font-size: 1vw;
+    }
+
+
     #readLikeButton{
         font-size: 1vw;
     }
+    #readLikeTitle{
+        font-size: 1.3vw;
+        font-weight: 700
+    }
+
+
+    .readHeading{
+        font-size: 1.5vw;
+    }
+    .readList{
+        font-size: 1.1vw;
+    }
+
 
     #readDislikeButton{
         font-size: 1vw;
     }
+    #readDislikeTitle{
+        font-size: 1.3vw;
+        font-weight: 700
+    }
 
-    #readHelperButton{
-        font-size: 1vw;
-    } */
-
-    /* #readLikeOffcanvas{} */
-    /* #readHelperOffcanvas{} */
-    /* #readDislikeOffcanvas{} */
-  /* } */
+}
