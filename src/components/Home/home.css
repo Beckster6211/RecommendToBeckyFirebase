@@ -1,5 +1,6 @@
 .homePage{
     /* height: 100vh;
     padding: 2px; */
-    min-height: 75vh
+    max-height: 75vh;
+    overflow-y: scroll;
 }

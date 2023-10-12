@@ -24,8 +24,9 @@ function Home({Becky}){
 
 
     return (
-        <div 
-        className = "homePage border border-dark border-3 mx-1 my-2 bg-secondary-subtle" 
+        <Container 
+        fluid
+        className = "" 
         style={{
 
           }}>   
@@ -38,7 +39,7 @@ function Home({Becky}){
           } 
             <Container
             fluid
-            className=""
+            className="homePage border border-dark border-3 bg-secondary-subtle"
             style={{
               minHeight:"75vh"
             }}
@@ -47,6 +48,7 @@ function Home({Becky}){
             <h2>Home Page</h2>
             <h4>ToDo...</h4>
             <br/>
+           
             <ul 
             className="text-start"
             >
@@ -62,32 +64,32 @@ function Home({Becky}){
 
                   Food
                   <small> 
-                <li><s>Helpers</s> & <s>checked</s> & styled & media queries </li>
+                <li><s>Helpers</s> & <s>checked</s> & <s>styled</s> & <s>media queries</s> </li>
                 </small>
                 Film
                 <small> 
-                <li><s>Helpers</s> & checked & styled & media queries </li>
+                <li><s>Helpers</s> & <s>checked</s> & <s>styled</s> & <s>media queries</s>  </li>
                 </small>
                 Tele
                 <small> 
-                <li><s>Helpers</s> & checked & styled & media queries </li>
+                <li><s>Helpers</s> & <s>checked</s> & <s>styled</s> & <s>media queries</s> </li>
                 </small>
                 Read
                 <small> 
-                <li><s>Helpers</s> & checked & styled & media queries </li>
+                <li><s>Helpers</s> & <s>checked</s> & <s>styled</s> & <s>media queries</s> </li>
                 </small>
                 Visit
                 <small> 
-                <li><s>Helpers</s> & checked & styled & media queries </li>
+                <li><s>Helpers</s> & <s>checked</s> & <s>styled</s> & <s>media queries</s> </li>
                 </small>
                 Try
                 <small> 
-                <li><s>Helpers</s> & checked & styled & media queries </li>
+                <li><s>Helpers</s> & <s>checked</s> & <s>styled</s> & <s>media queries</s> </li>
                 </small>
 
                 header
                   <small>
-                    <li>checked & styled & media queries</li>
+                    <li><s>checked</s> & <s>styled</s> & media queries</li>
                   </small>
 
                   footer
@@ -97,7 +99,7 @@ function Home({Becky}){
 
                   nav 
                   <small>
-                    <li>checked & styled & media queries</li>
+                    <li><s>checked</s> & <s>styled</s> & media queries</li>
                   </small>
 
                   login 
@@ -121,9 +123,13 @@ function Home({Becky}){
               <li><s>fix login</s></li>
               <li>todo becky recommends site</li>
               <li>correct welcome message (repeating)????</li>
+              <li>Maybe Becky notification for when something added (nodemailer with email)???</li>
+              <li>
+                user notification when tring to add something to a table/page when a form input empty
+              </li>
             </ul>
             </Container>
-        </div>
+        </Container>
     )
 }
 
