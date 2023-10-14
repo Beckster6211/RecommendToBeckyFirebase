@@ -26,7 +26,7 @@ function Home({Becky}){
     return (
         <Container 
         fluid
-        className = "" 
+        className = "px-2" 
         style={{
 
           }}>   
@@ -39,9 +39,9 @@ function Home({Becky}){
           } 
             <Container
             fluid
-            className="homePage border border-dark border-3 bg-secondary-subtle"
+            className="homePage border border-dark border-3 bg-secondary-subtle mt-2"
             style={{
-              minHeight:"75vh"
+              // minHeight:"75vh"
             }}
             >
 
@@ -105,10 +105,19 @@ function Home({Becky}){
                   login 
                   <small>
                     <li>
-                      checked & styled & media queries
+                      <s>checked</s> & <s>styled</s> & <s>media queries</s>
                     </li>
                   </small>
                   
+                  alerts 
+                  <small>
+                    <li>
+                      Becky <s>checked</s> & <s>styled</s> & <s>media queries</s>
+                    </li>
+                    <li>
+                      Not Becky <s>checked</s> & <s>styled</s> & <s>media queries</s>
+                    </li>
+                  </small>
                 </small>
                 </small>
               </ul>

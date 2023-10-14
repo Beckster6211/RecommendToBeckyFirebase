@@ -1,19 +1,91 @@
-
+/* 
 .loginButton{
     font-size: 1.8vw;
-}
+} */
 
 /* .loginForm{
     font-size: 3vw;     
 } */
 
-.loginFormInputLabel{
+/* .loginFormInputLabel{
     font-size: 1.2vw;   
+} */
+
+/* #loginPage{
+    background-color:"beige";
+    min-height: "70vh",
+} */
+
+@media only screen and (max-width:300px){
+    .loginButton{
+        font-size: 3vw;
+        font-weight: 700;
+    }
+
+    .loginFormInputLabel{
+        font-size: 3vw;
+    }
 }
 
+@media only screen and (min-width: 301px){
+    .loginButton{
+        font-size: 3vw;
+        font-weight: 700;
+    }
+
+    .loginFormInputLabel{
+        font-size: 3.2vw;
+    }
+}
+
+@media only screen and (min-width: 501px) {
+    .loginButton{
+        font-size: 2.2vw;
+        font-weight: 700;
+    }
+
+    .loginFormInputLabel{
+        font-size: 2.3vw;
+    }
+  
+  }
+
+  @media only screen and (min-width: 701px) {
+    .loginButton{
+        font-size: 1.7vw;
+        font-weight: 700;
+    }
+
+    .loginFormInputLabel{
+        font-size: 1.5vw;
+    }
+  
+  }
+
+  @media only screen and (min-width: 1005px) {
+    .loginButton{
+        font-size: 1.3vw;
+        font-weight: 700;
+    }
+
+    .loginFormInputLabel{
+        font-size: 1.3vw;
+    }
+  }
 
 
-@media only screen and (max-width: 600px) {
+  @media only screen and (min-width: 1201px) {
+    .loginButton{
+        font-size: 1vw;
+        font-weight: 700;
+    }
+
+    .loginFormInputLabel{
+        font-size: 1vw;
+    }
+  }
+
+/* @media only screen and (max-width: 600px) {
     #loginPage{
         width: 80vw;
     }
@@ -28,15 +100,15 @@
 
     .loginFormInput{
         font-size: 3.5vw;
-    }
+    } */
 
 
     /* #loginForm{
         font-size: 8vw;
     } */
 
-
-}
+/* 
+} */
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

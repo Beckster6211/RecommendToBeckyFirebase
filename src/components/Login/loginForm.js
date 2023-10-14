@@ -76,22 +76,28 @@ function LoginForm(){
 
     }    
 return (
-    <div
-    className=""
+    <Container
+    fluid
+    className="px-2 py-5 border border-dark border-3 rounded"
     style={{
         backgroundColor:"beige",
-        minHeight: "60vh",
+        minHeight: "70vh",
         // border: "solid black 2px"
     }}
     >
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+
+        
+        <Container
+        fluid
+        className=""
+        >
+
+        
+        
         <Container 
         // fluid
         id="loginPage"
-        className=" bg-secondary-subtle border border-secondary border-3 rounded pt-5"
+        className=" bg-secondary-subtle border border-secondary border-3 rounded py-5 my-5"
         style={{
             // width:"75vh",
             // height:"40vh"
@@ -100,7 +106,7 @@ return (
             <Button 
             // id="loginFormButton1"
             variant="success"
-            className="bg-success-subtle"
+            className="bg-success-subtle border border-2 border-success mb-4"
             style={{
 
             }}
@@ -113,8 +119,8 @@ return (
             Sign Out
             </Link>
             </Button>
-        <br/>
-        <br/>
+        {/* <br/>
+        <br/> */}
             <Form 
             
             className=""
@@ -124,7 +130,7 @@ return (
             >           
                 <Form.Group
                 id="loginForm"
-                // className="loginForm"
+                className="mb-3"
                 style={{
                     // width:"62vh"
                 }}
@@ -151,10 +157,10 @@ return (
                         </Form.Control>
                     </FloatingLabel>
                 </Form.Group>
-        <br/>
+        {/* <br/> */}
                 <Form.Group
                 // id="loginForm"
-                // className="loginForm"
+                className="mt-3"
                 >
                     <FloatingLabel
                     // id="loginForm4"
@@ -181,11 +187,11 @@ return (
                 
 
             </Form>
-        <br/>
+        {/* <br/> */}
             <Button 
             // id="loginFormButton2"
             variant="primary"
-            className="loginButton bg-primary-subtle"
+            className="loginButton bg-primary-subtle border border-2 border-primary mt-4"
             style={{
 
             }}
@@ -199,16 +205,10 @@ return (
             </Link>
             </Button>
         
-        <br/>
-        <br/>      
-        <br/>
-        <br/>
+       
         </Container>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-    </div>
+        </Container>
+    </Container>
 )
 }
 
