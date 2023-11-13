@@ -23,28 +23,30 @@ function Footer(){
                     
                     <Container
                     fluid
-                    className="bg-secondary-subtle py-2 mx-1  
-                    border border-dark border-3
+                    className="bg-secondary-subtle px-1 py-0 mx-1  
+                    border border-dark border-3 mt-0
                     "
                     style={{
                         // fontSize:"3vw"
                     }}
                     >
                         <Navbar.Brand 
-                        className="p-0 m-0"
+                        className="py-1 m-0"
                         // href="/login" 
                         >
-                            <Image
-                            // id="footerImage1"
-                            className="footerLogin"
+
+                        <Image 
+                            // id="footerImage2"
+                            className="footerImagePortfolio"
                             style={{
                                 // width:"5vw"
                             }}
-                            src="./Capture.PNG"                        roundedCircle
+                            src="./Capture1.PNG" 
+                            roundedCircle
                             />
+                            {/* Login */}
+
                             
-                                
-                            {/* Portfolio */}
                         </Navbar.Brand>
 
 
@@ -67,19 +69,20 @@ function Footer(){
                         {/* Becky Recommends */}
                         <Navbar.Brand 
                         href="/login" 
-                        className="p-0 py-1 m-0"
+                        className="p-0 m-0"
                         >
-                            
-                            <Image 
-                            id="footerImage2"
-                            className="footerPortfolio"
+                            <Image
+                            // id="footerImage1"
+                            className="footerImageLogin"
                             style={{
                                 // width:"5vw"
                             }}
-                            src="./Capture1.PNG" 
-                            roundedCircle
+                            src="./Capture.PNG"                        roundedCircle
                             />
-                            {/* Login */}
+                            
+                                
+                            {/* Portfolio */}
+
                         </Navbar.Brand>
                     </Container>
                 </Navbar>

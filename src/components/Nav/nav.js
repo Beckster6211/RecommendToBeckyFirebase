@@ -16,7 +16,7 @@ function Navigation(){
         >
             <Nav 
             // id="navLinks"
-            className="navLinks border border-dark border-3 rounded bg-light m-1"
+            className="navLinks border border-dark border-3 rounded bg-light m-1 mt-0 mb-0"
             style={{
                 // fontSize:"3.5vw"
             }}
@@ -38,7 +38,7 @@ function Navigation(){
                         😋
                         <br/>
                         Enjoy
-                        {/* 😋 */}
+                       
                         </Nav.Link>
                 </Nav.Item>
                 <Nav.Item
@@ -54,7 +54,7 @@ function Navigation(){
                         🎬
                         <br/>
                         Watch
-                        {/* 🎬 */}
+                        
                         </Nav.Link>
                 </Nav.Item>
                 <Nav.Item
@@ -70,7 +70,7 @@ function Navigation(){
                         📺
                         <br/>
                         Binge
-                        {/* 📺 */}
+                        
                         </Nav.Link>
                 </Nav.Item>
                 <Nav.Item
@@ -86,7 +86,7 @@ function Navigation(){
                         📚
                         <br/>
                         Read
-                        {/* 📚 */}
+                        
                         </Nav.Link>
                 </Nav.Item>
                 <Nav.Item
@@ -102,7 +102,7 @@ function Navigation(){
                         🗺️
                         <br/>
                         Visit
-                       {/* 🗺️ */}
+                       
                        </Nav.Link>
                 </Nav.Item>
                 <Nav.Item
@@ -118,7 +118,7 @@ function Navigation(){
                         💡
                         <br/>
                         Try
-                        {/* 💡 */}
+                        
                         </Nav.Link>
                 </Nav.Item>
             </Nav>

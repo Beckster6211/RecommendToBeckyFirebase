@@ -1,73 +1,76 @@
 
-@media only screen and (max-width: 480px) {
-    .footerPortfolio{
-        width: 9vw;
+@media only screen and (max-width:300px){
+    .footerImagePortfolio{
+        width: 10vw;
     }
 
     #footerTitle{
-        font-size: 4.5vw;
+        font-size: 5.8vw;
     }
 
-    .footerLogin{
-        width: 9vw;
+    .footerImageLogin{
+        width: 12vw;
+        transform: scaleX(-1);
     }
 }
 
-@media only screen and (min-width: 481px) {
-
-    .footerPortfolio{
+@media only screen and (min-width:301px){
+    .footerImagePortfolio{
         width: 8vw;
     }
 
     #footerTitle{
-        font-size: 4.5vw;
+        font-size: 5vw;
     }
 
-    .footerLogin{
-        width: 6.5vw;
+    .footerImageLogin{
+        width: 9vw;
+        transform: scaleX(-1);
     }
-
-
 }
 
-@media only screen and (min-width: 769px) {
-    .footerPortfolio{
-        width: 4.5vw;
+
+@media only screen and (min-width:701px){
+    .footerImagePortfolio{
+        width: 5.5vw;
     }
 
     #footerTitle{
-        font-size: 3.5vw;
+        font-size: 3.7vw;
     }
 
-    .footerLogin{
-        width: 5vw;
+    .footerImageLogin{
+        width: 6.5vw;
+        transform: scaleX(-1);
     }
 }
 
 @media only screen and (min-width: 1025px) {
-    .footerPortfolio{
-        width: 4vw;
+    .footerImagePortfolio{
+        width: 3.5vw;
     }
 
     #footerTitle{
         font-size: 3vw;
     }
 
-    .footerLogin{
-        width: 3.5vw;
+    .footerImageLogin{
+        width: 4vw;
+        transform: scaleX(-1);
     }
 }
 
 @media only screen and (min-width: 1201px) {
-    .footerPortfolio{
-        width: 3.5vw;
+    .footerImagePortfolio{
+        width: 3.3vw;
     }
 
     #footerTitle{
-        font-size: 2.3vw;
+        font-size: 2.5vw;
     }
 
-    .footerLogin{
-        width: 3vw;
+    .footerImageLogin{
+        width: 3.6vw;
+        transform: scaleX(-1);
     }
 }

@@ -27,7 +27,7 @@ function Header(){
                     <Container
                     fluid
                     className="bg-secondary-subtle px-1 py-0 mx-1  
-                    border border-dark border-3
+                    border border-dark border-3 
                     "
                     style={{
                         // fontSize:"3vw"

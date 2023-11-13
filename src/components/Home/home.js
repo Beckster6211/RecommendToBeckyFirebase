@@ -39,7 +39,7 @@ function Home({Becky}){
           } 
             <Container
             fluid
-            className="homePage border border-dark border-3 bg-secondary-subtle mt-2"
+            className="homePage border border-dark border-3 bg-secondary-subtle mt-1 mb-2"
             style={{
               // minHeight:"75vh"
             }}
