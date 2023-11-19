@@ -16,36 +16,21 @@
 
 @media only screen and (min-width:301px){
     .footerImagePortfolio{
-        width: 8vw;
+        width: 5vw;
     }
 
     #footerTitle{
-        font-size: 5vw;
+        font-size: 4.5vw;
     }
 
     .footerImageLogin{
-        width: 9vw;
+        width: 6vw;
         transform: scaleX(-1);
     }
 }
 
 
 @media only screen and (min-width:701px){
-    .footerImagePortfolio{
-        width: 5.5vw;
-    }
-
-    #footerTitle{
-        font-size: 3.7vw;
-    }
-
-    .footerImageLogin{
-        width: 6.5vw;
-        transform: scaleX(-1);
-    }
-}
-
-@media only screen and (min-width: 1025px) {
     .footerImagePortfolio{
         width: 3.5vw;
     }
@@ -56,6 +41,21 @@
 
     .footerImageLogin{
         width: 4vw;
+        transform: scaleX(-1);
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .footerImagePortfolio{
+        width: 3vw;
+    }
+
+    #footerTitle{
+        font-size: 2.5vw;
+    }
+
+    .footerImageLogin{
+        width: 3.5vw;
         transform: scaleX(-1);
     }
 }

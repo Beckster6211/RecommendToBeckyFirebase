@@ -101,7 +101,7 @@
 @media only screen and (min-width: 701px) {
 
     #foodHelperButton{
-        font-size: 1.7vw;
+        font-size: 1.4vw;
     }
 
     #foodHelperTitle{
@@ -120,7 +120,7 @@
 
 
     #foodLikeButton{
-        font-size: 1.7vw;
+        font-size: 1.4vw;
     } 
     #foodLikeTitle{
         font-size: 2.5vw;
@@ -141,7 +141,7 @@
 
 
     #foodDislikeButton{
-        font-size: 1.7vw;
+        font-size: 1.4vw;
     }
     #foodDislikeTitle{
         font-size: 2.5vw;
@@ -151,7 +151,7 @@
 
 @media only screen and (min-width: 1005px) {
     #foodHelperButton{
-        font-size: 1.5vw;
+        font-size: 1.1vw;
     }    
     #foodHelperTitle{
         font-size: 2vw;
@@ -168,7 +168,7 @@
 
 
     #foodLikeButton{
-        font-size: 1.5vw;
+        font-size: 1.1vw;
     }
     #foodLikeTitle{
         font-size: 2vw;
@@ -185,7 +185,7 @@
 
 
     #foodDislikeButton{
-        font-size: 1.5vw;
+        font-size: 1.1vw;
     }
     #foodDislikeTitle{
         font-size: 2vw;
@@ -197,7 +197,7 @@
 @media only screen and (min-width: 1201px) {
 
     #foodHelperButton{
-        font-size: 1vw;
+        font-size: 0.8vw;
     }    
     #foodHelperTitle{
         font-size: 1.3vw;
@@ -213,7 +213,7 @@
 
 
     #foodLikeButton{
-        font-size: 1vw;
+        font-size: 0.8vw;
     }
     #foodLikeTitle{
         font-size: 1.3vw;
@@ -230,7 +230,7 @@
 
 
     #foodDislikeButton{
-        font-size: 1vw;
+        font-size: 0.8vw;
     }
     #foodDislikeTitle{
         font-size: 1.3vw;
@@ -239,7 +239,7 @@
 
 }
 
-@media only screen and (min-width: 1601px) {
+/* @media only screen and (min-width: 1601px) {
 
     #foodHelperButton{
         font-size: 0.8vw;
@@ -282,7 +282,7 @@
         font-weight: 700
     }
 
-}
+} */
 
 /*////////////////////*/
 /* @media only screen and (min-width: 1201px) {

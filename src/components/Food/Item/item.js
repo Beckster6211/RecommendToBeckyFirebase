@@ -70,7 +70,7 @@ function Item({
     }}
     >
       <td 
-      className="p-1 px-3 align-middle border border-dark border-4 bg-warning"
+      className="p-1 align-middle border border-dark border-4 bg-warning"
       style={{
         
       }}
@@ -105,7 +105,7 @@ function Item({
         becky === false ?
         
         <td
-        className="p-1 px-3 align-middle border border-dark border-4 bg-warning-subtle"
+        className="p-1 align-middle border border-dark border-4 bg-warning-subtle"
       style={{
       }}
         >          
@@ -116,7 +116,7 @@ function Item({
         >
           <Card
           className="
-          p-1
+          p-1 px-1
           border border-dark border-2 rounded bg-light"
           >
             {/* <OverlayTrigger
@@ -320,7 +320,7 @@ function Item({
       
         :
         <td
-        className="p-1 px-3 align-middle border border-dark border-4 bg-warning-subtle"
+        className="p-1 align-middle border border-dark border-4 bg-warning-subtle"
       style={{
       }}
         >
@@ -452,7 +452,7 @@ function Item({
         <p>{foodTried}</p>
       </td> */}
       <td
-      className="p-1 px-3 align-middle border border-dark border-4 bg-warning"
+      className="p-1 align-middle border border-dark border-4 bg-warning"
       style={{
       }}
       >

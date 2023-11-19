@@ -52,7 +52,7 @@
 
       .foodTableComponent{
         overflow: auto;
-        height: 120vmin; 
+        height: 140vmin; 
   
     }
       
@@ -65,7 +65,7 @@
       } */
 
       .foodTableHead{
-        font-size: 2.9vw;
+        font-size: 2.5vw;
         font-weight: 500;
       }
 
@@ -80,29 +80,26 @@
 
       .foodTableComponent{
         overflow: auto;
-        height: 90vmin; 
+        height: 120vmin; 
   
     }
     }
 
     @media only screen and (min-width: 501px){
       .foodTableHead{
-        font-size: 2.2vw;
+        font-size: 2vw;
         font-weight: 500;
       }
 
 
       .foodTableFoot{
-        font-size: 1.8vw;
+        font-size: 1.6vw;
         font-weight: 500;
-        /* vertical-align: center;
-        position: sticky;
-        bottom: 0 */
       } 
       
       .foodTableComponent{
         overflow: auto;
-        height: 50vmin;
+        height: 65vmin;
       }
     }
     
@@ -113,13 +110,13 @@
       } */
 
       .foodTableHead{
-        font-size: 2vw;
+        font-size: 1.5vw;
         font-weight: 500;
       }
 
 
       .foodTableFoot{
-        font-size: 1.4vw;
+        font-size: 1.1vw;
         font-weight: 500;
         /* vertical-align: center;
         position: sticky;
@@ -129,7 +126,7 @@
       .foodTableComponent{
         overflow: auto;
         /* width: auto; */
-        height: 35vmin; 
+        height: 43vmin; 
         }
     }
     
@@ -140,40 +137,13 @@
       } */
 
       .foodTableHead{
-        font-size: 1.5vw;
-        font-weight: 500;
-      }
-
-
-      .foodTableFoot{
-        font-size: 1.1vw;
-        font-weight: 500;
-        /* vertical-align: center;
-        position: sticky;
-        bottom: 0 */
-      } 
-
-      .foodTableComponent{
-        overflow: auto;
-        /* width: auto; */
-        height: 37vmin; 
-        }
-    }
-    
-    @media only screen and (min-width: 1201px) {
-      /* .foodTableHeadFoot{
         font-size: 1.3vw;
         font-weight: 500;
-      } */
-
-      .foodTableHead{
-        font-size: 1.1vw;
-        font-weight: 500;
       }
 
 
       .foodTableFoot{
-        font-size: 0.8vw;
+        font-size: 1.1vw;
         font-weight: 500;
         /* vertical-align: center;
         position: sticky;
@@ -187,14 +157,14 @@
         }
     }
     
-    @media only screen and (min-width: 1601px) {
+    @media only screen and (min-width: 1201px) {
       /* .foodTableHeadFoot{
         font-size: 1.3vw;
         font-weight: 500;
       } */
 
       .foodTableHead{
-        font-size: 1.1vw;
+        font-size: 1vw;
         font-weight: 500;
       }
 
@@ -213,4 +183,24 @@
         height: 42vmin; 
         }
     }
+    
+    /* @media only screen and (min-width: 1601px) {
+     
+
+      .foodTableHead{
+        font-size: 1vw;
+        font-weight: 500;
+      }
+
+
+      .foodTableFoot{
+        font-size: 0.8vw;
+        font-weight: 500;
+      } 
+
+      .foodTableComponent{
+        overflow: auto;
+        height: 42vmin; 
+        }
+    } */
     

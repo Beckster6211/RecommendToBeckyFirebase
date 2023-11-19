@@ -17,15 +17,15 @@
 @media only screen and (min-width: 301px) {
 
     .headerImagePortfolio{
-        width: 9vw;
+        width: 6vw;
     }
 
     #headerTitle{
-        font-size: 5vw;
+        font-size: 4.5vw;
     }
 
     .headerImageLogin{
-        width: 8vw;
+        width: 5vw;
         /* transform: scaleX(-1); */
     }
 
@@ -49,21 +49,6 @@
 
 @media only screen and (min-width: 701px){
     .headerImagePortfolio{
-        width: 6.5vw;
-    }
-
-    #headerTitle{
-        font-size: 3.7vw;
-    }
-
-    .headerImageLogin{
-        width: 5.5vw;
-        /* transform: scaleX(-1); */
-    }
-}
-
-@media only screen and (min-width: 1025px) {
-    .headerImagePortfolio{
         width: 4vw;
     }
 
@@ -73,6 +58,21 @@
 
     .headerImageLogin{
         width: 3.5vw;
+        /* transform: scaleX(-1); */
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .headerImagePortfolio{
+        width: 3.5vw;
+    }
+
+    #headerTitle{
+        font-size: 2.5vw;
+    }
+
+    .headerImageLogin{
+        width: 3vw;
     }
 }
 
