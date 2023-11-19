@@ -78,15 +78,15 @@
 
 @media only screen and (min-width: 1201px) {
     .headerImagePortfolio{
-        width: 3.6vw;
+        width: 3vw;
     }
 
     #headerTitle{
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
 
     .headerImageLogin{
-        width: 3.3vw;
+        width: 2.9vw;
         /* transform: scaleX(-1); */
     }
 }

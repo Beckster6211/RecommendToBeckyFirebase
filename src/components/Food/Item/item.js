@@ -11,7 +11,7 @@ import Button from "react-bootstrap/Button"
 import Stack from 'react-bootstrap/Stack'
 import Form from "react-bootstrap/Form"
 import Tooltip from "react-bootstrap/Tooltip";
-import { OverlayTrigger } from "react-bootstrap";
+import { Card, Container, OverlayTrigger } from "react-bootstrap";
 
 
 //
@@ -70,7 +70,7 @@ function Item({
     }}
     >
       <td 
-      className="p-1 align-middle border border-dark border-4 bg-warning"
+      className="p-1 px-3 align-middle border border-dark border-4 bg-warning"
       style={{
         
       }}
@@ -105,7 +105,7 @@ function Item({
         becky === false ?
         
         <td
-        className="p-1 align-middle border border-dark border-4 bg-warning-subtle"
+        className="p-1 px-3 align-middle border border-dark border-4 bg-warning-subtle"
       style={{
       }}
         >          
@@ -114,9 +114,9 @@ function Item({
         className="justify-content-evenly"
         // gap={1}
         >
-          <p
+          <Card
           className="
-          p-1 ms-1 mb-0 
+          p-1
           border border-dark border-2 rounded bg-light"
           >
             {/* <OverlayTrigger
@@ -150,10 +150,10 @@ function Item({
 
             {/* </OverlayTrigger> */}
           
-        </p>
-          <p
+        </Card>
+          <Card
           // id="foodTableItem3"
-        className="foodTableOpinion p-1 ms-0 me-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="foodTableOpinion p-1 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"3vw",
           
@@ -161,7 +161,7 @@ function Item({
         }}
         >
           {foodOpinion}
-        </p>
+        </Card>
         </Stack>
         {/* <br/> */}
         <Form.Control 
@@ -320,7 +320,7 @@ function Item({
       
         :
         <td
-        className="p-1 align-middle border border-dark border-4 bg-warning-subtle"
+        className="p-1 px-3 align-middle border border-dark border-4 bg-warning-subtle"
       style={{
       }}
         >
@@ -329,9 +329,9 @@ function Item({
         className="justify-content-evenly"
         // gap={1}
         >
-          <p
+          <Card
           className="
-          px-1 py-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
+          p-1 border border-dark border-2 rounded bg-light"
           >
           <input
           name="foodTableBeckyTriedCheckbox"
@@ -348,14 +348,15 @@ function Item({
           checked={foodTried}
           // readOnly
         />
-        </p>
-        <p
+        </Card>
+        <Card
         // id="foodTableItemBecky1"
-        className="foodTableOpinion p-1 mx-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="foodTableOpinion p-1 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"2.2vw",
         }}
-        >{foodOpinion}</p>
+        >{foodOpinion}
+        </Card>
         </Stack>
         
         <Form.Control 
@@ -451,7 +452,7 @@ function Item({
         <p>{foodTried}</p>
       </td> */}
       <td
-      className="p-1 align-middle border border-dark border-4 bg-warning"
+      className="p-1 px-3 align-middle border border-dark border-4 bg-warning"
       style={{
       }}
       >

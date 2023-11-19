@@ -1,20 +1,20 @@
-.homePage{
+/* .homePage{ */
     /* height: 100vh;
     padding: 2px; */
-    max-height: 73vh;
+    /* max-height: 73vh;
     overflow-y: scroll;
-}
+} */
 
 @media only screen and (max-width: 300px) {
     .homePage{
-        max-height: 75vh;
+        max-height: 74vh;
         overflow-y: scroll;
     }
 }
 
 @media only screen and (min-width: 301px) {
     .homePage{
-        max-height: 73vh;
+        max-height: 75vh;
         overflow-y: scroll;
     }
 }
@@ -28,7 +28,7 @@
 
 @media only screen and (min-width: 701px) {
     .homePage{
-        max-height: 66vh;
+        max-height: 69vh;
         overflow-y: scroll;
     }
 }
@@ -56,7 +56,21 @@
 
 @media only screen and (min-width: 1601px){
     .homePage{
-        max-height: 63vh;
+        max-height: 65vh;
         overflow-y: scroll;
+        overflow-x: hidden;
     }
 }
+
+/* ::-webkit-scrollbar {
+    width: 1vw;
+    background-color: #aaa;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #000;
+  } */
+  
+  /* body {
+    height: 5000px;
+  } */

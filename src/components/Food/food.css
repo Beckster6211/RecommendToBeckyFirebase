@@ -70,3 +70,16 @@
     font-weight: 700;
   }
 }
+
+@media only screen and (min-width: 1601px) {
+  #foodPage1{
+    font-size: 1.2vw;
+    font-weight: 900;
+    width:20%
+  }
+
+  .foodPageAccordion{
+    font-size: 1.1vw;
+    font-weight: 700;
+  }
+}

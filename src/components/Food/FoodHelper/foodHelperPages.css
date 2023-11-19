@@ -239,6 +239,51 @@
 
 }
 
+@media only screen and (min-width: 1601px) {
+
+    #foodHelperButton{
+        font-size: 0.8vw;
+    }    
+    #foodHelperTitle{
+        font-size: 1.3vw;
+        font-weight: 700
+    }
+    .foodHelperText{
+        font-size: 0.9vw;
+    }
+
+    .foodHelperHeading{
+        font-size: 1vw;
+    }
+
+
+    #foodLikeButton{
+        font-size: 0.8vw;
+    }
+    #foodLikeTitle{
+        font-size: 1.3vw;
+        font-weight: 700
+    }
+
+
+    .foodHeading{
+        font-size: 1.5vw;
+    }
+    .foodList{
+        font-size: 1.1vw;
+    }
+
+
+    #foodDislikeButton{
+        font-size: 0.8vw;
+    }
+    #foodDislikeTitle{
+        font-size: 1.3vw;
+        font-weight: 700
+    }
+
+}
+
 /*////////////////////*/
 /* @media only screen and (min-width: 1201px) {
     #foodLikeButton{

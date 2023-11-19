@@ -187,3 +187,30 @@
         }
     }
     
+    @media only screen and (min-width: 1601px) {
+      /* .foodTableHeadFoot{
+        font-size: 1.3vw;
+        font-weight: 500;
+      } */
+
+      .foodTableHead{
+        font-size: 1.1vw;
+        font-weight: 500;
+      }
+
+
+      .foodTableFoot{
+        font-size: 0.8vw;
+        font-weight: 500;
+        /* vertical-align: center;
+        position: sticky;
+        bottom: 0 */
+      } 
+
+      .foodTableComponent{
+        overflow: auto;
+        /* width: auto; */
+        height: 42vmin; 
+        }
+    }
+    

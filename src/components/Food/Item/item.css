@@ -168,4 +168,39 @@
     }
 
   }
+
+  @media only screen and (min-width: 1601px) {
+
+    .foodTableItemFood{
+        font-size: 0.8vw;
+    }
+
+    #foodTableFoodTextarea{
+        font-size: 0.8vw;
+        height: 3.7vw;
+        overflow-y: scroll;
+    }
+
+    .foodTableOpinion{
+        font-size: 0.9vw;
+    }
+
+    #foodTableButton{
+        font-size: 1vw;
+    }
+
+    /* .foodTableRecommend{
+        font-size: 1.2vw;
+    } */
+
+    .foodTableCheckboxTried{
+        height: 1vw;
+        width: 1vw;
+    }
+
+    #foodTableTrashButton{
+        font-size: 1.5vw;
+    }
+
+  }
   
