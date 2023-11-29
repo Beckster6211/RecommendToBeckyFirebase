@@ -54,7 +54,7 @@
 
       .filmTableComponent{
         overflow: auto;
-        height: 120vmin; 
+        height: 100vmin; 
   
     }
       
@@ -67,7 +67,7 @@
       } */
 
       .filmTableHead{
-        font-size: 2.9vw;
+        font-size: 2.5vw;
         font-weight: 500;
       }
 
@@ -82,20 +82,20 @@
 
       .filmTableComponent{
         overflow: auto;
-        height: 90vmin; 
+        height: 120vmin; 
   
     }
     }
 
     @media only screen and (min-width: 501px){
       .filmTableHead{
-        font-size: 2.2vw;
+        font-size: 2vw;
         font-weight: 500;
       }
 
 
       .filmTableFoot{
-        font-size: 1.8vw;
+        font-size: 1.6vw;
         font-weight: 500;
         /* vertical-align: center;
         position: sticky;
@@ -104,7 +104,7 @@
       
       .filmTableComponent{
         overflow: auto;
-        height: 50vmin;
+        height: 65vmin;
       }
     }
     
@@ -115,13 +115,13 @@
       } */
 
       .filmTableHead{
-        font-size: 2vw;
+        font-size: 1.5vw;
         font-weight: 500;
       }
 
 
       .filmTableFoot{
-        font-size: 1.4vw;
+        font-size: 1.1vw;
         font-weight: 500;
         /* vertical-align: center;
         position: sticky;
@@ -131,7 +131,7 @@
       .filmTableComponent{
         overflow: auto;
         /* width: auto; */
-        height: 35vmin; 
+        height: 43vmin; 
         }
     }
     
@@ -142,7 +142,7 @@
       } */
 
       .filmTableHead{
-        font-size: 1.5vw;
+        font-size: 1.3vw;
         font-weight: 500;
       }
 
@@ -158,7 +158,7 @@
       .filmTableComponent{
         overflow: auto;
         /* width: auto; */
-        height: 37vmin; 
+        height: 40vmin; 
         }
     }
     
@@ -169,7 +169,7 @@
       } */
 
       .filmTableHead{
-        font-size: 1.1vw;
+        font-size: 1vw;
         font-weight: 500;
       }
 
@@ -185,7 +185,7 @@
       .filmTableComponent{
         overflow: auto;
         /* width: auto; */
-        height: 40vmin; 
+        height: 42vmin; 
         }
     }
     
