@@ -21,7 +21,7 @@
 
 @media only screen and (min-width: 501px) {
     .homePage{
-        max-height: 69vh;
+        max-height: 70vh;
         overflow-y: scroll;
     }
 }

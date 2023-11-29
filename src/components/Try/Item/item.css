@@ -7,7 +7,7 @@
 
     #tryTableTryTextarea{
         font-size: 2.1vw;
-        height: 14vw;
+        height: 11vw;
         scrollbar-width: thin;
     }
 
@@ -24,12 +24,12 @@
     } */
    
     .tryTableTriedItCheckbox{
-        height: 3vw;
-        width: 3vw;
+        height: 3.3vw;
+        width: 3.3vw;
     }
 
     #tryTableTrashButton{
-        font-size: 4.5vw;
+        font-size: 3.5vw;
     }
   }
   
@@ -73,17 +73,17 @@
     } */
 
     #tryTableTryTextarea{
-        font-size: 1.6vw;
-        height: 8vw;
+        font-size: 1vw;
+        height: 6vw;
         scrollbar-width: thin;
     }
 
     .tryTableOpinion{
-        font-size: 2vw;
+        font-size: 1.4vw;
     }
 
     #tryTableButton{
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 
     /* .tryTableRecommend{
@@ -91,12 +91,12 @@
     } */
    
     .tryTableTriedItCheckbox{
-        height: 2.2vw;
-        width: 2.2vw;
+        height: 1.5vw;
+        width: 1.5vw;
     }
 
     #tryTableTrashButton{
-        font-size: 3vw;
+        font-size: 2.2vw;
     }
   }
   
@@ -107,17 +107,17 @@
     } */
 
     #tryTableTryTextarea{
-        font-size: 1.3vw;
-        height: 6vw;
+        font-size: 1vw;
+        height: 5vw;
         scrollbar-width: thin;
     }
 
     .tryTableOpinion{
-        font-size: 1.5vw;
+        font-size: 1.1vw;
     }
 
     #tryTableButton{
-        font-size: 1.6vw;
+        font-size: 1.2vw;
     }
 
     /* .tryTableRecommend{
@@ -125,12 +125,12 @@
     } */
    
     .tryTableTriedItCheckbox{
-        height: 1.8vw;
-        width: 1.8vw;
+        height: 1.2vw;
+        width: 1.2vw;
     }
 
     #tryTableTrashButton{
-        font-size: 2.3vw;
+        font-size: 1.8vw;
     }
   }
   
@@ -141,17 +141,17 @@
     } */
 
     #tryTableTryTextarea{
-        font-size: 1vw;
-        height: 5vw;
+        font-size: 0.8vw;
+        height: 3.7vw;
         scrollbar-width: thin;
     }
 
     .tryTableOpinion{
-        font-size: 1.2vw;
+        font-size: 0.8vw;
     }
 
     #tryTableButton{
-        font-size: 1.3vw;
+        font-size: 1vw;
     }
 
     /* .tryTableRecommend{
@@ -159,12 +159,12 @@
     } */
 
     .tryTableTriedItCheckbox{
-        height: 1.4vw;
-        width: 1.4vw;
+        height: 1vw;
+        width: 1vw;
     }
 
     #tryTableTrashButton{
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 
   }

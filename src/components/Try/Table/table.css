@@ -9,10 +9,10 @@
         word-wrap: break-word;
       }
     
-      .tableHead{
+      /* .tableHead{
         position: sticky;
         top: 0;
-      }
+      } */
     
       /* .tableHeader{
         
@@ -48,7 +48,7 @@
   
         .tryTableComponent{
           overflow: auto;
-          height: 120vmin; 
+          height: 100vmin; 
     
       }
         
@@ -61,7 +61,7 @@
         } */
   
         .tryTableHead{
-          font-size: 2.9vw;
+          font-size: 2.5vw;
           font-weight: 500;
         }
   
@@ -76,20 +76,20 @@
   
         .tryTableComponent{
           overflow: auto;
-          height: 90vmin; 
+          height: 120vmin; 
     
       }
       }
   
       @media only screen and (min-width: 501px){
         .tryTableHead{
-          font-size: 2.2vw;
+          font-size: 2vw;
           font-weight: 500;
         }
   
   
         .tryTableFoot{
-          font-size: 1.8vw;
+          font-size: 1.6vw;
           font-weight: 500;
           /* vertical-align: center;
           position: sticky;
@@ -98,7 +98,7 @@
         
         .tryTableComponent{
           overflow: auto;
-          height: 50vmin;
+          height: 65vmin;
         }
       }
       
@@ -109,13 +109,13 @@
         } */
   
         .tryTableHead{
-          font-size: 2vw;
+          font-size: 1.5vw;
           font-weight: 500;
         }
   
   
         .tryTableFoot{
-          font-size: 1.4vw;
+          font-size: 1.1vw;
           font-weight: 500;
           /* vertical-align: center;
           position: sticky;
@@ -125,7 +125,7 @@
         .tryTableComponent{
           overflow: auto;
           /* width: auto; */
-          height: 35vmin; 
+          height: 43vmin; 
           }
       }
       
@@ -136,7 +136,7 @@
         } */
   
         .tryTableHead{
-          font-size: 1.5vw;
+          font-size: 1.3vw;
           font-weight: 500;
         }
   
@@ -152,7 +152,7 @@
         .tryTableComponent{
           overflow: auto;
           /* width: auto; */
-          height: 37vmin; 
+          height: 40vmin; 
           }
       }
       
@@ -163,7 +163,7 @@
         } */
   
         .tryTableHead{
-          font-size: 1.1vw;
+          font-size: 1vw;
           font-weight: 500;
         }
   
@@ -179,6 +179,6 @@
         .tryTableComponent{
           overflow: auto;
           /* width: auto; */
-          height: 40vmin; 
+          height: 42vmin; 
           }
       }

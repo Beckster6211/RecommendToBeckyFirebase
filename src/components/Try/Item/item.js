@@ -7,6 +7,7 @@ import "./item.css"
 import Button from "react-bootstrap/Button"
 import Form from "react-bootstrap/Form"
 import Stack from 'react-bootstrap/Stack'
+import Card from "react-bootstrap/Card"
 
 function TryItem({
     becky,
@@ -48,7 +49,7 @@ function TryItem({
             </p> */}
             <Form.Control 
             id="tryTableTryTextarea"
-            className="border border-dark border-2 p-1 mb-2"
+            className="border border-dark border-2 p-1 mb-1"
             as="textarea"
             defaultValue={tryWhat} 
             readOnly 
@@ -69,7 +70,7 @@ function TryItem({
             </p> */}
             <Form.Control 
             id="tryTableTryTextarea"
-            className="border border-dark border-2 p-1 mb-2"
+            className="border border-dark border-2 p-1 mb-1"
             as="textarea"
             defaultValue={tryWhere} 
             readOnly 
@@ -110,9 +111,9 @@ function TryItem({
         // }}
 
         >
-          <p
+          <Card
           className="
-          p-1 ms-1 mb-0 
+          p-1 px-1 
           border border-dark border-2 rounded bg-light"
           >
           <input
@@ -130,16 +131,16 @@ function TryItem({
             checked={tryVisited}
             readOnly
         /> 
-        </p>
+        </Card>
 
-          <p
-        className="tryTableOpinion p-1 ms-0 me-1 mb-0 border border-dark border-2 rounded bg-light"
+          <Card
+        className="tryTableOpinion p-1 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"3vw",
         }}
         >
             {tryOpinion}
-            </p>
+            </Card>
         </Stack>
 
         <Form.Control 
@@ -213,7 +214,7 @@ function TryItem({
 
     :
         <td
-        className="p- align-middle border border-dark border-4 bg-secondary-subtle"
+        className="p-1 align-middle border border-dark border-4 bg-secondary-subtle"
       style={{
       }}
         >
@@ -222,8 +223,8 @@ function TryItem({
         className="justify-content-evenly"
         // gap={1}
         >
-          <p
-          className="p-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
+          <Card
+          className="p-1 border border-dark border-2 rounded bg-light"
           >
           <input
           name="tryTableTriedItCheckbox"
@@ -240,15 +241,15 @@ function TryItem({
           checked={tryVisited}
           // readOnly
         />
-        </p>
-        <p
-        className="tryTableOpinion p-1 ms-0 me-1 mb-0 border border-dark border-2 rounded bg-light"
+        </Card>
+        <Card
+        className="tryTableOpinion p-1 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"2.2vw",
         }}
         >
             {tryOpinion}
-            </p>
+            </Card>
         </Stack>
         
         <Form.Control 
@@ -323,7 +324,7 @@ function TryItem({
     }
 
             <td
-      className="p-2 align-middle border border-dark border-4 bg-secondary"
+      className="p-1 align-middle border border-dark border-4 bg-secondary"
       style={{
       }}
       >
@@ -341,7 +342,7 @@ function TryItem({
             />
       </td>
             <td
-      className="p-1 align-middle border border-dark border-4 bg-secondary-subtle"
+      className="p-0 align-middle border border-dark border-4 bg-secondary-subtle"
       style={{
       }}
       >

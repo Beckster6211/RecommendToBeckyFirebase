@@ -102,7 +102,7 @@
 @media only screen and (min-width: 701px) {
 
     #tryHelperButton{
-        font-size: 1.7vw;
+        font-size: 1.4vw;
     }
 
     #tryHelperTitle{
@@ -121,7 +121,7 @@
 
 
     #tryLikeButton{
-        font-size: 1.7vw;
+        font-size: 1.4vw;
     } 
     #tryLikeTitle{
         font-size: 2.5vw;
@@ -142,7 +142,7 @@
 
 
     #tryDislikeButton{
-        font-size: 1.7vw;
+        font-size: 1.4vw;
     }
     #tryDislikeTitle{
         font-size: 2.5vw;
@@ -152,7 +152,7 @@
 
 @media only screen and (min-width: 1005px) {
     #tryHelperButton{
-        font-size: 1.5vw;
+        font-size: 1.1vw;
     }    
     #tryHelperTitle{
         font-size: 2vw;
@@ -169,7 +169,7 @@
 
 
     #tryLikeButton{
-        font-size: 1.5vw;
+        font-size: 1.1vw;
     }
     #tryLikeTitle{
         font-size: 2vw;
@@ -186,7 +186,7 @@
 
 
     #tryDislikeButton{
-        font-size: 1.5vw;
+        font-size: 1.1vw;
     }
     #tryDislikeTitle{
         font-size: 2vw;
@@ -198,7 +198,7 @@
 @media only screen and (min-width: 1201px) {
 
     #tryHelperButton{
-        font-size: 1vw;
+        font-size: 0.8vw;
     }    
     #tryHelperTitle{
         font-size: 1.3vw;
@@ -214,7 +214,7 @@
 
 
     #tryLikeButton{
-        font-size: 1vw;
+        font-size: 0.8vw;
     }
     #tryLikeTitle{
         font-size: 1.3vw;
@@ -231,7 +231,7 @@
 
 
     #tryDislikeButton{
-        font-size: 1vw;
+        font-size: 0.8vw;
     }
     #tryDislikeTitle{
         font-size: 1.3vw;

@@ -23,7 +23,9 @@ function TryHelper(){
             onClick={()=>setTopShow(true)}
           >
             {/* Try Helper ☝️  */}
-            ℹ️  Try Helper ℹ️ 
+            ℹ️  
+            Try Helper 
+            ℹ️ 
           </Button>
 
           <Offcanvas 
