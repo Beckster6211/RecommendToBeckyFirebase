@@ -4,6 +4,7 @@ import "./item.css"
 import Button from "react-bootstrap/Button"
 import Form from "react-bootstrap/Form"
 import Stack from 'react-bootstrap/Stack'
+import Card from "react-bootstrap/Card"
 
 function ReadItem({
     becky,
@@ -89,9 +90,9 @@ function ReadItem({
         // gap={1}
         className="justify-content-evenly"
         >
-          <p
+          <Card
           className="
-          p-1 ms-1 mb-0 
+          p-1 px-1 
           border border-dark border-2 rounded bg-light"
           >
           <input
@@ -110,15 +111,15 @@ function ReadItem({
             checked={readBook}
             readOnly
         /> 
-        </p>
+        </Card>
 
-          <p
+          <Card
           // id="foodTableItem3"
-        className="readTableOpinion p-1 ms-0 me-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="readTableOpinion p-1 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"3vw",
         }}
-        >{readOpinion}</p>
+        >{readOpinion}</Card>
         </Stack>
 
         <Form.Control 
@@ -210,8 +211,8 @@ function ReadItem({
         className="justify-content-evenly"
         // gap={1}
         >
-          <p
-          className="p-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
+          <Card
+          className="p-1 border border-dark border-2 rounded bg-light"
           >
           <input
           name="readTableReadItCheckbox"
@@ -228,14 +229,14 @@ function ReadItem({
           checked={readBook}
           // readOnly
         />
-        </p>
-        <p
+        </Card>
+        <Card
         // id="foodTableItemBecky1"
-        className="readTableOpinion p-1 ms-0 me-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="readTableOpinion p-1 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"2.2vw",
         }}
-        >{readOpinion}</p>
+        >{readOpinion}</Card>
         </Stack>
         
         <Form.Control 
