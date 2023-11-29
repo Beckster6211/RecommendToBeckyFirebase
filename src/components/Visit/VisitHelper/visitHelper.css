@@ -102,7 +102,7 @@
 @media only screen and (min-width: 701px) {
 
     #visitHelperButton{
-        font-size: 1.7vw;
+        font-size: 1.4vw;
     }
 
     #visitHelperTitle{
@@ -121,7 +121,7 @@
 
 
     #visitLikeButton{
-        font-size: 1.7vw;
+        font-size: 1.4vw;
     } 
     #visitLikeTitle{
         font-size: 2.5vw;
@@ -142,7 +142,7 @@
 
 
     #visitDislikeButton{
-        font-size: 1.7vw;
+        font-size: 1.4vw;
     }
     #visitDislikeTitle{
         font-size: 2.5vw;
@@ -152,7 +152,7 @@
 
 @media only screen and (min-width: 1005px) {
     #visitHelperButton{
-        font-size: 1.5vw;
+        font-size: 1.1vw;
     }    
     #visitHelperTitle{
         font-size: 2vw;
@@ -169,7 +169,7 @@
 
 
     #visitLikeButton{
-        font-size: 1.5vw;
+        font-size: 1.1vw;
     }
     #visitLikeTitle{
         font-size: 2vw;
@@ -186,7 +186,7 @@
 
 
     #visitDislikeButton{
-        font-size: 1.5vw;
+        font-size: 1.1vw;
     }
     #visitDislikeTitle{
         font-size: 2vw;
@@ -198,7 +198,7 @@
 @media only screen and (min-width: 1201px) {
 
     #visitHelperButton{
-        font-size: 1vw;
+        font-size: 0.8vw;
     }    
     #visitHelperTitle{
         font-size: 1.3vw;
@@ -214,7 +214,7 @@
 
 
     #visitLikeButton{
-        font-size: 1vw;
+        font-size: 0.8vw;
     }
     #visitLikeTitle{
         font-size: 1.3vw;
@@ -231,7 +231,7 @@
 
 
     #visitDislikeButton{
-        font-size: 1vw;
+        font-size: 0.8vw;
     }
     #visitDislikeTitle{
         font-size: 1.3vw;
