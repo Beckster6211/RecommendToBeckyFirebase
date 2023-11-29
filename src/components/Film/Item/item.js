@@ -4,6 +4,7 @@ import "./item.css"
 import Button from "react-bootstrap/Button"
 import Form from "react-bootstrap/Form"
 import Stack from 'react-bootstrap/Stack'
+import Card from "react-bootstrap/Card"
 
 function FilmItem({
     
@@ -128,8 +129,8 @@ function FilmItem({
         // gap={1}
         className="justify-content-evenly"
         >
-          <p
-          className=" p-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
+          <Card
+          className=" p-1 px-1 border border-dark border-2 rounded bg-light"
           >
           <input
           // id="foodTableItem9"
@@ -147,15 +148,15 @@ function FilmItem({
             checked={filmWatched}
             readOnly
         /> 
-        </p>
+        </Card>
 
-          <p
+          <Card
           // id="foodTableItem3"
-        className="filmTableOpinion p-1 ms-0 me-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="filmTableOpinion p-1 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"3vw",
         }}
-        >{filmOpinion}</p>
+        >{filmOpinion}</Card>
         </Stack>
         <Form.Control 
             id="filmTableFilmTextarea"
@@ -245,8 +246,8 @@ function FilmItem({
         className="justify-content-evenly"
         // gap={1}
         >
-          <p
-          className="p-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
+          <Card
+          className="p-1 px-1 border border-dark border-2 rounded bg-light"
           >
           <input
           name="filmTableBeckyWatchedCheckbox"
@@ -263,14 +264,14 @@ function FilmItem({
           checked={filmWatched}
           // readOnly
         />
-        </p>
-        <p
+        </Card>
+        <Card
         // id="foodTableItemBecky1"
-        className="filmTableOpinion p-1 ms-0 me-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="filmTableOpinion p-1 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"2.2vw",
         }}
-        >{filmOpinion}</p>
+        >{filmOpinion}</Card>
         </Stack>
 
         <Form.Control 

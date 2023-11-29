@@ -8,7 +8,7 @@
   @media only screen and (max-width: 300px) {
   
     #filmPage1{
-      font-size: 4.7vw;
+      font-size: 4.5vw;
       font-weight: 900;
       width:75%
     }
@@ -22,52 +22,52 @@
   @media only screen and (min-width: 301px) {
   
     #filmPage1{
-      font-size: 3.8vw;
+      font-size: 3.1vw;
       font-weight: 900;
-      width:65%
+      width:50%
     }
   
     .filmPageAccordion{
-      font-size: 3.2vw;
+      font-size: 2.9vw;
       font-weight: 700;
     }
   }
   
   @media only screen and (min-width: 701px) {
     #filmPage1{
-      font-size: 2.7vw;
+      font-size: 2.2vw;
       font-weight: 900;
-      width:50%
+      width:40%
     }
   
     .filmPageAccordion{
-      font-size: 2.2vw;
+      font-size: 1.9vw;
       font-weight: 700;
     }
   }
   
   @media only screen and (min-width: 1005px) {
     #filmPage1{
-      font-size: 2.2vw;
+      font-size: 1.9vw;
       font-weight: 900;
-      width:40%
+      width:30%
     }
   
     .filmPageAccordion{
-      font-size: 1.8vw;
+      font-size: 1.5vw;
       font-weight: 700;
     }
   }
   
   @media only screen and (min-width: 1201px) {
     #filmPage1{
-      font-size: 1.5vw;
+      font-size: 1.2vw;
       font-weight: 900;
-      width:40%
+      width:30%
     }
   
     .filmPageAccordion{
-      font-size: 1.5vw;
+      font-size: 1.1vw;
       font-weight: 700;
     }
   }
