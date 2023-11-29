@@ -4,6 +4,7 @@ import "./item.css"
 import Button from "react-bootstrap/Button"
 import Form from "react-bootstrap/Form"
 import Stack from 'react-bootstrap/Stack'
+import Card from "react-bootstrap/Card"
 
 function TeleItem({
     becky,
@@ -89,8 +90,8 @@ function TeleItem({
         // gap={1}
         className="justify-content-evenly"
         >
-          <p
-          className="p-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
+          <Card
+          className="p-1 px-1 border border-dark border-2 rounded bg-light"
           >
           <input
           // id="foodTableItem9"
@@ -108,15 +109,15 @@ function TeleItem({
             checked={teleBinged}
             readOnly
         /> 
-        </p>
+        </Card>
 
-          <p
+          <Card
           // id="foodTableItem3"
-        className="teleTableOpinion p-1 ms-0 me-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="teleTableOpinion p-1 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"3vw",
         }}
-        >{teleOpinion}</p>
+        >{teleOpinion}</Card>
         </Stack>
         <Form.Control 
             id="teleTableTeleTextarea"
@@ -205,8 +206,8 @@ function TeleItem({
         direction="horizontal"
         className="justify-content-evenly"
         >
-          <p
-          className="p-1 ms-1 mb-0 border border-dark border-2 rounded bg-light"
+          <Card
+          className="p-1 px-1 border border-dark border-2 rounded bg-light"
           >
           <input
           name="teleTableBingedCheckbox"
@@ -223,14 +224,14 @@ function TeleItem({
           checked={teleBinged}
           // readOnly
         />
-        </p>
-        <p
+        </Card>
+        <Card
         // id="foodTableItemBecky1"
-        className="teleTableOpinion p-1 ms-0 me-1 mb-0 border border-dark border-2 rounded bg-light"
+        className="teleTableOpinion p-1 border border-dark border-2 rounded bg-light"
         style={{
           // fontSize:"2.2vw",
         }}
-        >{teleOpinion}</p>
+        >{teleOpinion}</Card>
         </Stack>
         
         <Form.Control 

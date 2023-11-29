@@ -331,7 +331,7 @@ function Item({
         >
           <Card
           className="
-          p-1 border border-dark border-2 rounded bg-light"
+          p-1 px-1 border border-dark border-2 rounded bg-light"
           >
           <input
           name="foodTableBeckyTriedCheckbox"
