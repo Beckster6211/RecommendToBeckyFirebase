@@ -106,7 +106,7 @@ onAuthStateChanged(auth, (user)=>{
                 } />
       
     </Routes>
-
+    {/* <br/> */}
     <Navigation/>
 
     <Footer/>

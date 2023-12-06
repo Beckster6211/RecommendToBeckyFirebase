@@ -78,22 +78,18 @@ function LoginForm(){
 return (
     <Container
     fluid
-    className="px-2 py-5 border border-dark border-3 rounded"
+    className="px-2 py-5 mb-4 border border-dark border-3 rounded"
     style={{
         backgroundColor:"beige",
         minHeight: "70vh",
-        // border: "solid black 2px"
     }}
     >
-
         
         <Container
         fluid
         className=""
         >
 
-        
-        
         <Container 
         // fluid
         id="loginPage"
