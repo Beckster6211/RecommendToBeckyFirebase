@@ -22,7 +22,6 @@ function VisitHelper(){
             variant="secondary" 
             onClick={()=>setTopShow(true)}
           >
-            {/* Visit Helper ☝️  */}
             ℹ️  Visit Helper ℹ️ 
           </Button>
 

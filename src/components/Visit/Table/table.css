@@ -36,6 +36,7 @@
         .visitTableHead{
           font-size: 2.9vw;
           font-weight: 500;
+          z-index: 1;
         } 
   
         .visitTableFoot{
@@ -63,6 +64,7 @@
         .visitTableHead{
           font-size: 2.5vw;
           font-weight: 500;
+          z-index: 1;
         }
   
   
@@ -85,6 +87,7 @@
         .visitTableHead{
           font-size: 2vw;
           font-weight: 500;
+          z-index: 1;
         }
   
   
@@ -111,6 +114,7 @@
         .visitTableHead{
           font-size: 1.5vw;
           font-weight: 500;
+          z-index: 1;
         }
   
   
@@ -138,6 +142,7 @@
         .visitTableHead{
           font-size: 1.3vw;
           font-weight: 500;
+          z-index: 1;
         }
   
   
@@ -165,6 +170,7 @@
         .visitTableHead{
           font-size: 1vw;
           font-weight: 500;
+          z-index: 1;
         }
   
   

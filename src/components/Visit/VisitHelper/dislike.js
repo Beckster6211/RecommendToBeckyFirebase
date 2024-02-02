@@ -19,10 +19,8 @@ function VisitDislike(){
             style={{
               
             }}
-            // variant="danger" 
             onClick={()=> setRightShow(true)}
             >
-              {/* Dislike 👉 */}
               ❌
               <br/>
               Dislike

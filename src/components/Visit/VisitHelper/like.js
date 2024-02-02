@@ -19,10 +19,8 @@ function VisitLike(){
             style={{
               
             }}
-            // variant="success" 
             onClick={()=>setLeftShow(true)}
           >
-            {/* 👈 Like */}
             ✔️
             <br/>
             Like
