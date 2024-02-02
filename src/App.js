@@ -7,6 +7,10 @@ import {Route, Routes, Link} from "react-router-dom"
 /* COULD DELETE LINK IMPORTED */
 
 //
+import { Notifications } from "react-push-notification";
+import addNotification from "react-push-notification";
+
+//
 import Login from "./components/Login/loginButton";
 //
 import Home from "./components/Home/home";
@@ -42,6 +46,19 @@ onAuthStateChanged(auth, (user)=>{
         }
     })
 
+    function warningNotification(){
+      console.log("button pressed")
+      addNotification({
+        title:"Form Incomplete",
+        subtitle: "Please fill all form options",
+        message:"Please fill all the form. Need help, use the helper buttons at the top to understand",
+        theme:"red",
+        closeButton:"X",
+        native: true,
+        
+      })
+    }
+
   return (
   <div 
   className="App"
@@ -60,7 +77,7 @@ onAuthStateChanged(auth, (user)=>{
       <Route 
       path = "/food" 
       element ={
-        <Food Becky = {isBecky}/>
+        <Food Becky = {isBecky} badNot = {warningNotification}/>
       } 
       />
 

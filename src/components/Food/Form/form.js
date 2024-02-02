@@ -1,4 +1,6 @@
-import React, {useRef} from "react";
+import React, {useState, useRef} from "react";
+// import { Notifications } from "react-push-notification";
+// import addNotification from "react-push-notification";
 
 import "./form.css";
 
@@ -21,9 +23,22 @@ import Form from "react-bootstrap/Form"
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Button from "react-bootstrap/button"
 
-function FoodForm({ food, handleChange, submitForm }) {
+function FoodForm({ food, warning, handleChange, submitForm }) {
 
   const myFood = useRef(null)
+
+  // function warningNotification(){
+  //   console.log("button pressed")
+  //   addNotification({
+  //     title:"Warning",
+  //     subtitle: "Please fill it",
+  //     message:"You have to enter",
+  //     theme:"red",
+  //     closeButton:"X",
+  //     native: true,
+      
+  //   })
+  // }
 
   return (
     <Container 
@@ -157,7 +172,8 @@ function FoodForm({ food, handleChange, submitForm }) {
                   }}
                   // maybe do a toast/tooltip/alert for message
                   onClick={()=>{
-                    console.log("Put something in the inputs please")
+                    warning()
+                    // console.log("not all complete")
                 }}
                   >
                     😄 Cheers 😄
