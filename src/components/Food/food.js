@@ -27,7 +27,7 @@ import {
 } from "firebase/firestore";
 
 //
-function Food({Becky, badNot}) {
+function Food({Becky, badNot, goodNot}) {
   const [food, setNewFood] = useState([]);
   const [form, setForm] = useState({});
   // const [updatePage, setUpdatePage] = useState(false);
@@ -187,6 +187,7 @@ function Food({Becky, badNot}) {
               <FoodForm
               food={food}
               warning={badNot}
+              success = {goodNot}
               handleChange={handleChange}
               submitForm={handleSubmit}
             />

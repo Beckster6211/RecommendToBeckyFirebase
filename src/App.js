@@ -47,15 +47,28 @@ onAuthStateChanged(auth, (user)=>{
     })
 
     function warningNotification(){
-      console.log("button pressed")
+      console.log("button pressed error")
       addNotification({
-        title:"Form Incomplete",
+        title:"ERROR Form Incomplete",
         subtitle: "Please fill all form options",
-        message:"Please fill all the form. Need help, use the helper buttons at the top to understand",
+        message:"Please fill all the form. Need help, use the helper buttons at the top to understand the form",
         theme:"red",
         closeButton:"X",
         native: true,
-        
+        duration: 5000,
+      })
+    }
+
+    function successNotification(){
+      console.log("button pressed success")
+      addNotification({
+        title:"SUCCESS",
+        subtitle: "Form Complete",
+        message: "Thank you for filling in form",
+        theme:"light",
+        closeButton:"X",
+        backgroundTop:"green",
+        backgroundBottom:"yellowGreen"
       })
     }
 
@@ -77,7 +90,11 @@ onAuthStateChanged(auth, (user)=>{
       <Route 
       path = "/food" 
       element ={
-        <Food Becky = {isBecky} badNot = {warningNotification}/>
+        <Food 
+        Becky = {isBecky} 
+        badNot = {warningNotification}
+        goodNot = {successNotification}
+        />
       } 
       />
 

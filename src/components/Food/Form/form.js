@@ -23,7 +23,7 @@ import Form from "react-bootstrap/Form"
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Button from "react-bootstrap/button"
 
-function FoodForm({ food, warning, handleChange, submitForm }) {
+function FoodForm({ food, warning, success, handleChange, submitForm }) {
 
   const myFood = useRef(null)
 
@@ -189,6 +189,9 @@ function FoodForm({ food, warning, handleChange, submitForm }) {
               // fontSize:"1.6vw", 
               width:"auto"
             }}
+            // onClick= {()=>{
+            //   success()
+            // }}
             >
               😄 Cheers 😄
               </Button>
