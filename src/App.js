@@ -48,6 +48,7 @@ onAuthStateChanged(auth, (user)=>{
 
     function warningNotification(){
       console.log("button pressed error")
+      console.log("Form is incomplete")
       addNotification({
         title:"ERROR Form Incomplete",
         subtitle: "Please fill all form options",
