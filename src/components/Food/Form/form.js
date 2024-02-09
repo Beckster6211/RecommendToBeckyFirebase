@@ -22,9 +22,11 @@ import Card from "react-bootstrap/Card"
 import Form from "react-bootstrap/Form"
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Button from "react-bootstrap/button"
+import { Overlay } from "react-bootstrap";
 
 function FoodForm({ food, warning, success, handleChange, submitForm }) {
 
+  const [show, setShow] = useState(false)
   const myFood = useRef(null)
 
   // function warningNotification(){
@@ -160,7 +162,6 @@ function FoodForm({ food, warning, success, handleChange, submitForm }) {
 
                 {
                   myFood.current?.value === "" ?
-
                   <Button 
                   id="foodFormButton"
                   // variant = "info"
@@ -169,33 +170,36 @@ function FoodForm({ food, warning, success, handleChange, submitForm }) {
                   style={{
                     // fontSize:"1.6vw", 
                     width:"auto"
+                    
                   }}
                   // maybe do a toast/tooltip/alert for message
                   onClick={()=>{
-                    warning()
+                    alert("All sections need to be filled")
+                    // warning()
                     // console.log("not all complete")
                 }}
                   >
                     😄 Cheers 😄
                     </Button>
+                    
 
-  :
+   :
           <Button 
-            id="foodFormButton"
-            // variant = "info"
+          id="foodFormButton"
+            variant = "info"
             className="border border-dark border-3 text-white"  
             type = "submit"
             style={{
-              // fontSize:"1.6vw", 
-              width:"auto"
+              fontSize:"1.6vw", 
+           width:"auto"
             }}
-            // onClick= {()=>{
-            //   success()
-            // }}
+            onClick= {()=>{
+            success()
+           }}
             >
               😄 Cheers 😄
               </Button>
-                }
+            }
 
 
           </Form>

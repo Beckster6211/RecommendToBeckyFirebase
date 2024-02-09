@@ -245,7 +245,7 @@ function FilmForm({film, handleChange, submitForm}){
               width:"auto"
             }}
             onClick={()=>{
-                console.log("Put something in the inputs please")
+              alert("All sections need to be filled")
             }}
             >
               😄 Cheers 😄
