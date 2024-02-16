@@ -494,7 +494,7 @@ function Item({
           }}
           onClick={() => {
             // console.log("delete button clicked");
-            removeFood(foodId);
+            removeFood(food, foodId);
           }}>
           🗑️
           </Button>

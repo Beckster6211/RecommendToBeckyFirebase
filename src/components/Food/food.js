@@ -59,6 +59,7 @@ function Food({Becky, badNot, goodNot}) {
       tried: false,
     });
     // refreshes form, empties form inputs
+    window.alert(`Thanks for adding`)
     window.location.reload();
   }
 
@@ -112,10 +113,25 @@ function Food({Becky, badNot, goodNot}) {
   }
 
   //////Delete/delete one
-  const deleteFood = async (id) => {
+  const deleteFood = async (food, id) => {
+    // console.log(food)
+    // console.log(id)
+    let text = `Are you sure you want to delete \n ${food.fooditem} \n recommended by ${food.recommendedby}?`
+    if (window.confirm(text) === true){
+      text = "Okay"
+      await deleteDoc(doc(db, "Food", id));
+      window.alert(`Deleted \n ${food.fooditem} recommended by ${food.recommendedby}`)
+    }
+    text = "You canceled" 
+  }
+
+  //////Delete/delete one
+  // const deleteFood = async (id) => {
+  //   confirmDelete()
+    // if (confirm){}
     // console.log({ id });
-    await deleteDoc(doc(db, "Food", id));
-  };
+    // await deleteDoc(doc(db, "Food", id));
+  // };
 
 
   return (
